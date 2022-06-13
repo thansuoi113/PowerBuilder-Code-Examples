@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "salesdb\\salesdb.pbt";
+ 1 "smarttool\\smarttool.pbt";
+@end;
+DefaultTarget "salesdb\\salesdb.pbt";
+DefaultRemoteTarget "salesdb\\salesdb.pbt";
