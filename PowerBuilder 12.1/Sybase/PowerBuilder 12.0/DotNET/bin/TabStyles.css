@@ -1,0 +1,43 @@
+
+.DefaultTab
+{
+	border-right:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-bottom:2px solid black;
+	border-width:thin;
+	padding-left:1pt;
+	padding-right:1pt;
+	background-color:#F7F7FF;
+	border-style:groove;
+	border-width:thin;
+	border-color:#F5FFFA;
+
+}
+.SelectedTab
+{
+	border-bottom-color:#c0c0c0;
+	border-left-color:#c0c0c0;
+	border-right-color:#c0c0c0;
+	border-top-color:#FFB900;
+	border-top-width:4px;
+	padding-left:5pt;
+	padding-right:5pt;
+	padding-bottom:5pt;
+	border-style:groove;
+	border-width:thin;
+	border-left:2px solid #8a8a8a;
+	border-bottom:3px solid #8a8a8a;
+	border-right:2px solid #8a8a8a;
+	background-color:#FFFFFF;	
+}
+.TabContainer
+{
+	
+}
+.TabPage
+{
+	border-style:groove;	
+	border-width:thin;
+}

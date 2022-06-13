@@ -1,0 +1,292 @@
+:Base pbni120.hlp
+:Title PowerBuilder Native Interface Programmers Guide and Reference
+:Index PowerBuilder Native Interface Programmers Guide and Reference=pbni120.hlp
+:Link pbni120.hlp
+1 PowerBuilder Native Interface Programmers Guide and Reference
+2 Programmers Guide
+3 Introduction to PBNI
+4 About PBNI
+5 Understanding PowerBuilder extensions=ceghbeej
+5 Embedding the PBVM in a C++ application=id_pbnigref_8
+4 The elements of PBNI=cegjeadf
+4 The PBNI SDK=cegjggbc
+4 Comparing PBNI and JNI=ceghfjha
+3 Building PowerBuilder Extensions
+4 Nonvisual extension example
+5 Building the pbadd PowerBuilder extension=cegfdaee
+5 Using the extension in PowerBuilder=cegiejhh
+4 Creating a PowerBuilder extension
+5 Step 1: Decide on a feature to implement=babgjifa
+5 Step 2: Define the classes and functions in the extension=cegghgjb
+5 Step 3: Declare native classes and global functions=babfiabc
+5 Step 4: Implement native classes and global functions=cegfdeae
+5 Step 5: Export methods to create class instances=babfjbbc
+5 Step 6: Build a PBX=babebcii
+4 Adding an extension to a PowerBuilder target=babhdhee
+4 Using the extension=babbhbgb
+4 Creating and using a visual extension
+5 Step 1: Decide on a feature to implement=babjidce
+5 Step 2: Define the classes and functions in the extension=babjhchd
+5 Step 3: Declare visual classes and global functions=babcedfi
+5 Step 4: Implement native classes=babhfedb
+5 Step 5: Export methods to create class instances=babicajb
+5 Step 6: Build and use a PBX=babehjib
+5 Step 7: Use the visual extension in an application=babgidhe
+4 Creating visual class instances=babcbdca
+4 Event processing in visual extensions
+5 Using an event name with return type and arguments=id_pbnigref_35
+5 Using an event name with a PowerBuilder event ID=id_pbnigref_36
+5 Processing events sent to the parent of the window=id_pbnigref_37
+4 Calling PowerScript from an extension
+5 Example: Calling PowerBuilder functions=chdbhigj
+4 Exception handling and debugging=babcbeai
+3 Creating Marshaler Extensions
+4 About marshaler extensions=babjcihj
+4 Developing the PowerBuilder extension
+5 Step 1: Describe the extension=bjeegced
+5 Step 2: Implement the creator class=bjebjjjh
+5 Step 3: Implement the marshaler class=bjebdejj
+4 Generating proxies for Java classes=babfbdbd
+4 Calling the Java class from PowerBuilder=bjejdacj
+3 Exchanging Data with PowerBuilder
+4 About exchanging data with PowerBuilder=babhffbi
+4 Passing values between extensions and the PBVM
+5 PBCallInfo structure=id_pbnigref_52
+5 IPB_Arguments interface=chdcdcec
+5 IPB_Value interface=chdjaafh
+4 Using the IPB_Session interface=chdjihfj
+4 Saving data from IPB_Value to a local variable=chdbfdcj
+4 Using variables throughout a session=chdgcebb
+4 Handling enumerated types=chdbbjga
+3 Calling PowerBuilder from C++
+4 About calling PowerScript from C++ applications=babghhic
+4 Calling PowerBuilder objects from C++
+5 Creating a PowerBuilder object to be called from C++=babfahfc
+5 Getting the signature of a function=babhefgi
+5 Creating the C++ application
+5 Load the PowerBuilder VM=babehhea
+5 Call PB_GetVM to get a pointer to the IPB_VM interface=babjhdeb
+5 Create an IPB_Session object within IPB_VM=babhbbch
+5 Create an instance of the PowerBuilder object=babcggcb
+5 Initialize the PBCallInfo structure=babgibfc
+5 Call the PowerBuilder function=babjajgi
+5 Write cleanup code=babefigb
+5 Running the C++ application=babejjcb
+4 Accessing result sets=babcbcfj
+4 Processing PowerBuilder messages in C++
+5 Example=id_pbnigref_75
+4 More PBNI possibilities=babgfjjh
+2 Reference
+3 PBNI Types and Return Values
+4 PowerBuilder to PBNI datatype mappings=babfdcdh
+4 Types for access to PowerBuilder data=babhhhde
+4 PBNI enumerated types=babcbffh
+4 Error return values=babihgcc
+3 PBNI Interfaces, Structures, and Methods
+4 Header file contents=babcabbb
+4 Class and interface summary=babbaihc
+4 IPB_Arguments interface
+5 GetAt method=babeeehi
+5 GetCount method=babbjgfi
+4 IPB_ResultSetAccessor interface
+5 AddRef method=babeafje
+5 GetColumnCount method=babgcgdc
+5 GetColumnMetaData method=babiedaj
+5 GetItemData method=babjegdi
+5 GetRowCount method=babgbgha
+5 Release method=babidcaa
+4 IPB_RSItemData interface
+5 SetData method=babccedc
+5 SetNull method=babddfac
+4 IPB_Session interface
+5 AcquireArrayItemValue method=babgjeff
+5 AcquireValue method=babdfdhd
+5 Add<{\i type}>Argument method=chddfdej
+5 AddGlobalRef method=babeecji
+5 AddLocalRef method=babfdheb
+5 ClearException method=chdbbaac
+5 CreateResultSet method=babfeace
+5 FindClass method=chddbiid
+5 FindClassByClassID method=babcibgi
+5 FindGroup method=chdcidfe
+5 FindMatchingFunction method=babchgja
+5 FreeCallInfo method=babdjeci
+5 Get<{\i type}>ArrayItem method=babchcgh
+5 Get<{\i type}>Field method=chdihjji
+5 Get<{\i type}>GlobalVar method=babggdec
+5 Get<{\i type}>SharedVar method=babiejce
+5 GetArrayInfo method=babddhhi
+5 GetArrayItemType method=babejfai
+5 GetArrayLength method=babbbddg
+5 GetBlob method=chdbihbg
+5 GetBlobLength method=chdfeidi
+5 GetClass method=chdjideh
+5 GetClassName method=chdjdbfh
+5 GetCurrGroup method=babifeda
+5 GetDateString method=chdddafg
+5 GetDateTimeString method=babeifjh
+5 GetDecimalString method=babjacdd
+5 GetEnumItemName method=babiccdj
+5 GetEnumItemValue method=babefjfj
+5 GetException method=chdfjgbh
+5 GetFieldID method=chdcdahb
+5 GetFieldName method=babbcjaj
+5 GetFieldType method=babfdbgd
+5 GetGlobalVarID method=chdjifji
+5 GetGlobalVarType method=babibigb
+5 GetMarshaler method=babjjfeb
+5 GetMethodID method=chdgjdib
+5 GetMethodIDByEventID method=chdbjfib
+5 GetNativeInterface method=chdbecia
+5 GetNumOfFields method=babhbfbd
+5 GetPBAnyArrayItem method=babgbebe
+5 GetPBAnyField method=babbbjdf
+5 GetPBAnyGlobalVar method=babbegae
+5 GetPBAnySharedVar method=babgahjh
+5 GetProp method=babhfbch
+5 GetResultSetAccessor method=babieige
+5 GetSharedVarID method=babebcib
+5 GetSharedVarType method=babhdcda
+5 GetString method=chddbcjh
+5 GetStringLength method=chdfiedf
+5 GetSuperClass method=chdbceij
+5 GetSystemClass method=chdhahjf
+5 GetSystemGroup method=chdifgba
+5 GetTimeString method=babdiddj
+5 HasExceptionThrown method=chddaihj
+5 InitCallInfo method=babejbeg
+5 InvokeClassFunction method=chdfbidj
+5 InvokeObjectFunction method=chdgighi
+5 IsArrayItemNull method=babbajfe
+5 IsAutoInstantiate method=babdffdh
+5 IsFieldArray method=babhbdbc
+5 IsFieldNull method=babdgiac
+5 IsFieldObject method=babgajed
+5 IsGlobalVarArray method=babgeebf
+5 IsGlobalVarNull method=babiicii
+5 IsGlobalVarObject method=babbbfea
+5 IsNativeObject method=chdfgfaf
+5 IsSharedVarArray method=babjedec
+5 IsSharedVarNull method=babcjjah
+5 IsSharedVarObject method=babjdgjj
+5 NewBlob method=chdcbbei
+5 NewBoundedObjectArray method=chdgcagg
+5 NewBoundedSimpleArray method=chdbfhah
+5 NewDate method=chddjjhh
+5 NewDateTime method=chdejiag
+5 NewDecimal method=chdhfedg
+5 NewObject method=chddiabc
+5 NewProxyObject method=babdjefg
+5 NewString method=chdfeefa
+5 NewTime method=chdddfdc
+5 NewUnboundedObjectArray method=chddjbbe
+5 NewUnboundedSimpleArray method=chdjcdcd
+5 PopLocalFrame method=babjdbag
+5 ProcessPBMessage method=babghgjc
+5 PushLocalFrame method=babcehjj
+5 Release method=chdgfcbi
+5 ReleaseArrayInfo method=babdfdfb
+5 ReleaseDateString method=babgdebh
+5 ReleaseDateTimeString method=babjiaac
+5 ReleaseDecimalString method=babgbidd
+5 ReleaseResultSetAccessor method=babgdicc
+5 ReleaseString method=babjcfdc
+5 ReleaseTimeString method=babegbag
+5 ReleaseValue method=babigage
+5 RemoveGlobalRef method=babgihhi
+5 RemoveLocalRef method=babhdjcd
+5 RemoveProp method=babgbeeb
+5 Set<{\i type}>ArrayItem method=babfcege
+5 Set<{\i type}>Field method=babhcfcd
+5 Set<{\i type}>GlobalVar method=babdjggb
+5 Set<{\i type}>SharedVar method=babggjde
+5 SetArrayItemToNull method=babhbjag
+5 SetArrayItemValue method=babdddic
+5 SetBlob method=chdghiai
+5 SetDate method=chdbaffc
+5 SetDateTime method=chdhgcbg
+5 SetDecimal method=babeacbj
+5 SetFieldToNull method=babjffhj
+5 SetGlobalVarToNull method=babhdcdb
+5 SetMarshaler method=babjhijb
+5 SetProp method=babbgjah
+5 SetSharedVarToNull method=babeeiga
+5 SetString method=chdehcec
+5 SetTime method=chdhjacd
+5 SetValue method=babdcbfe
+5 SplitDate method=chdcicce
+5 SplitDateTime method=chdhfdea
+5 SplitTime method=chdbeide
+5 ThrowException method=chdicjdb
+5 TriggerEvent method=chddeddi
+5 UpdateField method=babjejbf
+4 IPB_Value interface
+5 Get{\i <type}> method=babeeecb
+5 GetClass method=babibjdj
+5 GetType method=babbafcf
+5 IsArray method=babffdjd
+5 IsByRef method=babhbijf
+5 IsEnum method=babcjijj
+5 IsNull method=id_pbnigref_466
+5 IsObject method=babjeiej
+5 Set{\i <type>} method=babehdag
+5 SetToNull method=babjfhjb
+4 IPB_VM interface
+5 CreateSession method=babdjdde
+5 RunApplication method=babhfeaj
+4 IPBX_Marshaler interface
+5 Destroy method=babbcabb
+5 GetModuleHandle method=babdfhhb
+5 InvokeRemoteMethod method=babhicca
+5 IPBX_NonVisualObject interface=cfhdcege
+4 IPBX_UserObject interface
+5 Destroy method=babccdec
+5 Invoke method=cdejieeh
+4 IPBX_VisualObject interface
+5 CreateControl method=babhdbfd
+5 GetEventID method=babffcjd
+5 GetWindowClassName method=babjgbcf
+5 PBArrayInfo structure=babhaadh
+5 PBCallInfo structure=babdcfjh
+5 PB_DateData structure=babeadca
+5 PB_DateTimeData structure=babfcbad
+5 PB_TimeData structure=babjfaaf
+5 PBX_DrawItemStruct structure=babchccj
+4 PBArrayAccessor template class
+5 GetAt method=babgaaic
+5 IsNull method=babdhbgf
+5 SetAt method=babcjjjc
+5 SetToNull method=babbdfea
+4 PBBoundedArrayCreator template class
+5 GetArray method=babhdgea
+5 SetAt method=babgibbi
+4 PBBoundedObjectArrayCreator class
+5 GetArray method=babidhib
+5 SetAt method=babbdbbb
+4 PBObjectArrayAccessor class
+5 GetAt method=babdjabb
+5 SetAt method=babbdcjb
+4 PBUnboundedArrayCreator template class
+5 GetArray method=babhebfb
+5 SetAt method=babibehb
+4 PBUnboundedObjectArrayCreator class
+5 GetArray method=babjebbd
+5 SetAt method=babjdcfe
+4 Exported methods
+5 PBX_CreateNonVisualObject method=babjfcab
+5 PBX_CreateVisualObject method=babehjfb
+5 PBX_DrawVisualObject method=babebchf
+5 PBX_GetDescription method=babcihei
+5 PBX_InvokeGlobalFunction method=babbbfae
+5 PBX_Notify method=babjgbjf
+4 Method exported by PowerBuilder VM
+5 PB_GetVM method=babcabcg
+3 PBNI Tool Reference
+4 pbsig120=chdjfffb
+4 pbx2pbd120=chdcgjgd
+2 Appendix
+3 Using the Visual Studio Wizards
+4 Where the wizards are installed=bgbcaiag
+4 Generating a PBNI project=bgbiaggj
+4 Setting project options=bgbdgfib
+4 Building and using the PBX=bgbbjhaj

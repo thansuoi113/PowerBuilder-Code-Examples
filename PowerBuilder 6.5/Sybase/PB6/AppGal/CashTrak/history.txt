@@ -1,0 +1,900 @@
+CHK01	Y	E6	CL	7/2/95	    	SELT	R.T. Brown's	-18.48	18.48		C	N
+CHK01	Y	E7	CO	7/2/95	    	SELT	U-Save-With-Us	-49.34	49.34		C	N
+CHK01	Y	E1	MG	7/7/95	    	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	PH	7/7/95	    	    	Cellular Phone Carriers	-77.37	77.37		C	N
+CHK01	Y	E4	FO	7/7/95	    	SELT	Come & Shop	-113.32	113.32		C	N
+CHK01	Y	E4	GA	7/7/95	    	SELT	Pump-It Gas	-8.83	8.83		C	N
+CHK01	Y	E1	PH	7/7/95	    	    	Reach Out Telephone	-28.82	28.82		C	N
+CHK01	Y	E4	CA	7/7/95	    	853	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E1	CONDO	7/7/95	    	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E6	CL	7/7/95	    	SELT	Fashion World	-48.00	48.00		C	N
+CHK01	Y	E3	BC	7/7/95	    	853	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E1	AI	7/7/95	    	    	Fender-Bender Auto Insurance	-257.25	257.25		C	N
+CHK01	Y	E1	EC	7/7/95	    	    	Bright Electric Light Plant	-57.60	57.60		C	N
+CHK01	Y	E1	AU	7/7/95	    	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E6	ET	7/7/95	    	SELT	The Book Store	-11.54	11.54		C	N
+CHK01	Y	E1	GH	7/10/95	3218	    	Stay-Warm Gas Company	-136.89	136.89		C	N
+CHK01	Y	E4	CA	7/12/95	    	853	--- Withdrawal ---	-40.00	40.00		C	N
+CHK01	Y	A	II	7/12/95	    	    	*** Interest ***	1.87	-1.87		C	N
+CHK01	Y	E3	BC	7/12/95	    	853	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	A	IS	7/14/95	    	PAYR	*** Deposit ***	1613.44	-1613.44		C	N
+CHK01	Y	E4	CA	7/15/95	    	91	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E3	BC	7/15/95	    	91	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	GA	7/16/95	    	SELT	Pump-It Gas	-17.32	17.32		C	N
+CHK01	Y	E7	AR	7/17/95	    	SELT	Lubes-R-Us	-44.00	44.00		C	N
+CHK01	Y	E8	CH	7/17/95	3219	    	Local Police Union	-10.00	10.00		C	Y
+CHK01	Y	E3	BC	7/20/95	    	7747	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	CA	7/20/95	    	7747	--- Withdrawal ---	-50.00	50.00		C	N
+CHK01	Y	E6	CL	7/20/95	3221	    	Stain-Master Cleaners	-12.95	12.95		C	N
+CHK01	Y	E4	GA	7/25/95	    	SELT	Pump-It Gas	-16.60	16.60		C	N
+CHK01	Y	E6	CL	7/26/95	    	SELT	Lucky You Fashion	-19.99	19.99		C	N
+CHK01	Y	E4	CA	7/27/95	    	763	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E3	BC	7/27/95	    	763	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	A	IS	7/30/95	    	PAYR	*** Deposit ***	1524.29	-1524.29		C	N
+CHK01	Y	E4	GA	7/31/95	    	SELT	Pump-It Gas	-16.82	16.82		C	N
+CHK01	Y	E1	CONDO	8/1/95	3227	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	AU	8/1/95	3223	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	GH	8/1/95	3229	    	Stay-Warm Gas Company	-176.16	176.16		C	N
+CHK01	Y	E1	PH	8/1/95	3225	    	Cellular Phone Carriers	-72.49	72.49		C	N
+CHK01	Y	X	XX	8/1/95	3230	    	1st National MasterCard	-340.53	340.53		C	N
+CHK01	Y	E5	ME	8/1/95	3231	    	Blood Analysis Labs	-221.54	221.54		C	Y
+CHK01	Y	E1	PH	8/1/95	3224	    	Reach Out Telephone	-29.03	29.03		C	N
+CHK01	Y	E1	EC	8/1/95	3222	    	Bright Electric Light Plant	-66.98	66.98		C	N
+CHK01	Y	E1	MG	8/1/95	3226	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E7	BS	8/3/95	    	SELT	Software King	-41.99	41.99		C	Y
+CHK01	Y	E4	FO	8/4/95	    	SELT	Come & Shop	-143.49	143.49		C	N
+CHK01	Y	E4	GA	8/4/95	    	SELT	Pump-It Gas	-14.60	14.60		C	N
+CHK01	Y	A	II	8/10/95	    	    	*** Interest ***	1.27	-1.27		C	N
+CHK01	Y	E4	GA	8/11/95	    	SELT	Pump-It Gas	-10.40	10.40		C	N
+CHK01	Y	E8	CH	8/11/95	3232	    	YMCA	-10.00	10.00		C	Y
+CHK01	Y	E6	ET	8/12/95	    	SELT	The Book Store	-34.86	34.86		C	N
+CHK01	Y	E6	CL	8/13/95	    	SELT	Lucky You Fashion	-24.99	24.99		C	N
+CHK01	Y	E4	GA	8/13/95	    	SELT	Pump-It Gas	-12.00	12.00		C	N
+CHK01	Y	E6	CL	8/13/95	    	SELT	Armando's	-41.95	41.95		C	N
+CHK01	Y	X	XX	8/14/95	    	4963	*** Deposit ***	1090.00	-1090.00		C	N
+CHK01	Y	A	IS	8/15/95	    	PAYR	*** Deposit ***	1568.86	-1568.86		C	N
+CHK01	Y	E4	GA	8/17/95	    	SELT	Pump-It Gas	-14.00	14.00		C	N
+CHK01	Y	E6	CL	8/18/95	    	SELT	R.T. Brown's	-60.98	60.98		C	N
+CHK01	Y	E6	ET	8/20/95	    	SELT	Millworks Restaurant	-28.06	28.06		C	N
+CHK01	Y	E6	ET	8/20/95	    	SELT	Millworks Restaurant	-12.58	12.58		C	N
+CHK01	Y	E4	GA	8/22/95	    	SELT	Pump-It Gas	-10.40	10.40		C	N
+CHK01	Y	E4	FO	8/24/95	    	SELT	Come & Shop	-75.86	75.86		C	N
+CHK01	Y	E4	FO	8/26/95	    	SELT	Come & Shop	-50.82	50.82		C	N
+CHK01	Y	E4	CA	8/27/95	    	3545	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E7	BS	8/27/95	    	SELT	Software King	-26.20	26.20		C	Y
+CHK01	Y	E4	GA	8/27/95	    	SELT	Pump-It Gas	-18.77	18.77		C	N
+CHK01	Y	E3	BC	8/27/95	    	3545	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	A	IS	8/28/95	    	PAYR	*** Deposit ***	1568.87	-1568.87		C	N
+CHK01	Y	E1	EC	9/1/95	3237	    	Bright Electric Light Plant	-64.30	64.30		C	N
+CHK01	Y	E1	AI	9/1/95	3238	    	Fender-Bender Auto Insurance	-375.05	375.05		C	N
+CHK01	Y	E1	CONDO	9/1/95	3234	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	X	XX	9/1/95	3236	    	1st National MasterCard	-1070.95	1070.95		C	N
+CHK01	Y	E1	AU	9/1/95	3240	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	MG	9/1/95	3223	    	Pay-Me-First Mortgage Corp.	-786.00	786.00		C	N
+CHK01	Y	E4	GA	9/3/95	    	SELT	Pump-It Gas	-10.00	10.00		C	N
+CHK01	Y	E3	BC	9/3/95	    	9220	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	CA	9/3/95	    	9220	--- Withdrawal ---	-50.00	50.00		C	N
+CHK01	Y	E3	BC	9/5/95	    	4077	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E7	CO	9/5/95	    	SELT	Home Builder's Warehouse	-15.06	15.06		C	N
+CHK01	Y	E6	CL	9/5/95	    	SELT	R.T. Brown's	-65.08	65.08		C	N
+CHK01	Y	E7	CO	9/5/95	    	SELT	Home Builder's Warehouse	-44.66	44.66		C	N
+CHK01	Y	E4	CA	9/5/95	    	4077	--- Withdrawal ---	-70.00	70.00		C	N
+CHK01	Y	E1	WS	9/7/95	3241	    	Water/Sewer Dept.	-62.30	62.30		C	N
+CHK01	Y	E1	GH	9/7/95	3244	    	Stay-Warm Gas Company	-173.09	173.09		C	N
+CHK01	Y	E1	PH	9/7/95	3243	    	Cellular Phone Carriers	-64.91	64.91		C	N
+CHK01	Y	E3	AF	9/7/95	3245	    	MyTown - Excise	-163.75	163.75		C	N
+CHK01	Y	E1	PH	9/7/95	3242	    	Reach Out Telephone	-33.21	33.21		C	N
+CHK01	Y	E4	GA	9/10/95	    	SELT	Pump-It Gas	-14.63	14.63		C	N
+CHK01	Y	A	II	9/11/95	    	    	*** Interest ***	1.74	-1.74		C	N
+CHK01	Y	E6	CL	9/13/95	    	SELT	Lady Luck Lingerie	-32.50	32.50		C	N
+CHK01	Y	E9	BE	9/13/95	    	SELT	It's You Hair Salon	-23.00	23.00		C	N
+CHK01	Y	E6	ET	9/14/95	    	SELT	Musak & You	-18.89	18.89		C	N
+CHK01	Y	A	IS	9/15/95	    	PAYR	*** Deposit ***	1511.70	-1511.70		C	N
+CHK01	Y	E4	GA	9/15/95	    	SELT	Pump-It Gas	-10.16	10.16		C	N
+CHK01	Y	E6	ET	9/15/95	    	SELT	Yangize Restaurant	-27.00	27.00		C	N
+CHK01	Y	E7	PT	9/17/95	3247	    	Bow-Wow Animal Hospital	-63.20	63.20		C	N
+CHK01	Y	E3	FTAX	9/17/95	    	9344	*** Deposit ***	245.66	-245.66		C	N
+CHK01	Y	E4	GA	9/18/95	    	SELT	Pump-It Gas	-10.34	10.34		C	N
+CHK01	Y	E6	CL	9/20/95	    	SELT	U-Save-With-Us	-14.47	14.47		C	N
+CHK01	Y	E6	CL	9/20/95	    	SELT	24K Jewelers	-35.49	35.49		C	N
+CHK01	Y	E4	GA	9/22/95	    	SELT	Pump-It Gas	-15.49	15.49		C	N
+CC02	Y	E6	CL	9/26/95	    	    	Just Dresses	76.48	76.48		C	N
+CHK01	Y	E7	CO	9/26/95	    	SELT	Home Builder's Warehouse	-35.50	35.50		C	N
+CHK01	Y	E4	CA	9/26/95	    	1570	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E6	CL	9/26/95	    	SELT	Fashion World	-39.99	39.99		C	N
+CHK01	Y	E4	GA	9/28/95	    	SELT	Pump-It Gas	-10.41	10.41		C	N
+CHK01	Y	E4	CA	9/29/95	    	2266	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	A	IS	9/30/95	    	PAYR	*** Deposit ***	1511.70	-1511.70		C	N
+CHK01	Y	E4	GA	9/30/95	    	SELT	Pump-It Gas	-10.46	10.46		C	N
+CHK01	Y	E1	PH	10/1/95	3261	    	Cellular Phone Carriers	-67.19	67.19		C	N
+CHK01	Y	E5	ME	10/1/95	3256	    	Fix-em-up Medical Center	-33.60	33.60		C	Y
+CHK01	Y	E1	PH	10/1/95	3252	    	Reach Out Telephone	-37.05	37.05		C	N
+CHK01	Y	E1	CONDO	10/1/95	3257	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	10/1/95	3249	    	Pay-Me-First Mortgage Corp.	-786.00	786.00		C	N
+CHK01	Y	E1	EC	10/1/95	3255	    	Bright Electric Light Plant	-57.58	57.58		C	N
+CHK01	Y	E7	AR	10/2/95	    	SELT	Lubes-R-Us	-64.30	64.30		C	N
+CHK01	Y	E1	GH	10/4/95	3262	    	Stay-Warm Gas Company	-140.74	140.74		C	N
+CHK01	Y	E4	GA	10/4/95	    	SELT	Pump-It Gas	-13.53	13.53		C	N
+CHK01	Y	E4	CA	10/5/95	    	3984	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E4	GA	10/8/95	    	SELT	Pump-It Gas	-10.47	10.47		C	N
+CHK01	Y	E4	CA	10/9/95	    	5067	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E7	BS	10/9/95	    	SELT	Software King	-15.74	15.74		C	N
+CHK01	Y	E6	CL	10/10/95	    	SELT	Fashion World	-23.00	23.00		C	N
+CHK01	Y	E7	CO	10/10/95	    	SELT	The Greenery Nursery	-12.47	12.47		C	N
+CHK01	Y	E4	GA	10/11/95	    	SELT	Pump-It Gas	-10.44	10.44		C	N
+CHK01	Y	E6	ET	10/13/95	    	SELT	Good Italian Restaurant	-86.43	86.43		C	N
+CHK01	Y	A	II	10/13/95	    	    	*** Interest ***	1.50	-1.50		C	N
+CHK01	Y	E7	IE	10/13/95	    	    	Check It Out	-18.25	18.25		C	Y
+CHK01	Y	E1	AU	10/13/95	3250	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	A	IS	10/15/95	    	PAYR	*** Deposit ***	1511.69	-1511.69		C	N
+CHK01	Y	E3	STAX	10/15/95	3259	    	State Taxes	-142.00	142.00		C	Y
+CHK01	Y	E3	FTAX	10/15/95	3260	    	Internal Revenue Service	-289.00	289.00		C	N
+CHK01	Y	E4	GA	10/17/95	    	SELT	Pump-It Gas	-13.50	13.50		C	N
+CHK01	Y	E7	HG	10/17/95	    	SELT	Home Builder's Warehouse	-49.54	49.54		C	N
+CHK01	Y	E3	AF	10/18/95	3265	    	Registry of Motor Vehicles	-30.00	30.00		C	N
+CHK01	Y	E4	CA	10/19/95	    	7573	--- Withdrawal ---	-40.00	40.00		C	N
+CHK01	Y	E4	CA	10/21/95	    	8070	--- Withdrawal ---	-40.00	40.00		C	N
+CHK01	Y	E4	GA	10/22/95	    	SELT	Pump-It Gas	-10.50	10.50		C	N
+CHK01	Y	E3	BC	10/23/95	    	6178	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	CA	10/23/95	    	6178	--- Withdrawal ---	-100.00	100.00		C	N
+CC02	Y	X	XX	10/25/95	3266	    	--- Payment ---	-76.48	76.48		P	N
+CHK01	Y	A	IO	10/25/95	    	9298	*** Deposit ***	105.20	-105.20		C	N
+CHK01	Y	E6	CL	10/25/95	3266	    	Just Dresses	-76.48	76.48		C	N
+CHK01	Y	E5	ME	10/26/95	3268	    	Ronald Sayah M.D.	-131.50	131.50		C	Y
+CHK01	Y	E5	ME	10/26/95	3269	    	Fix-em-up Medical Center	-44.60	44.60		C	Y
+CHK01	Y	E8	CH	10/26/95	3270	    	American Cancer Society	-5.00	5.00		C	Y
+CHK01	Y	E3	BC	10/27/95	    	9206	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	CA	10/27/95	    	9206	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E4	GA	10/28/95	    	SELT	Pump-It Gas	-15.00	15.00		C	N
+CHK01	Y	A	IS	10/30/95	    	PAYR	*** Deposit ***	1511.70	-1511.70		C	N
+CHK01	Y	E3	BC	10/30/95	    	9507	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	CA	10/30/95	    	9507	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E1	PH	11/1/95	3274	    	Reach Out Telephone	-33.11	33.11		C	N
+CHK01	Y	E1	GH	11/1/95	3276	    	Stay-Warm Gas Company	-88.48	88.48		C	N
+CHK01	Y	E1	AU	11/1/95	3273	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	MG	11/1/95	3272	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	CONDO	11/1/95	3275	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	PH	11/1/95	3277	    	Cellular Phone Carriers	-66.31	66.31		C	N
+CHK01	Y	E1	EC	11/1/95	3271	    	Bright Electric Light Plant	-56.09	56.09		C	N
+CHK01	Y	E4	GA	11/3/95	    	SELT	Pump-It Gas	-14.00	14.00		C	N
+CHK01	Y	E6	CL	11/3/95	    	SELT	Shoes, Shoes, Shoes	-24.96	24.96		C	N
+CC02	Y	E6	CL	11/7/95	    	    	Just Dresses	66.97	66.97		C	N
+CHK01	Y	E4	CA	11/7/95	    	2247	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E5	ME	11/7/95	3278	    	Fix-em-up Medical Center	-47.20	47.20		C	Y
+CHK01	Y	E4	GA	11/10/95	    	SELT	Pump-It Gas	-14.00	14.00		C	N
+CHK01	Y	E6	CL	11/10/95	    	SELT	Lucky You Fashion	-19.99	19.99		C	N
+CHK01	Y	E4	CA	11/10/95	    	2972	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	A	IO	11/11/95	    	3238	*** Deposit ***	893.00	-893.00		C	N
+CHK01	Y	A	II	11/12/95	    	    	*** Interest ***	1.53	-1.53		C	N
+CHK01	Y	E7	AR	11/14/95	    	SELT	Muffler/Brake Repair	-196.29	196.29		C	N
+CHK01	Y	E4	CA	11/14/95	    	873	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E3	BC	11/14/95	    	873	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E6	CL	11/14/95	    	SELT	Fashion World	-49.80	49.80		C	N
+CHK01	Y	E9	BE	11/15/95	    	SELT	It's You Hair Salon	-23.00	23.00		C	N
+CHK01	Y	E4	CA	11/15/95	    	4514	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E6	CL	11/15/95	    	SELT	R.T. Brown's	-12.99	12.99		C	N
+CHK01	Y	A	IS	11/15/95	    	PAYR	*** Deposit ***	1511.69	-1511.69		C	N
+CHK01	Y	E4	GA	11/15/95	    	SELT	Pump-It Gas	-14.01	14.01		C	N
+CHK01	Y	E7	HG	11/15/95	    	SELT	Rondell's Department	-91.89	91.89		C	N
+CHK01	Y	E8	CH	11/16/95	3279	    	Magazine Marketing	-19.95	19.95		C	Y
+CHK01	Y	E6	CL	11/17/95	    	SELT	Fashion World	-81.00	81.00		C	N
+CHK01	Y	E4	CA	11/18/95	    	2787	--- Withdrawal ---	-200.00	200.00		C	N
+CHK01	Y	E4	GA	11/18/95	    	SELT	Pump-It Gas	-14.42	14.42		C	N
+CHK01	Y	E3	BC	11/27/95	    	2229	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	CA	11/27/95	    	2229	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E7	CO	11/28/95	    	SELT	Home Builder's Warehouse	-31.66	31.66		C	N
+CHK01	Y	E7	CO	11/28/95	    	SELT	Home Builder's Warehouse	-28.60	28.60		C	N
+CHK01	Y	E7	HG	11/28/95	    	SELT	Bath Merchants	-60.87	60.87		C	N
+CHK01	Y	E7	HG	11/29/95	    	SELT	Discount Warehouse	-23.98	23.98		C	N
+CHK01	Y	A	IS	11/30/95	    	PAYR	*** Deposit ***	1511.70	-1511.70		C	N
+CHK01	Y	E4	CA	11/30/95	    	8502	--- Withdrawal ---	-200.00	200.00		C	N
+CHK01	Y	E1	CONDO	12/1/95	3287	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E4	FO	12/1/95	    	SELT	Come & Shop	-15.59	15.59		C	N
+CHK01	Y	E1	PH	12/1/95	3290	    	Cellular Phone Carriers	-32.18	32.18		C	N
+CHK01	Y	E1	GH	12/1/95	3286	    	Stay-Warm Gas Company	-31.98	31.98		C	N
+CHK01	Y	E7	HG	12/1/95	    	SELT	Things-R-Us	-25.16	25.16		C	N
+CHK01	Y	E1	PH	12/1/95	3282	    	Reach Out Telephone	-30.72	30.72		C	N
+CHK01	Y	E1	AI	12/1/95	3281	    	Fender-Bender Auto Insurance	-629.47	629.47		C	N
+CHK01	Y	E1	EC	12/1/95	3283	    	Bright Electric Light Plant	-50.12	50.12		C	N
+CHK01	Y	X	XX	12/1/95	3288	    	*** VOID ***	0	0		C	N
+CHK01	Y	E7	HG	12/1/95	    	SELT	U-Save-With-Us	-22.28	22.28		C	N
+CHK01	Y	E1	MG	12/1/95	3284	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	AU	12/1/95	3285	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	X	XX	12/1/95	3289	    	1st National MasterCard	-336.74	336.74		C	N
+CHK01	Y	E4	GA	12/2/95	    	SELT	Pump-It Gas	-13.35	13.35		C	N
+CC02	Y	E6	CL	12/3/95	    	    	Just Dresses	14.99	14.99		C	N
+CHK01	Y	E7	HG	12/5/95	    	SELT	Rondell's Department	-15.74	15.74		C	N
+CHK01	Y	E4	CA	12/5/95	    	9984	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E4	CA	12/10/95	    	1423	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E4	GA	12/10/95	    	SELT	Pump-It Gas	-15.00	15.00		C	N
+CHK01	Y	E4	CA	12/11/95	    	3724	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E3	BC	12/11/95	    	3724	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E4	GA	12/12/95	    	SELT	Pump-It Gas	-6.41	6.41		C	N
+CHK01	Y	E1	WS	12/13/95	3292	    	Water/Sewer Dept.	-56.71	56.71		C	N
+CHK01	Y	A	II	12/14/95	    	    	*** Interest ***	1.72	-1.72		C	N
+CHK01	Y	E5	ME	12/15/95	3293	    	Arthur Jones, M.D.	-100.00	100.00		C	Y
+CHK01	Y	A	IS	12/15/95	    	PAYR	*** Deposit ***	1511.70	-1511.70		C	N
+CHK01	Y	E4	GA	12/16/95	    	SELT	Pump-It Gas	-17.00	17.00		C	N
+CHK01	Y	E4	CA	12/18/95	    	3694	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E7	HG	12/18/95	    	SELT	Things-R-Us	-23.07	23.07		C	N
+CHK01	Y	E4	FO	12/18/95	    	SELT	P&Q's Market	-47.79	47.79		C	N
+CHK01	Y	E6	CL	12/19/95	    	SELT	R.T. Brown's	-24.99	24.99		C	N
+CHK01	Y	E4	CA	12/20/95	    	3990	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E4	GA	12/21/95	    	SELT	Pump-It Gas	-15.99	15.99		C	N
+CHK01	Y	E7	CO	12/24/95	    	SELT	Home Builder's Warehouse	-20.17	20.17		C	N
+CHK01	Y	E7	CO	12/25/95	    	SELT	Home Builder's Warehouse	-21.40	21.40		C	N
+CHK01	Y	E6	CL	12/25/95	    	SELT	Just Dresses	-17.99	17.99		C	N
+CHK01	Y	E4	FO	12/25/95	    	SELT	P&Q's Market	-68.86	68.86		C	N
+CHK01	Y	E4	GA	12/26/95	    	SELT	Pump-It Gas	-15.54	15.54		C	N
+CHK01	Y	X	XX	12/28/95	    	6411	*** Deposit ***	535.13	-535.13		C	N
+CHK01	Y	E4	FO	12/29/95	    	SELT	P&Q's Market	-58.62	58.62		C	N
+CHK01	Y	A	IS	12/30/95	    	PAYR	*** Deposit ***	1601.50	-1601.50		C	N
+CHK01	Y	A	IS	12/30/95	    	PAYR	*** Deposit ***	406.75	-406.75		C	N
+CHK01	Y	E1	PH	1/1/96	3303	    	Reach Out Telephone	-46.22	46.22		C	N
+CHK01	Y	E4	GA	1/1/96	    	SELT	Pump-It Gas	-10.11	10.11		C	N
+CHK01	Y	E4	FO	1/1/96	    	SELT	P&Q's Market	-49.07	49.07		C	N
+CHK01	Y	X	XX	1/1/96	3305	    	Just Dresses	-83.23	83.23		C	N
+CHK01	Y	E1	PH	1/1/96	3301	    	Cellular Phone Carriers	-37.27	37.27		C	N
+CHK01	Y	X	XX	1/1/96	3300	    	1st National MasterCard	-461.45	461.45		C	N
+CHK01	Y	X	XX	1/1/96	3299	    	*** VOID ***	0	0		C	N
+CHK01	Y	E1	EC	1/1/96	3298	    	Bright Electric Light Plant	-53.85	53.85		C	N
+CHK01	Y	E1	GH	1/1/96	3297	    	Stay-Warm Gas Company	-29.48	29.48		C	N
+CHK01	Y	E1	CONDO	1/1/96	3296	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	1/1/96	3295	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E7	PT	1/2/96	    	SELT	Pets for You 	-14.87	14.87		C	N
+CHK01	Y	E4	GA	1/2/96	    	SELT	Pump-It Gas	-11.50	11.50		C	N
+CC02	Y	INT	CINT	1/2/96	    	    	--- Interest Charge ---	1.27	1.27		C	Y
+CC02	Y	X	XX	1/2/96	3305	    	--- Payment ---	-83.23	83.23		P	N
+CHK01	Y	E4	CA	1/3/96	    	7609	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E4	GA	1/7/96	    	SELT	Pump-It Gas	-19.00	19.00		C	N
+CHK01	Y	E7	HG	1/7/96	    	SELT	Rondell's Department	-178.47	178.47		C	N
+CHK01	Y	E7	HG	1/8/96	    	SELT	Appliance Warehouse	-178.50	178.50		C	N
+CHK01	Y	E7	HG	1/8/96	    	SELT	Rondell's Department	178.47	-178.47		C	N
+CHK01	Y	E6	CL	1/9/96	    	SELT	R.T. Brown's	-54.98	54.98		C	N
+CHK01	Y	E4	CA	1/10/96	    	9483	--- Withdrawal ---	-100.00	100.00		C	N
+CHK01	Y	E4	GA	1/10/96	    	SELT	Pump-It Gas	-15.46	15.46		C	N
+CHK01	Y	E7	PT	1/11/96	    	SELT	Pets for You 	-14.88	14.88		C	N
+CHK01	Y	E1	AU	1/13/96	3302	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	A	II	1/14/96	    	    	*** Interest ***	1.68	-1.68		D	N
+CHK01	Y	E4	GA	1/14/96	    	SELT	Pump-It Gas	-18.02	18.02		C	N
+CHK01	Y	A	IS	1/15/96	    	PAYR	*** Deposit ***	1385.88	-1385.88		D	N
+CHK01	Y	E4	FO	1/15/96	    	SELT	P&Q's Market	-53.34	53.34		C	N
+CHK01	Y	E6	ET	1/15/96	    	SELT	TicketMaster	-94.50	94.50		C	N
+CHK01	Y	E6	CL	1/16/96	    	SELT	Kingston's	-17.81	17.81		C	N
+CHK01	Y	E4	CA	1/16/96	    	6897	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E3	BC	1/16/96	    	6897	Bank Service Fee	-1.25	1.25		C	N
+CHK01	Y	E7	AR	1/16/96	    	SELT	Lubes-R-Us	-35.49	35.49		C	N
+CHK01	Y	E5	ME	1/18/96	3306	    	Arthur Jones, M.D.	-45.00	45.00		C	Y
+CHK01	Y	E4	GA	1/19/96	    	SELT	Pump-It Gas	-10.00	10.00		C	N
+CHK01	Y	E7	CO	1/20/96	3307	    	Da Plumber	-45.00	45.00		C	N
+CHK01	Y	E4	FO	1/20/96	    	SELT	P&Q's Market	-10.00	10.00		C	N
+CHK01	Y	E4	CA	1/21/96	    	2419	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E4	GA	1/21/96	    	SELT	Pump-It Gas	-12.72	12.72		C	N
+CHK01	Y	E4	FO	1/22/96	    	SELT	P&Q's Market	-54.89	54.89		C	N
+CHK01	Y	E4	GA	1/23/96	    	SELT	Pump-It Gas	-11.67	11.67		C	N
+CHK01	Y	E6	ET	1/27/96	    	SELT	Good Italian Restaurant	-9.30	9.30		C	N
+CHK01	Y	E6	ET	1/28/96	    	SELT	Good Italian Restaurant	-9.88	9.88		C	N
+CHK01	Y	E4	CA	1/28/96	    	4130	--- Withdrawal ---	-20.00	20.00		W	N
+CHK01	Y	X	XX	1/28/96	    	4129	--- Transfer ---	2000.00	-2000.00		D	N
+CHK01	Y	X	XX	1/28/96	3308	    	R&R Heating	-2000.00	2000.00		C	N
+CHK01	Y	A	IS	1/29/96	    	PAYR	*** Deposit ***	1385.87	-1385.87		D	N
+CHK01	Y	E4	GA	1/30/96	    	SELT	Pump-It Gas	-17.65	17.65		C	N
+CHK01	Y	E4	CA	1/30/96	    	4431	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E4	FO	1/30/96	    	SELT	P&Q's Market	-52.22	52.22		C	N
+CHK01	Y	E6	CL	1/30/96	    	SELT	Major Department Store	-16.98	16.98		C	N
+CHK01	Y	E1	CONDO	2/1/96	3311	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	GH	2/1/96	3315	    	Stay-Warm Gas Company	-26.31	26.31		C	N
+CHK01	Y	E1	PH	2/1/96	3316	    	Reach Out Telephone	-38.64	38.64		C	N
+CHK01	Y	E1	AU	2/1/96	3317	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E7	CO	2/1/96	3314	    	Stay-Warm Gas Company	-48.00	48.00		C	N
+CHK01	Y	X	XX	2/1/96	3313	    	1st National MasterCard	-82.11	82.11		C	N
+CHK01	Y	E1	EC	2/1/96	3312	    	Bright Electric Light Plant	-76.23	76.23		C	N
+CHK01	Y	E1	MG	2/1/96	3310	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	X	XX	2/2/96	3321	    	Home Sweet Home Condo Trust	0	0		C	N
+CHK01	Y	E8	GF	2/2/96	3320	    	Home Sweet Home Condo Trust	-50.00	50.00		C	N
+CHK01	Y	E1	PH	2/2/96	3318	    	Cellular Phone Carriers	-55.96	55.96		C	N
+CHK01	Y	E4	CA	2/3/96	    	5346	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E5	DE	2/3/96	3322	    	Richard Hurtz D.D.S.	-332.50	332.50		C	Y
+CHK01	Y	E4	GA	2/3/96	    	SELT	Pump-It Gas	-13.00	13.00		C	N
+CHK01	Y	E8	GF	2/6/96	    	SELT	Balloon-a-Gram	-38.85	38.85		C	N
+CHK01	Y	E4	FO	2/6/96	    	SELT	P&Q's Market	-77.83	77.83		C	N
+CHK01	Y	E4	CA	2/7/96	    	6544	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E4	GA	2/8/96	    	SELT	Pump-It Gas	-18.72	18.72		C	N
+CHK01	Y	E4	FO	2/11/96	    	SELT	Come & Shop	-54.92	54.92		C	N
+CC02	Y	E6	CL	2/12/96	    	    	Just Dresses	12.99	12.99		C	N
+CHK01	Y	A	II	2/12/96	    	    	*** Interest ***	1.92	-1.92		D	N
+CHK01	Y	E6	CL	2/12/96	    	SELT	R.T. Brown's	-21.92	21.92		C	N
+CHK01	Y	E3	BC	2/12/96	    	    	Account Fee	-7.00	7.00		C	Y
+CHK01	Y	E4	FO	2/13/96	    	SELT	P&Q's Market	-16.24	16.24		C	N
+CHK01	Y	A	IS	2/15/96	    	PAYR	*** Deposit ***	1385.88	-1385.88		D	N
+CHK01	Y	E4	GA	2/16/96	    	SELT	Pump-It Gas	-11.86	11.86		C	N
+CHK01	Y	E7	HG	2/20/96	    	SELT	The Greenery Nursery	-18.84	18.84		C	N
+CHK01	Y	E4	FO	2/20/96	    	SELT	P&Q's Market	-52.15	52.15		C	N
+CHK01	Y	E4	CA	2/21/96	    	1289	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E6	CL	2/21/96	    	SELT	Fashion World	-74.39	74.39		C	N
+CHK01	Y	E4	GA	2/21/96	    	SELT	Pump-It Gas	-14.00	14.00		C	N
+CHK01	Y	E4	CA	2/24/96	    	2067	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	A	IO	2/24/96	    	2066	*** Deposit ***	10.00	-10.00		D	N
+CHK01	Y	E4	GA	2/26/96	    	SELT	Pump-It Gas	-10.11	10.11		C	N
+CHK01	Y	E4	FO	2/26/96	    	SELT	P&Q's Market	-25.55	25.55		C	N
+CHK01	Y	E7	PT	2/27/96	    	SELT	Pets for You 	-12.58	12.58		C	N
+CHK01	Y	E7	HG	2/27/96	    	SELT	Home Builder's Warehouse	-17.04	17.04		C	N
+CHK01	Y	E6	CL	2/28/96	    	SELT	Lucky You Fashion	-12.49	12.49		C	N
+CHK01	Y	E7	HG	2/28/96	    	SELT	Things-R-Us	-10.48	10.48		C	N
+CHK01	Y	E4	GA	2/28/96	    	SELT	Pump-It Gas	-15.00	15.00		C	N
+CHK01	Y	A	IS	2/28/96	    	PAYR	*** Deposit ***	1385.87	-1385.87		D	N
+CHK01	Y	E4	FO	2/28/96	    	SELT	Come & Shop	-63.29	63.29		C	N
+CHK01	Y	E6	ET	2/28/96	    	SELT	Cappucino's	-46.38	46.38		C	N
+CC02	Y	X	XX	3/1/96	3324	    	--- Payment ---	-12.99	12.99		P	N
+CHK01	Y	E1	GH	3/1/96	3325	    	Stay-Warm Gas Company	-23.75	23.75		C	N
+CHK01	Y	E6	CL	3/1/96	3324	    	Just Dresses	-12.99	12.99		C	N
+CHK01	Y	E5	ME	3/1/96	3327	    	Ronald Sayah M.D.	-45.30	45.30		C	Y
+CHK01	Y	E1	MG	3/1/96	3328	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	PH	3/1/96	3332	    	Cellular Phone Carriers	-39.02	39.02		C	N
+CHK01	Y	E1	AU	3/1/96	3333	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E5	DE	3/1/96	3334	    	Richard Hurtz D.D.S.	-17.00	17.00		C	Y
+CHK01	Y	X	XX	3/1/96	3329	    	1st National MasterCard	-101.84	101.84		C	N
+CHK01	Y	E1	CONDO	3/1/96	3330	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	PH	3/1/96	3331	    	Reach Out Telephone	-32.35	32.35		C	N
+CHK01	Y	E1	EC	3/1/96	3326	    	Bright Electric Light Plant	-98.76	98.76		C	N
+CHK01	Y	E4	GA	3/2/96	    	SELT	Pump-It Gas	-10.92	10.92		C	N
+CHK01	Y	E4	FO	3/3/96	    	SELT	P&Q's Market	-40.70	40.70		C	N
+CHK01	Y	E7	PT	3/3/96	    	SELT	Pets for You 	-8.18	8.18		C	N
+CHK01	Y	X	XX	3/3/96	    	4945	*** Deposit ***	887.40	-887.40		D	N
+CHK01	Y	E4	GA	3/5/96	    	SELT	Pump-It Gas	-17.71	17.71		C	N
+CHK01	Y	E4	CA	3/5/96	    	5219	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E7	HG	3/6/96	    	SELT	Office Supplies Warehouse	-25.81	25.81	Lamp, etc.	C	N
+CHK01	Y	E8	GF	3/7/96	    	SELT	Come & Shop	-32.78	32.78		C	N
+CHK01	Y	E8	GF	3/10/96	    	SELT	Poor's Department Store	-12.58	12.58		C	N
+CHK01	Y	E4	FO	3/10/96	    	SELT	P&Q's Market	-32.30	32.30		C	N
+CHK01	Y	E4	GA	3/10/96	    	SELT	Pump-It Gas	-16.54	16.54		C	N
+CHK01	Y	E4	CA	3/11/96	    	6856	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	A	II	3/14/96	    	    	*** Interest ***	1.73	-1.73		D	N
+CHK01	Y	A	IS	3/15/96	    	PAYR	*** Deposit ***	1385.88	-1385.88		D	N
+CHK01	Y	A	IO	3/17/96	    	8466	*** Deposit ***	705.00	-705.00		D	N
+CHK01	Y	E4	FO	3/17/96	    	SELT	P&Q's Market	-55.47	55.47		C	N
+CC02	Y	E6	CL	3/18/96	    	    	Pajamas	6.99	6.99		C	N
+CHK01	Y	E9	HF	3/18/96	    	SELT	Discount Warehouse	-60.36	60.36		C	N
+CHK01	Y	E7	PT	3/18/96	    	SELT	Pets for You 	-25.17	25.17	Fish	C	N
+CHK01	Y	E4	GA	3/18/96	    	SELT	Pump-It Gas	-16.68	16.68		C	N
+CHK01	Y	E4	CA	3/20/96	    	162	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	CA	3/23/96	    	964	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	3/23/96	    	SELT	Pump-It Gas	-11.00	11.00		C	N
+CHK01	Y	E7	PT	3/24/96	    	SELT	Pets for You 	-16.03	16.03		C	N
+CHK01	Y	E7	PT	3/24/96	    	SELT	Pets for You 	-16.79	16.79	Fish	C	N
+CHK01	Y	E4	FO	3/24/96	    	SELT	P&Q's Market	-16.01	16.01		C	N
+CHK01	Y	E7	BS	3/25/96	    	SELT	Office Supplies Warehouse	-15.21	15.21		C	N
+CHK01	Y	E4	FO	3/25/96	    	SELT	P&Q's Market	-23.18	23.18		C	N
+CHK01	Y	E4	GA	3/27/96	    	SELT	Pump-It Gas	-10.18	10.18		C	N
+CHK01	Y	E4	CA	3/28/96	    	2319	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E8	GF	3/29/96	    	SELT	The Toy Shop	-18.90	18.90		C	N
+CHK01	Y	A	IS	3/30/96	    	PAYR	*** Deposit ***	1385.87	-1385.87		D	N
+CHK01	Y	E4	GA	3/30/96	    	SELT	Pump-It Gas	-10.16	10.16		C	N
+CHK01	Y	E1	EC	4/1/96	3336	    	Bright Electric Light Plant	-70.39	70.39		C	N
+CHK01	Y	X	XX	4/1/96	3345	    	1st National MasterCard	-2000.00	2000.00		C	N
+CHK01	Y	E1	AU	4/1/96	3338	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	GH	4/1/96	3339	    	Stay-Warm Gas Company	-30.24	30.24		C	N
+CHK01	Y	E1	MG	4/1/96	3340	    	Pay-Me-First Mortgage Corp.	-804.00	804.00		C	N
+CHK01	Y	X	XX	4/1/96	3341	    	*** VOID ***	0	0		C	N
+CHK01	Y	E1	PH	4/1/96	3342	    	Reach Out Telephone	-35.16	35.16		C	N
+CHK01	Y	E1	PH	4/1/96	3343	    	Cellular Phone Carriers	-43.31	43.31		C	N
+CHK01	Y	E1	CONDO	4/1/96	3344	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E7	HG	4/1/96	    	SELT	Things-R-Us	-35.68	35.68		C	N
+CHK01	Y	E1	WS	4/1/96	3337	    	Water/Sewer Dept.	-57.14	57.14		C	N
+CHK01	Y	E4	FO	4/2/96	    	SELT	P&Q's Market	-31.46	31.46		C	N
+CHK01	Y	E4	CA	4/4/96	    	4309	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	4/4/96	    	SELT	Pump-It Gas	-17.72	17.72		C	N
+CHK01	Y	E8	GF	4/6/96	    	SELT	Little Gift Shop	-36.12	36.12	Mom Birthday	C	N
+CHK01	Y	E4	CA	4/7/96	    	5101	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E7	HG	4/7/96	    	SELT	The Greenery Nursery	-24.05	24.05	Marigolds	C	N
+CHK01	Y	E4	CA	4/9/96	    	5670	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	4/9/96	    	SELT	Pump-It Gas	-16.00	16.00		C	N
+CHK01	Y	E4	FO	4/13/96	    	SELT	P&Q's Market	-37.53	37.53		C	N
+CHK01	Y	A	II	4/13/96	    	    	*** Interest ***	2.73	-2.73		D	N
+CHK01	Y	E6	CL	4/15/96	    	SELT	R.T. Brown's	-63.34	63.34	Jumpsuit, purse, Xmas	C	N
+CHK01	Y	E8	GF	4/15/96	    	SELT	U-Save-With-Us	-28.30	28.30		C	N
+CHK01	Y	A	IS	4/15/96	    	PAYR	*** Deposit ***	1385.88	-1385.88		D	N
+CHK01	Y	E4	FO	4/15/96	    	SELT	Come & Shop	-45.46	45.46		C	N
+CHK01	Y	E4	GA	4/15/96	    	SELT	Pump-It Gas	-18.45	18.45		C	N
+CHK01	Y	E6	CL	4/16/96	    	SELT	R.T. Brown's	-9.99	9.99		C	N
+CHK01	Y	E4	CA	4/20/96	    	8465	--- Withdrawal ---	-20.00	20.00		W	N
+CHK01	Y	E4	GA	4/21/96	    	SELT	Pump-It Gas	-10.60	10.60		C	N
+CHK01	Y	E7	HG	4/22/96	    	SELT	Home Builder's Warehouse	-42.45	42.45		C	N
+CHK01	Y	E4	FO	4/22/96	    	SELT	P&Q's Market	-36.37	36.37		C	N
+CHK01	Y	X	XX	4/24/96	    	SELT	CompuServe	-36.20	36.20		C	N
+CHK01	Y	E4	GA	4/25/96	    	SELT	Pump-It Gas	-18.03	18.03		C	N
+CHK01	Y	E4	CA	4/26/96	    	819	--- Withdrawal ---	-20.00	20.00		W	N
+CHK01	Y	E4	FO	4/26/96	    	SELT	P&Q's Market	-58.74	58.74		C	N
+CHK01	Y	X	XX	4/27/96	    	SELT	CompuServe	-49.84	49.84		C	N
+CHK01	Y	A	IO	4/29/96	    	1916	*** Deposit ***	1100.00	-1100.00		D	N
+CHK01	Y	E4	CA	4/29/96	    	1917	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E6	PH	4/30/96	    	SELT	Office Supplies Warehouse	-31.47	31.47	Phone cord	C	N
+CHK01	Y	E7	HG	4/30/96	    	SELT	Things-R-Us	-13.94	13.94	Halloween	C	N
+CHK01	Y	E4	FO	4/30/96	    	SELT	P&Q's Market	-2.66	2.66		C	N
+CHK01	Y	A	IS	4/30/96	    	PAYR	*** Deposit ***	1385.87	-1385.87		D	N
+CC02	Y	X	XX	5/1/96	3354	    	--- Payment ---	-6.99	6.99		P	N
+CHK01	Y	E6	CL	5/1/96	    	SELT	R.T. Brown's	-14.99	14.99	Shoes	C	N
+CHK01	Y	E4	GA	5/1/96	    	SELT	Pump-It Gas	-18.00	18.00		C	N
+CHK01	Y	X	XX	5/1/96	3346	    	*** VOID ***	0	0		C	N
+CHK01	Y	E5	ME	5/1/96	3347	    	Arthur Jones, M.D.	-14.00	14.00		C	Y
+CHK01	Y	E1	PH	5/1/96	3348	    	Reach Out Telephone	-70.11	70.11		C	N
+CHK01	Y	E1	GH	5/1/96	3349	    	Stay-Warm Gas Company	-36.81	36.81		C	N
+CHK01	Y	E1	EC	5/1/96	3350	    	Bright Electric Light Plant	-66.51	66.51		C	N
+CHK01	Y	E1	PH	5/1/96	3351	    	Cellular Phone Carriers	-42.71	42.71		C	N
+CHK01	Y	X	XX	5/1/96	3352	    	Fashion World	-64.40	64.40		C	N
+CHK01	Y	E5	DE	5/1/96	3353	    	Richard Hurtz D.D.S.	-79.20	79.20		C	Y
+CHK01	Y	X	XX	5/1/96	3354	    	Just Dresses	-6.99	6.99		C	N
+CHK01	Y	X	XX	5/1/96	3356	    	1st National MasterCard	-1253.90	1253.90		C	N
+CHK01	Y	E1	MG	5/1/96	3357	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	CONDO	5/1/96	3358	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E9	BE	5/1/96	3359	    	House of Tom Hair Salon	-8.96	8.96		C	N
+CHK01	Y	E4	CA	5/2/96	    	2896	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E6	CL	5/3/96	    	SELT	Fashion World	-80.00	80.00	Jacket	C	N
+CHK01	Y	E4	FO	5/3/95	    	SELT	P&Q's Market	-27.10	27.10		C	N
+CHK01	Y	E7	AR	5/4/96	    	SELT	Ron's Auto	-46.78	46.78	Door Handle	C	N
+CHK01	Y	E6	CL	5/4/96	    	SELT	ConCannon's	-18.38	18.38	wallet	C	N
+CHK01	Y	E7	CO	5/5/96	    	SELT	Home Builder's Warehouse	-21.04	21.04	Paint, etc.	C	N
+CHK01	Y	E4	GA	5/6/96	    	SELT	Pump-It Gas	-12.02	12.02		C	N
+CHK01	Y	X	XX	5/9/96	    	SELT	CompuServe	-11.62	11.62		C	N
+CHK01	Y	E7	HG	5/9/96	    	SELT	Things-R-Us	-17.59	17.59		C	N
+CHK01	Y	E4	FO	5/10/96	    	SELT	P&Q's Market	-70.83	70.83		C	N
+CHK01	Y	E9	BE	5/12/96	    	SELT	It's You Hair Salon	-81.45	81.45		C	N
+CHK01	Y	E4	GA	5/12/96	    	SELT	Pump-It Gas	-18.95	18.95		C	N
+CHK01	Y	E4	CA	5/13/96	    	5668	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	X	XX	5/13/96	    	5671	--- Transfer ---	300.00	-300.00		D	N
+CHK01	Y	E1	AU	5/13/96	3355	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E3	BC	5/14/96	    	SELT	Bank Service Fee	-1.00	1.00		C	N
+CHK01	Y	A	II	5/14/96	    	    	*** Interest ***	1.50	-1.50		D	N
+CHK01	Y	A	IS	5/15/96	    	PAYR	*** Deposit ***	1385.88	-1385.88		D	N
+CHK01	Y	E4	GA	5/16/96	    	SELT	Pump-It Gas	-13.35	13.35		C	N
+CHK01	Y	E3	BC	5/17/96	    	SELT	ATM Mini-Statement	-1.50	1.50		W	N
+CHK01	Y	E7	PT	5/19/96	    	SELT	Pets for You 	-25.45	25.45	Pet food	C	N
+CHK01	Y	E4	FO	5/19/96	    	SELT	P&Q's Market	-49.30	49.30		C	N
+CHK01	Y	E4	GA	5/22/96	    	SELT	Pump-It Gas	-18.01	18.01		C	N
+CHK01	Y	E4	FO	5/22/96	    	SELT	P&Q's Market	-18.43	18.43		C	N
+CHK01	Y	E7	HG	5/25/96	    	SELT	Home Builder's Warehouse	-10.31	10.31	Xmas Lights	C	N
+CHK01	Y	E7	HG	5/25/96	    	SELT	Fred's Dept. Store	-13.54	13.54		C	N
+CHK01	Y	E6	CL	5/26/96	    	SELT	R.T. Brown's	-19.99	19.99		C	N
+CHK01	Y	E8	GF	5/26/96	    	SELT	Bath Merchants	-36.74	36.74	Blanket	C	N
+CHK01	Y	E4	CA	5/26/96	    	8583	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	5/26/96	    	8583	P&Q's Market	-76.31	76.31		C	N
+CHK01	Y	E3	BC	5/28/96	    	8546	Bank Service Fee	-1.50	1.50		W	N
+CHK01	Y	E4	CA	5/28/96	    	8546	--- Withdrawal ---	-50.00	50.00		W	N
+CHK01	Y	A	IS	5/30/96	    	PAYR	*** Deposit ***	1385.87	-1385.87		D	N
+CHK01	Y	E4	GA	5/30/96	    	SELT	Pump-It Gas	-10.12	10.12		C	N
+CHK01	Y	X	XX	6/1/96	    	SELT	CompuServe	-11.57	11.57		C	N
+CHK01	Y	X	XX	6/1/96	3360	    	*** VOID ***	0	0		C	N
+CHK01	Y	E1	HI	6/1/96	3361	    	Fender-Bender Home Insurance	-170.00	170.00		C	N
+CHK01	Y	E1	EC	6/1/96	3362	    	Bright Electric Light Plant	-39.28	39.28		C	N
+CHK01	Y	X	XX	6/1/96	3363	    	Major Department Store	-228.45	228.45		C	N
+CHK01	Y	X	XX	6/1/96	3364	    	Discover	-72.37	72.37		C	N
+CHK01	Y	X	XX	6/1/96	3365	    	1st National MasterCard	-107.55	107.55		C	N
+CHK01	Y	E1	AU	6/1/96	3366	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	GH	6/1/96	3367	    	Stay-Warm Gas Company	-56.90	56.90		C	N
+CHK01	Y	E1	CONDO	6/1/96	3368	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	6/1/96	3369	    	Pay-Me-First Mortgage Corp.	-804.00	804.00		C	N
+CHK01	Y	E1	PH	6/1/96	3370	    	Reach Out Telephone	-64.29	64.29		C	N
+CHK01	Y	E1	PH	6/1/96	3371	    	Cellular Phone Carriers	-44.27	44.27		C	N
+CHK01	Y	E4	GA	6/2/96	    	SELT	Pump-It Gas	-18.00	18.00		C	N
+CHK01	Y	E3	BC	6/4/96	    	8987	Bank Service Fee	-1.50	1.50		W	N
+CHK01	Y	E4	CA	6/4/96	    	8987	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E1	PH	6/5/96	3372	    	Cellular Phone Carriers	-7.94	7.94		C	N
+CHK01	Y	A	IO	6/6/96	    	3829	*** Deposit ***	340.00	-340.00		D	N
+CHK01	Y	E1	WS	6/6/96	3373	    	Water/Sewer Dept.	-45.96	45.96		C	N
+CHK01	Y	E4	FO	6/8/96	    	SELT	P&Q's Market	-81.80	81.80		C	N
+CHK01	Y	E4	FO	6/10/96	    	SELT	P&Q's Market	-70.84	70.84		C	N
+CHK01	Y	X	XX	6/11/96	    	3543	*** Deposit ***	219.50	-219.50		D	N
+CHK01	Y	E4	GA	6/11/96	    	SELT	Pump-It Gas	-17.05	17.05		C	N
+CHK01	Y	E8	GF	6/11/96	3374	    	Better Homes & Gardens	-8.50	8.50		C	N
+CHK01	Y	E6	CL	6/11/96	    	SELT	R.T. Brown's	19.99	-19.99		C	N
+CHK01	Y	A	II	6/13/96	    	    	*** Interest ***	1.14	-1.14		D	N
+CHK01	Y	E3	BC	6/14/96	    	4761	Bank Service Fee	-1.50	1.50		W	N
+CHK01	Y	E4	CA	6/14/96	    	4761	--- Withdrawal ---	-50.00	50.00		W	N
+CHK01	Y	A	IS	6/15/96	    	PAYR	*** Deposit ***	1385.88	-1385.88		D	N
+CHK01	Y	E4	GA	6/16/96	    	SELT	Pump-It Gas	-10.05	10.05		C	N
+CHK01	Y	E4	FO	6/17/96	    	SELT	P&Q's Market	-63.18	63.18		C	N
+CHK01	Y	E6	CL	6/18/96	    	SELT	Major Department Store	-44.60	44.60		C	N
+CHK01	Y	E8	GF	6/18/96	    	SELT	Things-R-Us	-15.18	15.18		C	N
+CHK01	Y	E6	CL	6/18/96	    	SELT	Major Department Store	25.73	-25.73		C	N
+CHK01	Y	E8	GF	6/18/96	    	SELT	D.W.T.	-11.82	11.82	Xmas Gifts	C	N
+CHK01	Y	E4	CA	6/18/96	    	5521	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E6	CL	6/18/96	    	SELT	Major Department Store	-15.43	15.43		C	N
+CHK01	Y	E9	BE	6/18/96	    	SELT	It's You Hair Salon	-17.50	17.50		C	N
+CHK01	Y	E4	GA	6/18/96	    	SELT	Pump-It Gas	-13.00	13.00		C	N
+CHK01	Y	E8	GF	6/21/96	    	SELT	Come & Shop	-49.56	49.56		C	N
+CHK01	Y	E7	PT	6/22/96	    	SELT	Bow-Wow Animal Hospital	-53.00	53.00		C	N
+CHK01	Y	X	XX	6/22/96	    	6777	--- Transfer ---	1000.00	-1000.00		D	N
+CHK01	Y	E4	FO	6/22/96	    	SELT	Come & Shop	-84.31	84.31		C	N
+CHK01	Y	E8	GF	6/23/96	    	SELT	P&Q's Market	-57.69	57.69		C	N
+CHK01	Y	E4	GA	6/23/96	    	SELT	Pump-It Gas	-17.79	17.79		C	N
+CHK01	Y	E7	BS	6/26/96	    	SELT	Office Supplies Warehouse	-421.51	421.51		C	N
+CHK01	Y	E7	BS	6/27/96	    	SELT	Office Supplies Warehouse	31.49	-31.49		C	N
+CHK01	Y	E4	FO	6/29/96	    	SELT	P&Q's Market	-46.89	46.89		C	N
+CHK01	Y	E4	CA	6/30/96	    	8780	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	A	IS	6/30/96	    	PAYR	*** Deposit ***	1385.87	-1385.87		D	N
+CHK01	Y	E4	CA	6/30/96	    	SELT	P&Q's Market	-57.69	57.69		C	N
+CHK01	Y	E8	GF	7/2/96	    	SELT	Bath Merchants	36.74	-36.74		C	N
+CHK01	Y	E7	HG	7/2/96	    	SELT	Home Builder's Warehouse	-18.99	18.99		C	N
+CHK01	Y	E7	BS	7/2/96	    	SELT	Office Supplies Warehouse	10.50	-10.50		C	N
+CHK01	Y	X	XX	7/6/96	    	SELT	CompuServe	-16.11	16.11		C	N
+CHK01	Y	E4	CA	7/6/96	    	1404	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	7/7/96	    	SELT	Pump-It Gas	-16.92	16.92		C	N
+CHK01	Y	X	XX	7/7/96	3375	    	Major Department Store	-129.99	129.99		C	N
+CHK01	Y	E1	GH	7/7/96	3376	    	Stay-Warm Gas Company	-115.60	115.60		C	N
+CHK01	Y	E1	EC	7/7/96	3378	    	Bright Electric Light Plant	-56.43	56.43		C	N
+CHK01	Y	E1	CONDO	7/7/96	3379	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	7/7/96	3380	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	PH	7/7/96	3383	    	Reach Out Telephone	-67.95	67.95		C	N
+CHK01	Y	E1	PH	7/7/96	3384	    	Cellular Phone Carriers	-24.71	24.71		C	N
+CHK01	Y	E7	PT	7/7/96	    	SELT	Pets for You 	-48.65	48.65	Cat Toys	C	N
+CHK01	Y	A	IS	7/15/96	    	PAYR	*** Deposit ***	1395.32	-1395.32		D	N
+CHK01	Y	E7	CO	7/8/96	    	SELT	Home Builder's Warehouse	-19.90	19.90	Knobs	C	N
+CHK01	Y	E4	FO	7/8/96	    	SELT	P&Q's Market	-29.60	29.60		C	N
+CHK01	Y	E4	CA	7/9/96	    	2413	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	X	XX	7/10/96	3381	    	1st National MasterCard	-67.09	67.09		C	N
+CHK01	Y	X	XX	7/12/96	3382	    	Discover	-520.42	520.42		C	N
+CHK01	Y	E6	ET	7/13/96	    	SELT	The Cactus Club	-20.70	20.70		C	N
+CHK01	Y	A	II	7/13/96	    	    	*** Interest ***	2.31	-2.31		D	N
+CHK01	Y	E1	AU	7/13/96	3377	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E7	CO	7/14/96	    	SELT	Home Builder's Warehouse	-33.76	33.76		C	N
+CHK01	Y	E7	HG	7/14/96	    	SELT	Home Builder's Warehouse	15.95	-15.95		C	N
+CHK01	Y	E6	CL	7/14/96	    	SELT	R.T. Brown's	-26.00	26.00		C	N
+CHK01	Y	X	XX	7/15/96	3385	    	*** VOID ***	0	0		C	N
+CHK01	Y	E4	GA	7/15/96	    	SELT	Pump-It Gas	-17.81	17.81		C	N
+CHK01	Y	E4	CA	7/15/96	    	3902	--- Withdrawal ---	-80.00	80.00		W	N
+CHK01	Y	E1	AI	7/15/96	    	AUTO	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	E1	AI	7/16/96	    	3947	Insurance Overpayment Refund	41.54	-41.54		D	N
+CHK01	Y	E5	ME	7/16/96	3387	    	Ronald Sayah M.D.	-22.70	22.70		C	Y
+CHK01	Y	E4	GA	7/17/96	    	SELT	Pump-It Gas	-18.00	18.00		C	N
+CHK01	Y	E7	HG	7/20/96	    	SELT	Home Builder's Warehouse	-32.11	32.11		C	N
+CHK01	Y	E4	FO	7/20/96	    	SELT	P&Q's Market	-53.09	53.09		C	N
+CHK01	Y	E4	CA	7/20/96	    	5007	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	7/20/96	    	SELT	Pump-It Gas	-12.00	12.00		C	N
+CHK01	Y	E6	CL	7/22/96	    	SELT	Just Dresses	-34.98	34.98		C	N
+CHK01	Y	E4	CA	7/23/96	    	6001	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E5	ME	7/23/96	3388	    	Blood Analysis Labs	-51.25	51.25		C	Y
+CHK01	Y	E4	GA	7/24/96	    	SELT	Pump-It Gas	-14.71	14.71		C	N
+CHK01	Y	E7	CO	7/25/96	3389	    	Living Colors Painters	-180.00	180.00	Painting	C	N
+CHK01	Y	E4	CA	7/27/96	    	5596	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	FO	7/27/96	    	SELT	P&Q's Market	-53.75	53.75		C	N
+CHK01	Y	E7	HG	7/27/96	3390	    	Sandpiper Sales	-11.54	11.54		C	N
+CHK01	Y	E6	ET	7/28/96	    	SELT	La Cantina Restaurant	-26.21	26.21		C	N
+CHK01	Y	E4	GA	7/28/96	    	SELT	Pump-It Gas	-17.81	17.81		C	N
+CHK01	Y	E4	CA	7/28/96	    	7170	--- Withdrawal ---	-80.00	80.00		W	N
+CHK01	Y	E8	GF	7/28/96	    	SELT	Discount Warehouse	83.99	-83.99		C	N
+CHK01	Y	E6	CL	7/29/96	    	SELT	Armando's	-14.99	14.99		C	N
+CHK01	Y	E7	BS	7/31/96	    	SELT	Office Supplies Warehouse	-14.32	14.32		C	N
+CHK01	Y	A	IS	7/31/96	    	PAYR	*** Deposit ***	1395.30	-1395.30		D	N
+CHK01	Y	E4	FO	8/1/96	    	SELT	P&Q's Market	-9.62	9.62		C	N
+CHK01	Y	E1	MG	8/1/96	3391	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	CONDO	8/1/96	3392	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	EC	8/1/96	3393	    	Bright Electric Light Plant	-67.05	67.05		C	N
+CHK01	Y	X	XX	8/1/96	3395	    	1st National MasterCard	-39.00	39.00		C	N
+CHK01	Y	E1	PH	8/1/96	3396	    	Reach Out Telephone	-30.27	30.27		C	N
+CHK01	Y	E1	PH	8/1/96	3397	    	Cellular Phone Carriers	-52.97	52.97		C	N
+CHK01	Y	E1	AU	8/1/96	3398	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	GH	8/1/96	3394	    	Stay-Warm Gas Company	-126.77	126.77		C	N
+CHK01	Y	E4	GA	8/2/96	    	SELT	Pump-It Gas	-12.00	12.00		C	N
+CHK01	Y	X	XX	8/3/96	    	SELT	CompuServe	-17.69	17.69		C	N
+CHK01	Y	E4	FO	8/3/96	    	SELT	P&Q's Market	-48.15	48.15		C	N
+CHK01	Y	E6	ET	8/5/96	    	SELT	Office Supplies Warehouse	-39.87	39.87	Software	C	N
+CHK01	Y	E4	CA	8/7/96	    	873	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E1	AI	8/7/96	    	877	Insurance Overpayment Refund	52.80	-52.80		D	N
+CHK01	Y	E4	FO	8/9/96	    	SELT	Come & Shop	-78.86	78.86		C	N
+CHK01	Y	E4	CA	8/10/96	    	1708	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	GA	8/11/96	    	SELT	Pump-It Gas	-17.00	17.00		C	N
+CHK01	Y	A	IO	8/11/96	    	1857	*** Deposit ***	25.00	-25.00		D	N
+CHK01	Y	A	II	8/13/96	    	    	*** Interest ***	1.46	-1.46		D	N
+CHK01	Y	E4	FO	8/15/96	    	SELT	P&Q's Market	-32.13	32.13		C	N
+CHK01	Y	E1	AI	8/15/96	    	AUTO	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	A	IS	8/15/96	    	PAYR	*** Deposit ***	1395.32	-1395.32		D	N
+CHK01	Y	E4	GA	8/17/96	    	SELT	Pump-It Gas	-18.41	18.41		C	N
+CHK01	Y	E4	CA	8/17/96	    	6106	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E7	AR	8/18/96	    	SELT	Lubes-R-Us	-33.13	33.13		C	N
+CHK01	Y	E4	FO	8/18/96	    	SELT	P&Q's Market	-87.06	87.06		C	N
+CHK01	Y	X	XX	8/18/96	    	6436	*** Deposit ***	8.55	-8.55		D	N
+CHK01	Y	E6	ET	8/19/96	    	SELT	Muzak For You	-38.81	38.81	CDs	C	N
+CHK01	Y	E6	CL	8/20/96	    	SELT	R.T. Brown's	-16.28	16.28		C	N
+CHK01	Y	E4	CA	8/21/96	    	4548	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	A	II	8/21/96	    	    	*** Interest ***	0.39	-0.39		D	N
+CHK01	Y	E4	GA	8/23/96	    	SELT	Pump-It Gas	-14.92	14.92		C	N
+CHK01	Y	E4	CA	8/23/96	    	5255	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	FO	8/25/96	    	SELT	P&Q's Market	-35.34	35.34		C	N
+CHK01	Y	E4	GA	8/26/96	    	SELT	Pump-It Gas	-11.79	11.79		C	N
+CHK01	Y	E7	HG	8/26/96	    	SELT	Kingston's	-25.18	25.18		C	N
+CHK01	Y	E4	CA	8/27/96	    	6365	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	A	IS	8/28/96	    	PAYR	*** Deposit ***	1395.30	-1395.30		D	N
+CHK01	Y	X	XX	9/1/96	3400	    	Major Department Store	-89.23	89.23		C	N
+CHK01	Y	E1	EC	9/1/96	3402	    	Bright Electric Light Plant	-54.95	54.95		C	N
+CHK01	Y	E1	GH	9/1/96	3403	    	Stay-Warm Gas Company	-139.22	139.22		C	N
+CHK01	Y	X	XX	9/1/96	3404	    	1st National MasterCard	-17.00	17.00		C	N
+CHK01	Y	E1	MG	9/1/96	3405	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	X	XX	9/1/96	3406	    	*** VOID ***	0	0		C	N
+CHK01	Y	E1	CONDO	9/1/96	3407	    	Home Sweet Home Condo Trust	-31.00	31.00		C	N
+CHK01	Y	E3	AF	9/1/96	3401	    	MyTown - Excise	-102.50	102.50	Excise 1995	C	N
+CHK01	Y	E4	GA	9/3/96	    	SELT	Pump-It Gas	-12.00	12.00		C	N
+CHK01	Y	X	XX	9/3/96	    	SELT	CompuServe	-15.81	15.81		C	N
+CHK01	Y	E4	CA	9/3/96	    	7209	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E7	PT	9/4/96	    	SELT	Pets for You 	-8.25	8.25		C	N
+CHK01	Y	E4	FO	9/4/96	    	SELT	P&Q's Market	-42.29	42.29		C	N
+CHK01	Y	E4	CA	9/4/96	    	7596	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E1	PH	9/6/96	3411	    	Reach Out Telephone	-32.64	32.64		C	N
+CHK01	Y	E1	PH	9/6/96	3412	    	Cellular Phone Carriers	-36.30	36.30		C	N
+CHK01	Y	E1	WS	9/6/96	3413	    	Water/Sewer Dept.	-53.70	53.70		C	N
+CHK01	Y	E4	GA	9/7/96	    	SELT	Pump-It Gas	-13.91	13.91		C	N
+CHK01	Y	E4	FO	9/7/96	    	SELT	P&Q's Market	-38.59	38.59		C	N
+CHK01	Y	E4	GA	9/10/96	    	SELT	Pump-It Gas	-11.91	11.91		C	N
+CC02	Y	E6	CL	9/11/96	    	    	Dresses	76.50	76.50		C	N
+CHK01	Y	E4	CA	9/11/96	    	474	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	9/11/96	    	SELT	Come & Shop	-64.86	64.86		C	N
+CHK01	Y	E7	HG	9/12/96	    	SELT	The Greenery Nursery	-8.38	8.38	Office Plant	C	N
+CHK01	Y	E7	BS	9/13/96	    	SELT	Office Supplies Warehouse	-19.41	19.41	Paper	C	N
+CHK01	Y	E1	AU	9/13/96	3409	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E4	GA	9/14/96	    	SELT	Pump-It Gas	-17.13	17.13		C	N
+CHK01	Y	E4	CA	9/14/96	    	1214	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	A	II	9/14/96	    	    	*** Interest ***	1.16	-1.16		D	N
+CHK01	Y	E1	AI	9/15/96	    	AUTO	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	A	IS	9/15/96	    	PAYR	*** Deposit ***	1395.32	-1395.32		D	N
+CHK01	Y	X	XX	9/15/96	3410	    	Discover	-608.94	608.94		C	N
+CHK01	Y	E7	HG	9/18/96	    	SELT	Things-R-Us	-10.68	10.68		C	N
+CHK01	Y	X	XX	9/18/96	    	2384	*** Deposit ***	8.50	-8.50		D	N
+CHK01	Y	E4	FO	9/19/96	    	SELT	P&Q's Market	-58.61	58.61		C	N
+CHK01	Y	E4	GA	9/20/96	    	SELT	Pump-It Gas	-11.79	11.79		C	N
+CHK01	Y	E4	CA	9/21/96	    	3110	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	X	XX	9/22/96	    	SELT	CompuServe	-8.39	8.39		C	N
+CHK01	Y	E4	CA	9/24/96	    	3970	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	9/24/96	    	SELT	P&Q's Market	-57.84	57.84		C	N
+CHK01	Y	E8	GF	9/25/96	    	SELT	Little Prof. Book Center	-22.04	22.04		C	N
+CHK01	Y	E6	CL	9/25/96	    	SELT	Lucky You Fashion	-23.98	23.98	Stretch Pants /T-Shirt	C	N
+CHK01	Y	E8	GF	9/26/96	    	SELT	Discount Warehouse	-45.69	45.69		C	N
+CHK01	Y	E6	CL	9/26/96	    	SELT	R.T. Brown's	-29.99	29.99	Dress	C	N
+CHK01	Y	E4	GA	9/27/96	    	SELT	Pump-It Gas	-11.82	11.82		C	N
+CHK01	Y	A	II	9/27/96	    	    	*** Interest ***	0.54	-0.54		D	N
+CHK01	Y	E4	CA	9/28/96	    	5213	--- Withdrawal ---	-60.00	60.00		C	N
+CHK01	Y	E3	BC	9/28/96	    	    	Bank Monthly Fee	-1.00	1.00		C	N
+CHK01	Y	E4	GA	9/29/96	    	SELT	Pump-It Gas	-7.00	7.00		C	N
+CHK01	Y	A	IS	9/30/96	    	PAYR	*** Deposit ***	1395.30	-1395.30		D	N
+CHK01	Y	E6	CL	10/1/96	    	SELT	Armando's	-19.98	19.98		C	N
+CHK01	Y	X	XX	10/1/96	3422	    	Discover	-78.15	78.15	Payment	C	N
+CHK01	Y	X	XX	10/1/96	    	6263	*** Deposit ***	45.37	-45.37		D	N
+CHK01	Y	E4	CA	10/1/96	    	6264	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E1	PH	10/1/96	3418	    	Reach Out Telephone	-40.39	40.39		C	N
+CHK01	Y	E1	GH	10/1/96	3419	    	Stay-Warm Gas Company	-123.85	123.85		C	N
+CHK01	Y	E8	CH	10/1/96	3420	    	Magazine Marketing	-39.95	39.95		C	Y
+CHK01	Y	E1	EC	10/1/96	3421	    	Bright Electric Light Plant	-64.41	64.41		C	N
+CHK01	Y	X	XX	10/1/96	3423	    	Major Department Store	-65.10	65.10		C	N
+CHK01	Y	E1	CONDO	10/1/96	3424	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	10/1/96	3425	    	Pay-Me-First Mortgage Corp.	-804.00	804.00		C	N
+CHK01	Y	E1	PH	10/1/96	3426	    	Cellular Phone Carriers	-30.49	30.49		C	N
+CHK01	Y	E6	ET	10/2/96	    	SELT	Little Prof. Book Center	-21.41	21.41		C	N
+CHK01	Y	E4	GA	10/2/96	    	SELT	Pump-It Gas	-17.32	17.32		C	N
+CHK01	Y	X	XX	10/3/96	    	SELT	CompuServe	-14.12	14.12		C	N
+CHK01	Y	E3	BC	10/5/96	    	1121	Bank Service Fee	-1.50	1.50		W	N
+CHK01	Y	E4	CA	10/5/96	    	1121	--- Withdrawal ---	-50.00	50.00		W	N
+CHK01	Y	E9	BE	10/8/96	    	SELT	It's You Hair Salon	-14.50	14.50		C	N
+CHK01	Y	E4	CA	10/8/96	    	8222	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	FO	10/8/96	    	SELT	P&Q's Market	-38.98	38.98		C	N
+CHK01	Y	E4	GA	10/10/96	    	SELT	Pump-It Gas	-11.68	11.68		C	N
+CHK01	Y	X	XX	10/11/96	    	    	CompuServe	-10.66	10.66		C	N
+CHK01	Y	E4	CA	10/12/96	    	211	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E1	AU	10/13/96	3417	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	X	XX	10/13/96	    	702	--- Transfer ---	3000.00	-3000.00		D	N
+CHK01	Y	E4	GA	10/13/96	    	SELT	Pump-It Gas	-11.65	11.65		C	N
+CHK01	Y	E4	FO	10/14/96	    	SELT	P&Q's Market	-22.81	22.81		C	N
+CHK01	Y	E1	AI	10/15/96	    	AUTO	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	A	IS	10/15/96	    	PAYR	*** Deposit ***	1395.32	-1395.32		D	N
+CHK01	Y	E7	CO	10/16/96	    	SELT	Home Builder's Warehouse	-25.85	25.85	Paint, Stain	C	N
+CHK01	Y	E3	STAX	10/16/96	3415	    	Dept. of Revenue	-543.00	543.00	State Taxes	C	N
+CHK01	Y	E4	FO	10/16/96	    	SELT	Come & Shop	-9.46	9.46		C	N
+CHK01	Y	E3	FTAX	10/16/96	3414	    	Internal Revenue Service	-2396.00	2396.00	Federal Taxes	C	N
+CHK01	Y	E4	CA	10/17/96	    	1664	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	GA	10/17/96	    	SELT	Pump-It Gas	-17.99	17.99		C	N
+CHK01	Y	E4	FO	10/17/96	    	SELT	P&Q's Market	-41.65	41.65		C	N
+CHK01	Y	X	XX	10/18/96	    	    	CompuServe	-35.11	35.11		C	N
+CHK01	Y	E4	GA	10/21/96	    	SELT	Pump-It Gas	-16.73	16.73		C	N
+CHK01	Y	E7	HG	10/22/96	    	SELT	Home Builder's Warehouse	-15.54	15.54	Pansies	C	N
+CHK01	Y	E4	CA	10/22/96	    	3113	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	FO	10/23/96	    	SELT	P&Q's Market	-30.50	30.50		C	N
+CHK01	Y	E7	HG	10/23/96	    	SELT	The Greenery Nursery	-18.82	18.82		C	N
+CHK01	Y	E4	CA	10/25/96	    	3827	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	A	II	10/25/96	    	    	*** Interest ***	1.80	-1.80		D	N
+CHK01	Y	E4	GA	10/26/96	    	SELT	Pump-It Gas	-17.86	17.86		C	N
+CHK01	Y	X	XX	10/26/96	    	SELT	CompuServe	-24.78	24.78		C	N
+CHK01	Y	X	XX	10/26/96	    	4304	*** Deposit ***	2300.02	-2300.02		D	N
+CHK01	Y	E4	CA	10/26/96	    	4305	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E3	BC	10/26/96	    	    	Service Fee	-1.00	1.00		C	N
+CHK01	Y	E4	FO	10/27/96	    	SELT	Come & Shop	-52.90	52.90		C	N
+CHK01	Y	E7	CO	10/29/96	    	SELT	Michael's Crafts	-47.83	47.83	Plants	C	N
+CHK01	Y	E7	CO	10/29/96	    	SELT	Vacuum Repairs	-186.80	186.80	Repairs	C	N
+CHK01	Y	E4	CA	10/29/96	    	5190	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	GA	10/30/96	    	SELT	Pump-It Gas	-15.01	15.01		C	N
+CHK01	Y	A	IS	10/30/96	    	PAYR	*** Deposit ***	1395.30	-1395.30		D	N
+CC02	Y	X	XX	11/1/96	3436	    	--- Payment ---	-76.50	76.50		P	N
+CHK01	Y	E1	MG	11/1/96	3428	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	CONDO	11/1/96	3429	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E5	ME	11/1/96	3431	    	Fix-em-up Medical Center	-89.20	89.20		C	Y
+CHK01	Y	E1	EC	11/1/96	3433	    	Bright Electric Light Plant	-60.39	60.39		C	N
+CHK01	Y	E1	PH	11/1/96	3434	    	Reach Out Telephone	-30.27	30.27		C	N
+CHK01	Y	E1	GH	11/1/96	3435	    	Stay-Warm Gas Company	-90.16	90.16		C	N
+CHK01	Y	E1	PH	11/1/96	3438	    	Cellular Phone Carriers	-55.41	55.41		C	N
+CHK01	Y	E7	BS	11/1/96	3437	    	Check It Out	-7.95	7.95	Checks	C	N
+CHK01	Y	E4	GA	11/3/96	    	SELT	Pump-It Gas	-11.65	11.65		C	N
+CHK01	Y	E4	CA	11/3/96	    	6250	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	X	XX	11/5/96	    	SELT	CompuServe	-43.12	43.12		C	N
+CC02	Y	E6	CL	11/6/96	    	    	Dresses	19.99	19.99		C	N
+CHK01	Y	E4	FO	11/7/96	    	SELT	P&Q's Market	-17.46	17.46		C	N
+CHK01	Y	E4	CA	11/7/96	    	7307	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	FO	11/9/96	    	SELT	P&Q's Market	-17.97	17.97		C	N
+CHK01	Y	E4	GA	11/9/96	    	SELT	Pump-It Gas	-11.35	11.35		C	N
+CHK01	Y	E4	GA	11/12/96	    	SELT	Pump-It Gas	-11.89	11.89		C	N
+CHK01	Y	E8	GF	11/13/96	    	SELT	D.W.T.	-16.96	16.96		C	N
+CHK01	Y	E4	CA	11/13/96	    	8965	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E1	AU	11/13/96	3430	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	X	XX	11/13/96	3432	    	Discover	-2273.75	2273.75		C	N
+CHK01	Y	X	XX	11/13/96	3436	    	Just Dresses	-76.50	76.50		C	N
+CHK01	Y	E4	FO	11/14/96	    	SELT	P&Q's Market	-52.34	52.34		C	N
+CHK01	Y	E8	GF	11/15/96	    	SELT	The Greenery Nursery	-33.45	33.45		C	N
+CHK01	Y	E1	AI	11/15/96	    	AUTO	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	A	IS	11/15/96	    	PAYR	*** Deposit ***	1395.32	-1395.32		D	N
+CHK01	Y	E5	ME	11/15/96	    	SELT	Brown's Pharmacy	-9.33	9.33		C	Y
+CHK01	Y	E4	CA	11/16/96	    	706	--- Withdrawal ---	-100.00	100.00		W	N
+CHK01	Y	E4	FO	11/17/96	    	SELT	P&Q's Market	-24.45	24.45		C	N
+CHK01	Y	E4	GA	11/17/96	    	SELT	Pump-It Gas	-17.37	17.37		C	N
+CHK01	Y	X	XX	11/17/96	    	1155	*** Deposit ***	527.70	-527.70		D	N
+CHK01	Y	E4	FO	11/21/96	    	SELT	P&Q's Market	-57.54	57.54		C	N
+CHK01	Y	E4	GA	11/24/96	    	SELT	Pump-It Gas	-13.10	13.10		C	N
+CHK01	Y	X	XX	11/24/96	    	3016	*** Deposit ***	59.89	-59.89		D	N
+CHK01	Y	A	II	11/26/96	    	    	*** Interest ***	2.72	-2.72		D	N
+CHK01	Y	E4	FO	11/27/96	    	SELT	P&Q's Market	-77.71	77.71		C	N
+CHK01	Y	E4	GA	11/30/96	    	SELT	Pump-It Gas	-16.47	16.47		C	N
+CHK01	Y	E4	CA	11/30/96	    	4667	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E3	BC	11/30/96	    	    	Bank Service Fee	-1.00	1.00		W	N
+CHK01	Y	A	IS	11/30/96	    	PAYR	*** Deposit ***	1603.90	-1603.90		D	N
+CC02	Y	X	XX	12/1/96	3445	    	--- Payment ---	-19.99	19.99		P	N
+CHK01	Y	X	XX	12/1/96	3439	    	Fashion World	-89.47	89.47		C	N
+CHK01	Y	E1	EC	12/1/96	3440	    	Bright Electric Light Plant	-56.61	56.61		C	N
+CHK01	Y	E5	ME	12/1/96	3441	    	Fix-em-up Medical Center	-13.60	13.60		C	Y
+CHK01	Y	X	XX	12/1/96	3442	    	Discover	-432.60	432.60		C	N
+CHK01	Y	E1	MG	12/1/96	3443	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	CONDO	12/1/96	3444	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	X	XX	12/1/96	3445	    	Just Dresses	-19.99	19.99		C	N
+CHK01	Y	E1	GH	12/1/96	3446	    	Stay-Warm Gas Company	-46.12	46.12		C	N
+CHK01	Y	E1	PH	12/1/96	3447	    	Reach Out Telephone	-30.27	30.27		C	N
+CHK01	Y	X	XX	12/1/96	3448	    	1st National MasterCard	-398.50	398.50		C	N
+CHK01	Y	E1	AU	12/1/96	3449	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E1	PH	12/1/96	3450	    	Cellular Phone Carriers	-27.86	27.86		C	N
+CHK01	Y	X	XX	12/1/96	3451	    	AAA Taxi	-8.00	8.00		C	N
+CHK01	Y	E4	GA	12/3/96	    	SELT	Pump-It Gas	-13.90	13.90		C	N
+CHK01	Y	E4	CA	12/3/96	    	5847	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	X	XX	12/4/96	    	SELT	AAA Taxi	-19.00	19.00		C	N
+CHK01	Y	X	XX	12/5/96	    	SELT	CompuServe	-14.96	14.96		C	N
+CHK01	Y	X	XX	12/8/96	    	SELT	Comfy Inns	-188.07	188.07		C	N
+CHK01	Y	X	XX	12/8/96	    	SELT	CompuServe	-19.71	19.71		C	N
+CHK01	Y	E6	ET	12/9/96	    	SELT	Musak & You	-16.79	16.79		C	N
+CHK01	Y	E4	FO	12/9/96	    	SELT	Come & Shop	-110.24	110.24		C	N
+CHK01	Y	X	XX	12/9/96	    	8086	--- Transfer ---	400.00	-400.00		D	N
+CHK01	Y	E7	AR	12/9/96	    	SELT	Auto Repair Center	-68.33	68.33	Battery	C	N
+CHK01	Y	E8	GF	12/10/96	    	SELT	Office Supplies Warehouse	-12.64	12.64		C	N
+CHK01	Y	E4	CA	12/10/96	    	8087	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	12/13/96	    	SELT	P&Q's Market	-14.06	14.06		C	N
+CHK01	Y	E4	GA	12/13/96	    	SELT	Pump-It Gas	-15.38	15.38		C	N
+CHK01	Y	A	IS	12/14/96	    	PAYR	*** Deposit ***	1498.38	-1498.38		D	N
+CHK01	Y	E1	AI	12/15/96	    	SELT	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	E6	CL	12/16/96	    	SELT	Just Dresses	-9.99	9.99		C	N
+CHK01	Y	E4	FO	12/16/96	    	SELT	Come & Shop	-27.35	27.35		C	N
+CHK01	Y	E4	CA	12/16/96	    	1273	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E7	AR	12/17/96	    	SELT	Lubes-R-Us	-27.89	27.89		C	N
+CHK01	Y	E7	AR	12/20/96	    	SELT	Ron's Auto	-52.00	52.00		C	N
+CHK01	Y	E4	GA	12/20/96	    	SELT	Pump-It Gas	-12.00	12.00		C	N
+CHK01	Y	X	XX	12/20/96	    	SELT	CompuServe	-44.20	44.20		C	N
+CHK01	Y	E4	CA	12/20/96	    	2041	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	GA	12/20/96	    	SELT	Pump-It Gas	-17.58	17.58		C	N
+CHK01	Y	E6	CL	12/24/96	    	SELT	Major Department Store	-101.99	101.99		C	N
+CHK01	Y	E7	EY	12/24/96	    	SELT	Eye Kingdom	-228.95	228.95		C	Y
+CHK01	Y	E4	FO	12/24/96	    	SELT	P&Q's Market	-101.10	101.10		C	N
+CHK01	Y	E7	PT	12/24/96	    	SELT	Pets for You 	-37.22	37.22		C	N
+CHK01	Y	E7	AR	12/24/96	    	SELT	Auto World Supplies	-35.66	35.66	Wax, etc.	C	N
+CHK01	Y	X	XX	12/24/96	    	SELT	CompuServe	-28.82	28.82		C	N
+CHK01	Y	E4	GA	12/26/96	    	SELT	Pump-It Gas	-15.33	15.33		C	N
+CHK01	Y	A	II	12/26/96	    	    	*** Interest ***	1.41	-1.41		D	N
+CHK01	Y	E4	GA	12/27/96	    	SELT	Pump-It Gas	-10.00	10.00		C	N
+CHK01	Y	E3	BC	12/27/96	    	    	Bank Service Fee	-1.00	1.00		W	N
+CHK01	Y	E7	AR	12/29/96	    	SELT	Speedy Car Rental	-52.78	52.78		C	N
+CHK01	Y	E4	CA	12/30/96	    	4899	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	A	IS	12/30/96	    	PAYR	--- Deposit ---	1489.65	-1489.65		D	N
+CHK01	Y	E5	ME	1/1/97	3459	    	Dr.Stick-Em M.D.	-18.00	18.00		C	Y
+CHK01	Y	E1	CONDO	1/1/97	3460	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	1/1/97	3461	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	Y	E1	GH	1/1/97	3462	    	Stay-Warm Gas Company	-28.24	28.24		C	N
+CHK01	Y	E1	PH	1/1/97	3463	    	Reach Out Telephone	-32.91	32.91		C	N
+CHK01	Y	E1	PH	1/1/97	3464	    	Cellular Phone Carriers	-34.87	34.87		C	N
+CHK01	Y	E7	HG	1/1/97	    	SELT	Bath Merchants	-60.86	60.86	Sheets	C	N
+CHK01	Y	E1	WS	1/1/97	3453	    	Water/Sewer Dept.	-51.55	51.55		C	N
+CHK01	Y	E1	EC	1/1/97	3454	    	Bright Electric Light Plant	-61.73	61.73		C	N
+CHK01	Y	X	XX	1/1/97	3456	    	Fashion World	-57.48	57.48		C	N
+CHK01	Y	X	XX	1/1/97	3458	    	Discover	-87.71	87.71		C	N
+CHK01	Y	E4	GA	1/2/97	    	SELT	Pump-It Gas	-18.48	18.48		C	N
+CHK01	Y	E6	CL	1/3/97	    	SELT	Fashion World	-29.98	29.98	Tops	C	N
+CHK01	Y	E6	CL	1/3/97	    	SELT	U-Save-With-Us	-19.87	19.87		C	N
+CHK01	Y	E4	FO	1/4/97	    	SELT	P&Q's Market	-19.31	19.31		C	N
+CHK01	Y	E5	ME	1/6/97	    	SELT	Brown's Pharmacy	-9.10	9.10		C	Y
+CHK01	Y	E4	CA	1/7/97	    	6411	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	1/8/97	    	SELT	P&Q's Market	-58.60	58.60		C	N
+CHK01	Y	E4	GA	1/8/97	    	SELT	Pump-It Gas	-16.76	16.76		C	N
+CHK01	Y	E7	CO	1/8/97	    	SELT	Home Builder's Warehouse	-48.28	48.28	Wicker Table	C	N
+CHK01	Y	E9	HF	1/9/97	    	SELT	D.W.T.	-6.28	6.28		C	N
+CHK01	Y	X	XX	1/9/97	    	7271	--- Transfer ---	250.00	-250.00		D	N
+CHK01	Y	E4	CA	1/10/97	    	7272	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	1/13/97	    	SELT	Pump-It Gas	-16.72	16.72		C	N
+CHK01	Y	E1	AU	1/13/97	3457	    	Big Bank N.A.	-283.65	283.65		C	N
+CHK01	Y	E7	HG	1/14/97	    	SELT	Home Builder's Warehouse	-30.86	30.86	Plants	C	N
+CHK01	Y	E1	AI	1/15/97	    	AUTO	Fender-Bender Auto Insurance	-88.00	88.00		C	N
+CHK01	Y	A	IS	1/15/97	    	PAYR	--- Deposit ---	1634.64	-1634.64		D	N
+CHK01	Y	E4	GA	1/16/97	    	SELT	Pump-It Gas	-17.00	17.00		C	N
+CHK01	Y	E4	CA	1/16/97	    	231	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E7	AR	1/17/97	3465	    	Bourget Garage	-35.00	35.00		C	N
+CHK01	Y	E4	GA	1/17/97	    	SELT	Pump-It Gas	-11.67	11.67		C	N
+CHK01	Y	E4	GA	1/19/97	    	SELT	Pump-It Gas	-14.45	14.45		C	N
+CHK01	Y	E7	BS	1/20/97	    	SELT	Office Supplies Warehouse	-42.98	42.98		C	N
+CHK01	Y	E4	FO	1/20/97	    	SELT	P&Q's Market	-51.51	51.51		C	N
+CHK01	Y	E7	AR	1/21/97	    	SELT	Ron's Auto	-163.34	163.34		C	N
+CHK01	Y	E7	AR	1/21/97	    	SELT	Speedy Car Rental	-79.02	79.02		C	N
+CHK01	Y	E4	CA	1/21/97	    	1704	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	GA	1/21/97	    	SELT	Pump-It Gas	-19.02	19.02		C	N
+CHK01	Y	E4	CA	1/24/97	    	2590	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	FO	1/25/97	    	SELT	P&Q's Market	-22.52	22.52		C	N
+CHK01	Y	X	XX	1/25/97	    	SELT	CompuServe	-6.40	6.40		C	N
+CHK01	Y	A	II	1/25/97	    	    	*** Interest ***	1.57	-1.57		D	N
+CHK01	Y	E3	BC	1/26/97	    	    	Bank Monthly Fee	-1.00	1.00		W	N
+CHK01	Y	E4	GA	1/26/97	    	SELT	Pump-It Gas	-17.17	17.17		C	N
+CHK01	Y	E4	CA	1/28/97	    	3855	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	1/29/97	    	SELT	P&Q's Market	-10.26	10.26		C	N
+CHK01	Y	E4	GA	1/29/97	    	SELT	Pump-It Gas	-15.45	15.45		C	N
+CHK01	Y	A	IS	1/31/97	    	PAYR	--- Deposit ---	1634.64	-1634.64		D	N
+CHK01	Y	E1	MG	2/1/97	3466	    	Pay-Me-First Mortgage Corp.	-822.62	822.62		C	N
+CHK01	Y	E1	CONDO	2/1/97	3467	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	GH	2/1/97	3468	    	Stay-Warm Gas Company	-25.40	25.40		C	N
+CHK01	Y	E1	PH	2/1/97	3469	    	Reach Out Telephone	-63.69	63.69		C	N
+CHK01	Y	E7	AR	2/1/97	    	SELT	Speedy Car Rental	26.24	-26.24		C	N
+CHK01	Y	E1	EC	2/1/97	3470	    	Bright Electric Light Plant	-82.90	82.90		C	N
+CHK01	Y	E4	CA	2/1/97	    	4928	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E9	BE	2/2/97	    	SELT	It's You Hair Salon	-15.00	15.00		C	N
+CHK01	Y	E4	FO	2/3/97	    	SELT	P&Q's Market	-43.52	43.52		C	N
+CHK01	Y	X	XX	2/4/97	    	    	CompuServe	-35.50	35.50		C	N
+CHK01	Y	E6	CL	2/5/97	    	SELT	Major Department Store	-34.58	34.58		C	N
+CHK01	Y	E4	GA	2/5/97	    	SELT	Pump-It Gas	-17.09	17.09		C	N
+CHK01	Y	E6	ET	2/6/97	    	SELT	Musak & You	-17.83	17.83	Tape / Storage Case	C	N
+CHK01	Y	E6	CL	2/6/97	    	SELT	Fashion World	-23.00	23.00	Dress	C	N
+CHK01	Y	E7	AR	2/7/97	    	SELT	Pump-It Gas	-5.00	5.00	Brake Light	C	N
+CHK01	Y	E4	CA	2/8/97	    	6820	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	X	XX	2/9/97	    	7248	--- Deposit ---	78.87	-78.87		D	N
+CHK01	Y	E4	GA	2/9/97	    	SELT	Pump-It Gas	-16.17	16.17		C	N
+CHK01	Y	E6	CL	2/12/97	    	SELT	Major Department Store	-28.09	28.09	Wallet	C	N
+CHK01	Y	E8	GF	2/12/97	    	SELT	Cable-Vision	-39.95	39.95		C	N
+CHK01	Y	X	XX	2/12/97	8058	    	--- Deposit ---	72.30	-72.30		D	N
+CHK01	Y	E4	CA	2/12/97	    	7944	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	CA	2/12/97	    	7945	--- Withdrawal ---	-80.00	80.00		W	N
+CHK01	Y	E1	PH	2/15/97	3472	    	Cellular Phone Carriers	-49.46	49.46		C	N
+CHK01	Y	E4	GA	2/15/97	    	SELT	Pump-It Gas	-17.75	17.75		C	N
+CHK01	Y	E1	AI	2/15/97	    	AUTO	Fender-Bender Auto Insurance	-77.20	77.20		C	N
+CHK01	Y	A	IS	2/15/97	    	PAYR	--- Deposit ---	1634.65	-1634.65		D	N
+CHK01	Y	E5	ME	2/16/97	3473	    	Ronald Sayah M.D.	-17.70	17.70		C	Y
+CHK01	Y	X	XX	2/18/97	3475	    	*** VOID ***	0	0		C	N
+CHK01	Y	X	XX	2/18/97	3476	    	Fashion World	-0.84	0.84		C	N
+CC02	Y	E6	CL	2/19/97	    	    	Jeans, Etc.	22.07	22.07		C	N
+CHK01	Y	E7	HG	2/19/97	    	SELT	Frames-R-Us	-88.15	88.15		C	N
+CHK01	Y	E3	BC	2/20/97	    	444	Bank Service Fee	-1.50	1.50		W	N
+CHK01	Y	E4	CA	2/20/97	    	444	--- Withdrawal ---	-20.00	20.00		W	N
+CHK01	Y	E4	GA	2/21/97	    	SELT	Pump-It Gas	-20.00	20.00		C	N
+CHK01	Y	E4	CA	2/21/97	    	1339	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	FO	2/24/97	    	SELT	P&Q's Market	-10.73	10.73		C	N
+CHK01	Y	A	II	2/25/97	    	    	*** Interest ***	1.97	-1.97		D	N
+CHK01	Y	E7	CO	2/26/97	    	SELT	Home Builder's Warehouse	-14.62	14.62		C	N
+CHK01	Y	E7	CO	2/26/97	    	SELT	Home Builder's Warehouse	-7.79	7.79		C	N
+CHK01	Y	E4	FO	2/27/97	    	SELT	P&Q's Market	-94.41	94.41		C	N
+CHK01	Y	E4	CA	2/27/97	    	3181	--- Withdrawal ---	-40.00	40.00		W	N
+CHK01	Y	E4	GA	2/27/97	    	SELT	Pump-It Gas	-20.00	20.00		C	N
+CHK01	Y	E7	HG	2/28/97	    	SELT	Frames-R-Us	-19.90	19.90	Picture Frame	C	N
+CHK01	Y	E7	CO	2/28/97	    	SELT	Home Builder's Warehouse	-18.48	18.48		C	N
+CHK01	Y	E3	BC	2/28/97	    	    	Bank Monthly Fee	-1.00	1.00		W	N
+CHK01	Y	A	IS	2/28/97	    	PAYR	--- Deposit ---	1634.64	-1634.64		D	N

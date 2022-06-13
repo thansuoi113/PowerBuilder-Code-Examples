@@ -1,0 +1,11 @@
+[nameserver]
+application=pbnameserver
+driver=winsock
+userid=
+pwrd=
+
+[settings]
+polling=3
+scanning=6
+selectionfilter=connections < max_connections
+selectionsort=connections A, machine_load A, priority D

@@ -1,0 +1,206 @@
+<PUBLIC:COMPONENT>
+<PUBLIC:ATTACH EVENT="ondocumentready"  ONEVENT="DoModifyMenu()" />
+<PUBLIC:ATTACH EVENT="onfocusout" ONEVENT="SetHideFlag()" />
+<PUBLIC:ATTACH EVENT="onmouseup" FOR="document" ONEVENT="HidePopmenu()" />
+
+<SCRIPT LANGUAGE="JScript">
+	var IsFocusOut = false;
+	function SetHideFlag()
+	{
+		if(element.IsPopupMenu == "true")
+		{
+			IsFocusOut = true;
+		}
+	}
+
+	function HidePopmenu()
+	{
+		if(IsFocusOut)
+		{
+			element.style.visibility = "hidden";
+		}
+	}
+	
+	function DoModifyMenu()
+	{
+		if(element.IsPopupMenu == "true") element.all.tags("table")[0].focus(); //let the popup menu get focus.
+		
+		stabilizeFont();
+		//addTitleBar();
+		modifyBreakLine();
+		modifyMenubar();
+		//ExtendLink(); 
+		adjustCheckedItem();
+	}
+	
+	//Extend the effective click area to the whole TD instead of the text
+	//by exchange the position of TD and A  in document hieracy
+	function ExtendLink()
+	{
+		var anchors = element.all.tags("A");
+		var table;
+		var td;
+		var a;
+		var o;
+		var innerHTML;
+		if (anchors!=null)
+		{
+			var i;
+			for (i=0; i<anchors.length; i++) 
+			{
+				a = anchors[i];
+				td = a.parentNode;
+				if(td.tagName.toLowerCase() == "td")
+				{
+					//tr = td.parentNode;
+					//tr.innerHTML = "<a >" + tr.innerHTML + "</a>";
+					//tr.innerHTML = "<td><a>a</a></td>";
+					//td.onclick = a.href.replace("javascript:","");
+					//td.onmouseover = "alert('aa')";
+					//td.innerHTML = "aaa";
+					//table = td.parentNode.parentNode.parentNode;
+					 //if(i<3) alert(td.parentNode.parentNode.parentNode.tagName);
+					 //a.href = "javascript:alert('a')";
+					 //table.onclick = "alert('click')";
+					 //o = td.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+					 //o.onmousedown = "alert('click')";
+					 //if(i<2) alert(o.tagName + o.onmousedown);
+					 a.onmousedown = "alert('click')";
+				}
+			}
+		}
+	}
+	
+	//disable the inline "font-size=1em" style for <A> to avoid that the font size which set by PB menu painter can't take effect.
+	function stabilizeFont()
+	{
+		if (typeof(g_IEMenuAsync) == 'undefined')
+		{
+			var anchors = element.all.tags("A");
+			
+			if (anchors!=null)
+			{
+				for (i=0; i<anchors.length; i++) 
+					anchors[i].style.fontSize="";
+			}
+		}
+	}
+
+	function adjustCheckedItem()
+	{
+		var menuGroups = element.all.tags("div");
+		var group;
+		var i;
+		var j;
+		if (menuGroups!=null)
+		{
+			for (i=-1; i<menuGroups.length; i++) 
+			{
+				if(i == -1) // for popup menu, the root menu item should be treat as sub menu item
+				{
+					if(element.IsPopupMenu == "true")
+					{
+						group = element.all.tags("table")[0];
+					}
+					else
+						continue;
+				}
+				else
+				{
+					group = menuGroups[i];
+				}
+				
+				if(group.id != "" &&  group.className.indexOf("SubGroup") != -1)
+				{
+					var spans = group.all.tags("span");
+					if (spans!=null)
+					{
+						for (j=0; j<spans.length; j++) 
+						{				
+							var span = spans[j];
+							if(span.checked != "true")
+								span.parentNode.parentNode.style.paddingLeft = "15px";   //span.a.td
+						}
+					}
+				}
+			} 
+		}
+	}
+
+	//Add sub menu title bar and image bar
+	function addTitleBar()
+	{
+		var menuGroups = element.all.tags("div");
+		var group;
+		var i;
+		if (menuGroups!=null)
+		{
+			for (i=0; i<menuGroups.length; i++) 
+			{
+				group = menuGroups[i];
+				
+				if(group.id != "" &&  group.className.indexOf("SubGroup") != -1)
+				{
+//				    var rows = group.children(0).children(0).children; //div.table.tbody.children
+//				    for(j=0; j<rows.length; j++)
+//				    {
+//				        var tr = rows.item(j);
+//    				    //if(i==0 && j==0) alert(tr.outerHTML);
+//    				    var td = tr.insertCell(0);
+//    				    td.innerHTML = tr.cells(1).innerHTML;
+//    				    td.bgcolor = "red";
+//				    }
+                    var submenuTable = group.children(0);
+					//group.innerHTML = "<table cellspacing=0 class='ContemporaryMenuExtension' ><tr><td bgcolor=red><table style='FILTER: progid:DXImageTransform.Microsoft.BasicImage(Rotation=3);'><tr><td>abc</td></tr></table></td><td>" + group.innerHTML + "</td></tr></table>";
+					group.innerHTML = "<table cellspacing=0 class='ContemporaryMenuExtension' ><tr><td bgcolor=red><table style='FILTER: progid:DXImageTransform.Microsoft.BasicImage(Rotation=3);'><tr><td>abc</td></tr></table></td><td>" + GenImageTable(submenuTable) + "</td><td>" + group.innerHTML + "</td></tr></table>";
+				}
+			} 
+		}
+	}
+	
+	function GenImageTable(submenuTable)
+	{
+	    //alert(submenuTable.outerHTML);
+	    var tableHTML;
+	    tableHTML = "<table>";
+	    var i;
+	    for(i=0; i<submenuTable.rows.length; i++)
+	    {
+	        tableHTML += "<tr><td>1</td><tr>";
+	    }
+	    tableHTML += "</table>";
+	    return tableHTML;
+	}
+	
+	function modifyBreakLine()
+	{
+		var imgs = element.all.tags("img");
+		var breakLine;
+		if (imgs!=null)
+		{
+			for (i=0; i<imgs.length; i++) 
+			{
+				breakLine = imgs[i];
+				
+				if(breakLine.src.indexOf("break.gif") != -1)
+				{
+					breakLine.style.width = "100%";
+					breakLine.style.height = "2";
+				}
+			} 
+		}
+	}
+	function modifyMenubar()
+	{
+		var menubarDiv = element;
+		var menubarTable = menubarDiv.all.tags("table")[0];
+		if (menubarTable)
+		{
+			menubarDiv.runtimeStyle.cursor = menubarTable.currentStyle.cursor;
+			menubarDiv.runtimeStyle.backgroundColor = menubarTable.currentStyle.backgroundColor;
+			menubarDiv.runtimeStyle.width = "100%";
+		}
+	}
+
+</SCRIPT>
+</PUBLIC:COMPONENT>

@@ -1,0 +1,525 @@
+forward
+global type m_pbstyle_mst_det_12many from m_pbstyle_sheet_ancestor
+end type
+end forward
+
+
+global type m_pbstyle_mst_det_12many from m_pbstyle_sheet_ancestor 
+end type
+
+
+global m_pbstyle_mst_det_12many m_pbstyle_mst_det_12many
+
+type variables
+datawindow idw_target1
+datawindow idw_target2
+end variables
+
+forward prototypes
+public subroutine setdwobject (datawindow dwname1, datawindow dwname2)
+end prototypes
+
+public subroutine setdwobject (datawindow dwname1, datawindow dwname2);//*-----------------------------------------------------------------*/
+//*    setdwobject function:   Save off the dw objects
+//*-----------------------------------------------------------------*/
+idw_target1 = dwname1
+idw_target2 = dwname2
+end subroutine
+
+on m_pbstyle_mst_det_12many.create
+m_pbstyle_mst_det_12many=this
+call super::create
+end on
+
+on m_pbstyle_mst_det_12many.destroy
+call super::destroy
+end on
+
+type m_file from m_pbstyle_sheet_ancestor`m_file within m_pbstyle_mst_det_12many 
+end type
+
+
+
+on m_file.create
+call super::create
+end on
+
+on m_file.destroy
+call super::destroy
+end on
+
+type m_close from m_pbstyle_sheet_ancestor`m_close within m_file 
+end type
+
+
+
+on m_close.create
+call super::create
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+type m_dash1 from m_pbstyle_sheet_ancestor`m_dash1 within m_file 
+end type
+
+
+
+on m_dash1.create
+call super::create
+this.visible = false
+end on
+
+on m_dash1.destroy
+call super::destroy
+end on
+
+type m_saverowsas from m_pbstyle_sheet_ancestor`m_saverowsas within m_file 
+end type
+
+
+
+on m_saverowsas.create
+call super::create
+this.visible = false
+end on
+
+on m_saverowsas.destroy
+call super::destroy
+end on
+
+type m_dash2 from m_pbstyle_sheet_ancestor`m_dash2 within m_file 
+end type
+
+
+
+on m_dash2.create
+call super::create
+end on
+
+on m_dash2.destroy
+call super::destroy
+end on
+
+type m_print from m_pbstyle_sheet_ancestor`m_print within m_file 
+end type
+
+
+
+on m_print.create
+call super::create
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+type m_printsetup from m_pbstyle_sheet_ancestor`m_printsetup within m_file 
+end type
+
+
+
+on m_printsetup.create
+call super::create
+end on
+
+on m_printsetup.destroy
+call super::destroy
+end on
+
+type m_exitseparator from m_pbstyle_sheet_ancestor`m_exitseparator within m_file 
+end type
+
+
+
+on m_exitseparator.create
+call super::create
+end on
+
+on m_exitseparator.destroy
+call super::destroy
+end on
+
+type m_exit from m_pbstyle_sheet_ancestor`m_exit within m_file 
+end type
+
+
+
+on m_exit.create
+call super::create
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+type m_edit from m_pbstyle_sheet_ancestor`m_edit within m_pbstyle_mst_det_12many 
+end type
+
+
+
+on m_edit.create
+call super::create
+end on
+
+on m_edit.destroy
+call super::destroy
+end on
+
+event m_edit::clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Set the current DataWindow
+//*-----------------------------------------------------------------*/
+integer li_SelectedLength 
+
+// First one have focus? 
+If GetFocus ( ) = idw_target1 Then 
+	// Yes, make it current
+	idw_target = idw_target1
+Else
+	// No, make second one current
+	idw_target = idw_target2
+End If
+
+call super::clicked
+end event
+
+type m_undo from m_pbstyle_sheet_ancestor`m_undo within m_edit 
+end type
+
+
+
+on m_undo.create
+call super::create
+end on
+
+on m_undo.destroy
+call super::destroy
+end on
+
+type m_dash3 from m_pbstyle_sheet_ancestor`m_dash3 within m_edit 
+end type
+
+
+
+on m_dash3.create
+call super::create
+end on
+
+on m_dash3.destroy
+call super::destroy
+end on
+
+type m_cut from m_pbstyle_sheet_ancestor`m_cut within m_edit 
+end type
+
+
+
+on m_cut.create
+call super::create
+end on
+
+on m_cut.destroy
+call super::destroy
+end on
+
+type m_copy from m_pbstyle_sheet_ancestor`m_copy within m_edit 
+end type
+
+
+
+on m_copy.create
+call super::create
+end on
+
+on m_copy.destroy
+call super::destroy
+end on
+
+type m_paste from m_pbstyle_sheet_ancestor`m_paste within m_edit 
+end type
+
+
+
+on m_paste.create
+call super::create
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+type m_clear from m_pbstyle_sheet_ancestor`m_clear within m_edit 
+end type
+
+
+
+on m_clear.create
+call super::create
+end on
+
+on m_clear.destroy
+call super::destroy
+end on
+
+type m_data from m_pbstyle_sheet_ancestor`m_data within m_pbstyle_mst_det_12many 
+end type
+
+
+
+on m_data.create
+call super::create
+end on
+
+on m_data.destroy
+call super::destroy
+end on
+
+event m_data::clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Set the current DataWindow
+//*-----------------------------------------------------------------*/
+// First one have focus? 
+If GetFocus ( ) = idw_target1 Then 
+	// Yes, make it current
+	idw_target = idw_target1
+Else
+	// No, make second one current
+	idw_target = idw_target2
+End If
+
+call super::clicked
+end event
+
+type m_specifycriteria from m_pbstyle_sheet_ancestor`m_specifycriteria within m_data 
+end type
+
+
+
+on m_specifycriteria.create
+call super::create
+end on
+
+on m_specifycriteria.destroy
+call super::destroy
+end on
+
+type m_applycriteria from m_pbstyle_sheet_ancestor`m_applycriteria within m_data 
+end type
+
+
+
+on m_applycriteria.create
+call super::create
+end on
+
+on m_applycriteria.destroy
+call super::destroy
+end on
+
+type m_retrieve from m_pbstyle_sheet_ancestor`m_retrieve within m_data 
+end type
+
+
+
+on m_retrieve.create
+call super::create
+end on
+
+on m_retrieve.destroy
+call super::destroy
+end on
+
+type m_dash4 from m_pbstyle_sheet_ancestor`m_dash4 within m_data 
+end type
+
+
+
+on m_dash4.create
+call super::create
+end on
+
+on m_dash4.destroy
+call super::destroy
+end on
+
+type m_getfirst from m_pbstyle_sheet_ancestor`m_getfirst within m_data 
+end type
+
+
+
+on m_getfirst.create
+call super::create
+end on
+
+on m_getfirst.destroy
+call super::destroy
+end on
+
+type m_getprior from m_pbstyle_sheet_ancestor`m_getprior within m_data 
+end type
+
+
+
+on m_getprior.create
+call super::create
+end on
+
+on m_getprior.destroy
+call super::destroy
+end on
+
+type m_getnext from m_pbstyle_sheet_ancestor`m_getnext within m_data 
+end type
+
+
+
+on m_getnext.create
+call super::create
+end on
+
+on m_getnext.destroy
+call super::destroy
+end on
+
+type m_getlast from m_pbstyle_sheet_ancestor`m_getlast within m_data 
+end type
+
+
+
+on m_getlast.create
+call super::create
+end on
+
+on m_getlast.destroy
+call super::destroy
+end on
+
+type m_dash5 from m_pbstyle_sheet_ancestor`m_dash5 within m_data 
+end type
+
+
+
+on m_dash5.create
+call super::create
+end on
+
+on m_dash5.destroy
+call super::destroy
+end on
+
+type m_delete from m_pbstyle_sheet_ancestor`m_delete within m_data 
+end type
+
+
+
+on m_delete.create
+call super::create
+end on
+
+on m_delete.destroy
+call super::destroy
+end on
+
+type m_insert from m_pbstyle_sheet_ancestor`m_insert within m_data 
+end type
+
+
+
+on m_insert.create
+call super::create
+end on
+
+on m_insert.destroy
+call super::destroy
+end on
+
+type m_update from m_pbstyle_sheet_ancestor`m_update within m_data 
+end type
+
+
+
+on m_update.create
+call super::create
+end on
+
+on m_update.destroy
+call super::destroy
+end on
+
+type m_dash6 from m_pbstyle_sheet_ancestor`m_dash6 within m_data 
+end type
+
+
+
+on m_dash6.create
+call super::create
+end on
+
+on m_dash6.destroy
+call super::destroy
+end on
+
+type m_import from m_pbstyle_sheet_ancestor`m_import within m_data 
+end type
+
+
+
+on m_import.create
+call super::create
+this.visible = false
+end on
+
+on m_import.destroy
+call super::destroy
+end on
+
+type m_cancelchanges from m_pbstyle_sheet_ancestor`m_cancelchanges within m_data 
+end type
+
+
+
+on m_cancelchanges.create
+call super::create
+end on
+
+on m_cancelchanges.destroy
+call super::destroy
+end on
+
+type m_window from m_pbstyle_sheet_ancestor`m_window within m_pbstyle_mst_det_12many 
+end type
+
+
+
+on m_window.create
+call super::create
+end on
+
+on m_window.destroy
+call super::destroy
+end on
+
+type m_help from m_pbstyle_sheet_ancestor`m_help within m_pbstyle_mst_det_12many 
+end type
+
+
+
+on m_help.create
+call super::create
+end on
+
+on m_help.destroy
+call super::destroy
+end on
+
+type m_about from m_pbstyle_sheet_ancestor`m_about within m_help 
+end type
+
+
+on m_about.create
+call super::create
+end on
+
+on m_about.destroy
+call super::destroy
+end on

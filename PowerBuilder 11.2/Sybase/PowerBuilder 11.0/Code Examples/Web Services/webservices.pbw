@@ -1,0 +1,10 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "ws.pbt";
+ 1 "ws_webform.pbt";
+ 2 "ws_winform.pbt";
+@end;
+DefaultTarget "ws.pbt";
+DefaultRemoteTarget "ws.pbt";

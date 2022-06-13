@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<link href="xp.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+</object>
+</body>
+</html>
+<script language="JavaScript">
+<!--
+var width = screen.availWidth;
+var height = screen.availHeight;
+
+function OpenMainPage()
+{
+	var newWindow = null;
+
+	try
+	{
+		window.moveTo(0, 0);
+		window.resizeTo(width, height);
+
+		var argList = "clientWidth=" + document.body.clientWidth + "&clientHeight=" + document.body.clientHeight;
+		if (document.location.search != "")
+		{
+			argList = document.location.search + "&" + argList;
+		}
+		else
+		{
+			argList = "?" + argList;
+		}
+
+		newWindow = window.open("default.aspx" + argList, "_blank",
+		"resizable=1,status=1,menubar=0,location=0,toolbar=0,left=0,top=0,width="
+		+ width + ",height=" + height);
+
+		if (newWindow)
+		{
+			newWindow.moveTo(0, 0);
+			newWindow.resizeTo(width, height);
+			var version = navigator.appVersion;
+			if (version.indexOf("MSIE 7") != -1 || version.indexOf("MSIE 8") != -1)
+			{
+				window.opener='X'; 
+				window.open('','_parent',''); 
+				window.close();
+			}
+			else
+			{
+			    window.opener = top;
+			    window.close();
+			}
+		}
+	}
+	catch (ex)
+	{
+		newWindow = null;
+	}
+
+	return newWindow;
+}
+
+var newWindow = OpenMainPage();
+if (newWindow == null)
+{
+	document.write("A pop-up blocker is on. To view the Web page, turn off the pop-up blocker or click <a href='javascript:void(OpenMainPage())'>here</a>.");
+}
+//-->
+</script>

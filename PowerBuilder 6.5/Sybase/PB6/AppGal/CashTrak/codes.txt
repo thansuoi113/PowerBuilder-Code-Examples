@@ -1,0 +1,103 @@
+ACCT	CC01	1st National MasterCard	500.00	1234-5678-1234-5678
+ACCT	CC02	Fashion World	22.07	1235-5689
+ACCT	CC03	House of Stephan	0	006789-5
+ACCT	CC04	Major Department Store	523.25	0288-698-566
+ACCT	CC07	Brand-Name Retailers	0	125/2-6694
+ACCT	CC11	Discover	0	9876-5432-9876-5432
+ACCT	CHK01	1st National Checking	4476.00	07125-5636
+ACCT	LOAN01	1st National Auto Loan	11622.35	0039-4990-299
+ACCT	LOAN02	Pay-Me-First Mortgage Corp.	105000.00	178879-2
+ACCT	SAV01	1st National Savings	76499.00	07125-5636
+ACCT	SAV02	1st National CD's	0	0569-2252
+ACCT	SAV03	1st National IRA	45000.00	12-55*98
+EXP1	A	Income	0	
+EXP1	E1	Monthly Budget	0	
+EXP1	E3	Fees & Taxes	0	
+EXP1	E4	Food, Gas & Cash	0	
+EXP1	E5	Medical / Dental	0	
+EXP1	E6	Non-Essential Extras	0	
+EXP1	E7	UnPlanned	0	
+EXP1	E8	Gifts / Charities	0	
+EXP1	E9	Personal Fitness	0	
+EXP1	INT	Interest Paid	0	
+EXP1	X	Exclude	0	
+EXP2	AF	Auto Fees	0	
+EXP2	AI	Auto Insurance	0	
+EXP2	AR	Auto Repairs	0	
+EXP2	AU	Auto Loan	0	
+EXP2	BC	Bank Fees	0	
+EXP2	BE	Beauty Supplies	0	
+EXP2	BS	Business Supplies	0	
+EXP2	CA	Cash	0	
+EXP2	CH	Charities	0	
+EXP2	CINT	Credit Card Interest	0	
+EXP2	CL	Clothing	0	
+EXP2	CO	Home Maintenance	0	
+EXP2	CONDO	Condo Fee	0	
+EXP2	DE	Dental Care	0	
+EXP2	EC	Electric	0	
+EXP2	ET	Entertainment	0	
+EXP2	EY	Eye Care / Glasses	0	
+EXP2	FO	Food	0	
+EXP2	FTAX	Federal Income Taxes	0	
+EXP2	GA	Gasoline	0	
+EXP2	GF	Gifts	0	
+EXP2	GH	Gas Heat	0	
+EXP2	HF	Health + Fitness	0	
+EXP2	HG	Home Goods	0	
+EXP2	HI	Home Insurance	0	
+EXP2	IE	Investment Expense / Fee	0	
+EXP2	II	Income - Interest	0	
+EXP2	IO	Income - Other	0	
+EXP2	IS	Income - Salary	0	
+EXP2	ME	Medical Care	0	
+EXP2	MG	Mortgage + Taxes	0	
+EXP2	PH	Phone	0	
+EXP2	PT	Pet Care	0	
+EXP2	STAX	State Income Taxes	0	
+EXP2	VC	Vacation	0	
+EXP2	WS	Water/Sewer	0	
+EXP2	XX	Exclude from Analysis	0	
+NAME	BALL	Richard Hurtz D.D.S.	0	002-15566566566250
+NAME	BANC	Pay-Me-First Mortgage Corp.	0	
+NAME	BRAD	Discount Warehouse	0	
+NAME	BRESS	Ronald Sayah M.D.	0	
+NAME	CALD	U-Save-With-Us	0	
+NAME	CELLN	Cellular Phone Carriers	0	987-65-4321
+NAME	CGAS	Stay-Warm Gas Company	0	
+NAME	CITI	1st National MasterCard	0	85856445
+NAME	COMPU	CompuServe	0	
+NAME	CTS	Things-R-Us	0	
+NAME	CWT	Major Department Store	0	
+NAME	DEP	*** Deposit ***	0	
+NAME	DISC	Discover	0	
+NAME	EDW	P&Q's Market	0	
+NAME	ELEC	Bright Electric Light Plant	0	779115-6
+NAME	FARMS	Home Sweet Home Condo Trust	0	
+NAME	FBARN	Fashion World	0	
+NAME	FBUG	Just Dresses	0	
+NAME	FLEET	1st National Service Fee	0	
+NAME	GT	The Greenery Nursery	0	1255-1155
+NAME	HITM	Lucky You Fashion	0	
+NAME	HOMED	Home Builder's Warehouse	0	
+NAME	INTC	--- Interest Charge ---	0	
+NAME	INTI	*** Interest ***	0	
+NAME	JIFFY	Lubes-R-Us	0	1234-5678-1234-5678
+NAME	LAHEY	Fix-em-up Medical Center	0	
+NAME	LECH	Rondell's Department	0	
+NAME	LL	It's You Hair Salon	0	
+NAME	MARSH	Kingston's	0	
+NAME	MAXX	R.T. Brown's	0	658-488-122-8
+NAME	MET	Fender-Bender Auto Insurance	0	
+NAME	MOBIL	Pump-It Gas	0	
+NAME	NYNX	Reach Out Telephone	0	
+NAME	PAY	--- Payment ---	0	
+NAME	PAYR	Payroll Deduction	0	
+NAME	PETS	Pets for You 	0	
+NAME	PIER1	Elegant Imports	0	
+NAME	S&S	Come & Shop	0	185969-125-128-115-5
+NAME	STAP	Office Supplies Warehouse	0	1255-1155
+NAME	TRANS	--- Transfer ---	0	
+NAME	VOID	*** VOID ***	0	
+NAME	WATER	Water/Sewer Dept.	0	9876-5432-9876-5432
+NAME	WITH	--- Withdrawal ---	0	

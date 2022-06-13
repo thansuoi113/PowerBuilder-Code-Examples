@@ -1,0 +1,53 @@
+:Base Ocs020.HLP
+:Title ObjectCycle Server Help
+1 After Installation
+2 What is ObjectCycle?=idx_what_is_oc
+2 Installed files=Installed_files
+2 System requirements=idx_system_requirements
+2 Selecting a server machine for team development=Selecting_a_server_machine_for_team_development
+2 Quick startup of your server (console mode)=Quick_startup_of_your_server_console_mode
+2 Verifying the server has started=Verifying_the_server_has_started
+2 Technical support=Technical_support
+1 Preparing to Run the ObjectCycle Server
+2 Using the SQL Anywhere 5.5 database (included)=using_sql_anywhere_database
+2 Service mode vs. console mode=Service_mode_vs_console_mode
+2 Windows NT service requirements for ObjectCycle (service mode)=service_requirements
+2 ODBC connections=ODBC_connections
+2 Network protocols=Network_protocols
+2 Server startup options=idx_server_startup_options
+2 What is Retargeting the ObjectCycle Server?=What_is_retargeting
+2 Retargeting to an existing Sybase SQL Anywhere database=retargeting_to_an_existing_sybase_SQL_anywhere_database
+2 Retargeting to an existing Microsoft SQL Server database=retargeting_to_an_existing_Microsoft_SQL_Server_database
+1 Service Mode
+2 Configuring the ObjectCycle Service using Sybase SQL Anywhere=Configuring_the_ObjectCycle_Service
+2 Configuring the ObjectCycle Service using Microsoft SQL Server=Configuring_the_ObjectCycle_Service_1
+2 Running the ObjectCycle Server (service mode)=Running_the_ObjectCycle_Server_service_mode
+2 Stopping an ObjectCycle Server (service mode)=Stopping_an_ObjectCycle_Server_service_mode
+2 Deleting the ObjectCycle Service=Deleting_the_ObjectCycle_Service
+2 Server startup sequence (service mode)=Server_startup_sequence_service_mode
+1 Console Mode
+2 Running the ObjectCycle Server (console mode)=Running_the_ObjectCycle_Server_console_mode
+2 Stopping an ObjectCycle Server (console mode)=Stopping_an_ObjectCycle_Server_console_mode
+2 Server startup sequence (console mode)=Server_startup_sequence_console_mode
+1 Maintenance of Sybase SQL Anywhere
+2 Upgrading a previous database=upgrading_a_previous_database
+2 Backing up the database using a utility=Backing_up_the_database_using_a_utility
+2 Moving the database file=Moving_the_database_file
+2 Changing the datasource password=Changing_the_datasource_password
+1 Troubleshooting for Sybase SQL Anywhere
+2 Server Startup
+3 Working Directory=Working_Directory
+3 Server startup options=idx_server_startup_options
+3 Accessing ODBC DataSource=Accessing_ODBC_DataSource
+3 Allocating connections=Allocating_connections
+3 Registering Name Services (Windows 95/NT machines)=Registering_Name_Services_Windows_95_machines
+3 Registering Name Services (Windows NT service mode)=Registering_Name_Services_Windows_NT_machines
+2 Server Messages
+3 Understanding server messages=Understanding_server_messages
+3 Server messages=Server_mesages
+3 RDBMS not running=RDBMS_not_running
+2 Registry Entries
+3 Working Directory keys=Working_Directory_Keys
+3 ODBC Driver Installation keys (OCBCINST)=ODBC_Driver_Installation_keys_OCBCINST
+3 Preconfigured ODBC DataSource Name keys=Preconfigured_ODBC_DataSource_Name_keys
+3 Environment Path keys=Environment_Path_keys

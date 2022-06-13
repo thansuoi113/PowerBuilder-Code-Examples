@@ -1,0 +1,6 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_pbstyle_grid" BackColor="67108864" Background="#ffece9d8" Center="true" ControlMenu="true" MaxBox="true" MenuName="m_pbstyle_grid" MinBox="true" PBHeight="1384" PBIcon="information!" PBWidth="2866" Resizable="true" TitleBar="true" X="672" Y="264" x:ClassModifier="internal" Uid="16" Height="346" Width="627">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_grid" BorderStyle="stylelowered" LiveScroll="true" PBHScrollBar="true" PBHeight="912" PBVScrollBar="true" PBWidth="2578" TabOrder="10"></pbwpf:DataWindow>
+		<pbwpf:DataWindow Canvas.Left="414" Canvas.Top="235" Height="100" LiveScroll="True" Name="dw_freeform" TabOrder="20" Width="150" PBHeight="400" PBWidth="686" X="1893" Y="940" Border="True" BorderStyle="StyleLowered" Visible="False" />
+	</Canvas>
+</pbwpf:Window>

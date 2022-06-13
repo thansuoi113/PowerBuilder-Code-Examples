@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<link href="xp.css" type="text/css" rel="stylesheet" />
+<script language="JavaScript">
+<!--
+function returnIt()
+{
+  if (parent)
+	{
+    var url = "" + document.URL;
+    var isClose = (url.indexOf('?', 0) > 0);
+
+    if (isClose)
+    {
+      parent.close();
+    }
+    else
+    {
+      parent.PB_HideMask();
+    }
+	}
+	else
+	{
+		window.close();
+	}
+}
+//-->
+</script>
+</head>
+
+<body style="cursor:not-allowed;background-color:transparent">
+<div style="background-color:#ffcc00;font: 14pt bold;">The system is busy, please try later. <a href="javascript:void(returnIt())">Close this message.</a></div>
+</body>
+</html>

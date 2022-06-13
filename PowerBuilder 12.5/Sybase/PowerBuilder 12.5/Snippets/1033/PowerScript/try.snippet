@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>try</Title>
+			<Shortcut>try</Shortcut>
+			<Description>Code snippet for try catch</Description>
+			<Author>Sybase, Inc.</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Exception type</ToolTip>
+          <Default>Exception</Default>
+        </Literal>
+        <Literal>
+          <ID>identifier</ID>
+          <ToolTip>Identifier</ToolTip>
+          <Default>ex</Default>
+        </Literal>
+      </Declarations>
+			<Code Language="PowerScript"><![CDATA[try
+$selected$
+catch ($type$ $identifier$)
+$end$
+end try]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

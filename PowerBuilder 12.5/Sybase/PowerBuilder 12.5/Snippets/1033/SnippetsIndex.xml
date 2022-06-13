@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SnippetCollection>
+    <Language Lang="PowerScript" Guid="{9AAD5A11-F8E4-40ee-9B2A-357EA1DCBE7E}">
+        <SnippetDir>
+            <OnOff>On</OnOff>
+            <Installed>true</Installed>
+            <DirPath>C:\Program Files\Sybase\PowerBuilder 12.5\Snippets\%LCID%\PowerScript\</DirPath>
+            <LocalizedName>PowerScript</LocalizedName>
+        </SnippetDir>
+    </Language>
+</SnippetCollection>
+

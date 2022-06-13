@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+<!--   
+ Uncomment the following section to enable the DSI tracing. Note that the DSI Trace log file name in this section uses a path that is valid on Windows XP and Windows Server 2003.  For Windows Vista or Windows Server 2008, you should change the dsitrace.log file path to:  C:\Users\%CurrentUser%\AppData\Local\Sybase\PowerBuilder 12.0\dsitrace.log.
+-->
+
+<!--
+<configSections>
+   <section name="DSITrace"
+             type="Sybase.PowerBuilder.DataSource.DSITraceConfig, Sybase.PowerBuilder.DataSource,Version=12.0.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a" />
+</configSections>
+
+<DSITrace fileName="C:\Documents and Settings\%CurrentUser%\Local Settings\Application Data\Sybase\PowerBuilder 12.0\dsitrace.log" disableDBITrace="0" showParameters="0" showFetchData="0"/>
+-->
+
+  <appSettings>
+    <!-- The value could be "enabled" or "disabled" -->
+    <add key ="PBTrace" value ="enabled" />
+    <!-- The target can be File, EventLog or File|EventLog -->
+    <add key ="PBTraceTarget" value="File" />
+    <!-- 
+		If the Target is File, PBTraceFileName should also be specified.
+	-->
+	<!-- The level of trace: Critical (default) / SystemFunction -->
+	<add key="PBTraceLevel" value="Critical" />
+    <add key ="PBTraceFileName" value ="PBTrace.log" />
+    <!--
+		EventLogId is optional(0 is default), and it only works when
+		EventLog is enabled
+	-->
+    <add key ="PBEventLogID" value ="1101"/>
+    <!-- Application updater notifier settings -->
+    <!-- The value could be "yes" or "no" -->
+    <add key="UpdateNotifierEnabled"   value="no" />
+    <!-- The tray icon name, must be a valid file name -->
+    <add key="UpdateNotifierIcon"   value="" />
+    <!-- The updater notifier background image name, must be a valid file name -->
+    <add key="UpdateNotifierBackground"   value="" />
+    <!-- The updater notifier form title string -->
+    <add key="UpdateNotifierTitleText"    value="" />
+    <!-- whether to poll for update, could be "yes" or "no" -->
+    <add key="UpdateNotifierIsPollForUpdate" value="no" />
+    <!-- Polling intervals(hour) -->
+    <add key="UpdateNotifierPollingIntervals" value="1" />
+    <!-- Application Name showed in updater notifier -->
+    <add key="UpdateNotifierApplicationName" value="" />
+    <!-- Description of an update -->
+    <add key="UpdateNotifierUpdateDescription" value="" />
+    <add key="UICulture" value="auto" />
+    <add key="Culture" value="auto" />
+	<add key="PBAppIcon" value="$IconPath$" />		
+  </appSettings>
+</configuration>

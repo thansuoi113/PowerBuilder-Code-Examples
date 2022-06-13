@@ -1,0 +1,7 @@
+# The following line must be added to your network
+# SERVICES file.  Please be sure that the TCP/IP 
+# port listed is not currently occupied by another 
+# service.  If this port is in use, please change 
+# the port number listed below to an unused port.
+
+pb_net_examples	10098/tcp 

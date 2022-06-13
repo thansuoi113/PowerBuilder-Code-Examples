@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>PowerBuilder Web Examples</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<P><IMG SRC="pb1.jpg" HEIGHT=60 WIDTH=435> </P>
+
+<H2>PowerBuilder Web Examples</H2>
+
+<P>The following HTML examples demonstrate a Web-enabled Distributed PowerBuilder
+application. For instructions on installing and running these samples,
+please refer to the file runexamp.htm. 
+<HR><B>Examples</B>: </P>
+
+<UL>
+<LI><A HREF="#f_info">Obtaining Environment Information</A> </LI>
+
+<LI><A HREF="#f_get_grid_dw">Returning an HTML DataWindow (string type)</A>
+</LI>
+
+<LI><A HREF="#f_get_grid_dw_manual">Returning an HTML DataWindow (blob
+type)</A> </LI>
+
+<LI><A HREF="#f_retrieve_picture">Returning an Image File (blob)</A> </LI>
+
+<LI><A HREF="#classlib">Using the Web.PB Class Library</A> </LI>
+</UL>
+
+<P>
+<HR><A NAME="f_info"></A></P>
+
+<H3>Obtaining Environment Information</H3>
+
+<TABLE WIDTH="100%" >
+<TR>
+<TH align=right>Object:</TH>
+
+<TD align=left>u_web_examples</TD>
+
+<TH align=right>HTTP Request Method:</TH>
+
+<TD align=left>GET/POST</TD>
+</TR>
+
+<TR>
+<TH align=right>Method:</TH>
+
+<TD align=left>f_info</TD>
+
+<TH align=right>Return Type:</TH>
+
+<TD align=left>string</TD>
+</TR>
+</TABLE>
+
+<P><B>Abstract:</B> </P>
+
+<P>This method requests several CGI, Microsoft API, or Netscape API, environment
+variables and returns them as HTML. Please see the webpb.ini &quot;Keywords&quot;
+section for a list of some the environment variables available. </P>
+
+<P><B>Calling Method:</B> </P>
+
+<P>To call this method, you can click the button for a form-based call
+(POST method) or choose the link (GET method): </P>
+
+<P><FORM Action="/cgi-shl/pbcgi60.exe/idkdemo/u_web_examples/f_info?" Method="POST"><INPUT type=submit value="Get Environment Information"><B>or</B>
+<A HREF="../cgi-shl/pbcgi60.exe/idkdemo/u_web_examples/f_info">Get Environment
+Information</A> </FORM>
+<HR><A NAME="f_get_grid_dw"></A></P>
+
+<H3>Returning an HTML DataWindow</H3>
+
+<TABLE WIDTH="100%" >
+<TR>
+<TH align=right>Object:</TH>
+
+<TD align=left>u_web_examples</TD>
+
+<TH align=right>HTTP Request Method:</TH>
+
+<TD align=left>POST</TD>
+</TR>
+
+<TR>
+<TH align=right>Method:</TH>
+
+<TD align=left>f_get_grid_dw</TD>
+
+<TH align=right>Return Type:</TH>
+
+<TD align=left>String</TD>
+</TR>
+</TABLE>
+
+<P><B>Abstract:</B> </P>
+
+<P>That string is then used to retrieve a grid DataWindow in a DataStore.
+DataStore.Object.DataWindow.data.HTMLTable is called to return the data
+in HTML format. Additional formatting is added and the entire HTML string
+is returned. </P>
+
+<P><B>Calling Method:</B> </P>
+
+<P>To call this method, choose a region, then click the button for a form-based
+call (POST method): </P>
+
+<P><FORM Action="/cgi-shl/pbcgi60.exe/idkdemo/u_web_examples/f_get_grid_dw" Method="POST"><SELECT name = "region" ><OPTION>Canada
+<OPTION SELECTED>Eastern <OPTION>Central <OPTION>Southern <OPTION>Western</SELECT>
+<INPUT type=submit value="Get DataWindow (String)"></FORM></P>
+
+<P>
+<HR><A NAME="f_get_grid_dw_manual"></A></P>
+
+<H3>Returning an HTML DataWindow</H3>
+
+<TABLE WIDTH="100%" >
+<TR>
+<TH align=right>Object:</TH>
+
+<TD align=left>u_web_examples</TD>
+
+<TH align=right>HTTP Request Method:</TH>
+
+<TD align=left>POST</TD>
+</TR>
+
+<TR>
+<TH align=right>Method:</TH>
+
+<TD align=left>f_get_grid_dw_manual</TD>
+
+<TH align=right>Return Type:</TH>
+
+<TD align=left>blob</TD>
+</TR>
+</TABLE>
+
+<P><B>Abstract:</B> </P>
+
+<P>That string is then used to retrieve a grid DataWindow in a DataStore.
+DataStore.Object.DataWindow.data.HTMLTable is called to return the data
+in HTML format. Additional formatting is added and the entire HTML string
+is returned. </P>
+
+<P><B>Calling Method:</B> </P>
+
+<P>To call this method, choose a region, then click the button for a form-based
+call (POST method): </P>
+
+<P><FORM Action="/cgi-shl/pbcgi60.exe/idkdemo/u_web_examples/f_get_grid_dw_manual" Method="POST"><SELECT name = "region" ><OPTION>Canada
+<OPTION SELECTED>Eastern <OPTION>Central <OPTION>Southern <OPTION>Western</SELECT>
+<INPUT type=submit value="Get DataWindow (Blob)"></FORM></P>
+
+<P>
+<HR><A NAME="f_retrieve_picture"></A></P>
+
+<H3>Returning an Image File</H3>
+
+<TABLE WIDTH="100%" >
+<TR>
+<TH align=right>Object:</TH>
+
+<TD align=left>u_web_examples</TD>
+
+<TH align=right>HTTP Request Method:</TH>
+
+<TD align=left>POST</TD>
+</TR>
+
+<TR>
+<TH align=right>Method:</TH>
+
+<TD align=left>f_retrieve_picture</TD>
+
+<TH align=right>Return Type:</TH>
+
+<TD align=left>blob</TD>
+</TR>
+</TABLE>
+
+<P><B>Abstract:</B> </P>
+
+<P>This method accepts an argument of type string. That string is then
+used to retrieve a grid DataWindow in a DataStore. DataStore.Object.DataWindow.data.HTMLTable
+is called to return the data in HTML format. Additional formatting is added
+and the entire HTML string is returned. </P>
+
+<P><B>Calling Method:</B> </P>
+
+<P>To call this method, enter a valid file name, then click the button
+for a form-based call (POST method). <B>Note</B>: The path to the file
+is relative to the location of the Distributed PowerBuilder Application
+(webpbsrv.exe), not this Web page: </P>
+
+<P><FORM Action="/cgi-shl/pbcgi60.exe/idkdemo/u_web_examples/f_retrieve_picture" Method="POST">Filename:
+<INPUT type="text" name="picture_name" value="pb1.jpg"></P>
+
+<P><INPUT type=submit value="Get Picture"></FORM></P>
+
+<P>
+<HR><A NAME="classlib"></A></P>
+
+<H3>Using the Web.PB Class Library</H3>
+
+<TABLE WIDTH="100%" >
+<TR>
+<TH align=right>Object:</TH>
+
+<TD align=left>u_webpbexample</TD>
+
+<TH align=right>HTTP Request Method:</TH>
+
+<TD align=left>POST</TD>
+</TR>
+
+<TR>
+<TH align=right>Method:</TH>
+
+<TD align=left>f_CreateForm, f_ProcessForm, f_DisplayPage</TD>
+
+<TH align=right>Return Type:</TH>
+
+<TD align=left>string</TD>
+</TR>
+</TABLE>
+
+<P><B>Abstract:</B> </P>
+
+<P>This portion of the example application uses many of the features available
+within the Web.PB Class Library. It is a series of pages that demonstrate
+the following: </P>
+
+<UL>
+<LI>How to Dynamically Generate HTML Forms using functions within u_html_form.
+</LI>
+
+<LI>How to Process Form Arguments and generate a logical returning html
+page. </LI>
+
+<LI>How to use u_Session to maintain information about a user that's connected
+to the site. </LI>
+
+<LI>How to use u_Transaction to maintain a transaction across several html
+pages. </LI>
+
+<LI>How to use u_html_template to replace template tags and fill in data.
+</LI>
+</UL>
+
+<P><B>Calling Methods:</B> </P>
+
+<P>The methods are designed to work in conjunction with one another and
+they represent an entire application. </P>
+
+<P>f_CreateForm() is the starting point for the application and it returns
+the HTML Form to allow the end user to choose a department who's employees
+records they want to see. </P>
+
+<P>f_ProcessForm() is the function that is called when the OK button is
+pressed on the form produced by f_CreateForm(). It uses the department
+id returned by the form to retrieve the appropriate Employee records. It
+then establishes a Session for the user for future reference. The records
+need to be displayed across sever HTML pages and therefore the function
+establishes a new Transaction and a new set of Transaction Pages. Then
+this function calls f_DisplayPage() to display back to the user Page 1.
+</P>
+
+<P>f_DisplayPage() is the function that Displays to the user the page that
+is the employee list. It reads in a template file, retrieves the appropriate
+transaction page, converts that transaction page into an html table and
+replaces the Data Tag with the HTML Table. It also replaces the record
+numbers that are being displayed as well as the total number of records.
+Then it adds a Form to the bottom of the page to allow the user to go to
+the next page and prior page depending on which page they're on. </P>
+
+<P><FORM Action="/cgi-shl/pbcgi60.exe/idkdemo/u_webpbexample/f_CreateForm?" Method="POST"><INPUT type=submit value="Begin"></FORM></P>
+
+<P>
+<HR></P>
+
+</BODY>
+</HTML>

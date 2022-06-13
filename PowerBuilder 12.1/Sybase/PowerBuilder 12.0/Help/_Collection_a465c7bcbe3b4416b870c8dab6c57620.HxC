@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpCollection>
+<HelpCollection DTDVersion="1.0" FileVersion="1.0.0.0" LangId="1033" Title="PowerBuilder .NET Help" Id="TOC_pbnethelp">
+    <TOCDef File="_TOC_a465c7bcbe3b4416b870c8dab6c57620.HxT" />
+    <KeywordIndexDef File="_KIndex_a465c7bcbe3b4416b870c8dab6c57620.HxK" />
+    <KeywordIndexDef File="_AIndex_a465c7bcbe3b4416b870c8dab6c57620.HxK" />
+    <KeywordIndexDef File="_FIndex_a465c7bcbe3b4416b870c8dab6c57620.HxK" />
+    <KeywordIndexDef File="_NUrlIndex_a465c7bcbe3b4416b870c8dab6c57620.HxK" />
+    <ItemMoniker Name="!DefaultToc" ProgId="HxDs.HxHierarchy" InitData="" />
+    <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="" />
+    <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A" />
+    <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K" />
+    <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F" />
+    <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="NamedUrl" />
+    <ItemMoniker Name="!SampleInfo" ProgId="HxDs.HxSampleCollection" InitData="" />
+</HelpCollection>

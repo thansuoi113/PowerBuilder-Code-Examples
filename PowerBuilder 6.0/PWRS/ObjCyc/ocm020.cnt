@@ -1,0 +1,106 @@
+:Base c:\\20oc\generic\docs\oc\ocm020.hlp
+:Title ObjectCycle
+1 Team Development Overview
+2 Team development evolution=team_development_evolution
+2 Team development today=Team_Development_Today
+1 ObjectCycle Concepts
+2 What is ObjectCycle=idx_what_is_oc
+2 Client/Server concepts=idx_client_server_concepts
+2 Version control concepts=idx_version_control_concepts
+2 Project organization=Project_Organization
+2 Object Types=Object_Types
+2 The user.ini object=The_user_ini_object
+2 User role concepts=idx_user_role_concepts
+2 ObjectCycle Manager overview=idx_oc_manager_overview
+1 Getting Started Tutorials
+2 Tutorial overview=idx_tutorial_overview
+2 Administrator tutorial=idx_administrator_tutorial
+2 Release manager tutorial=idx_release_manager_tutorial
+2 User tutorial=idx_user_tutorial
+1 Using ObjectCycle Manager
+2 ObjectCycle Manager Framework
+3 ObjectCycle Manager overview=idx_oc_manager_overview
+3 ObjectCycle Manager main window=idx_oc_manager_main_window
+3 Project browsers=idx_project_browsers
+3 Command access=idx_command_access
+2 Command Reference
+3 Toolbars=idx_toolbar_commands
+3 File menu=idx_file_menu
+3 Edit menu=idx_edit_menu
+3 View menu=idx_view_menu
+3 Configure menu=idx_configure_menu
+3 Window menu=idx_window_menu
+3 Popup menus=idx_popups
+1 How Do I?
+2 Perform User's Tasks
+3 Setup
+4 Logon to the ObjectCycle Server=Log_on_to_OCS
+4 Get started=get_started
+4 Add folders=Add_folders
+4 Add objects for the first time=Add_objects_for_the_first_time
+4 Setup a map directory=Setup_a_map_directory
+3 Execute Version Control Operations
+4 Check out an object into a file=check_out_objects_into_files
+4 Get an object into a file=Get_an_object
+4 Set a lock=Set_a_lock
+4 Clear a lock=Clear_a_lock
+4 Check in a file that is not checked out=Check_in_a_file_that_is_not_checked_out
+4 Check in a file to an object=Check_in_a_file_to_an_object
+3 Manage Objects
+4 Determine the user who has checked out an object=determine_the_user_who_has_checked_out_an_object
+4 Determine what's newer: the file or the object=Determine_whats_newer_the_file_or_the_object
+4 Restore an object to an earlier version=Restore_an_object_to_an_earlier_version
+4 Restore files removed from my local drive=Restore_files_removed_from_my_local_drive
+4 Open an additional project=Open_an_additional_project
+4 Copy objects between projects=Move_objects_between_projects
+3 View Objects
+4 View an object's history=View_an_objects_history
+4 View an object's properties=View_an_objects_properties
+4 View a list of objects added since a certain date/time=View_a_list_of_objects_added_since
+3 Set my Preferences
+4 Change my password=change_my_password
+4 Change the toolbar=Change_the_toolbar
+4 Set object view icons=Set_object_view_icons
+2 Perform Administrative Tasks
+3 Setup ObjectCycle for a PowerBuilder 5.0 Project=Setup_objectcycle_for_a_PowerBuilder_project
+3 Add a project=Add_a_project
+3 Set a versionable object to read-only=Set_an_object_to_read_only
+3 Check in a file that is not checked out=Check_in_a_file_that_is_not_checked_out
+3 Setup a mirror directory=Setup_a_mirror_directory
+3 Label a set of objects=Label_a_set_of_objects
+3 Retrieve selected objects from a label object=Retrieve_selected_objects_from_a_label_object
+3 Modify locked objects=Modify_locked_objects
+3 Deploy objects to the codeline=Deploy_objects_to_the_codeline
+3 Destroy objects and folders=Remove_objects_and_folders
+3 Manage users=Manage_users
+1 Working with Powersoft tools
+2 Working with PowerBuilder
+3 Overview
+4 Introduction to working with PowerBuilder=Introduction_to_working_with_PB
+4 Version Compatibility Information=Version_Compatibility_Information
+3 Interfaces
+4 New Common Source Code API (SCC API)=New_common_source_code_API
+4 SCC API Functionality versus Native Functionality=SCC_API_functionality_versus_native_functionality
+4 Connecting via ObjectCycle (PowerBuilder Native Interface)=Connecting_via_objectcycle
+4 Connecting via SCC API (PowerBuilder Common Source Control Interface)=Connecting_via_SCC_API
+3 Library Method
+4 Using the Library method to work with PowerBuilder=Using_the_library_method_to_work_with_PB
+3 Object Method
+4 Using the Object method to work with PowerBuilder=Using_the_object_method_to_work_with_PB
+4 Roles, tools and objects=roles_tools_and_objects
+4 Recommended team development process=Recommended_team_development_process
+4 Setup team development environment=setup_team_development_environment
+4 Shared.pbl and registered.pbl problems and recovery=shared_and_registered_problems_and_recovery
+4 Troubleshooting--Create new release feature=troubleshooting_create_new_release
+2 Working with Optima++
+3 Working with Optima++=Introduction_to_working_with_optima
+1 Working with Microsoft tools
+2 Introduction to working with Microsoft tools=Introduction_to_working_with_MS
+2 Locating the provider .dll=Locating_the_provider_dll
+2 Connecting to the ObjectCycle Server=Connecting_to_objectcycle
+2 Setting up your workspace=setting_up_your_workspace
+2 ObjectCycle: Preferences=ms_node_search_list
+1 Troubleshooting
+2 Network protocols=Network_Protocols
+2 16-bit ObjectCycle incompatible with Windows 95/NT=running
+2 Environment path=Environment_Path

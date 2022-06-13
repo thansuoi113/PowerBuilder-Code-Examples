@@ -1,0 +1,5 @@
+[nameservers]
+servers=3
+nameserver1=winsock,localhost,pbnameserver
+nameserver2=winsock,localhost,pbnameserver2
+nameserver3=winsock,localhost,pbnameserver3

@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<script language="JavaScript">
+<!--
+function checkClose()
+{
+	if (!window.closed)
+	{
+		self.close();
+		setTimeout("checkClose()", 1000);
+	}
+}
+
+var url = "" + document.URL;
+var pos = url.indexOf('?', 0);
+if (pos > 0)
+{
+	window.location.href = decodeURIComponent(url.substring(pos + 1, url.length));
+}
+
+setTimeout("checkClose()", 1000);
+//-->
+</script>
+</head>
+<body>
+</body>
+</html>

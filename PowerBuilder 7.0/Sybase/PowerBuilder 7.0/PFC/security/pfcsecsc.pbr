@@ -1,0 +1,7 @@
+pfcapsrv.pbl(d_pfcsecurity_applookup)
+pfcapsrv.pbl(d_pfcsecurity_controllist)
+pfcapsrv.pbl(d_pfcsecurity_grouplookup)
+pfcapsrv.pbl(d_pfcsecurity_groupverify)
+pfcapsrv.pbl(d_pfcsecurity_templateupdate)
+pfcapsrv.pbl(d_pfcsecurity_userlookup)
+ 

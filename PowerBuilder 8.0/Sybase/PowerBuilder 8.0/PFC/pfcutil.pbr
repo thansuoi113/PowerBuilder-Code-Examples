@@ -1,0 +1,9 @@
+pfcutil.pbl(d_dwproperty_dates)
+pfcutil.pbl(d_dwproperty_srvcal)
+pfcutil.pbl(d_dwproperty_services)
+pfcutil.pbl(d_dwproperty_srvresize)
+pfcutil.pbl(d_dwproperty_multitable)
+pfcutil.pbl(d_dwproperty_linkageargs)
+pfcutil.pbl(d_debuglog)
+pfcutil.pbl(d_sqlspyprint)
+

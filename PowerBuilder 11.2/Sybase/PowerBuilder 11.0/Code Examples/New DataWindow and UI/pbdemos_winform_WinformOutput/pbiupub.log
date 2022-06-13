@@ -1,0 +1,20 @@
+Intelligent Updater Trace output file: C:\Program Files\Sybase\PowerBuilder 11.0\Code Examples\New DataWindow and UI\pbdemos_winform_WinformOutput\pbiupub.log
+---------------------------------
+Information Time: 2007-04-24 14:14:38.5848750
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\PBIU\commands\GenDeployManifest.bat "C:\Program Files\Microsoft.NET\SDK\v2.0\Bin\mage.exe" "c:\program files\sybase\powerbuilder 11.0\code examples\new datawindow and ui\pbdemos_winform_winformoutput\published\1.0.0.1\pbdemos.exe.iu.manifest" "null" false "c:\program files\sybase\powerbuilder 11.0\code examples\new datawindow and ui\pbdemos_winform_winformoutput\published\pbdemos.application" "pbdemos" 1.0.0.1 "http://localhost/pbuidemos/pbdemos.application" null
+---------------------------------
+
+Information Time: 2007-04-24 14:14:40.4755000
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\PBIU\commands\SignDeployManifest.bat "C:\Program Files\Microsoft.NET\SDK\v2.0\Bin\mage.exe" "c:\program files\sybase\powerbuilder 11.0\code examples\new datawindow and ui\pbdemos_winform_winformoutput\published\pbdemos.application" "null"
+---------------------------------
+
+Intelligent Updater Trace output file: C:\Program Files\Sybase\PowerBuilder 11.0\Code Examples\New DataWindow and UI\pbdemos_winform_WinformOutput\pbiupub.log
+---------------------------------
+Information Time: 2007-04-24 14:18:43.1473750
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\PBIU\commands\GenDeployManifest.bat "C:\Program Files\Microsoft.NET\SDK\v2.0\Bin\mage.exe" "c:\program files\sybase\powerbuilder 11.0\code examples\new datawindow and ui\pbdemos_winform_winformoutput\published\1.0.0.2\pbdemos.exe.iu.manifest" "null" false "c:\program files\sybase\powerbuilder 11.0\code examples\new datawindow and ui\pbdemos_winform_winformoutput\published\pbdemos.application" "PowerBuilder DataWindow and UI Enhancements" 1.0.0.2 "http://localhost/pbuidemos/pbdemos.application" null
+---------------------------------
+
+Information Time: 2007-04-24 14:18:44.2723750
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\PBIU\commands\SignDeployManifest.bat "C:\Program Files\Microsoft.NET\SDK\v2.0\Bin\mage.exe" "c:\program files\sybase\powerbuilder 11.0\code examples\new datawindow and ui\pbdemos_winform_winformoutput\published\pbdemos.application" "null"
+---------------------------------
+

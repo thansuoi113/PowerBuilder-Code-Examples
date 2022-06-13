@@ -1,0 +1,120 @@
+/* PB Contemporary Toolbar Skin Stylesheet */
+
+/* toggle button */
+.pbcontemporary_radtbutton_normal 
+{
+	background-color: transparent;
+	border: none;
+	cursor: default;
+	height: 22px !important;
+	width: 22px !important;
+	padding: 1px;
+}
+
+.pbcontemporary_radtoolbar_horizontal span
+{
+	font-family:Tahoma;
+	font-size:8pt;
+	text-align:center;
+	display: block;
+}
+
+.pbcontemporary_radtoolbar_horizontal img
+{
+	float: center;
+}
+
+.pbcontemporary_radtbutton_hover,
+.pbcontemporary_radtbutton_toggled,
+.pbcontemporary_radtbutton_hover_toggled,
+.pbcontemporary_radtbutton_mousedown
+{
+	background-color: #d6ddf2;	
+	border: solid 1px #316AC5;
+	cursor: default;
+	height: 22px !important;
+	width: 22px !important;
+	opacity: 0.6;
+	text-align:center;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.pbcontemporary_radtbutton_text_hover,
+.pbcontemporary_radtbutton_text_toggled,
+.pbcontemporary_radtbutton_text_hover_toggled,
+.pbcontemporary_radtbutton_text_mousedown
+{
+	background-color: #d6ddf2;	
+	border: solid 1px #316AC5;
+	opacity: 0.6;
+}
+
+.pbcontemporary_radtbutton_disabled
+{
+	background-color: transparent;
+	border: none;
+	cursor: default;
+}
+/* end toggle button */
+
+/* horizontal toobar */
+.pbcontemporary_radtoolbar_horizontal
+{
+	border-collapse: collapse;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+/* end horizontal toobar */
+
+/* horizonatal toolbar grips */
+/* left */
+.pbcontemporary_radtoolbar_left
+{
+	width: 6px !important;
+}
+/* right */
+.pbcontemporary_radtoolbar_right
+{
+	background-image: url(Img/toolbarRight.bmp);
+	filter: Chroma(Color = #c0c0c0);/* IE */
+	width: 4px;
+}
+/* end horizonatal toolbar grips */
+
+/* separators */
+/* horizontal */
+.pbcontemporary_radseparator_h
+{
+	background-image: url(Img/separator_h.gif);
+	background-repeat: repeat-y;
+	width: 2px;
+	height: 22px;
+	vertical-align: middle;
+	margin-left:2px;
+	margin-right:1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+/* end separators */
+
+/* margins fix */
+.pbcontemporary_radbutton_normal IMG, .pbcontemporary_radtbutton_normal IMG,
+.pbcontemporary_radbutton_hover IMG, .pbcontemporary_radtbutton_hover IMG,
+.pbcontemporary_radbutton_normal SPAN, .pbcontemporary_radtbutton_hover SPAN,
+.pbcontemporary_radbutton_hover SPAN, .pbcontemporary_radtbutton_normal SPAN
+{
+	margin-top: 0px;
+}
+.pbcontemporary_radbutton_mousedown IMG, .pbcontemporary_radtbutton_mousedown IMG,
+.pbcontemporary_radbutton_toggled IMG, .pbcontemporary_radtbutton_toggled IMG,
+.pbcontemporary_radbutton_hover_toggled IMG, .pbcontemporary_radtbutton_hover_toggled IMG,
+.pbcontemporary_radbutton_mousedown SPAN, .pbcontemporary_radtbutton_mousedown SPAN
+{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.pbcontemporary_radbutton_disabled IMG, .pbcontemporary_radtbutton_disabled IMG
+{
+	margin-top: 2px;
+}

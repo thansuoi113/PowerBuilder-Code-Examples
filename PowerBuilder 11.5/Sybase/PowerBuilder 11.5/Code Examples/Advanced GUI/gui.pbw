@@ -1,0 +1,8 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "advguisample.pbt";
+@end;
+DefaultTarget "advguisample.pbt";
+DefaultRemoteTarget "advguisample.pbt";

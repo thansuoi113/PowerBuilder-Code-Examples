@@ -1,0 +1,129 @@
+.RadMenu_PBTraditional 
+{
+	background:buttonface;	
+	/*border:1px solid buttonshadow;
+	border-top-color:threedhighlight;
+	border-left-color:threedhighlight;*/	/* PB */
+}
+.RadMenu_PBTraditional .link
+{
+	font:menu;
+	padding:.2em 3px;	/* PB */
+	text-decoration:none;
+	color:menutext;
+}
+
+.RadMenu_PBTraditional .link:hover,
+.RadMenu_PBTraditional .focused,
+.RadMenu_PBTraditional .expanded
+{
+	background:highlight;
+	color:highlighttext;
+}
+
+.RadMenu_PBTraditional .rootGroup .disabled:hover
+{
+	background: none;
+}
+
+.RadMenu_PBTraditional .text
+{
+	font-family:Tahoma;	/* PB */
+	font-size:8pt;	/* PB */
+	padding-right: 15px;
+}
+
+.RadMenu_PBTraditional .group
+{
+	background:white;
+}
+
+.RadMenu_PBTraditional .group
+{
+	border:1px solid buttonshadow;
+}
+
+.RadMenu_PBTraditional .group .text
+{
+	padding: 0px 40px 0px 20px;	/* PB */
+	text-align:left;	/* PB */
+}
+
+.RadMenu_PBTraditional .leftArrow,
+.RadMenu_PBTraditional .rightArrow,
+.RadMenu_PBTraditional .topArrow,
+.RadMenu_PBTraditional .bottomArrow,
+.RadMenu_PBTraditional .leftArrowDisabled,
+.RadMenu_PBTraditional .rightArrowDisabled,
+.RadMenu_PBTraditional .topArrowDisabled,
+.RadMenu_PBTraditional .bottomArrowDisabled
+{
+	border-left: 1px solid buttonshadow;
+	border-right: 1px solid buttonshadow;
+	background:buttonface url('img/left.gif') center center no-repeat;
+	width:15px;
+}
+
+.RadMenu_PBTraditional .topArrow,
+.RadMenu_PBTraditional .topArrowDisabled
+{
+	background-image:url('img/top.gif');
+	width:100%;
+}
+
+.RadMenu_PBTraditional .bottomArrow,
+.RadMenu_PBTraditional .bottomArrowDisabled
+{
+	background-image:url('img/bottom.gif');
+	width:100%;
+}
+
+.RadMenu_PBTraditional .rightArrow,
+.RadMenu_PBTraditional .leftArrow
+{
+	height:100%;
+}
+
+.RadMenu_PBTraditional .rightArrow,
+.RadMenu_PBTraditional .rightArrowDisabled
+{
+	background-image:url('img/right.gif');
+}
+
+.RadMenu_PBTraditional .vertical .separator .text
+{
+	border-bottom:2px inset buttonface;
+	margin:0 2px;
+}
+
+.RadMenu_PBTraditional .expandLeft,
+.RadMenu_PBTraditional .expandRight
+{
+	background:transparent url(img/groupImage.gif) right center no-repeat;
+}
+
+.RadMenu_PBTraditional_rtl .expandLeft,
+.RadMenu_PBTraditional_rtl .expandRight
+{
+	background: transparent url(img/groupImageRTL.gif) left center no-repeat;
+	padding-left: 10px !important;
+}
+
+/* right to left */
+.RadMenu_PBTraditional_rtl .group .link:hover .expandLeft,
+.RadMenu_PBTraditional_rtl .group .link:hover .expandRight
+{
+	background:transparent url(img/invertedGroupImageRTL.gif) left center no-repeat;
+	margin: 0px 1px;
+	margin-left: -2px;
+}
+
+.RadMenu_PBTraditional .link:hover .expandLeft,
+.RadMenu_PBTraditional .link:hover .expandRight,
+.RadMenu_PBTraditional .focused .expandLeft,
+.RadMenu_PBTraditional .focused .expandRight,
+.RadMenu_PBTraditional .expanded .expandLeft,
+.RadMenu_PBTraditional .expanded .expandRight
+{
+	background:transparent url(img/invertedGroupImage.gif) right center no-repeat;
+}

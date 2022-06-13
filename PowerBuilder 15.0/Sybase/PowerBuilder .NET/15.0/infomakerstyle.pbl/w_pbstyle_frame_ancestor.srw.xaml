@@ -1,0 +1,5 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_pbstyle_frame_ancestor" ControlMenu="true" MaxBox="true" MenuName="m_pbstyle_frame_ancestor" MinBox="true" PBHeight="1620" PBWidth="2619" PBWindowState="maximized" Resizable="true" TitleBar="true" WindowType="mdihelp" X="110" Y="92" Uid="5" Height="405" Width="573" PBTitle="pb$$$Title">
+    <Canvas>
+        <pbwpf:MDIClient Name="mdi_1"></pbwpf:MDIClient>
+    </Canvas>
+</pbwpf:Window>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurations>
+  <schema version="1" />
+  <configuration type="install" lcid="" dialog_caption="Microsoft .NET Framework 3.5 SP1" dialog_message="In order to install the application, you must install these components:" dialog_bitmap="#APPPATH\banner.bmp" install_caption="Install" cancel_caption="Close" status_installed=" (Installed)" status_notinstalled="" failed_exec_command_continue="Failed to install %s. Continue with other components?" installation_completed="the App installed successfully !" installing_component_wait="Installing %s . Wait, this operation could take some time ..." reboot_required="To continue the installation you must restart your computer. Restart now?" advanced_caption="Advanced" dialog_selector_cancel="Cancel" dialog_selector_caption="Components List" dialog_selector_message="Select the components to install." dialog_selector_ok="OK" dialog_otherinfo_caption="" dialog_otherinfo_link="" complete_command="" auto_close_if_installed="True">
+    <components>
+      <component os_filter_greater="" os_filter_smaller="45" os_filter_lcid="" type="cmd" installcompletemessage="" mustreboot="True" description="Microsoft .NET Framework 3.5 SP1" note="English - WebSetup - .NET Framework 3.5 SP1 for all operating system before windows 2000, require a reboot" command="&quot;#TEMPPATH\dotNET3_5_en\dotnetfx.exe&quot; /q:a /c:&quot;install /l /qb&quot;">
+        <downloaddialog dialog_caption="Microsoft .NET Framework 3.5 SP1 - Download Components" dialog_message="Press 'Start' to download the required components for installing Microsoft .NET Framework 3.5 SP1." dialog_message_downloading="Download in progress. Wait..." autostartdownload="True" buttonstart_caption="Start" buttoncancel_caption="Cancel">
+          <downloads>
+            <download componentname="Microsoft .NET Framework 3.5 SP1" sourceurl="http://localhost/SampleApp/SupportFiles/0-dotNetfx/dotnetfx.exe" destinationpath="#TEMPPATH\dotNET3_5_en" destinationfilename="" />
+          </downloads>
+        </downloaddialog>
+        <installedcheck type="check_registry_value" path="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5" fieldname="SP" fieldvalue="1" fieldtype="REG_DWORD" comparison="match" />
+      </component>
+      <component os_filter_greater="44" os_filter_smaller="200" os_filter_lcid="" type="cmd" installcompletemessage="" mustreboot="False" description="Microsoft .NET Framework 3.5 SP1" note="English - WebSetup - .NET Framework 3.5 SP1 for Windows 2000 or later" command="&quot;#TEMPPATH\dotNET3_5_en\dotnetfx.exe&quot; /q:a /c:&quot;install /l /qb&quot;">
+        <downloaddialog dialog_caption="Microsoft .NET Framework 3.5 SP1 - Download Components" dialog_message="Press 'Start' to download the required components for installing Microsoft .NET Framework 3.5 SP1" dialog_message_downloading="Download in progress. Wait..." autostartdownload="True" buttonstart_caption="Start" buttoncancel_caption="Cancel">
+          <downloads>
+            <download componentname="Microsoft .NET Framework 3.5 SP1" sourceurl="http://localhost/SampleApp/SupportFiles/0-dotNetfx/dotnetfx.exe" destinationpath="#TEMPPATH\dotNET3_5_en" destinationfilename="" />
+          </downloads>
+        </downloaddialog>
+        <installedcheck type="check_registry_value" path="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5" fieldname="SP" fieldvalue="1" fieldtype="REG_DWORD" comparison="match" />
+      </component>
+    </components>
+  </configuration>
+</configurations>

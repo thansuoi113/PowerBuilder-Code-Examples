@@ -1,0 +1,15 @@
+Files included in this directory
+
+WebPBSampleZip.zip - Uncompressed file containing all Java classes for sample 
+index.html - HTML file with Applet tag
+niexample.exe - Powerbuilder server application
+WebPBCall_Doc.html - WebPBCall and sample description
+niexdpbs.pbd - Powerbuilder library used by server application
+nidemodb2.db - SQL Anywhere database used by sample
+niexdpbs.pbl - Powerbuilder PBL
+webpb_resultset.pbd - Powerbuilder library used by server application
+webpb_resultset.pbl - Powerbuilder PBL
+WebPBSampleSource.zip - PowerJ project files for the sample
+IMSalesPowerJSample.zip - A bigger more elaborate PowerJ project sample using WebPBCall 
+Files.txt - this file
+*.gif - Image used in WebPBCall_Doc.html 

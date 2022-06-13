@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HelpTOC>
+<HelpTOC DTDVersion="1.0" PluginStyle="Hierarchical" PluginTitle="PowerBuilder .NET" Id="TOC_pbnethelp" FileVersion="1.0.0.0" LangId="1033">
+    <HelpTOCNode NodeType="Regular" Title="PowerBuilder .NET Features">
+        <HelpTOCNode NodeType="TOC" Url="den1249056514765" />
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="PowerBuilder Classic Tasks and Concepts">
+        <HelpTOCNode NodeType="TOC" Url="pbnetman" />
+    </HelpTOCNode>
+    <HelpTOCNode NodeType="Regular" Title="PowerBuilder Classic Reference">
+        <HelpTOCNode NodeType="TOC" Url="pbnetref" />
+    </HelpTOCNode>
+</HelpTOC>

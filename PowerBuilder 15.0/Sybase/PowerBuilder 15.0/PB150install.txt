@@ -1,0 +1,124 @@
+Installation notes for the PowerBuilder [R] Version 15 Beta release 
+(c) 2013 SAP AG or an SAP affiliate company. All rights reserved. 
+Updated 10/21/2013
+*********************************************************************
+This file contains important installation information for the 
+PowerBuilder 15 Beta common setup program. 
+
+Section I:	Before you install
+		  Supported operating systems
+		  Required software
+		  Installing the PBVM
+		  		  
+Section II:	Running the setup program
+
+=============================
+Section I: Before you install
+=============================
+PowerBuilder installs with two separate IDEs: PowerBuilder Classic 
+and PowerBuilder .NET.
+
+To install PowerBuilder .NET you first need to install Microsoft .NET 
+Framework 4.0 that you can download from the Microsoft Web site. If you 
+have an active internet connection when you install PowerBuilder, and you 
+have not already installed the required .NET Framework version, Install 
+PowerBuilder .NET Prerequisites installs it for you while it installs 
+Microsoft Visual Studio Isolated Shell 2010.  
+
+Install PowerBuilder .NET Prerequisites also installs the Microsoft 
+Visual Studio Isolated Shell 2010 and Microsoft Visual Studio 2010 
+Service Pack 1, which are required by the PowerBuilder .NET IDE. 
+However, if you prefer, you can install the Isolated Shell and Visual 
+Studio 2010 Service Pack 1 manually from the Support folder in the 
+PowerBuilder installation ZIP file before you run the PowerBuilder 
+setup program.
+
+The installation of Microsoft Visual Studio 2010 Service Pack 1 
+also requires an active internet connection.
+
+This Beta release is available as a set of zip files on the download 
+page of the PowerBuilder 15 Beta Web site:
+
+CommonInstaller.zip           Common setup program
+SQLAnywhere16.zip             SQL Anywhere 16.0 
+InfoMaker150.zip              InfoMaker 15  
+PowerBuilder150.zip           PowerBuilder 15
+PBVM.zip                      Contains setup program for PBVM  
+Support_PB.zip                Contains supporting tools      
+
+PowerBuilder and InfoMaker must be installed from the common setup program. 
+You can also install SQL Anywhere from the common setup program.
+
+Before you run the common setup program to install this release of 
+PowerBuilder 15, read this section carefully and make sure that you 
+have installed any required software.
+
+Supported operating systems
+---------------------------
+This release has been tested on Windows XP with Service Pack 3, Windows Vista 
+with Service Pack 2, Windows 7 with Service Pack 1, Windows 8, Windows Server 
+2008 R2 with Service Pack 1 and Windows Server 2012, only runtime is supported 
+on Windows Server 2008 R2 and Windows Server 2012.  
+
+Required software
+-----------------
+For software requirements for existing features, refer to the installation guide 
+for PowerBuilder 12.5 at http://infocenter.sybase.com/help/index.jsp?docset=
+/com.sybase.infocenter.help.pb.12.5/title.htm&docSetID=1783
+
+The use of OData requires the Microsoft .NET Framework version 4.0.
+
+This release has been tested with SQL Anywhere 16.0. EAServer component 
+has been tested with EAServer 6.3.1 with ESD#5. 
+
+Installing the PBVM
+-------------------
+If you install EAServer on a different computer from PowerBuilder, you 
+also need to install the PowerBuilder 15 version of the runtime DLLs 
+(PBVM) required by the components you are using on that computer. To 
+install the PBVM on a computer on which EAServer has already been 
+installed, you can run the PBVM setup program on that computer from 
+the PBVM directory extracted from PBVM.zip.
+
+=====================================
+Section II: Running the setup program
+=====================================
+You must have Administrator privileges to fully install this product.
+
+1. Shut down any programs that are running.
+   
+2. If you want to use features that require SQL Anywhere, or
+   Internet Explorer, install them before you install PowerBuilder.
+   
+   If you select SQL Anywhere in the common setup program, it is 
+   installed before PowerBuilder and InfoMaker.  
+   
+   NOTE: You must shut down any earlier versions of SQL Anywhere 
+   or Adaptive Server Anywhere engines that are running before
+   installing SQL Anywhere 16.0.
+
+3. Run the common setup program, select the components you want to
+   install, and follow the instructions in the setup wizard.
+  
+4. When the common setup program completes, reboot your computer.
+
+After installing, make sure that you have write access to the 
+PowerBuilder 15.0 installation directory and to the Windows Registry.
+
+*********************************************************************
+(c) 2013 SAP AG or an SAP affiliate company. All rights reserved. 
+SAP AG and its affiliate companies ("SAP") claim copyright in this 
+program and documentation as an unpublished work, versions of which 
+were first licensed on the date indicated in the foregoing notice. 
+Claim of copyright does not imply waiver of SAP's other rights. 
+See Notice of Proprietary Rights.
+
+NOTICE OF PROPRIETARY RIGHTS
+
+This computer program and documentation are confidential trade 
+secrets and the property of SAP AG or an SAP affiliate company. 
+Use, examination, reproduction, copying, disassembly, decompilation, 
+transfer and/or disclosure to others, in whole or in part, are 
+strictly prohibited except with the express prior written 
+consent of SAP AG or an SAP affiliate company.
+

@@ -1,0 +1,301 @@
+CC04	Y	X	XX	7/1/94	3046	    	--- Payment ---	-523.25	523.25		P	N
+CC04	Y	E6	CL	7/19/94	    	C003	Miscellaneous	28.74	28.74		C	N
+CC03	Y	E6	CL	8/2/94	    	    	Socks	13.50	13.50		C	N
+CC04	Y	X	XX	9/1/94	    	    	--- Payment ---	-28.74	28.74		P	N
+CC03	Y	X	XX	9/1/94	3078	    	--- Payment ---	-13.50	13.50		P	N
+CC04	Y	E6	CL	9/13/94	    	C005	Sportswear	73.97	73.97		C	N
+CC04	Y	E6	CL	9/21/94	    	C006	Shoes	24.49	24.49		C	N
+CC04	Y	X	XX	10/25/94	3100	    	--- Payment ---	-98.46	98.46		P	N
+CC04	Y	E6	CL	11/24/94	    	C008	Dresses, Etc	116.99	116.99		C	N
+CC04	Y	X	XX	1/1/95	3123	    	--- Payment ---	-116.99	116.99		P	N
+CC03	Y	E8	GF	1/22/95	    	    	Bath Towels	35.66	35.66		C	N
+CC07	Y	E6	CL	2/28/95	    	S001	Clothing	12.99	12.99		C	N
+CC03	Y	X	XX	3/1/95	3154	    	--- Payment ---	-35.66	35.66		P	N
+CC07	Y	X	XX	4/1/95	3159	S002	--- Payment ---	-12.99	12.99		P	N
+CC01	Y	E8	GF	4/17/95	    	72	Rondell's Department	83.98	83.98		C	N
+CC01	Y	E6	CL	4/17/95	    	73	R.T. Brown's	24.99	24.99		C	N
+CC01	Y	E8	GF	4/18/95	    	76	U-Save-With-Us	69.53	69.53		C	N
+CC01	Y	E7	BS	4/23/95	    	74	Software King	141.11	141.11		C	Y
+CC01	Y	E7	BS	4/24/95	    	75	Software King	-10.45	-10.45		C	Y
+CC01	Y	E8	GF	4/26/95	    	76	Rondell's Department	-23.08	-23.08		C	N
+CC01	Y	E6	CL	4/26/95	    	78	Kingston's	76.82	76.82		C	N
+CC01	Y	E7	BS	4/26/95	    	77	Office Supplies Warehouse	418.95	418.95		C	N
+CC01	Y	X	XX	5/1/95	3174	    	--- Payment ---	-337.40	337.40		P	N
+CC01	Y	X	XX	6/1/95	3189	    	--- Payment ---	-444.45	444.45		P	N
+CC01	Y	E7	HG	6/6/95	    	80	Appliance City	419.97	419.97		C	N
+CC04	Y	E6	CL	6/30/95	    	C001	Sweater	29.80	29.80		C	N
+CC01	Y	X	XX	7/1/95	3203	    	--- Payment ---	-419.97	419.97		P	N
+CC01	Y	E8	GF	7/11/95	    	83	Bath Merchants	29.88	29.88		C	N
+CC01	Y	E7	HG	7/7/95	    	82	The Greenery Nursery	21.98	21.98		C	N
+CC01	Y	E8	GF	7/18/95	    	86	U-Save-With-Us	28.80	28.80		C	N
+CC01	Y	E8	GF	7/18/95	    	85	U-Save-With-Us	37.60	37.60		C	N
+CC01	Y	E8	GF	7/18/95	    	88	U-Save-With-Us	35.24	35.24		C	N
+CC01	Y	E8	GF	7/19/95	    	87	The Book Store	31.40	31.40		C	N
+SAV01	Y	A	II	8/12/95	    	    	*** Interest ***	46.35	-46.35		C	N
+CC01	Y	E8	GF	7/21/95	    	89	Office Supplies Warehouse	20.98	20.98		C	N
+CC01	Y	E8	GF	7/24/95	    	95	U-Save-With-Us	-20.99	-20.99		C	N
+CC01	Y	E8	GF	7/28/95	    	93	Skaff's Florist	63.00	63.00		C	N
+CC01	Y	X	XX	8/7/95	3215	    	--- Payment ---	-282.89	282.89		P	N
+CC01	Y	E3	AF	8/7/95	    	91	Auto Club Annual Fee	35.00	35.00		C	N
+CC01	Y	E6	CL	8/15/95	    	96	Discount Warehouse	62.99	62.99		C	N
+CC01	Y	E6	CL	8/16/95	    	95	Kingston's	22.50	22.50		C	N
+SAV01	Y	E4	CA	8/26/95	    	7818	--- Withdrawal ---	-100.00	100.00		C	N
+SAV01	Y	E4	CA	8/30/95	    	8824	--- Withdrawal ---	-100.00	100.00		C	N
+CC01	Y	X	XX	9/1/95	3230	    	--- Payment ---	-85.49	85.49		P	N
+SAV01	Y	E3	BC	9/6/95	    	1373	Bank Service Fee	-1.25	1.25		C	N
+SAV01	Y	E4	CA	9/6/95	    	1373	--- Withdrawal ---	-100.00	100.00		C	N
+SAV01	Y	A	II	9/10/95	    	    	*** Interest ***	53.63	-53.63		C	N
+SAV01	Y	E4	CA	9/12/95	    	1879	--- Withdrawal ---	-100.00	100.00		C	N
+SAV01	Y	E3	BC	9/12/95	    	1879	Bank Service Fee	-1.25	1.25		C	N
+SAV01	Y	E4	CA	9/13/95	    	4964	--- Withdrawal ---	-60.00	60.00		C	N
+SAV01	Y	E4	CA	9/19/95	    	3488	--- Withdrawal ---	-100.00	100.00		C	N
+CC03	Y	E6	CL	10/3/95	    	    	Handbags	20.46	20.46		C	N
+SAV01	Y	E4	CA	10/9/95	    	7386	--- Withdrawal ---	-60.00	60.00		C	N
+SAV01	Y	A	II	10/11/95	    	    	*** Interest ***	52.10	-52.10		C	N
+SAV01	Y	E4	CA	10/12/95	    	4729	--- Withdrawal ---	-100.00	100.00		C	N
+SAV01	Y	E3	BC	10/12/95	    	4729	Bank Service Fee	-1.25	1.25		C	N
+SAV01	Y	E4	CA	10/17/95	    	9343	--- Withdrawal ---	-100.00	100.00		C	N
+SAV01	Y	E4	CA	10/23/95	    	5878	--- Withdrawal ---	-50.00	50.00		C	N
+SAV01	Y	E3	BC	10/23/95	    	5878	Bank Service Fee	-1.25	1.25		C	N
+CC03	Y	X	XX	10/30/95	3253	    	--- Payment ---	-20.46	20.46		P	N
+SAV01	Y	E4	CA	11/1/95	    	3037	--- Withdrawal ---	-100.00	100.00		C	N
+SAV01	Y	A	II	11/13/95	    	    	*** Interest ***	52.79	-52.79		C	N
+SAV01	Y	E4	CA	11/16/95	    	6881	--- Withdrawal ---	-80.00	80.00		C	N
+CC01	Y	E7	CO	11/23/95	    	100	Home Builder's Warehouse	70.60	70.60		C	N
+CC01	Y	E7	HG	11/24/95	    	101	The Greenery Nursery	26.15	26.15		C	N
+CC01	Y	E7	HG	11/24/95	    	99	The Greenery Nursery	49.08	49.08		C	N
+CC01	Y	E6	CL	11/26/95	    	102	Lucky You Fashion	43.99	43.99		C	N
+CC01	Y	E6	CL	12/1/95	    	103	R.T. Brown's	58.11	58.11		C	N
+CC01	Y	X	XX	12/4/95	    	108	Major Airline	255.60	255.60		C	N
+CC01	Y	E8	GF	12/7/95	    	104	The Greenery Nursery	37.76	37.76		C	N
+CC01	Y	E7	CO	12/7/95	    	107	Home Builder's Warehouse	34.32	34.32		C	N
+CC01	Y	E7	CO	12/7/95	    	106	Home Builder's Warehouse	16.73	16.73		C	N
+SAV01	Y	A	II	12/12/95	    	    	*** Interest ***	50.78	-50.78		C	N
+LOAN01	Y	X	XX	12/13/95	3273	    	--- Payment ---	-283.65	283.65		P	N
+LOAN01	Y	X	XX	12/13/95	    	    	--- Interest Charge ---	31.56	-31.56		C	N
+CC01	Y	X	XX	12/27/95	    	109	Comfy Inns	176.90	176.90		C	N
+CC01	Y	E6	CL	12/28/95	    	108	Lucky You Fashion	-11.04	-11.04		C	N
+CC01	Y	X	XX	1/1/96	3289	    	--- Payment ---	-758.20	758.20		P	N
+CC01	Y	X	XX	1/5/96	    	110	Office Supplies Warehouse	33.23	-33.23		C	N
+LOAN01	Y	X	XX	1/13/96	    	    	--- Interest Charge ---	45.68	-45.68		C	N
+LOAN01	Y	X	XX	1/13/96	3285	    	--- Payment ---	-283.65	283.65		P	N
+SAV01	Y	A	II	1/14/96	    	    	*** Interest ***	49.65	-49.65		C	N
+SAV01	Y	E4	CA	1/18/96	    	3693	--- Withdrawal ---	-40.00	40.00		C	N
+CC01	Y	INT	CINT	1/19/96	    	113	--- Interest Charge ---	6.76	6.76		C	N
+SAV01	Y	E4	CA	1/24/96	    	5053	--- Withdrawal ---	-100.00	100.00		C	N
+CC01	Y	E7	PT	1/27/96	    	111	Pets for You 	44.59	44.59		C	N
+CC01	Y	E7	PT	1/27/96	    	112	Pets for You 	37.52	37.52		C	N
+CC01	Y	X	XX	2/1/96	3300	    	--- Payment ---	-122.10	122.10		P	N
+LOAN01	Y	X	XX	2/13/96	3302	    	--- Payment ---	-283.65	283.65		P	N
+LOAN01	Y	X	XX	2/13/96	    	    	--- Interest Charge ---	50.01	-50.01		C	N
+SAV01	Y	A	II	2/14/96	    	    	*** Interest ***	47.56	-47.56		D	N
+SAV01	Y	X	XX	2/28/96	    	4129	--- Transfer ---	-2000.00	2000.00		C	N
+SAV01	Y	X	XX	3/1/96	    	61852	*** Deposit ***	2000.00	-2000.00		D	N
+CC01	Y	E8	GF	3/6/96	    	113	U-Save-With-Us	57.16	57.16		C	N
+CC01	Y	E7	BS	3/9/96	    	119	American Circle Magazine	16.00	16.00		C	Y
+SAV01	Y	A	II	3/12/96	    	    	*** Interest ***	46.89	-46.89		D	N
+LOAN01	Y	X	XX	3/13/96	    	    	--- Interest Charge ---	39.75	-39.75		C	N
+LOAN01	Y	X	XX	3/13/96	3317	    	--- Payment ---	-283.65	283.65		P	N
+CC01	Y	X	XX	3/18/96	    	116	El Tora Restaurante	53.57	-53.57		C	N
+CC01	Y	X	XX	3/19/96	    	114	No-Tell Motel	194.21	-194.21		C	N
+CC01	Y	X	XX	3/19/96	    	117	Rent-A-Car	121.49	-121.49		C	N
+CC01	Y	X	XX	3/20/96	    	118	Major Airlines	451.65	-451.65		C	N
+CC01	Y	E8	GF	3/28/96	    	119	Jouet DeVille Toys	23.05	23.05		C	N
+CC01	Y	X	XX	4/1/96	3329	    	--- Payment ---	-917.13	917.13		P	N
+CC01	Y	E7	BS	4/4/96	    	121	Rondell's Department	2278.50	2278.50		C	Y
+LOAN01	Y	X	XX	4/13/96	    	    	--- Interest Charge ---	40.99	-40.99		C	N
+LOAN01	Y	X	XX	4/13/96	3333	    	--- Payment ---	-283.65	283.65		P	N
+SAV01	Y	A	II	4/14/96	    	    	*** Interest ***	50.12	-50.12		D	N
+LOAN01	Y	X	XX	5/1/96	    	    	--- Interest Charge ---	43.33	-43.33		C	N
+LOAN01	Y	X	XX	5/1/96	3338	    	--- Payment ---	-283.65	283.65		P	N
+CC01	Y	E7	BS	5/10/96	    	122	Office Supplies Warehouse	102.38	102.38		C	N
+SAV01	Y	A	II	5/13/96	    	    	*** Interest ***	45.25	-45.25		C	N
+CC01	Y	INT	CINT	5/21/96	    	    	--- Interest Charge ---	29.05	29.05		C	Y
+CC01	Y	E6	PH	5/22/96	    	123	National Mobile Comm.	94.96	94.96		C	N
+CC01	Y	X	XX	6/1/96	3356	    	Split Payment from 1st National Checking	-1253.90	1253.90		P	N
+CC11	Y	E7	HG	6/3/96	    	1	Tom's WholeSale Club	72.37	72.37		C	N
+CC04	Y	E6	CL	6/5/96	    	C011	Boots	29.99	29.99		C	N
+CC04	Y	E6	CL	6/5/96	    	C010	Coats, etc. 	198.46	198.46		C	N
+CC01	Y	E6	CL	6/12/96	    	124	Accessory Palace	12.60	12.60		C	N
+SAV01	Y	X	XX	6/13/96	    	5671	--- Transfer ---	-300.00	300.00		W	N
+LOAN01	Y	X	XX	6/13/96	    	    	--- Interest Charge ---	36.55	-36.55		C	N
+LOAN01	Y	X	XX	6/13/96	3355	    	--- Payment ---	-283.65	283.65		P	N
+SAV01	Y	A	II	6/14/96	    	    	*** Interest ***	45.99	-45.99		D	N
+CC11	Y	E6	CL	6/20/96	    	2	U-Save-With-Us	58.85	58.85	Jeans, Gift, Shoes, Watch	C	N
+CC11	Y	E6	CL	6/25/96	    	3	R.T. Brown's	120.36	120.36	Pant Suit, Watches	C	N
+CC04	Y	E6	CL	6/25/96	    	C012	Coats	129.99	129.99		C	N
+CC11	Y	X	XX	7/1/96	3364	    	--- Payment ---	-72.37	72.37		P	N
+CC01	Y	X	XX	7/1/96	3365	    	Split Payment from 1st National Checking	-1263.58	1263.58		P	N
+CC04	Y	X	XX	7/1/96	3363	    	--- Payment ---	-228.45	228.45		P	N
+CC11	Y	X	XX	7/2/96	    	4	Office Supplies Warehouse	104.15	-104.15		C	N
+CC01	Y	E7	HG	7/3/96	    	125	The Greenery Nursery	33.17	33.17		C	N
+CC11	Y	E6	CL	7/3/96	    	5	Elegant Imports	56.55	56.55	Xmas Dress	C	N
+CC11	Y	E6	CL	7/4/96	    	9	R.T. Brown's	-20.99	-20.99		C	N
+CC11	Y	E6	CL	7/4/96	    	7	Kingston's	33.66	33.66		C	N
+CC11	Y	E9	BE	7/4/96	    	6	Bath & Body Store	24.15	24.15		C	N
+CC11	Y	E6	CL	7/4/96	    	8	Kingston's	22.81	22.81	Handbag	C	N
+CC04	Y	INT	CINT	7/10/96	    	    	--- Interest Charge ---	12.25	12.25		W	N
+CC11	Y	E6	CL	7/11/96	    	11	R.T. Brown's	27.33	27.33		C	N
+SAV01	Y	A	II	7/13/96	    	    	*** Interest ***	47.85	-47.85		D	N
+LOAN01	Y	X	XX	7/13/96	    	    	--- Interest Charge ---	41.02	-41.02		C	N
+LOAN01	Y	X	XX	7/13/96	3366	    	--- Payment ---	-283.65	283.65		P	N
+CC01	Y	E8	GF	7/17/96	    	127	Auto Detailers	29.00	29.00		C	N
+SAV01	Y	A	IO	7/22/96	    	6776	--- Deposit ---	2097.07	-2097.07		D	N
+SAV01	Y	X	XX	7/22/96	    	6777	--- Transfer ---	-1000.00	1000.00		W	N
+CC04	Y	X	XX	8/1/96	3375	    	--- Payment ---	-129.99	129.99		P	N
+CC01	Y	E3	AF	8/2/96	    	129	Auto Club Annual Fee	39.00	39.00		C	N
+SAV01	Y	A	IO	8/3/96	    	8914	--- Deposit ---	9684.50	-9684.50		D	N
+CC04	Y	INT	CINT	8/10/96	    	    	--- Interest Charge ---	10.35	10.35		W	N
+CC01	Y	X	XX	8/10/96	3381	    	Split Payment from 1st National Checking	-106.09	106.09		P	N
+CC11	Y	X	XX	8/12/96	3382	    	--- Payment ---	-426.87	426.87		P	N
+SAV01	Y	A	II	8/13/96	    	    	*** Interest ***	50.88	-50.88		D	N
+LOAN01	Y	X	XX	8/13/96	    	    	--- Interest Charge ---	34.60	-34.60		C	N
+LOAN01	Y	X	XX	8/13/96	3377	    	--- Payment ---	-283.65	283.65		P	N
+CC04	Y	E6	CL	8/14/96	    	C013	Sweaters	89.23	89.23	2 Tops, 2 Earrings	C	N
+CC11	Y	E8	GF	8/25/96	    	13	Discount Warehouse	83.99	83.99		C	N
+LOAN02	Y	X	XX	9/1/96	3391	    	--- Payment ---	-779.00	779.00		P	N
+CC01	Y	E4	GA	9/5/96	    	129	Pump-It Gas	17.00	17.00		C	N
+CC04	Y	INT	CINT	9/10/96	    	    	--- Interest Charge ---	12.89	12.89		W	N
+SAV01	Y	A	II	9/13/96	    	    	*** Interest ***	49.63	-49.63		D	N
+LOAN01	Y	X	XX	9/13/96	    	    	--- Interest Charge ---	28.57	-28.57		P	N
+LOAN01	Y	X	XX	9/13/96	3398	    	--- Payment ---	-283.65	283.65		P	N
+CC11	Y	E7	BS	9/17/96	    	15	Software King	51.96	51.96	PB Desktop	C	N
+SAV02	Y	X	XX	9/18/96	    	CD2	--- Deposit ---	5000.00	-5000.00		D	N
+SAV02	Y	X	XX	9/18/96	    	CD1	--- Deposit ---	5000.00	-5000.00		D	N
+SAV01	Y	X	XX	9/18/96	    	    	--- Purchase CD ---	-10000.00	10000.00		W	N
+CC11	Y	E7	BS	9/19/96	    	16	Software King	26.20	26.20	PB for Dummies	C	N
+SAV01	Y	A	II	9/21/96	    	    	*** Interest ***	49.10	-49.10		D	N
+SAV01	Y	A	II	9/24/96	    	    	*** Interest ***	51.35	-51.35		D	N
+CC04	Y	X	XX	10/1/96	3400	    	--- Payment ---	-89.23	89.23		P	N
+CC01	Y	X	XX	10/1/96	3403	    	Split Payment from 1st National Checking	-17.00	17.00		P	N
+LOAN02	Y	X	XX	10/1/96	    	    	--- Interest Charge ---	554.24	-554.24		C	N
+LOAN02	Y	X	XX	10/1/96	3405	    	--- Payment ---	-779.00	779.00		P	N
+CC04	Y	INT	CINT	10/10/96	    	    	--- Interest Charge ---	11.67	11.67		W	N
+CC04	Y	E6	CL	10/11/96	    	C014	Handbag	65.10	65.10		C	N
+LOAN01	Y	X	XX	10/13/96	    	    	--- Interest Charge ---	41.72	-41.72		P	N
+LOAN01	Y	X	XX	10/13/96	3409	    	--- Payment ---	-283.65	283.65		P	N
+CC11	Y	X	XX	10/15/96	3410	    	--- Payment ---	-162.14	162.14		P	N
+SAV03	Y	X	XX	10/23/96	    	    	Transfer from IRA	4796.81	-4796.81	IRA Transfer	D	N
+SAV02	Y	A	II	10/27/96	    	    	*** Interest ***	52.06	-52.06		D	N
+SAV01	Y	A	II	10/27/96	    	    	*** Interest ***	50.68	-50.68		D	N
+CC04	N	X	XX	11/1/96	3423	    	--- Payment ---	-65.10	65.10		P	N
+LOAN02	Y	X	XX	11/1/96	    	    	--- Interest Charge ---	553.12	-553.12		C	N
+LOAN02	Y	X	XX	11/1/96	3425	    	--- Payment ---	-683.00	683.00		P	N
+CC11	Y	X	XX	11/2/96	    	17	Major Airline	1315.50	-1315.50		C	N
+CC11	Y	X	XX	11/6/96	    	19	Comfy Rooms Hotel	656.94	-656.94		C	N
+CC11	Y	X	XX	11/6/96	    	18	Rent-A-Car	205.16	-205.16		C	N
+SAV01	Y	X	XX	11/13/96	    	702	--- Transfer ---	-3000.00	3000.00		W	N
+LOAN01	Y	X	XX	11/13/96	3417	    	--- Payment ---	-283.65	283.65		P	N
+LOAN01	Y	X	XX	11/13/96	    	    	--- Interest Charge ---	30.69	-30.69		P	N
+CC11	Y	E7	CO	11/14/96	    	21	Home Builder's Warehouse	70.96	70.96		C	N
+SAV03	Y	A	II	11/25/96	    	    	*** Interest ***	82.25	-82.25		D	N
+SAV02	Y	A	II	11/25/96	    	    	*** Interest ***	57.96	-57.96		D	N
+SAV01	Y	A	II	11/25/96	    	    	*** Interest ***	48.02	-48.02		D	N
+CC01	Y	E5	DE	11/26/96	    	130	Richard Hurtz D.D.S	398.50	398.50		C	Y
+LOAN02	Y	X	XX	12/1/96	    	    	--- Interest Charge ---	552.47	-552.47		C	N
+LOAN02	Y	X	XX	12/1/96	3428	    	--- Payment ---	-760.38	760.38		P	N
+CC11	Y	INT	CINT	12/10/96	    	    	--- Interest Charge ---	53.24	53.24		W	N
+CC11	Y	X	XX	12/11/96	    	24	Major Airline	243.60	-243.60		C	N
+CC11	Y	X	XX	12/12/96	3432	    	--- Payment ---	-1000.00	1000.00		P	N
+CC11	Y	E7	CO	12/13/96	    	22	Stain-Master Cleaners	189.00	189.00		C	N
+LOAN01	Y	X	XX	12/13/96	    	    	--- Interest Charge ---	25.23	-25.23		P	N
+LOAN01	Y	X	XX	12/13/96	3430	    	--- Payment ---	-283.65	283.65		P	N
+CC11	Y	E6	CL	12/16/96	    	23	PayMore Shoes	30.49	30.49		C	N
+SAV03	Y	A	II	12/26/96	    	    	*** Interest ***	83.62	-83.62		D	N
+SAV02	Y	A	II	12/26/96	    	    	*** Interest ***	56.42	-56.42		D	N
+SAV01	Y	A	II	12/26/96	    	    	*** Interest ***	46.36	-46.36		D	N
+CHK01	N	E1	PH	1/1/97	     	     	Cellular Phone Carriers	-35.00	35.00		C	N
+CC11	Y	X	XX	1/1/97	3442	    	--- Payment ---	-150.00	150.00		P	N
+LOAN02	Y	X	XX	1/1/97	    	    	--- Interest Charge ---	551.43	-551.43		C	N
+LOAN02	Y	X	XX	1/1/97	3443	    	--- Payment ---	-760.38	760.38		P	N
+CC11	Y	E6	CL	1/2/97	    	24	R.T. Brown's	57.22	57.22	Back Pack, Skirt, Belt	C	N
+SAV01	Y	X	XX	1/9/97	    	8086	--- Transfer ---	-400.00	400.00		W	N
+CC01	Y	X	XX	1/11/97	3448	    	Split Payment from 1st National Checking	-398.50	398.50		P	N
+CC11	Y	INT	CINT	1/11/97	    	    	--- Interest Charge ---	24.36	24.36		W	N
+LOAN01	Y	X	XX	1/13/97	    	    	--- Interest Charge ---	23.71	-23.71		P	N
+LOAN01	Y	X	XX	1/13/97	3449	    	--- Payment ---	-283.65	283.65		P	N
+SAV03	Y	A	II	1/26/97	    	    	*** Interest ***	84.52	-84.52		D	N
+SAV02	Y	A	II	1/26/97	    	    	*** Interest ***	58.60	-58.60		D	N
+SAV01	Y	A	II	1/26/97	    	    	*** Interest ***	55.16	-55.16		D	N
+LOAN02	Y	X	XX	2/1/97	    	    	--- Interest Charge ---	550.38	-550.38		C	N
+LOAN02	Y	X	XX	2/1/97	3461	    	--- Payment ---	-760.38	760.38		P	N
+SAV01	Y	X	XX	2/9/97	    	7271	--- Transfer ---	-250.00	250.00		W	N
+SAV01	Y	X	XX	2/9/97	    	7270	--- Deposit ---	741.25	-741.25		D	N
+CC11	Y	X	XX	2/13/97	3458	    	--- Payment ---	-100.00	100.00		P	N
+LOAN01	Y	X	XX	2/13/97	    	    	--- Interest Charge ---	23.81	-23.81		P	N
+LOAN01	Y	X	XX	2/13/97	3457	    	--- Payment ---	-283.65	283.65		P	N
+SAV03	Y	A	II	2/25/97	    	    	*** Interest ***	85.47	-85.47		D	N
+SAV01	Y	A	II	2/25/97	    	    	*** Interest ***	54.00	-54.00		D	N
+SAV02	Y	A	II	2/26/97	    	    	*** Interest ***	57.06	-57.06		D	N
+LOAN02	Y	X	XX	3/1/97	    	    	--- Interest Charge ---	549.33	-549.33		C	N
+LOAN02	Y	X	XX	3/1/97	3466	    	--- Payment ---	-683.00	683.00		P	N
+LOAN01	Y	X	XX	3/1/97	     	    	--- Interest Charge ---	31.33	-31.33		P	N
+SAV03	Y	A	II	3/25/97	    	    	*** Interest ***	86.98	-86.98		D	N
+SAV02	Y	A	II	3/25/97	    	    	*** Interest ***	59.28	-59.28		D	N
+SAV01	Y	A	II	3/25/97	    	    	*** Interest ***	47.80	-47.80		D	N
+CHK01	Y	X	XX	4/1/97	3484	    	1st National MasterCard	-1200.00	1200.00		C	N
+CHK01	Y	E1	PH	4/1/97	3483	    	Cellular Phone Carriers	-40.25	40.25		C	N
+CHK01	Y	E1	PH	4/1/97	3482	    	Reach Out Telephone	-40.20	40.20		C	N
+CHK01	Y	E1	GH	4/1/97	3481	    	Stay-Warm Gas Company	-22.87	22.87		C	N
+CHK01	Y	E1	EC	4/1/97	3480	    	Bright Electric Light Plant	-92.28	92.28		C	N
+CHK01	Y	E1	CONDO	4/1/97	3478	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	Y	E1	MG	4/1/97	3477	    	Pay-Me-First Mortgage Corp.	-822.62	822.62		C	N
+CHK01	Y	X	XX	4/1/97	    	SELT	CompuServe	-18.42	18.42		C	N
+LOAN02	Y	X	XX	4/1/97	    	    	--- Interest Charge ---	548.66	-548.66		C	N
+LOAN02	Y	X	XX	4/1/97	3477	    	--- Payment ---	-683.00	683.00		P	N
+CHK01	Y	E4	CA	4/1/97	    	656	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E3	BC	4/1/97	    	656	Bank Service Fee	-1.50	1.50		W	N
+CHK01	Y	E7	CO	4/2/97	    	SELT	The Greenery Nursery	-21.35	21.35		C	N
+CHK01	Y	E6	CL	4/2/97	    	SELT	R.T. Brown's	-26.18	26.18		C	N
+CHK01	Y	E7	HG	4/3/97	    	SELT	Home Builder's Warehouse	-26.54	26.54		C	N
+CHK01	Y	E8	GF	4/4/97	    	SELT	Little Gift Shop	-10.24	10.24		C	N
+CHK01	Y	E6	ET	4/4/97	    	SELT	Little Prof. Book Center	-11.53	11.53		C	N
+CHK01	Y	E4	CA	4/5/97	    	SELT	Come & Shop	-82.95	82.95		C	N
+CHK01	Y	E8	GF	4/6/97	    	SELT	Little Gift Shop	-15.49	15.49		C	N
+CHK01	Y	E4	GA	4/6/97	    	SELT	Pump-It Gas	-20.15	20.15		C	N
+CHK01	Y	E4	CA	4/8/97	    	6511	--- Withdrawal ---	-60.00	60.00		W	N
+CHK01	Y	E4	GA	4/9/97	    	SELT	Pump-It Gas	-14.07	14.07		C	N
+CHK01	Y	E4	FO	4/9/97	    	SELT	P&Q's Market	-41.42	41.42		C	N
+CHK01	Y	E4	GA	4/10/97	    	SELT	Pump-It Gas	-14.19	14.19		C	N
+CHK01	Y	E4	FO	4/14/97	    	SELT	P&Q's Market	-30.39	30.39		C	N
+CHK01	Y	A	IS	4/15/97	    	PAYR	---- Deposit ----	1478.04	-1478.04		D	N
+CHK01	Y	E1	AI	4/15/97	    	AUTO	Fender-Bender Auto Insurance	-126.20	126.20		C	N
+CHK01	Y	E4	CA	4/15/97	    	8379	---- Withdrawal ----	-60.00	60.00		W	N
+CHK01	Y	E4	FO	4/16/97	    	SELT	P&Q's Market	-12.39	12.39		C	N
+CHK01	Y	X	XX	4/16/97	    	SELT	The Aegean Restaurant	-32.04	32.04	Dinner with Bob	C	N
+CHK01	Y	E4	GA	4/17/97	    	SELT	Pump-It Gas	-13.88	13.88		C	N
+CHK01	Y	E4	FO	4/18/97	    	SELT	P&Q's Market	-15.24	15.24		C	N
+CHK01	Y	E4	FO	4/20/97	    	SELT	P&Q's Market	-74.69	74.69		C	N
+CHK01	Y	E4	CA	4/21/97	    	699	---- Withdrawal ----	-60.00	60.00		W	N
+CHK01	Y	E4	GA	4/22/97	    	SELT	Pump-It Gas	-17.30	17.30		C	N
+CC04	N	E6	CL	4/23/97	    	C015	Jacket	26.25	26.25		C	N
+CHK01	Y	E4	CA	4/23/97	    	1580	---- Withdrawal ----	-60.00	60.00		W	N
+CHK01	Y	E6	CL	4/25/97	3486	    	Stain-Master Cleaners	-6.85	6.85		C	N
+SAV03	Y	A	II	4/26/97	    	    	*** Interest ***	88.12	-88.12		D	N
+SAV02	Y	A	II	4/6/97	    	    	*** Interest ***	59.62	-59.62		D	N
+CHK01	Y	A	II	4/26/97	    	    	*** Interest ***	1.90	-1.90		D	N
+SAV01	Y	A	II	4/26/97	    	    	*** Interest ***	11.27	-11.27		D	N
+CHK01	N	E4	GA	4/28/97	    	SELT	Pump-It Gas	-19.27	19.27		C	N
+CHK01	N	E4	CA	4/28/97	    	2234	---- Withdrawal ----	-60.00	60.00		W	N
+CHK01	N	A	IS	4/30/97	    	PAYR	---- Deposit ----	1478.05	-1478.05		D	N
+CHK01	N	E4	FO	5/1/97	    	SELT	P&Q's Market	-32.47	32.47		C	N
+CHK01	N	E1	PH	5/1/97	3497	    	Cellular Phone Carriers	-48.55	48.55		C	N
+CHK01	N	E1	CONDO	5/1/97	3498	    	Home Sweet Home Condo Trust	-166.00	166.00		C	N
+CHK01	N	E1	MG	5/1/97	3495	    	Pay-Me-First Mortgage Corp.	-900.00	900.00		C	N
+CHK01	N	E1	WS	5/1/97	3494	    	Water/Sewer Dept.	-62.73	62.73		C	N
+CHK01	N	E1	GH	5/1/97	3491	    	Stay-Warm Gas Company	-29.33	29.33		C	N
+CHK01	N	X	XX	5/1/97	3490	    	Just Dresses	-22.07	22.07		C	N
+CHK01	N	X	XX	5/1/97	3489	    	1st National MasterCard	-314.58	314.58		C	N
+CHK01	N	E1	PH	5/1/97	3488	    	Reach Out Telephone	-50.56	50.56		C	N
+LOAN02	Y	X	XX	5/1/97	    	    	--- Interest Charge ---	547.99	-547.99		C	N
+LOAN02	Y	X	XX	5/1/97	3495	    	--- Payment ---	-760.38	760.38		P	N
+CHK01	N	E4	CA	5/3/97	    	4028	---- Withdrawal ----	-60.00	60.00		W	N
+CHK01	N	X	XX	5/3/97	    	4027	---- Deposit ----	102.76	-102.76	Expense Re-imbursement	D	N
+CHK01	N	E4	GA	5/4/97	    	SELT	Pump-It Gas	-16.98	16.98		C	N
+CHK01	N	X	XX	5/5/97	     	SELT	Major Department Store	-26.25	26.25		C	N
+CHK01	N	E4	FO	5/6/97	    	SELT	P&Q's Market	-45.20	45.20		C	N
+CHK01	N	E6	ET	5/7/97	    	SELT	Upscale Restaurant	-14.82	14.82		C	N
+CHK01	N	E8	GF	5/7/97	    	SELT	Musak Store	-11.53	11.53		C	N
+CHK01	N	E8	GF	5/7/97	    	SELT	Discount Warehouse	-18.73	18.73		C	N
+CHK01	N	E1	AI	5/15/97	    	AUTO	Fender-Bender Auto Insurance	-129.00	129.00		C	N
+LOAN02	Y	X	XX	6/1/97	    	    	--- Interest Charge ---	545.09	-545.09		C	N

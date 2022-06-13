@@ -1,0 +1,120 @@
+	===================================================================
+                    CashTrak 6.0 Sample Application
+			Setup Instructions
+	===================================================================
+                             
+       CashTrak is installed and configured to connect to the SqlAnyWhere database
+       cashtrak.db.  However, if you wish to run CashTrak against the following 
+       databases: 
+
+		Sybase or SqlServer 4.9x database
+		Sybase System 10 
+		Informix 
+		Oracle Version 7,
+	
+       you may do so by following these steps:
+
+       1)  Run PowerBuilder and select Cashtrak.PBL for your application library.
+       Add Cashtrk2.PBL and Cashtrk3.PBL to the application search path.
+
+       2)  Connect to an existing test database on your database server.
+       (If you prefer to create a new database, you may do so using SQL Admin.
+       tools.)
+
+       3)  While in the database painter, check Show System Tables from the Select
+       Tables dialog.  Select the table PBCATEDT and open it. 
+
+       4)  With the PBCATEDT table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select PBCATEDT.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+
+       5)  With Show System Tables checked, select the table PBCATFMT and open it. 
+
+       6)  With the PBCATFMT table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select PBCATFMT.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+
+       7)  Select the Database Administation icon from the Database PainterBar.
+
+       8)  Select Import and choose *ONE* of the following files depending on your
+       DBMS: 
+		 CTSYB.SQL  for Sybase or SqlServer 4.9x 
+	---or -- CTSYC.SQL  for Sybase System 10
+	---or -- CTINF.SQL  for Informix
+	---or -- CTOR7.SQL  for Oracle Version 7
+
+       You should see SQL statements in the DBA notepad.   Click the Execute Icon on the 
+       PainterBar.  This will build the Cashtrak tables.
+	
+       9)  Open the Select Tables dialog and Select the table CHECK_CODES and open it. 
+
+       10)  With the CHECK_CODES table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select CODES.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+       This will add CashTrak sample data for the code tables.
+
+       11)  Open the Select Tables dialog and Select the table CHECK_DETAIL and open it. 
+
+       12)  With the CHECK_DETAIL table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select DETAIL.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+       This will add CashTrak sample data for the account detail table.
+
+       13)  Open the Select Tables dialog and Select the table CHECK_HISTORY and open it. 
+
+       14)  With the CHECK_HISTORY table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select HISTORY.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+       This will add CashTrak sample data for the account history table.
+
+       15)  Open the Select Tables dialog and Select the table CHECK_BUDGET and open it. 
+
+       16)  With the CHECK_BUDGET table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select BUDGET.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+       This will add CashTrak sample data for the account budget table.
+
+       17)  Open the Select Tables dialog and Select the table CHECK_RECURRING and open it. 
+
+       18)  With the CHECK_RECURRING table selected, click the Data Manipulation icon
+       from the PainterBar.   When the Data Manipulation grid appears, select
+       Rows / Import from the menu and select RECUR.TXT from the Files Dialog. 
+       When the data appears, click the Update icon from the Painter Bar.
+       This will add CashTrak sample data for the account budget table.
+
+	***********************************************************************************
+	  CONGRATULATIONS!!!! You have successfully built the CashTrak Sample Database.
+	***********************************************************************************
+
+       RUNNING CASHTRAK FOR THE FIRST TIME:
+       When you run CashTrak for the first time, you will be prompted to enter some 
+       initialization information that will be stored in an application INI file. 
+
+
+		**************************************************************
+		VERY IMPORTANT.  THE FOLLOWING STEP IS ESSENTIAL TO CONNECTING 
+		FOR THE	FIRST TIME.   IF THIS STEP FAILS AND YOU WISH TO TRY 
+		AGAIN, DELETE THE FILE "CASHTRAK.INI" AND RUN THE APPLICATION 
+		AGAIN.
+		**************************************************************
+
+       After entering your Name and Address information, click the DataBase Tab and enter 
+       the information required to connect to the database you created in Steps 1-12.  When 
+       you have successfully done this, a CashTrak.INI file will be created and you should not
+       have to re-enter this information again.
+
+	***********************************************************************************
+	 Enjoy CashTrak ... Refer to the CashTrak On-Line Help for additional information.
+	***********************************************************************************
+
+	
+
+	
+
+  

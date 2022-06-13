@@ -1,0 +1,29 @@
+dwcreate	create
+dwdescribe	describe
+dwfind	find
+dwfindrequired	findrequired
+dwfindgroupchange	findgroupchange
+dwgetbandatpointer	getbandatpointer
+dwgetchild	getchild
+dwgetitemstatus	getitemstatus
+dwgetnextmodified	getnextmodified
+dwgetobjectatpointer	getobjectatpointer
+dwgetsqlpreview	getsqlpreview
+dwgetupdatestatus	getupdatestatus
+dwgroupcalc	groupcalc
+dwmodify	modify
+dwoleactivate	oleactivate
+dwresetupdate	resetupdate
+dwsetitemstatus	setitemstatus
+dwsetposition	setposition
+dwsetsqlpreview	setsqlpreview
+dwsharedata	sharedata
+dwsharedataoff	sharedataoff
+dwsyntaxfromsql	syntaxfromsql
+setconnect	for backward compatibility 
+dberrorcode	use sqldbcode event argument
+dberrormessage	use sqlerrtext event argument
+getmessagetext	use text event argument
+getsqlpreview	use sqlsyntax event argument
+getupdatestatus	use row/buffer event arguments
+setactioncode	use return code

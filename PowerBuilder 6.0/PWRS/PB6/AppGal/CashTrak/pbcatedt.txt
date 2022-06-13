@@ -1,0 +1,57 @@
+pay_freq_edit	Monthly	87	1	6	0	
+code_type	Expense Cat 1	87	1	4	0	
+acct_dddw	dddw_acct_choice	88	1	1	538968080	0
+acct_dddw	code_value	88	1	2	0	
+acct_dddw	code_display	88	1	3	0	100
+exp1_dddw	dddw_exp_cat1	88	1	1	538968080	0
+exp1_dddw	code_value	88	1	2	0	
+exp1_dddw	code_display	88	1	3	0	100
+exp2_dddw	dddw_exp_cat2	88	1	1	538968080	0
+exp2_dddw	code_value	88	1	2	0	
+exp2_dddw	code_display	88	1	3	0	100
+type_ddlb	0	87	2	1	335544322	
+type_ddlb	Check	87	2	2	0	
+type_ddlb	C	87	2	3	0	
+type_ddlb	Withdraw	87	2	4	0	
+type_ddlb	W	87	2	5	0	
+type_ddlb	Deposit	87	2	6	0	
+type_ddlb	D	87	2	7	0	
+type_ddlb	Payment	87	2	8	0	
+type_ddlb	P	87	2	9	0	
+pay_freq_edit	0	87	1	1	2	
+pay_freq_edit	Weekly	87	1	2	0	
+pay_freq_edit	W	87	1	3	0	
+pay_freq_edit	Bi-Monthly	87	1	4	0	
+pay_freq_edit	B	87	1	5	0	
+pay_freq_edit	M	87	1	7	0	
+pay_freq_edit	Semi-Annual	87	1	8	0	
+pay_freq_edit	S	87	1	9	0	
+pay_freq_edit	Yearly	87	1	10	0	
+pay_freq_edit	Y	87	1	11	0	
+ddlb_weekly	0	87	1	1	67108866	
+ddlb_weekly	Monday	87	1	2	0	
+ddlb_weekly	MON	87	1	3	0	
+ddlb_weekly	Tuesday	87	1	4	0	
+ddlb_weekly	TUE	87	1	5	0	
+ddlb_weekly	Wednesday	87	1	6	0	
+ddlb_weekly	WED	87	1	7	0	
+ddlb_weekly	Thursday	87	1	8	0	
+ddlb_weekly	THU	87	1	9	0	
+ddlb_weekly	Friday	87	1	10	0	
+ddlb_weekly	FRI	87	1	11	0	
+em_bimonth1	##	90	2	1	32	00
+yes_no		85	2	1	536870916	
+em_yearly1	##/##	90	1	1	32	00
+yes_no	Y	85	2	2	0	
+yes_no	N	85	2	3	0	
+payees	dddw_payees	88	3	1	-1608515568	0
+payees	code_value	88	3	2	0	
+payees	code_display	88	3	3	0	100,0
+code_type	0	87	1	1	2	
+code_type	Account Definition	87	1	2	0	
+code_type	ACCT	87	1	3	0	
+code_type	EXP1	87	1	5	0	
+code_type	Expense Cat 2	87	1	6	0	
+code_type	EXP2	87	1	7	0	
+code_type	Payees	87	1	8	0	
+code_type	NAME	87	1	9	0	

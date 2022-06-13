@@ -1,0 +1,23 @@
+:Base pttsa105.hlp>main
+:Title Translation Toolkit Help
+1 Welcome to the Translator Tool
+2 Welcome to the Translator Tool=title
+1 Chapter 1:  Getting Started
+2 About the Translator Tool=about_the_translator_tool
+2 About the translation database=the_translation_database
+2 Changing the database connection=changing_the_database_connection
+2 Getting phrase data from the developer=getting_phrase_data_from_dev
+1 Chapter 2: Quick Reference
+2 Translator's quick reference=trans_qr
+2 Glossary=glossary_qr
+1 Chapter 3:  Translator Tool
+2 About the Translator tool=about_the_translator_tool
+2 Getting phrase data from the developer=Getting_phrase_data_from_dev
+2 Translating the phrases=translating_the_phrases
+2 Inserting translations=inserting_translations
+2 Translating phrases that represent database values=translating_column_values
+2 Working with a phrase that should not be translated=not_translate
+2 Using suggested translations=suggested_translations
+2 Searching the dictionary=searching_the_dictionary
+2 Creating a dictionary=creating_a_dictionary
+2 Returning translated phrases to the developer=Returning_phrase_data_to

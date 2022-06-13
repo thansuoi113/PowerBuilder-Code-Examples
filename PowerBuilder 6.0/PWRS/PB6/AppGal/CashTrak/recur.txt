@@ -1,0 +1,9 @@
+CHK01	E1	EC	5/1/96	M	01		Bright Electric Light Plant	50.00	Electric Bill	C	N	5
+CHK01	E1	PH	5/1/96	M	01		Cellular Phone Carriers	35.00	Cell Phone	C	N	5
+CHK01	E1	AI	5/15/96	M	15		Fender-Bender Auto Insurance	129.00	Auto Insurance	C	N	5
+CHK01	E1	CONDO	5/1/96	M	01		Home Sweet Home Condo Trust	166.00	Condo Maintenance	C	N	5
+CHK01	E1	MG	5/1/96	M	01		Pay-Me-First Mortgage Corp.	900.00	Mortgage	C	N	5
+CHK01	E1	PH	5/1/96	M	01		Reach Out Telephone	30.00	Phone Bill	C	N	5
+CHK01	E1	GH	5/1/96	M	01		Stay-Warm Gas Company	45.00	Gas Bill	C	N	5
+CHK01	E1	WS	3/15/96	S	0115	0715	Water/Sewer Dept.	150.00	Water / twice a year	C	N	5
+CHK01	A	IS	5/15/96	B	15	30	*** Deposit ***	1634.75	Paycheck	D	N	5

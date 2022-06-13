@@ -1,0 +1,23 @@
+PowerBuilder[R] Version 12.5 Installation Notes
+*************************************************************************
+Before installing PowerBuilder, please read the Installation Guide included on the Getting Started CD in the box with your software. The Installation Guide is also available on the Sybase Web site:
+
+   1. Go to the Sybase Product Manuals Web site at 
+        http://sybooks.sybase.com.
+   2. Select PowerBuilder and click Go.
+   3. Select PowerBuilder 12.5.
+   4. Select the Installation Guide for your edition of PowerBuilder.
+
+The Installation Guide contains important information about hardware and software prerequisites and detailed information about installing the product set. 
+
+To use the demo database, code examples, or tutorial targets, you must install SQL Anywhere 12.0.1 before you install PowerBuilder. These features are not installed if the setup program does not detect the presence of SQL Anywhere.
+
+You should also read the Release Bulletin for known issues and last minute release information. The Release Bulletin is included on the Getting Started CD in the box with your software, and it is available on the Sybase Product Manuals Web site.
+
+*************************************************************************
+(c) 1991-2011 Sybase, Inc. and its subsidiaries. All rights reserved. Sybase, Inc. and its subsidiaries ("Sybase") claim copyright in this program and documentation as an unpublished work, versions of which were first licensed on the date indicated in the foregoing notice. Claim of copyright does not imply waiver of Sybase's other rights. 
+See Notice of Proprietary Rights.
+
+NOTICE OF PROPRIETARY RIGHTS
+
+This computer program and documentation are confidential trade secrets and the property of Sybase, Inc. and its subsidiaries. Use, examination, reproduction, copying, disassembly, decompilation, transfer and/or disclosure to others, in whole or in part, are strictly prohibited except with the express prior written consent of Sybase, Inc. and its subsidiaries.

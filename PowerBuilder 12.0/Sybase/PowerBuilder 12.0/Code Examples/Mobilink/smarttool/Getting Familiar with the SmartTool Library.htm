@@ -1,0 +1,1527 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List
+href="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Getting Familiar with the SmartTool Library</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Administrator</o:Author>
+  <o:LastAuthor>Administrator</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>17</o:TotalTime>
+  <o:Created>2006-09-08T19:43:00Z</o:Created>
+  <o:LastSaved>2006-09-08T19:43:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1693</o:Words>
+  <o:Characters>9655</o:Characters>
+  <o:Company>Sybase Inc.</o:Company>
+  <o:Lines>80</o:Lines>
+  <o:Paragraphs>22</o:Paragraphs>
+  <o:CharactersWithSpaces>11326</o:CharactersWithSpaces>
+  <o:Version>11.8036</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:ActiveWritingStyle Lang="EN-US" VendorID="64" DLLVersion="131078"
+   NLCheck="1">1</w:ActiveWritingStyle>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-update:auto;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:11.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:Arial;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.9in 1.2in .8in 1.2in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:420103011;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-772621768 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:563490647;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1547731126 1452984962 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:962734308;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-133928360 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'>Getting Familiar with the <span
+class=SpellE>SmartTool</span> Library</h1>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<h2>Introduction</h2>
+
+<p class=MsoNormal style='tab-stops:333.0pt'>The PowerBuilder setup program
+installs <span class=SpellE>SmartTool.PBL</span> in the PowerBuilder <i
+style='mso-bidi-font-style:normal'>Code Examples\<span class=SpellE>MobiLink\SmartTool</span></i>
+directory. You can add this library to any of your PowerBuilder targets that
+use <span class=SpellE>MobiLink</span> synchronization. The <span class=SpellE>SmartTool</span>
+library contains the following objects that you can use to enhance your <span
+class=SpellE>MobiLink</span> smart client applications:</p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span
+style='mso-spacerun:yes'> </span><span
+style='mso-spacerun:yes'> </span>Windows:<span style='mso-spacerun:yes'>   
+</span><span class=SpellE><i style='mso-bidi-font-style:normal'>w_login_prompt</i></span></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span
+style='mso-spacerun:yes'>                       </span><span class=SpellE><i
+style='mso-bidi-font-style:normal'>w_prompt_new_dbpassword</i></span> </p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span
+style='mso-spacerun:yes'>                       </span><span class=SpellE><i
+style='mso-bidi-font-style:normal'>w_prompt_new_mlpassword</i></span></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span style='mso-spacerun:yes'>  
+</span>Global Functions:<span style='mso-spacerun:yes'>    </span><span
+class=SpellE><i style='mso-bidi-font-style:normal'>gf_get_syncsettings_from_db</i></span></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span
+style='mso-spacerun:yes'>                                    </span><span
+class=SpellE><i style='mso-bidi-font-style:normal'>gf_prompt_new_dbpassword</i></span><i
+style='mso-bidi-font-style:normal'><o:p></o:p></i></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span
+style='mso-spacerun:yes'>                                    </span><span
+class=SpellE><i style='mso-bidi-font-style:normal'>gf</i></span><i
+style='mso-bidi-font-style:normal'>_ <span class=SpellE>prompt_new_dbmlssword</span></i></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span
+style='mso-spacerun:yes'>                                    </span><span
+class=SpellE><i style='mso-bidi-font-style:normal'>gf_save_syncsettings</i></span><i
+style='mso-bidi-font-style:normal'><o:p></o:p></i></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span style='mso-spacerun:yes'>   
+</span></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><span style='mso-spacerun:yes'>   
+</span>Structure:<span style='mso-spacerun:yes'>     </span><span class=SpellE><i
+style='mso-bidi-font-style:normal'>s_new_password</i></span></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'>The <span class=SpellE>SmartTool</span>
+toolkit also includes the SQL file, <span class=SpellE><span class=GramE><i
+style='mso-bidi-font-style:normal'>SyncSettings.sql</i></span></span><span
+class=GramE>, that</span> adds a table to the remote databases for your smart
+client applications.</p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='tab-stops:333.0pt'>This document describes each of
+the objects in the <span class=SpellE>SmartTool</span> toolkit and describes how
+to incorporate these objects into your application. The <span class=SpellE>SmartTool</span>
+library objects supplement the objects generated by the <span class=SpellE>MobiLink</span>
+Synchronization wizard in PowerBuilder.</p>
+
+<h2><span class=SpellE>w_login_prompt.srw</span></h2>
+
+<p class=MsoNormal>Keeping the remote database secure is critical for smart
+client applications, because sensitive corporate data resides in the remote
+database.<span style='mso-spacerun:yes'>  </span>Applications should require
+authentication by prompting the user to supply both a database password and an
+encryption key at runtime.<span style='mso-spacerun:yes'>  </span>The login
+window assists by generating a complete ODBC <span class=SpellE>ConnectString</span>
+based on values supplied by the user at runtime.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:255pt;
+ height:153pt'>
+ <v:imagedata src="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/image001.png"
+  o:title="" croptop="15565f" cropbottom=".4375" cropleft="22118f" cropright="22118f"/>
+</v:shape><![endif]--><![if !vml]><img width=340 height=204
+src="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/image002.jpg"
+v:shapes="_x0000_i1025"><![endif]></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Currently, the <span class=SpellE>w_login_prompt</span>
+response window is designed to support ODBC connections only.<span
+style='mso-spacerun:yes'>  </span>It is called with a partially complete ODBC
+transaction object as an input parameter. <span
+style='mso-spacerun:yes'> </span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>It begins by parsing the keyword=value pairs that make up
+the <span class=GramE>incoming<span style='mso-spacerun:yes'>  </span><span
+class=SpellE>ConnectString</span></span>, and keeps these values in a number of
+instance variables.<span style='mso-spacerun:yes'>  </span>Then it prompts the
+user to supply password and encryption key values.<span
+style='mso-spacerun:yes'>  </span>When the user clicks OK, it reconstructs the <span
+class=SpellE>ConnectString</span>, adding the new PWD and DBKEY keyword=value
+pairs.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2 style='page-break-after:auto'><span class=SpellE>SyncSettings.sql</span></h2>
+
+<p class=MsoNormal>The <span class=SpellE><span class=GramE>MLSync.GetSyncRegistryProperties</span></span><span
+class=GramE>(</span>) and <span class=SpellE>MLSync.SetSyncRegistryProperties</span>()
+functions allow users to change <span class=SpellE>MLSync</span> properties at
+runtime and then store these changes in the Windows Registry for reuse.<span
+style='mso-spacerun:yes'>  </span>The w_&lt;<span class=SpellE>appname</span>&gt;_<span
+class=SpellE>sync_options</span> window that is generated by the <span
+class=SpellE>MobiLink</span> Synchronization Wizard performs this task. <span
+style='mso-spacerun:yes'>  </span>However, for highly sensitive properties such
+as <span class=SpellE>dbpass</span>, <span class=SpellE>mlpass</span>, <span
+class=SpellE>encryptionkey</span>, and <span class=SpellE>authenticationparms</span>,
+this approach is insufficient.<span style='mso-spacerun:yes'>  </span>Either
+the end user must enter these values manually each time synchronization is run,
+or must store these properties in a more secure location.<span
+style='mso-spacerun:yes'>  </span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=SpellE>SyncSettings.sql</span> helps you to
+implement the latter solution by creating a <span class=SpellE>SyncSettings</span>
+table in the remote database itself.<span style='mso-spacerun:yes'>  </span>A <span
+class=SpellE>SmartTool</span> toolkit function, <span class=SpellE>gf_save_<span
+class=GramE>syncsettings</span></span><span class=GramE>(</span>), stores a row
+in this table and another function, <span class=SpellE>gf_get_sync_settings_from_db</span>(),
+retrieves the contents of a row. <span style='mso-spacerun:yes'> </span>Each
+row of the table contains the same properties as a PowerBuilder <span
+class=SpellE>SyncParm</span> structure.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>create</span></span><span
+style='font-family:Courier'> table <span class=SpellE>SyncSettings</span> (<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>regkey</span></span><span
+style='mso-spacerun:yes'>    </span><span class=SpellE>varchar</span>(250) not
+null primary key,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>dbuser</span></span><span
+style='mso-spacerun:yes'>    </span><span class=SpellE>varchar</span>(128) not
+null,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>dbpass</span></span><span
+style='mso-spacerun:yes'>    </span><span class=SpellE>varchar</span>(128) not
+null,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>mluser</span></span><span
+style='mso-spacerun:yes'>    </span><span class=SpellE>varchar</span>(128) not
+null,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>mlpass</span></span><span
+style='mso-spacerun:yes'>    </span><span class=SpellE>varchar</span>(128),<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=GramE>encrypt</span><span
+style='mso-spacerun:yes'>   </span><span class=SpellE>varchar</span>(128),<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>authparms</span></span> <span
+class=SpellE>varchar</span>(128))<o:p></o:p></span></p>
+
+<h3>Installation:</h3>
+
+<p class=MsoNormal>To install the <span class=SpellE>SyncSettings</span> table
+in your remote database, create a database profile for your remote database and
+connect to the database from the PowerBuilder Database painter.<span
+style='mso-spacerun:yes'>  </span>In the ISQL View, choose the “Edit, Paste
+Special, From File…” menu item and choose <span class=SpellE>SyncSettings.sql</span>.<span
+style='mso-spacerun:yes'>  </span>Then choose “Design, Execute ISQL…<span
+class=GramE>”.</span><span style='mso-spacerun:yes'>  </span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Alternately, issue the following command from a CMD prompt:</p>
+
+<p class=MsoNormal>&quot;%ASA_PATH%\win32\dbisql&quot; -q -<span class=SpellE>nogui</span>
+-c &quot;<span class=SpellE>uid</span>=<span class=SpellE>dba<span class=GramE>;pwd</span></span>=<span
+class=SpellE>sql;dbkey</span>=<span class=SpellE>secret;dsn</span>=<span
+class=SpellE>SalesDB_remote</span>&quot; -ODBC read <span class=SpellE>syncsettings.sql</span></p>
+
+<h3>Usage:</h3>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together'>The <span
+class=SpellE>MobiLink</span> Synchronization wizard generates a function called
+<span class=SpellE>gf</span>_&lt;<span class=SpellE>appname</span>&gt;_<span
+class=SpellE>configure_<span class=GramE>sync</span></span><span class=GramE>(</span>).<span
+style='mso-spacerun:yes'>  </span>Once the <span class=SpellE>syncsettings</span>
+table is installed in your remote database, you can uncomment the <span
+class=SpellE>PowerScript</span> code that calls <span class=SpellE>gf_get_sync_settings_from_<span
+class=GramE>db</span></span><span class=GramE>(</span>) and <span class=SpellE>gf_save_syncsettings</span>().</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+style='font-family:Courier'>gf_get_syncsettings_from_<span class=GramE>db</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>sqlca</span></span><span
+style='font-family:Courier'>, &amp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'><span
+class=SpellE><span style='font-family:Courier'>l_uosync.syncregistrykey</span></span><span
+style='font-family:Courier'>, <span class=SpellE>parms</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+style='font-family:Courier'>l_<span class=GramE>uosync.SetParm</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>parms</span></span><span
+style='font-family:Courier'>)<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+class=GramE><span style='font-family:Courier'>OpenWithParm</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>w_salesdb_sync_options</span></span><span
+style='font-family:Courier'>, <span class=SpellE>l_uosync</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>parms</span></span> = <span
+class=SpellE>Message.PowerObjectParm</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=GramE>if</span> <span class=SpellE>parms.returncode</span>
+= 0 then<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'><span
+class=SpellE><span style='font-family:Courier'>gf_save_<span class=GramE>syncsettings</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>sqlca</span></span><span
+style='font-family:Courier'>, <span class=SpellE>l_uosync.syncregistrykey</span>,
+<span class=SpellE>parms</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+2'>          </span>…<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=GramE><span
+style='font-family:Courier'>end</span></span><span style='font-family:Courier'>
+if<o:p></o:p></span></p>
+
+<h2><span class=SpellE>gf_get_sync_settings_from_db.srf</span></h2>
+
+<p class=MsoNormal>This function retrieves a row in the <span class=SpellE>SyncSettings</span>
+table and populates a <span class=SpellE>SyncParm</span> structure with its
+contents. </p>
+
+<h3>Arguments:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>Datatype</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Argument</p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Transaction</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_trans</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>The transaction object currently connected to the SQL&nbsp;Anywhere
+  remote database that contains the <span class=SpellE>dbo.syncsettings</span>
+  table</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>String</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_regkey</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>This <span class=SpellE>MLSync.SyncRegistryKey</span>
+  value is used as a primary key value in the <span class=SpellE>SyncSettings</span>
+  table to uniquely identify the row containing the passwords and
+  authentication <span class=SpellE>parms</span>.<span
+  style='mso-spacerun:yes'>  </span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>SyncParm</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_parms</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>This structure is populated with the contents of the row
+  (in the <span class=SpellE>SyncSettings</span> table) that is indexed by the <span
+  class=SpellE>A_regkey</span> argument. <span
+  style='mso-spacerun:yes'> </span></p>
+  </td>
+ </tr>
+</table>
+
+<h3>Return Code:</h3>
+
+<p class=MsoNormal>After the retrieve statement is issued, the function return
+code is set to <span class=SpellE>A_trans.sqlcode</span>.</p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Value</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Function succeeded</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>100</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Row not found</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>-1</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>An error occurred</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3>Usage:</h3>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+style='font-family:Courier'>gf_get_syncsettings_from_<span class=GramE>db</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>sqlca</span></span><span
+style='font-family:Courier'>, &amp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:.5in'><span
+class=SpellE><span style='font-family:Courier'>l_uosync.syncregistrykey</span></span><span
+style='font-family:Courier'>, <span class=SpellE>parms</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+style='font-family:Courier'>l_<span class=GramE>uosync.SetParm</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>parms</span></span><span
+style='font-family:Courier'>)<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+class=GramE><span style='font-family:Courier'>OpenWithParm</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>w_salesdb_sync_options</span></span><span
+style='font-family:Courier'>, <span class=SpellE>l_uosync</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan lines-together'>When <span
+class=SpellE>w_salesdb_sync_options</span> opens, the fields for <span
+class=SpellE>dbuser</span>, <span class=SpellE>dbpass</span>, <span
+class=SpellE>mluser</span>, <span class=SpellE>mlpass</span>, <span
+class=SpellE>encryptionkey</span>, and <span class=SpellE>authenticationparms</span>
+will already be populated with the values stored in the <span class=SpellE>SyncSettings</span>
+table. The user does not have to re-enter these properties <span class=GramE>each
+time synchronization</span> occurs. However, the properties always remain
+secure, and the passwords can even be updated by the end user. </p>
+
+<h2><span class=SpellE>gf_save_syncsettings.srf</span></h2>
+
+<p class=MsoNormal>This function inserts or updates a row in the <span
+class=SpellE>SyncSettings</span> table with the contents of a <span
+class=SpellE>SyncParm</span> structure.</p>
+
+<h3>Arguments:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>Datatype</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Argument</p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Transaction</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_trans</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>The transaction object currently connected to the SQL&nbsp;Anywhere
+  remote database that contains the <span class=SpellE>dbo.syncsettings</span>
+  table</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>String</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_regkey</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>This <span class=SpellE>MLSync.SyncRegistryKey</span>
+  value is used as a primary key value in the <span class=SpellE>SyncSettings</span>
+  table to uniquely identify the row containing the passwords and
+  authentication <span class=SpellE>parms</span>.<span
+  style='mso-spacerun:yes'>  </span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>SyncParm</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_parms</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>The contents of this structure are saved to a row (in the <span
+  class=SpellE>SyncSettings</span> table) that is indexed by the <span
+  class=SpellE>A_regkey</span> argument.<span style='mso-spacerun:yes'> 
+  </span></p>
+  </td>
+ </tr>
+</table>
+
+<h3>Return Code:</h3>
+
+<p class=MsoNormal>After the insert or update statement is issued, the return
+code is set to <span class=SpellE>A_trans.sqlcode</span>.</p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Value</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Function succeeded</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>100</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Row not found</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>-1</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>An error occurred</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3>Usage:</h3>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=SpellE><span
+class=GramE><span style='font-family:Courier'>OpenWithParm</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>w_salesdb_sync_options</span></span><span
+style='font-family:Courier'>, <span class=SpellE>l_uosync</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>parms</span></span> = <span
+class=SpellE>Message.PowerObjectParm</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=GramE>if</span> <span class=SpellE>parms.returncode</span>
+= 0 then<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=SpellE><span
+style='font-family:Courier'>gf_save_<span class=GramE>syncsettings</span></span></span><span
+class=GramE><span style='font-family:Courier'>(</span></span><span
+class=SpellE><span style='font-family:Courier'>sqlca</span></span><span
+style='font-family:Courier'>, &amp; <span class=SpellE>l_uosync.syncregistrykey</span>,
+<span class=SpellE>parms</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+2'>          </span>…<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span class=GramE><span
+style='font-family:Courier'>end</span></span><span style='font-family:Courier'>
+if<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2><span class=SpellE>gf_prompt_new_dbpassword.srf</span></h2>
+
+<p class=MsoNormal>This function allows the application to easily change a
+database password associated with a user ID in the SQL Anywhere remote
+database.<span style='mso-spacerun:yes'>  </span>The function also updates the <span
+class=SpellE>dbpass</span> property in the <span class=SpellE>MLSync</span>
+object and may optionally call <span class=SpellE>gf_save_<span class=GramE>syncsettings</span></span><span
+class=GramE>(</span>) to save the <span style='mso-spacerun:yes'> </span><span
+style='mso-spacerun:yes'> </span>new database password in the <span
+class=SpellE>syncsettings</span> table.<span style='mso-spacerun:yes'> 
+</span>This ensures that the next time the user runs the <span class=SpellE>MLSync.synchronize</span>
+<span class=GramE>function,</span> the new database password will be used.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Users with mobile devices should be encouraged to change
+their database passwords regularly.<span style='mso-spacerun:yes'>  </span></p>
+
+<h3>Arguments:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>Datatype</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Argument</p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Transaction</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_trans</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>The transaction object currently connected to the SQL&nbsp;Anywhere
+  remote database</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>MLSync</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_uosync</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>A <span class=SpellE>MobiLink</span> synchronization
+  object that uses this database password</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Ref string</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_errortext</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Status message returned to the caller</p>
+  </td>
+ </tr>
+</table>
+
+<h3>Return Code:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Value</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>1</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Function succeeded</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>100</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>User cancelled the request</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>-1</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>An error occurred</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3>Usage:</h3>
+
+<p class=MsoNormal>Add a new menu item entitled “Change DB Password…” and
+insert this code in the clicked! <span class=GramE>event</span>:</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-family:Courier'>MLSync</span></span><span
+style='font-family:Courier'><span style='mso-tab-count:2'>        </span><span
+class=SpellE>l_uosync</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>long</span></span><span
+style='font-family:Courier'><span style='mso-tab-count:3'>          </span><span
+class=SpellE>rc</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>string</span></span><span
+style='font-family:Courier'><span style='mso-tab-count:2'>        </span><span
+class=SpellE>errtext</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-family:Courier'>l_uosync</span></span><span
+style='font-family:Courier'> = CREATE <span class=SpellE>nvo_salesdb_mlsync</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>if</span></span><span
+style='font-family:Courier'> <span class=SpellE>IsValid</span>(<span
+class=SpellE>l_uosync</span>) then<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>rc</span></span> = <span
+class=SpellE>gf_prompt_new_dbpassword</span>(<span class=SpellE>sqlca</span>, <span
+class=SpellE>l_uosync</span>, <span class=SpellE>errtext</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>messagebox</span></span><span
+class=GramE>(</span>&quot;Change DB Password&quot;, <span class=SpellE>errtext</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>end</span></span><span
+style='font-family:Courier'> if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>destroy</span></span><span
+style='font-family:Courier'> <span class=SpellE>l_uosync</span><o:p></o:p></span></p>
+
+<b><i><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span></i></b>
+
+<h2><span class=SpellE>s_new_password.srs</span></h2>
+
+<p class=MsoNormal>This structure is used to communicate between the function, <span
+class=SpellE>gf_prompt_new_dbpassword</span>, and the response window, <span
+class=SpellE>w_prompt_new_dbpassword</span>. <span
+style='mso-spacerun:yes'>  </span>This structure is also used to pass arguments
+between <span class=SpellE>gf_prompt_new_mlpassword</span> and <span
+class=SpellE>w_prompt_new_mlpassword</span>.</p>
+
+<h3>Properties:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>Datatype</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Name</p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>MLSync</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>uosync</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>A <span class=SpellE>MobiLink</span> synchronization
+  object that uses this database or <span class=SpellE>MobiLink</span> password</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>String</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>newpassword</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>The new password value typed by the user</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Ref string</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>errortext</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Status message returned to the caller</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Long</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>rc</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Return code from the response window</p>
+  <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in;mso-list:l1 level1 lfo3;
+  tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>1<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><![endif]>User clicked OK</p>
+  <p class=MsoNormal style='margin-left:.25in'>100 User clicked CANCEL</p>
+  <p class=MsoNormal style='margin-left:.25in'>-1<span
+  style='mso-spacerun:yes'>  </span>Error<span style='mso-spacerun:yes'>   
+  </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2><span class=SpellE>w_prompt_new_dbpassword.srw</span></h2>
+
+<p class=MsoNormal>This response window is launched by <span class=SpellE>gf_prompt_new_dbpassword</span>
+and takes an instance of <span class=SpellE>s_new_password</span> (<span
+class=SpellE>i_newpass</span>) as a parameter.<span style='mso-spacerun:yes'> 
+</span>The open event uses the <span class=SpellE>i_newpass.uosync.dbuser</span>
+and <span class=SpellE>i_newpass.uosync.dbpass</span> properties to initialize
+the first two single line edit controls and prompts the user to enter a new
+password twice.<span style='mso-spacerun:yes'>  </span>The OK button is enabled
+when sle_newpass2 loses focus and the new password is verified.<span
+style='mso-spacerun:yes'>   </span>When OK is clicked, the new password value
+is returned to the caller via <span class=SpellE>s_new_password.newpassword</span>.
+</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+ style='width:211.5pt;height:140.25pt'>
+ <v:imagedata src="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/image003.png"
+  o:title="" croptop="13926f" cropbottom=".5" cropleft="16712f" cropright="31949f"/>
+</v:shape><![endif]--><![if !vml]><img width=282 height=187
+src="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/image004.jpg"
+v:shapes="_x0000_i1027"><![endif]></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>The <span class=SpellE><span class=GramE>closequery</span></span><span
+class=GramE>(</span>) event sends <span class=SpellE>i_newpass</span> structure
+back to the caller via <span class=SpellE>Message.PowerObjectParm</span>.<br
+clear=all style='page-break-before:always'>
+<span class=SpellE><span class=Heading2Char><span style='font-size:14.0pt'>gf_prompt_new_mlpassword.srf</span></span></span><span
+class=Heading2Char><span style='font-size:14.0pt'><o:p></o:p></span></span></p>
+
+<p class=MsoNormal>This function allows the application to easily change a <span
+class=SpellE>MobiLink</span> password which is stored on the consolidated
+database. <span style='mso-spacerun:yes'> </span>The function also updates the <span
+class=SpellE>mlpass</span> property in the <span class=SpellE>MLSync</span>
+object and optionally calls <span class=SpellE>gf_save_<span class=GramE>syncsettings</span></span><span
+class=GramE>(</span>) to save the new <span class=SpellE>MobiLink</span>
+password in the <span class=SpellE>SyncSettings</span> table. This ensures that
+the next time the user runs the <span class=SpellE>MLSync.synchronize</span> <span
+class=GramE>function,</span> the new password will be used. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Users with mobile devices should be encouraged to change
+their <span class=SpellE>MobiLink</span> passwords regularly.<span
+style='mso-spacerun:yes'>  </span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3>Arguments:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE>Datatype</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Argument</p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Transaction</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_trans</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>The transaction object currently connected to the SQL&nbsp;Anywhere
+  remote database</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>MLSync</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_uosync</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>A <span class=SpellE>MobiLink</span> synchronization
+  object that uses this database password</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Ref string</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span class=SpellE>A_errortext</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Status message returned to the caller</p>
+  </td>
+ </tr>
+</table>
+
+<h3>Return Code:</h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Value</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Description</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>1</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Function succeeded</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>100</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>User cancelled the request</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width=175 valign=top style='width:131.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>-1</p>
+  </td>
+  <td width=415 valign=top style='width:311.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>An error occurred</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3>Usage:</h3>
+
+<p class=MsoNormal>Add a new menu item entitled “Change <span class=SpellE>MobiLink</span>
+Password…” and insert this code in the clicked! <span class=GramE>event</span>:</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-family:Courier'>MLSync</span></span><span
+style='font-family:Courier'><span style='mso-tab-count:2'>        </span><span
+class=SpellE>l_uosync</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>long</span></span><span
+style='font-family:Courier'><span style='mso-tab-count:3'>          </span><span
+class=SpellE>rc</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>string</span></span><span
+style='font-family:Courier'><span style='mso-tab-count:2'>        </span><span
+class=SpellE>errtext</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=SpellE><span style='font-family:Courier'>l_uosync</span></span><span
+style='font-family:Courier'> = CREATE <span class=SpellE>nvo_salesdb_mlsync</span><o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>if</span></span><span
+style='font-family:Courier'> <span class=SpellE>IsValid</span>(<span
+class=SpellE>l_uosync</span>) then<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>rc</span></span> = <span
+class=SpellE>gf_prompt_new_mlpassword</span>(<span class=SpellE>sqlca</span>, <span
+class=SpellE>l_uosync</span>, <span class=SpellE>errtext</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'><span style='mso-tab-count:
+1'>     </span><span class=SpellE><span class=GramE>messagebox</span></span><span
+class=GramE>(</span>&quot;Change <span class=SpellE>MobiLink</span>
+Password&quot;, <span class=SpellE>errtext</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>end</span></span><span
+style='font-family:Courier'> if<o:p></o:p></span></p>
+
+<p class=MsoNormal><span class=GramE><span style='font-family:Courier'>destroy</span></span><span
+style='font-family:Courier'> <span class=SpellE>l_uosync</span><o:p></o:p></span></p>
+
+<b><i><span style='font-size:14.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span></i></b>
+
+<h2><span class=SpellE>w_prompt_new_mlpassword.srw</span></h2>
+
+<p class=MsoNormal>This response window is launched by <span class=SpellE>gf_prompt_new_mlpassword</span>
+and takes an instance of <span class=SpellE>s_new_password</span> (<span
+class=SpellE>i_newpass</span>) as a parameter.<span style='mso-spacerun:yes'> 
+</span>The open event uses the <span class=SpellE>i_newpass.uosync.mluser</span>
+and <span class=SpellE>i_newpass.uosync.mlpass</span> properties to initialize
+the first two single line edit controls and prompts the user to enter a new
+password twice.<span style='mso-spacerun:yes'>  </span>The OK button is enabled
+when sle_newpass2 loses focus and the new password is verified.<span
+style='mso-spacerun:yes'>   </span>When OK is clicked, the new password value
+is returned to the caller <span class=GramE>via<span style='mso-spacerun:yes'> 
+</span><span class=SpellE>s</span></span><span class=SpellE>_new_password.newpassword</span>.
+</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:189.75pt;height:135.75pt'>
+ <v:imagedata src="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/image005.png"
+  o:title="" croptop="15565f" cropbottom="29491f" cropleft="24084f"
+  cropright="24084f"/>
+</v:shape><![endif]--><![if !vml]><img width=253 height=181
+src="Getting%20Familiar%20with%20the%20SmartTool%20Library_files/image006.jpg"
+v:shapes="_x0000_i1026"><![endif]></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>The <span class=SpellE><span class=GramE>closequery</span></span><span
+class=GramE>(</span>) event sends <span class=SpellE>i_newpass</span> structure
+back to the caller via <span class=SpellE>Message.PowerObjectParm</span>.</p>
+
+</div>
+
+</body>
+
+</html>

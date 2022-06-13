@@ -1,0 +1,19 @@
+:Base Profiler.HLP
+1 PowerBuilder Application Profiler
+2 Application Profiler overview=overview
+2 Profiling and tracing basics=profiling_and_tracing_basics
+2 The Call Graph model=the_call_graph_model
+2 The Trace Tree model=the_trace_tree_model
+2 Using the Profiler to debug an application=using_the_Profiler_to_debug
+2 Using the Profiler to tune an application=using_the_Profiler_to_tune
+2 Starting out=starting_out
+2 Preference dialog box=Preferences_Dialog_Box
+2 Class view=class_view
+2 Class view metrics=class_view_metrics
+2 Routine view=routine_view
+2 Routine view metrics=routine_view_metrics
+2 Trace view=trace_view
+2 Trace view metrics=trace_view_metrics
+2 Profile reports=profile_reports
+2 Using the w_starttrace Window=using_the_w_starttrace_window
+2 Objects in profile.pbl=objects_in_profile.pbl

@@ -1,0 +1,3868 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sybase.PowerBuilder.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Sybase.PowerBuilder.PBTypeDefinition">
+            <summary>
+            TypeDefinition is used in the VariableDefinition class. 
+            Information about the type of a variable. The variable can be a single value, 
+            an object, or an array. TypeDefinition is an abstract class that is the ancestor 
+            of ClassDefinition, SimpleTypeDefinition, and EnumerationDefinition. It has 
+            no events. 
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBPowerObject">
+            <summary>
+            Summary description for PBPowerObject.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.IPBValue">
+            <remarks>
+            An interface for representing a PB variable or a PB value. Using
+            this interface, one can get and set the nullness of a PB variable 
+            or value, and also get the data type of it. The classes that represent
+            individual PB data types, e.g. PBInt, should implement this interface.
+            </remarks>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.PostEvent(Sybase.PowerBuilder.PBTrigEventValue)">
+            <summary>
+            Adds an event to the end of the event queue of an object.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype</param>
+            <returns>Returns true if it is successful and false if the event is not a valid event for objectnameobjectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.PostEvent(Sybase.PowerBuilder.PBTrigEventValue,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            Adds an event to the end of the event queue of an object.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype </param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns true if it is successful and false if the event is not a valid event for objectnameobjectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.PostEvent(Sybase.PowerBuilder.PBTrigEventValue,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBString)">
+            <summary>
+            Adds an event to the end of the event queue of an object.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype </param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns true if it is successful and false if the event is not a valid event for objectnameobjectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.PostEvent(Sybase.PowerBuilder.PBString)">
+            <summary>
+            Adds an event to the end of the event queue of an object.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype </param>
+            <returns>Returns true if it is successful and false if the event is not a valid event for objectnameobjectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.PostEvent(Sybase.PowerBuilder.PBString,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            Adds an event to the end of the event queue of an object.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype </param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object. </param>
+            <returns>Returns true if it is successful and false if the event is not a valid event for objectnameobjectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.PostEvent(Sybase.PowerBuilder.PBString,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBString)">
+            <summary>
+            Adds an event to the end of the event queue of an object.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype </param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns true if it is successful and false if the event is not a valid event for objectnameobjectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBTrigEventValue)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBTrigEventValue,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBTrigEventValue,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBString)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBString)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBString,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBString,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBString)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.TriggerEvent(Sybase.PowerBuilder.PBEventTokens,Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            Triggers an event associated with the specified object, which executes the script for that event immediately.
+            </summary>
+            <param name="e">A value of the TrigEvent enumerated datatype that identifies a PowerBuilder event.</param>
+            <param name="w">A long value to be stored in the WordParm property of the system's Message object. </param>
+            <param name="l">A long value to be stored in the LongParm property of the system's Message object.</param>
+            <returns>Returns 1 if it is successful and the event script runs and -1 if the event is not a valid event for objectname, or no script exists for the event in  objectname. If any argument's value is null, TriggerEvent returns null.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.GetParent">
+            <summary>
+            Gets the parent of the specified object.
+            </summary>
+            <returns>Returns a reference to the parent of objectname.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.GetContextService``1(Sybase.PowerBuilder.PBString,``0@)">
+            <summary>
+            This function will never be called directly. Instead, the GetContextService 
+            methods in the PBSessionBase class will be called.
+            </summary>
+            <param name="SvcName"></param>
+            <param name="SvcObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.ToUnboundedAnyArray">
+            <summary>
+            Serialize the object into an unbounded any array.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.FromUnboundedAnyArray(Sybase.PowerBuilder.PBUnboundedAnyArray)">
+            <summary>
+            Deserialize the object from an unbounded any array.
+            </summary>
+            <param name="itemValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBPowerObject.GetFieldInfoList">
+            <summary>
+            Get the user-defined instance variables of this object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBPowerObject.ClassDefinition">
+            <summary>
+            Gets the definition of the class
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTypeDefinition.GetTypeDefinition(System.String,System.String[],Sybase.PowerBuilder.IPBSession)">
+            <summary>
+            Determine the type of the target and then create the 
+            ClassDefinition/SimpleTypeDefinition/EnumeratedTypeDefinition
+            </summary>
+            <param name="n">Can't be null</param>
+            <param name="liblist">can be null</param>
+            <param name="td"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.Name">
+            <summary>
+            The name of the type. For a nested type, the name will be returned in the form 
+            of libraryEntryName`typeName
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.Namespace">
+            <summary>
+            If the type has Namespace returns it 
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.LibraryName">
+            <summary>
+            The fully qualified name of the library the type was loaded from. Note that the 
+            library might no longer contain the type. If a program manipulates the contents of 
+            libraries, its class could have been moved or deleted after it was loaded.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.DataTypeOf">
+            <summary>
+            If the type is a primitive type or a system type, then the DataTypeOf returns original name
+            If the type is user defined type, then DataTypeOf returns its nearest system ancestor's name
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.Category">
+            <summary>
+            Specifies if the type is simple, enumerated, or a class or structure. Values are: 
+            	SimpleType!
+            	EnumeratedType!
+            	ClassOrStructureType!
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.IsVariableLength">
+            <summary>
+            Only blob, string and any type are of variable length
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.IsSystemType">
+            <summary>
+            Indicates whether the type is defined by PowerBuilder as opposed to a type defined 
+            in a PBL by a user.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.IsVisualType">
+            <summary>
+            Indicates whether the type is a visual (displayable) or nonvisual type. Values are:
+            	TRUE - The type is visual, for example, a window or a control
+            	FALSE - The type is non-visual, for example, a class user object or a simple datatype.
+            Visual type are those derived from GraphicObject
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBTypeDefinition.IsStructure">
+            <summary>
+            Indicates whether the type is a structure.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.Parser.ParseReturnCode">
+            <summary>
+            Return codes from parsing
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.Parser.ShdParser">
+            <summary>
+            ShdParser has been translated from C(++) code file shdparser.cpp
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.Parser.ShdParser.Parse(System.DateTime@,System.String,Sybase.PowerBuilder.DataConversion.Parser.ShdParser.DateType)">
+            <summary>
+             Parse without country info
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.Parser.ShdParser.ParseExtended(System.DateTime@,System.String,Sybase.PowerBuilder.DataConversion.Parser.ShdParser.DateType,System.Globalization.CultureInfo)">
+            <summary>
+             parse a date and/or time
+             The exception policy here is that if an exception is thrown, we return whatever we have
+             so far. Return value will be DTOK anyways
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.Parser.ShdParser.ParseInvalid(System.DateTime@,System.String,Sybase.PowerBuilder.DataConversion.Parser.ShdParser.DateType,System.Globalization.CultureInfo)">
+            <summary>
+            the following function is used by IsDate and IsTime since PB and .NET have different opinions what constitutes
+            correct date and time.
+            </summary>
+            <param name="dateTime"></param>
+            <param name="dateAndOrTime"></param>
+            <param name="flags"></param>
+            <param name="cultureInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.Parser.ShdParser.RecalcMicroSeconds(System.Int64,System.Int64)">
+            <summary>
+            number of digits given to specify microsecond are left adjusted
+            according to pow( 10, 6 - keylen )
+            </summary>
+            <param name="keyLen">length of microsecond token e.g. '1234'</param>
+            <param name="n">the current value of microsecond e.g. 1234</param>
+            <returns>adjusted value e.g. 123400</returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.Parser.ShdParser.DateType">
+            type of date conversion
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDouble">
+            <summary>
+            Representing the PB Double data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_UnaryNegation(Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Addition(Sybase.PowerBuilder.PBDouble,Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Increment(Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Subtraction(Sybase.PowerBuilder.PBDouble,Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Decrement(Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Multiply(Sybase.PowerBuilder.PBDouble,Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Division(Sybase.PowerBuilder.PBDouble,Sybase.PowerBuilder.PBDouble)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Implicit(System.Double)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDouble.op_Implicit(Sybase.PowerBuilder.PBDouble)~System.Double">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDoubleTraits">
+            <summary>
+            PBDoubleTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBValueTraits">
+            <summary>
+            The PBValueTraits is for getting some properties of the structs that implement
+            in IPBValue interface.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBValueTraits.ToElementType">
+            <summary>
+             Convert pb array to normal .net array, e.g. PBInt -> int16 array
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.FormatNumberOption">
+            <summary>
+             This options reglate how the display format options are handled, if ForceNegative
+             or ForceNull are specified when function is called, if the format string has
+             these sections they take precendence over whatever value was passed in. Normal
+             behavior (None) is that the value will determine the display format to use.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.FormatNumberOption.None">
+            <summary>
+            using first display format section ( abc;def;ghi;jkl )
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.FormatNumberOption.Negative">
+            <summary>
+            using second display format section ( abc;def;ghi;jkl )
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.FormatNumberOption.Zero">
+            using second display format section
+            <summary>
+            using third display format section ( abc;def;ghi;jkl ) value is zero
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.FormatNumberOption.Null">
+            <summary>
+            using fourth display format section ( abc;def;ghi;jkl ) value is null
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.PBFormatFunctions">
+            <summary>
+            Formats PBDecimal, PBDouble and PBLongLong
+            </summary>
+            <summary>
+            ConversionRoutines constructor
+            </summary>
+            <summary>
+            This class provides the function to format a string in PB
+            </summary>
+            <summary>
+            formats PBDate,PBTime and PBDateTime objects
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBNumber(Sybase.PowerBuilder.PBDecimal,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            this function takes a decimal value and formats it according to culture and value
+            </summary>
+            <param name="pbDec">the value to be formatted</param>
+            <param name="formatString">the format string used, this can have up to three display sections positive;negative;zero;null (Powerbuilder format)</param>
+            <param name="cultureInfo">culture information</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBNumber(Sybase.PowerBuilder.PBDouble,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            this function takes a double value and formats it according to culture and value
+            </summary>
+            <param name="pbDbl">the value to be formatted</param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <param name="cultureInfo">culture info</param>
+            <returns>color for format display section</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBNumber(Sybase.PowerBuilder.PBLongLong,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            this function takes a long long value and formats it according to culture and value
+            </summary>
+            <param name="pbLongLong">the value to be formatted</param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <param name="cultureInfo">culture info, to know how to format certain values</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.CheckFormatNumberOption(System.String,Sybase.PowerBuilder.DataConversion.FormatNumberOption)">
+            <summary>
+            Checks the format type to make sure it is compatible with supplied options
+            </summary>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <param name="formatType">initial formtType</param>
+            <returns>display format option to use</returns>
+            <remarks>
+            According to QA, the last two display format sections are never used, nevertheless they are documented to the user
+            </remarks>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.AnalyzeFormat(Sybase.PowerBuilder.PBDecimal@,System.String)">
+            <summary>
+            Take a decimal value and a format string, determines the format that should
+            be used based on data and the number of sections in the format string
+            </summary>
+            <param name="powerbDec">Decimal value to analyze</param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns>format option</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.AnalyzeFormat(Sybase.PowerBuilder.PBDouble@,System.String)">
+            <summary>
+            Take a double value and a format string, determines the format that should
+            be used based on data and the number of sections in the format string
+            </summary>
+            <param name="powerbDbl">PBDouble instance to check</param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns>format option</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.AnalyzeFormat(Sybase.PowerBuilder.PBLongLong@,System.String)">
+            <summary>
+            Take a decimal value and a format string, determines the format that should
+            be used based on data and the number of sections in the format string
+            </summary>
+            <param name="powerbLL">PBLongLong instance to check</param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns>format option</returns>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.kPBMinValue">
+            <summary>
+            In .NET the mindate is 1/1/0001 however in PB its 1/1/1900
+            so we use this instead to indicate an error
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.StringToDate(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Take a date formatted as a string and convert to date
+            </summary>
+            <param name="timeFormat"></param>
+            <param name="cultureFormat"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.StringToTime(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            takes a string and interprets it as a time
+            </summary>
+            <param name="timeFormat">string with a time e.g. "10:00 am"</param>
+            <param name="cultureInfo">culture</param>
+            <returns>PBTime object</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.StringToDateWithLcid(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            takes a string and interprets it as a date
+            </summary>
+            <param name="dateFormat">string with date e.g. "1/1/2008"</param>
+            <param name="cultureInfo">culture</param>
+            <returns>PDate object</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.StringToDateTime(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            takes a string and interprets it as time and date
+            </summary>
+            <param name="dateTimeFormat">string with date and time</param>
+            <param name="cultureInfo">culture</param>
+            <returns>PBDateTime object</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.IsTime(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            identify if a string contains a time
+            </summary>
+            <remarks>
+            note: a date is not considered a time
+            </remarks>
+            <param name="timeFormat">string with a time</param>
+            <param name="cultureInfo">culture</param>
+            <returns>true if string is time</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.IsDate(Sybase.PowerBuilder.PBString,System.Globalization.CultureInfo)">
+            <summary>
+            overload for PBString
+            </summary>
+            <param name="dateFormat">string with date</param>
+            <param name="cultureInfo">culture</param>
+            <returns>true if string is a date</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.GetDateOrder(System.Globalization.CultureInfo)">
+            <summary>
+            function lifted out from DataTypeFormater that calculates the order of year,month and day
+            </summary>
+            <param name="cultureInfo">culture</param>
+            <returns>returns an integer identifyng the y/m/d sequence</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.IsDate(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            This function and the IsTime function take a string and try to guess whether or not the string
+            is a date. The function is used by customers when filtering data and thus the cultureInfo here
+            has limited value since any combination/order of month/day/year could come in.
+            </summary>
+            <param name="dateFormat">string to analyze</param>
+            <param name="cultureInfo">to know month/day sequence</param>
+            <returns>true if string is a date</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBString(Sybase.PowerBuilder.PBString,System.String)">
+            <summary>
+            function to format a string, if a color keyword is encountered in the string, it is
+            removed and becomes the returned color code e.g. [RED]@@@@ returns 255 (R G B)
+            regular expression is used first to extract colors, then used to remove them
+            If a string contains two display section (normal,null) then the appropriate color
+            is returned depending on 'bForceNullFormat' (and if value is null)
+            </summary>
+            <param name="pbStr">string to be formatted</param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns>the rgb color (and formatted string in 'ret')</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.Format(System.String,System.String)">
+            <summary>
+            Format a string (after the proper pre-processing has been done of the format string)
+            </summary>
+            <param name="formatString">format string containing no color references</param>
+            <param name="value">value to be formatted</param>
+            <returns>returns formatted string</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.CheckFormatStringOption(System.String,Sybase.PowerBuilder.DataConversion.FormatStringOption)">
+            <summary>
+            make sure force option is compatible with format string
+            </summary>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <param name="formatType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.AnalyzeFormat(Sybase.PowerBuilder.PBString@,System.String)">
+            <summary>
+            take a decimal value and a format string, determines the format that should
+            be used based on data and the number of sections in the format string
+            </summary>
+            <param name="pbDec"></param>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBDate(Sybase.PowerBuilder.PBDate,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            This function should only be used on date objects so any formatting using hours minutes
+            is dubious to say the least.
+            </summary>
+            <param name="date">pbDate instance</param>
+            <param name="formatString">format string (Powerbuilder format) e.g. 'yyyy-mm-dd'</param>
+            <param name="cultureInfo">current culture</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBTime(Sybase.PowerBuilder.PBTime,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Formats a time to a string, returns the color if any
+            </summary>
+            <param name="time">pbTime instance</param>
+            <param name="formatString">format string (Powerbuilder format) e.g. 'hh:mm AM/PM'</param>
+            <param name="cultureInfo">current culture</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.formatDateTime(Sybase.PowerBuilder.PBDateTime,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            this function implements a number of quirks that PB allows so we need to allow it as well.
+            </summary>
+            <param name="dt">date time to format</param>
+            <param name="formatString">format string to use</param>
+            <param name="ci">current culture info</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.FormatPBDateTime(Sybase.PowerBuilder.PBDateTime,System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Formats a datetime object, here the format string is more complex since both date and time format can be specified
+            </summary>
+            <param name="dt">PBDateTime instance</param>
+            <param name="formatString">format string (Powerbuilder format) e.g. 'yyyy-mm-dd hh:mm:ss'</param>
+            <param name="cultureInfo">current culture</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.mapPBformatToDotNet(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            return the dotnet format string 
+            </summary>
+            <param name="formatString">PB format string e.g. 'm/d/y h:m am/pm'</param>
+            <param name="cultureInfo">current culture</param>
+            <returns>string formatted using dotnet format convention e.g. 'M/d/y h:m tt'</returns>
+            <remarks>there is a special case where the formatting is used as a way to 
+            extract information. If the user for instance specifies only a d this means he only wants
+            the day but in .NET d means the short date</remarks>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.IsTimeBeforeDate(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            this function checks if hour is at start of format string or not
+            the criteria for this is that no characters other than separators
+            are before the hour format char i.e. we assume that nobody wants to
+            write m:h as a time format.
+            </summary>
+            <param name="formatString">complete format string including date</param>
+            <param name="cultureInfo">current culture</param>
+            <returns>true if hour first in format string</returns>
+            <example>formatString='yyyy-mm-dd hh:mm' should return false, 'hh:mm:ss yyyy-mm-dd' should return true</example>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.ReplaceMonthAfterHour(System.String)">
+            <summary>
+            this function goes through the format string replaces the second m's with M's since
+            the input string has time at start of string
+            </summary>
+            <param name="formatString">formatstring e.g. hh:mm:ss yyyy-mmm-dd</param>
+            <returns>new dotnet friendly format string e.g. hh:mm:ss yyyy-MMM-dd</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.ReplaceMonthBeforeHour(System.String)">
+            <summary>
+            this function goes through the format string replaces the second m's with capital M's since
+            the input string has time at end of string in this case
+            </summary>
+            <param name="formatString">formatstring e.g. yyyy-mmm-dd hh:mm:ss</param>
+            <returns>new dotnet friendly format string e.g. yyyy-MMM-dd hh:mm:ss</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.ReplaceFormatAmPmWithDotNet(System.String)">
+            <summary>
+            replace am/pm with dot net 't's
+            </summary>
+            <param name="formatString"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.CheckFormatDateTimeOption(System.String,Sybase.PowerBuilder.DataConversion.FormatDateTimeOption)">
+            <summary>
+            make sure force option is compatible with format string
+            </summary>
+            <param name="formatString">Format string</param>
+            <param name="formatType">Proposed format option</param>
+            <returns>returns format option adjusted after number of display format sections</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.AnalyzeFormat(Sybase.PowerBuilder.PBTime@,System.String)">
+            <summary>
+            take a time value and a format string, determines the format that should
+            be used based on data and the number of sections in the format string
+            </summary>
+            <param name="powerbTime"></param>
+            <param name="formatString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.AnalyzeFormat(Sybase.PowerBuilder.PBDateTime@,System.String)">
+            <summary>
+            take a datetime value and a format string, determines the format that should
+            be used based on data and the number of sections in the format string
+            </summary>
+            <param name="powerbDateTime"></param>
+            <param name="formatString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.DateOrder">
+            <summary>
+            order in which day month and year come
+            </summary> 
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.PBFormatFunctions.ParseState">
+            <summary>
+            ParseState is used to keep track of where in the parseString to do the capitalization
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBScriptDefinition">
+            <summary>
+            Information about a script associated with a class definition. ScriptDefinition is 
+            used in the ClassDefinition object.
+            You cannot instantiate a ScriptDefinition object for a particular script independently 
+            of a ClassDefinition object. Instead you access the ScriptDefinition instances that are 
+            elements of the ScriptList array of a ClassDefinition instance.
+            The ScriptDefinition object has information about:
+            	The script's name and whether it is a function or an event
+            	The return type, arguments, and local variables
+            	The source code
+            	Whether the script is defined locally or in an ancestor
+            	External function declarations
+            A ScriptDefinition object has no events. 
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBScriptDefinition.GetScriptDefinition(System.String,System.String[],Sybase.PowerBuilder.IPBSession)">
+            <summary>
+            
+            </summary>
+            <param name="n">Can't be null</param>
+            <param name="liblist">can be null. Currently ignored</param>
+            <param name="td"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.Name">
+            <summary>
+            The name of the script.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.Kind">
+            <summary>
+            Whether the script is a function or event. Values are: 
+            	ScriptEvent!
+            	ScriptFunction!
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.ReturnType">
+            <summary>
+            The type information of the return value. For scripts which do not return anything, 
+            ReturnType is an invalid object. Use the IsValid function to test the value.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.Source">
+            <summary>
+            The source code for the script. Source is an empty string ("") if the source is not 
+            available (for example, when running an executable).
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.IsScripted">
+            <summary>
+            Whether the event has a definition but no code at any level of the collapsed inheritance 
+            hierarchy. Values are:
+            	TRUE - The event has a script at some level of the object's inheritance hierarchy
+            	FALSE - The event does not have a script
+            Only events can be defined but not scripted. For functions, IsScripted is always TRUE.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.IsLocallyScripted">
+            <summary>
+            Indicates whether the script is implemented at this level in the inheritance hierarchy. 
+            Values are:
+            	TRUE - There is code for the event or function at this level of the object's inheritance hierarchy
+            	FALSE - There is no code for the event or function at this level
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.IsLocallyDefined">
+            <summary>
+            Indicates whether the event is defined at this level in the inheritance hierarchy. Values are:
+            	TRUE - The event is defined at this level of the object's inheritance hierarchy
+            	FALSE - The event is defined at an ancestor level
+            IsLocallyDefined is not applicable to functions.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.ExternalUserFunction">
+            <summary>
+            The filename of the DLL containing the external user function. The value is an empty string 
+            ("") for scripts that are not external user functions. Corresponds to the LIBRARY keyword in 
+            the external function declaration.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.SystemFunction">
+            <summary>
+            For built-in PowerBuilder functions, the filename of the DLL containing the function. The 
+            value is an empty string ("") for scripts that are not built-in PowerBuilder functions.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.IsRPCFunction">
+            <summary>
+            Whether this is an RPC function. Values are:
+            	TRUE - Is an RPC function
+            	FALSE - Is not an RPC function
+            Corresponds to the RPCFUNC keyword in a declaration for a stored procedure.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.AliasName">
+            <summary>
+            The alias value for an external function. The value is an empty string ("") for scripts that 
+            are not aliased external functions. Corresponds to the ALIAS FOR keyword in the external 
+            function declaration. 
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.EventIdName">
+            <summary>
+            The event id name for an event. For events that do not have an id, the value is an empty string ("").
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.EventId">
+            <summary>
+            The numeric event id for an event. For events that do not have an id, the value is -1.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.IsExternalEvent">
+            <summary>
+            Indicates if this is an external event. External events are automatically generated events 
+            that get dispatched elsewhere.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.Access">
+            <summary>
+            The access level of the script (what objects can call the script). Values are: 
+            	Private!
+            	Public!
+            	Protected!
+            	System!
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.ArgumentList">
+            <summary>
+            An unbounded array whose elements are VariableDefinition objects, one object per argument. 
+            The array is empty if there are no arguments.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBScriptDefinition.LocalVariableList">
+            <summary>
+            An unbounded array whose elements are VariableDefinition objects, one object per local 
+            variable. The array is empty if there are no local variables.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.ScriptDefinition.#cctor">
+            <summary>
+            Static constructor to bulid the mapping table from event name to event value
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.FunctionDefinition.IsLocallyDefined">
+            <summary>
+            Indicates whether the event is defined at this level in the inheritance hierarchy. 
+            Values are:TRUE - The event is defined at this level of the object's 
+            inheritance hierarchy. 
+            FALSE - The event is defined at an ancestor level.
+            IsLocallyDefined is not applicable to functions(for functions always  returns true).
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.ScriptedEventDefinition.IsLocallyDefined">
+            <summary>
+            Indicates whether the event is defined at this level in the inheritance hierarchy. 
+            Values are:TRUE - The event is defined at this level of the object's 
+            inheritance hierarchy. 
+            FALSE - The event is defined at an ancestor level.
+            IsLocallyDefined is not applicable to functions(for functions always  returns true).
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.EventDefinition.IsLocallyDefined">
+            <summary>
+            Indicates whether the event is defined at this level in the inheritance hierarchy. 
+            Values are:TRUE - The event is defined at this level of the object's 
+            inheritance hierarchy. 
+            FALSE - The event is defined at an ancestor level.
+            IsLocallyDefined is not applicable to functions(for functions always  returns true).
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DB.SqlSyntax">
+            <summary>
+            SqlSyntax is a helper class that can generate SQL statements required by
+            DBI layer.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DB.SqlSyntax.AddInputVar(System.Text.StringBuilder,System.Int32[],System.Int32,Sybase.PowerBuilder.IPBValue)">
+            <summary>
+            Add a placeholder for inputVar in the SQL statement.
+            </summary>
+            <param name="sb">The StringBuilder object that contains the SQL statement</param>
+            <param name="offsets">The array that stores the offsets of all input variables.</param>
+            <param name="i">The index of the current input variable.</param>
+            <param name="inputVar">The input variable to be put in the SQL statement.</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DB.SqlSyntax.GenerateSqlSyntax(System.String[],Sybase.PowerBuilder.IPBValue[],System.Int32[]@)">
+            <summary>
+            Generate a SQL statement based on the given SQL syntax strings and 
+            input variables.
+            </summary>
+            <param name="syntaxStrings">The SQL syntax strings</param>
+            <param name="inputVars">The input variables</param>
+            <param name="offsets">The offsets of the placeholders of the input variables
+            in the generated SQL statement</param>
+            <returns>The generated SQL statement.</returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DB.DBStatement">
+            <summary>
+            Summary description for DBStatement.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DB.DBProc">
+            <summary>
+            Summary description for DBProc.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DB.DBDeclaration">
+            <summary>
+            Summary description for DBDeclaration.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDateTime">
+            <summary>
+            Representing the PB DateTime data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDateTime.#ctor(System.Byte[])">
+            <summary>
+            construct a PBDateTime from a byte stream
+            </summary>
+            <param name="bytes">byte array</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDateTime.ToPBDateTime(System.Byte[])">
+            <summary>
+            Convert array of bytes to a PBDateTime
+            </summary>
+            <param name="bytes">array of bytes</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDateTime.ToBytes">
+            <summary>
+            Return array of bytes from PBDateTime
+            </summary>
+            <returns>byte array representing PBDateTime (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDateTime.GetBytes(Sybase.PowerBuilder.PBDateTime)">
+            <summary>
+            Return array of bytes from PBDateTime
+            </summary>
+            <returns>byte array representing PBDateTime (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDateTime.op_Implicit(System.DateTime)~Sybase.PowerBuilder.PBDateTime">
+            <summary>
+            The implicit conversion operator for converting a DateTime to
+            a PBDateTime object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDateTime.op_Implicit(Sybase.PowerBuilder.PBDateTime)~System.DateTime">
+            <summary>
+            The implicit conversion operator for converting a PBDateTime object
+            to a DateTime.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDateTimeTraits">
+            <summary>
+            PBDateTimeTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBSByte">
+            <summary>
+            Representing the PB Int data type
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.#ctor(System.SByte)">
+            <summary>
+            The constructor with a parameter of type int.
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.#ctor(System.Int32)">
+            <summary>
+            The constructor with a parameter of type int.
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_UnaryNegation(Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Addition(Sybase.PowerBuilder.PBSByte,Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Increment(Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Subtraction(Sybase.PowerBuilder.PBSByte,Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Decrement(Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Multiply(Sybase.PowerBuilder.PBSByte,Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Division(Sybase.PowerBuilder.PBSByte,Sybase.PowerBuilder.PBSByte)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Explicit(Sybase.PowerBuilder.PBSByte)~Sybase.PowerBuilder.PBLong">
+            <summary>
+            The explicit conversion operator for converting a PBSByte object
+            to a PBLong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Explicit(Sybase.PowerBuilder.PBSByte)~Sybase.PowerBuilder.PBLongLong">
+            <summary>
+            The explicit conversion operator for converting a PBSByte object
+            to a PBLongLong object
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Explicit(Sybase.PowerBuilder.PBSByte)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The explicit conversion operator for converting a PBSByte object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Explicit(Sybase.PowerBuilder.PBSByte)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBSByte object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Explicit(Sybase.PowerBuilder.PBSByte)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBSByte object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Explicit(Sybase.PowerBuilder.PBSByte)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBSByte object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Implicit(System.SByte)~Sybase.PowerBuilder.PBSByte">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBSByte object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBSByte.op_Implicit(Sybase.PowerBuilder.PBSByte)~System.SByte">
+            <summary>
+            The implicit conversion operator for converting a PBSByte object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBSByte.Value">
+            <summary>
+            The property for getting and setting the value of the struct.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBSByteTraits">
+            <summary>
+            PBSByteTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBEventTokenAttribute">
+            <summary>
+            This attribute is used to associate a method to an event token.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBEventPrototypeAttribute">
+            <summary>
+            This attribute is used to indicate the prototype used by an event, which
+            could be an event token, or a signature.
+            e.g. [PBEventPrototype("pbm_bnclicked")] or [PBEventPrototype("void ()")]
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBArray.ToPBArray(System.Array,System.Boolean)">
+            Convert a .net array to PB array
+            This will also work for multi-dimensional and jagged array
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBArray.ArrayBounds">
+            <summary>
+            Summary description for ArrayBounds.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBArray.ArrayBounds.GetIndices(System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Calculate the indices of a two-dimensional array from a given offset.
+            </summary>
+            <param name="i">The given offset</param>
+            <param name="m">The first-dimension index</param>
+            <param name="n">The second-dimension index</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBArray.ArrayBounds.GetIndices(System.Int32,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Calculate the indices of a three-dimensional array from a given offset.
+            </summary>
+            <param name="i">The given offset</param>
+            <param name="l">The first-dimension index</param>
+            <param name="m">The second-dimension index</param>
+            <param name="n">The third-dimension index</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBArray.ArrayBounds.GetIndices(System.Int32,System.Int32[]@)">
+            <summary>
+            Calculate the indices of a n-dimensional array from a given offset
+            </summary>
+            <param name="index">The given offset</param>
+            <param name="indices">The calculated indices.</param>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedLongLongArray">
+            <summary>
+            Summary description for PBBoundedLongLongArray.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBBoundedArray.SetInitValues(System.Array)">
+            <summary>
+            Initialize the array with a one-dimensional .NET array.
+            </summary>
+            <param name="initValues"></param>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedLongLongArray">
+            <summary>
+            Summary description for PBUnboundedLongLongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedIntArray">
+            <summary>
+            Summary description for PBBoundedIntArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedIntArray">
+            <summary>
+            Summary description for PBUnboundedIntArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBClassDefinition">
+            <summary>
+            A ClassDefinition object is a PowerBuilder object that provides information about the 
+            class definition of a PowerBuilder object. You can examine a class in a PowerBuilder 
+            library or the class associated with an instantiated object.
+            All the properties are read-only. You cannot change the class definition using the 
+            ClassDefinition object. The ClassDefinition object has no events. 
+            The ClassDefinition object lets you check:
+            	The name of the class
+            	The library the class was loaded from
+            	The class definition of its ancestor, if any
+            	The class definition of its parent or container object, if any
+            	Whether the class is autoinstantiated
+            	Whether the class is a system class (defined by PowerBuilder) or a user-defined object 
+            (defined in a PowerBuilder PBL)
+            	The classes the object contains, such as the controls contained in a window
+            	The variables and scripts defined in the class
+            Class names are always reported as lowercase, as you see them in the Browser.
+            
+            Global functions and variables: Call FindFunctionDefinition to get a ScriptDefinition object 
+            describing the global function. Global variables are included in the VariableList array in the 
+            ClassDefinition object for the Application object.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.GetClassDefinition(System.String,System.String[],Sybase.PowerBuilder.IPBSession)">
+            <summary>
+            
+            </summary>
+            <param name="n">Can't be null</param>
+            <param name="liblist">can be null. Currently it will be ignored</param>
+            <param name="td"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.PopulateVariableList">
+            <summary>
+            Candidate for the variable list:
+            1. User defined properties and instance/shared variables;
+            2. System defined properties and instance/shared variables.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.IsCurrentApplicationType">
+            <summary>
+            Determine whether the current class object is of current application type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.EventImplemented(System.Collections.ArrayList,System.String)">
+            <summary>
+            If the name is already in the event list, it is implemented
+            </summary>
+            <param name="ImpledEventNames"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.FindMatchingFunction(Sybase.PowerBuilder.PBString,Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Finds out what function in a class matches a specified signature. The signature 
+            is a combination of a script name and an argument list.
+            
+            Usage 
+            In searching for the function, PowerBuilder examines the collapsed inheritance 
+            hierarchy. The found function may be defined in the current object or in any of 
+            its ancestors.
+            Arguments passed by reference: To find a function with an argument that is passed 
+            by reference, you must specify the REF keyword. If you have a VariableDefinition 
+            object for a function argument, check the CallingConvention argument to determine 
+            if the argument is passed by reference.
+            In documentation for PowerBuilder functions, arguments passed by reference are 
+            described as a variable, rather than simply a value. The PowerBuilder Browser does 
+            not report which arguments are passed by reference.
+            </summary>
+            <param name="ScriptName">The name of the ClassDefinition object describing the 
+            class in which you want to find a function
+            </param>
+            <param name="argumentList">An unbounded array of strings whose values are the 
+            datatypes of the function arguments. If the variable is passed by reference, the 
+            string must include "ref" before the datatype. If the variable is an array, you 
+            must include array brackets after the datatype. 
+            The format is:
+            { ref } datatype { [] }
+            For a bounded array, the argument must include the range, as in:
+            ref integer[1 TO 10]
+            </param>
+            <returns>ScriptDefinition. Returns an object instance with information about the 
+            matching function. If no matching function is found, FindMatchingFunction returns 
+            null. If any argument is null, it also returns null.
+            </returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.ParameterMatched(System.Reflection.ParameterInfo,System.String)">
+            <summary>
+            Don't know how to handle variable arguments
+            </summary>
+            <param name="pi"></param>
+            <param name="sig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBClassDefinition.IsPBTypeOf(System.Type,System.String)">
+            <summary>
+            Check whether a PBNETType is of POwerScript type specified in string
+            </summary>
+            <param name="T"></param>
+            <param name="PBTypeName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBClassDefinition.Ancestor">
+            <summary>
+            An object that represents the ancestor class. Ancestor is NULL when the ClassDefinition is 
+            describing PowerObject.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBClassDefinition.ParentClass">
+            <summary>
+            An object that represents the parent class that this class is nested within. The value is 
+            NULL if the class is not a nested class.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBClassDefinition.IsAutoinstantiate">
+            <summary>
+            Indicates whether the class is an autoinstantiated class
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBClassDefinition.NestedClassList">
+            <summary>
+            An unbounded array of objects representing the nested classes and local structures 
+            for the object.The array is empty if there are no nested classes. Call the UpperBound 
+            function to find out the number of nested classes.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBClassDefinition.VariableList">
+            <summary>
+             Definition	An unbounded array of objects representing the properties or shared 
+            variables in the collapsed class hierarchy.The array will be empty if there are 
+            no variables. Call the UpperBound function to find out the number of variables.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBClassDefinition.ScriptList">
+            <summary>
+            An unbounded array of objects representing the scripts implemented or defined in 
+            the collapsed class hierarchy.The array will be empty if there are no scripts. 
+            Call the UpperBound function to find out the number of scripts.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.StringHelper.TrimEndTerminateChars(System.String)">
+            <summary>
+            Trim trailing '\0' chars, because when converting from a C++ string,
+            .NET considers the '\0' char as a valid char.
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBEventHandler">
+            <summary>
+            Summary description for delegates.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DB.DBCursor">
+            <summary>
+            Summary description for DBCursor.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBPropNameInWPFCtrlAttribute">
+            <summary>
+            An attribute to specify the real property name in WPF control layer
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedULongLongArray">
+            <summary>
+            Summary description for PBBoundedULongLongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedULongLongArray">
+            <summary>
+            Summary description for PBUnboundedULongLongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedDecimalArray">
+            <summary>
+            Summary description for PBBoundedDecimalArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedDecimalArray">
+            <summary>
+            Summary description for PBUnboundedDecimalArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PowerScriptType">
+            <summary>
+            Type definition to contains informations from PowerScript source
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBArrayBounds">
+            <summary>
+            A structure that specifies the upper and lower bounds of a single dimension of an array. 
+            It is used in the VariableCardinalityDefinition object. ArrayBounds has no events.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBArrayBounds.LowerBound">
+            <summary>
+            The lower bound of the array dimension. For unbounded arrays, the value is always 0.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBArrayBounds.UpperBound">
+            <summary>
+            The upper bound of the array dimension. For unbounded arrays, the value is always 0.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBString">
+            <summary>
+            Representing the PB String data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBString.op_Implicit(System.String)~Sybase.PowerBuilder.PBString">
+            <summary>
+            The implicit conversion operator for converting a string to
+            a PBString object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBString.op_Implicit(Sybase.PowerBuilder.PBString)~System.String">
+            <summary>
+            The implicit conversion operator for converting a PBString object
+            to a string.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBULongLong">
+            <summary>
+            Representing the PB ULong data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_UnaryNegation(Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Addition(Sybase.PowerBuilder.PBULongLong,Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Increment(Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Subtraction(Sybase.PowerBuilder.PBULongLong,Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Decrement(Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Multiply(Sybase.PowerBuilder.PBULongLong,Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Division(Sybase.PowerBuilder.PBULongLong,Sybase.PowerBuilder.PBULongLong)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Explicit(Sybase.PowerBuilder.PBULongLong)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBULongLong object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Explicit(Sybase.PowerBuilder.PBULongLong)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBULongLong object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Explicit(Sybase.PowerBuilder.PBULongLong)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBULongLong object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Implicit(System.UInt64)~Sybase.PowerBuilder.PBULongLong">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULongLong.op_Implicit(Sybase.PowerBuilder.PBULongLong)~System.UInt64">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedTimeArray">
+            <summary>
+            Summary description for PBBoundedTimeArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedTimeArray">
+            <summary>
+            Summary description for PBUnboundedTimeArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedDateTimeArray">
+            <summary>
+            Summary description for PBBoundedDateTimeArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedDateTimeArray">
+            <summary>
+            Summary description for PBUnboundedDateTimeArray.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBVariableCardinalityDefinition.ArrayDefinition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBVariableDefinition">
+            <summary>
+            A class describing the characteristics of a variable, property, or argument. 
+            VariableDefinition is used as a property in the ClassDefinition and 
+            ScriptDefinition objects. It has no events. 
+            You cannot start with a variable in your application and get a VariableDefinition 
+            object for it. Instead, you access the VariableDefinition instances that are elements 
+            of the VariableList array of a ClassDefinition instance or the ArgumentList array 
+            of a ScriptDefinition instance.
+            The VariableDefinition object has information about:
+            	The variable's name and type
+            	Whether the variable is a scalar or an array and information about the array
+            	The variable's initial value, whether the value overrides an ancestor's value, 
+            and whether the variable is a constant
+            	The read and write access levels for the variable
+            	The scope of the variable (global, shared, instance, local, argument), including 
+            whether the variable is an argument and how the argument is passed
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.Name">
+            <summary>
+            The name of the variable.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.TypeInfo">
+            <summary>
+            Type information for the variable.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.Cardinality">
+            <summary>
+             Cardinality information for the variable.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.InitialValue">
+            <summary>
+            The initial value of the variable. Not valid when Kind is VariableArgument!.
+            
+            THIS IS A NOT SUPPORTED FEATURE. Currently we set it to initial value of the type
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.OverridesAncestorValue">
+            <summary>
+            Indicates if the current initial value overrides an ancestor's initial value. 
+            Valid only when Kind is VariableInstance!
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.ReadAccess">
+            <summary>
+            The read access to the variable. Values are: 
+            	Private!
+            	Public!
+            	Protected!System!
+            Not valid when Kind is VariableArgument! or VariableLocal!
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.WriteAccess">
+            <summary>
+            The read access to the variable. Values are: 
+            	Private!
+            	Public!
+            	Protected!System!
+            Not valid when Kind is VariableArgument! or VariableLocal!
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.IsConstant">
+            <summary>
+            Indicates whether the variable is a constant. Not valid when Kind is VariableArgument!.
+            
+            NOT SUPPORT.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.CallingConvention">
+            <summary>
+             The way an argument is passed when Kind is VariableArgument! Values are: 
+            	ByReferenceArgument!
+            	ByValueArgument!
+            	ReadOnlyArgument!
+            	VarListArgument!
+            VarListArgument! only applies to arguments for built-in PowerBuilder functions. They are 
+            shown as ellipses in the browser. For an example, see the ImportString function for 
+            DataWindow controls.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.Kind">
+            <summary>
+            The scope of the variable. Values are: 
+            	VariableGlobal!
+            	VariableShared!
+            	VariableInstance!
+            	VariableArgument!
+            	VariableLocal!
+            Global variables are found only in the Application object. Argument and local variables 
+            are found only in scripts.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.IsUserDefined">
+            <summary>
+            Indicates whether the variable is a user-defined variable, instead of a property or variable 
+            defined by PowerBuilder.
+            Always TRUE for local variables. TRUE for arguments if the function was also user-defined.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBVariableDefinition.IsControl">
+            <summary>
+            Indicates whether the variable is a control defined as a nested class within its parent, 
+            rather than an instance variable with a control class as its datatype. Valid only when Kind 
+            is VariableInstance!.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.ParameterDefinition.Type">
+            <summary>
+            Arguments may be: byref, array, varargs
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.PBFormatReturn">
+            <summary>
+            this struct is used as return value from the format functions
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatReturn.Equals(System.Object)">
+            <summary>
+            check equality
+            </summary>
+            <param name="obj">object to check</param>
+            <returns>bool</returns>
+            <remarks>
+            PBFormatReturn is a value type and therefore will not be derived from so the Equals
+            method doesn't need to use GetType for each obj
+            </remarks>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatReturn.GetHashCode">
+            <summary>
+            get hashcode so that it behaves in a hashtable
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatReturn.op_Equality(Sybase.PowerBuilder.DataConversion.PBFormatReturn,Sybase.PowerBuilder.DataConversion.PBFormatReturn)">
+            <summary>
+            check equality
+            </summary>
+            <param name="a">one instance</param>
+            <param name="b">another</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.PBFormatReturn.op_Inequality(Sybase.PowerBuilder.DataConversion.PBFormatReturn,Sybase.PowerBuilder.DataConversion.PBFormatReturn)">
+            <summary>
+            check in-equality
+            </summary>
+            <param name="instanceA">one instance</param>
+            <param name="instanceB">another</param>
+            <returns>bool</returns>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.PBFormatReturn.d_formatedString">
+            <summary>
+            private members
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.DataConversion.PBFormatReturn.FormatedString">
+            <summary>
+            The formatted string e.g. "7/12/2008 08:09"
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.DataConversion.PBFormatReturn.Color">
+            <summary>
+            The rgb color e.g. 255 (RED)
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBULong">
+            <summary>
+            Representing the PB ULong data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_UnaryNegation(Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Addition(Sybase.PowerBuilder.PBULong,Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Increment(Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Subtraction(Sybase.PowerBuilder.PBULong,Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Decrement(Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Multiply(Sybase.PowerBuilder.PBULong,Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Division(Sybase.PowerBuilder.PBULong,Sybase.PowerBuilder.PBULong)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Explicit(Sybase.PowerBuilder.PBULong)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBULong object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Explicit(Sybase.PowerBuilder.PBULong)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBULong object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Explicit(Sybase.PowerBuilder.PBULong)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBULong object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Implicit(System.UInt32)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBULong.op_Implicit(Sybase.PowerBuilder.PBULong)~System.UInt32">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBByte">
+            <summary>
+            Representing the PB Byte data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_UnaryNegation(Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Addition(Sybase.PowerBuilder.PBByte,Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Increment(Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Subtraction(Sybase.PowerBuilder.PBByte,Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Decrement(Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Multiply(Sybase.PowerBuilder.PBByte,Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Division(Sybase.PowerBuilder.PBByte,Sybase.PowerBuilder.PBByte)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Explicit(Sybase.PowerBuilder.PBByte)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The explicit conversion operator for converting a PBByte object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Explicit(Sybase.PowerBuilder.PBByte)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBByte object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Explicit(Sybase.PowerBuilder.PBByte)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBByte object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Explicit(Sybase.PowerBuilder.PBByte)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBByte object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Implicit(System.Byte)~Sybase.PowerBuilder.PBByte">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBByte.op_Implicit(Sybase.PowerBuilder.PBByte)~System.Byte">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBLibraryAttribute">
+            <summary>
+            An attribute used to specify the PBL where the corresponding PB class
+            of a C# class locates.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedULongArray">
+            <summary>
+            Summary description for PBBoundedULongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedULongArray">
+            <summary>
+            Summary description for PBUnboundedULongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedDateArray">
+            <summary>
+            Summary description for PBBoundedDateArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedDateArray">
+            <summary>
+            Summary description for PBUnboundedDateArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedBlobArray">
+            <summary>
+            Summary description for PBBoundedBlobArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedBlobArray">
+            <summary>
+            Summary description for PBUnboundedBlobArray.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDebugging.GetProperties(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="o"></param>
+            <param name="props">getter strings</param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBStringResource">
+            <summary>
+            Summary description for StringResource.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBInt">
+            <summary>
+            Representing the PB Int data type
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.#ctor(System.Int16)">
+            <summary>
+            The constructor with a parameter of type int.
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.#ctor(System.Int32)">
+            <summary>
+            The constructor with a parameter of type int.
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_UnaryNegation(Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Addition(Sybase.PowerBuilder.PBInt,Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Increment(Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Subtraction(Sybase.PowerBuilder.PBInt,Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Decrement(Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Multiply(Sybase.PowerBuilder.PBInt,Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Division(Sybase.PowerBuilder.PBInt,Sybase.PowerBuilder.PBInt)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Explicit(Sybase.PowerBuilder.PBInt)~Sybase.PowerBuilder.PBLong">
+            <summary>
+            The explicit conversion operator for converting a PBInt object
+            to a PBLong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Explicit(Sybase.PowerBuilder.PBInt)~Sybase.PowerBuilder.PBLongLong">
+            <summary>
+            The explicit conversion operator for converting a PBInt object
+            to a PBLongLong object
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Explicit(Sybase.PowerBuilder.PBInt)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The explicit conversion operator for converting a PBInt object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Explicit(Sybase.PowerBuilder.PBInt)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBInt object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Explicit(Sybase.PowerBuilder.PBInt)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBInt object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Explicit(Sybase.PowerBuilder.PBInt)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBInt object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Implicit(System.Int16)~Sybase.PowerBuilder.PBInt">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBInt.op_Implicit(Sybase.PowerBuilder.PBInt)~System.Int16">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBInt.Value">
+            <summary>
+            The property for getting and setting the value of the struct.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBIntTraits">
+            <summary>
+            PBIntTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBChar">
+            <summary>
+            PBChar.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBChar.op_Implicit(System.Char)~Sybase.PowerBuilder.PBChar">
+            <summary>
+            The implicit conversion operator for converting a char to
+            a PBChar object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBChar.op_Implicit(Sybase.PowerBuilder.PBChar)~System.Char">
+            <summary>
+            The implicit conversion operator for converting a PBChar object
+            to a char.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBCharTraits">
+            <summary>
+            PBCharTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBTypeAttribute">
+            <summary>
+            An attribute used for specifying the PowerBuilder type of a field, 
+            a property, a parameter, or a return value.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBInstance2StaticAttribute">
+            <summary>
+            This attribute is used to qualify following instance functions:
+            For example:  Powerobject.Typeof().  In Pbvm, when calling
+            this function, the instance can be null, but in c#, this was
+            not allowed.  We can tag this attribute to the powerobject's
+            Typeof() method, then pb2cs knows that we need convert this instance
+            function call to static method call to solve the above issue.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBEnumerationItemDefinition">
+            <summary>
+            A class that provides information about the value names and the associated numeric values 
+            for an enumerated datatype. It is used in the EnumerationDefinition class. It has no events.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBEnumerationItemDefinition.Name">
+            <summary>
+            The name of an enumerated value. For example, Left! is a named value of the enumerated 
+            datatype Alignment.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBEnumerationItemDefinition.Value">
+            <summary>
+            The numeric value associated with the name. For example, 0 is the value PowerBuilder 
+            associates with Left!
+            The numeric value is only important if you are constructing source code for an object. 
+            Within PowerBuilder, you use the named value so that the datatype is correct.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBEnumerationDefinition">
+            <summary>
+            Information about the type of a variable when it is an enumerated datatype. 
+            EnumerationDefinition is inherited from TypeDefinition. It has no events. 
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBEnumerationDefinition.Enumeration">
+            <summary>
+             An array of the name-value pairs for all the items in the enumeration.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedDoubleArray">
+            <summary>
+            Summary description for PBBoundedDoubleArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedDoubleArray">
+            <summary>
+            Summary description for PBUnboundedDoubleArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedCharArray">
+            <summary>
+            Summary description for PBBoundedCharArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedCharArray">
+            <summary>
+            Summary description for PBUnboundedCharArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBTime">
+            <summary>
+            Representing the PB Time data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTime.#ctor(System.Byte[])">
+            <summary>
+            construct a PBTime from a byte stream
+            </summary>
+            <param name="bytes">byte array</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTime.ToPBTime(System.Byte[])">
+            <summary>
+            Convert array of bytes to a PBTime
+            </summary>
+            <param name="bytes">array of bytes</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTime.ToBytes">
+            <summary>
+            Return array of bytes from PBTime
+            </summary>
+            <returns>byte array representing PBTime (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTime.GetBytes(Sybase.PowerBuilder.PBTime)">
+            <summary>
+            Return array of bytes from PBTime
+            </summary>
+            <returns>byte array representing PBTime (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTime.op_Implicit(System.DateTime)~Sybase.PowerBuilder.PBTime">
+            <summary>
+            The implicit conversion operator for converting a DateTime to
+            a PBTime object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTime.op_Implicit(Sybase.PowerBuilder.PBTime)~System.DateTime">
+            <summary>
+            The implicit conversion operator for converting a PBTime object
+            to a DateTime.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBReal">
+            <summary>
+            Representing the PB Real data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_UnaryNegation(Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Addition(Sybase.PowerBuilder.PBReal,Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Increment(Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Subtraction(Sybase.PowerBuilder.PBReal,Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Decrement(Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Multiply(Sybase.PowerBuilder.PBReal,Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Division(Sybase.PowerBuilder.PBReal,Sybase.PowerBuilder.PBReal)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Explicit(Sybase.PowerBuilder.PBReal)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBReal object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Implicit(System.Single)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBReal.op_Implicit(Sybase.PowerBuilder.PBReal)~System.Single">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBAny">
+            <summary>
+            Represents the Any data type of PB.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_UnaryNegation(Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Negate operator
+            	Example:
+            	any a
+            	a = 1
+            	a = -a
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_Addition(Sybase.PowerBuilder.PBAny,Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Add operator
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_Increment(Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Increment operator
+            </summary>
+            <param name="v1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_Subtraction(Sybase.PowerBuilder.PBAny,Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Substract operator
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_Decrement(Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Decrement operator
+            </summary>
+            <param name="v1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_Multiply(Sybase.PowerBuilder.PBAny,Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Multiply operator
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.op_Division(Sybase.PowerBuilder.PBAny,Sybase.PowerBuilder.PBAny)">
+            <summary>
+            Divide operator
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ToSqlValue">
+            <summary>
+            for data window/store/child Retrieve(...) only
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ToSystemValue">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBArrayToSystemValue(System.Object)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBByteArrayToByteArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBSbyteArrayToSByteArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBAnyArrayToSystemObjectArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBTimeArrayToDateTimeArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBDateTimeArrayToDateTimeArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBDateArrayToDateTimeArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBBlobArrayToBinaryArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBDecimalArrayToDecimalArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBRealArrayToSingleArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConverPBULongLongArrayToUInt64Array(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBLongLongArrayToInt64Array(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBLongArrayToInt32Array(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBULongArrayToUInt32Array(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBIntArrayToIntArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBUIntArrayToUIntArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBDoubleArrayToDoubleArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBStringArrayToStringArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBCharArrayToStringArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBAny.ConvertPBBooleanArrayToBooleanArray(Sybase.PowerBuilder.PBArray)">
+            <summary>
+            Added by yyoung for WPF DataWindow
+            </summary>
+            <param name="ar"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBAnyTraits">
+            <summary>
+            PBAnyTraits
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTransaction.SetAutoCommitFalse">
+            <summary>
+            internal use only, do not use it directly
+            because some db do not allow set autcommit to true,
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBTransaction.LoadSQLErrText(System.String)">
+            <summary>
+            internal use only, do not use it directly
+            load error text from error code,
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.ActualTypeAttribute">
+            <summary>
+            The ActualTypeAttribute is for specifying the actual .NET data type represented 
+            by a PB data type. For example, the ActualType of PBInt is Int16.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.FormatStringOption">
+            <summary>
+            This options reglate how the display format options are handled, if ForceNegative
+            or ForceNull are specified when function is called, if the format string has
+            these sections they take precendence over whatever value was passed in. Normal
+            behavior (None) is that the value will determine the display format to use.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.FormatStringOption.Null">
+            using first display format section
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedBooleanArray">
+            <summary>
+            Summary description for PBBoundedBooleanArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedBooleanArray">
+            <summary>
+            Summary description for PBUnboundedBooleanArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedAnyArray">
+            <summary>
+            Summary description for PBBoundedAnyArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedAnyArray">
+            <summary>
+            Summary description for PBUnboundedAnyArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBThrowableE">
+            <summary>
+            A wrapper class whose instances can be throw
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBThrowableE.E">
+            <summary>
+            The wrapped PB exception object.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBLongLong">
+            <summary>
+            Representing the PB LongLong data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_UnaryNegation(Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Addition(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Increment(Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Subtraction(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Decrement(Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Multiply(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Division(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Equality(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator ==
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Inequality(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator !=
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_GreaterThan(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator >
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Sybase.PowerBuilder.PBLongLong.op_LessThan(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)" -->
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_GreaterThanOrEqual(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)">
+            <summary>
+            The overloaded binary operator >=
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Sybase.PowerBuilder.PBLongLong.op_LessThanOrEqual(Sybase.PowerBuilder.PBLongLong,Sybase.PowerBuilder.PBLongLong)" -->
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBInt">
+            <summary>
+            The explicit conversion operator for converting a PBLongLong object
+            to a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBUInt">
+            <summary>
+            The explicit conversion operator for converting a PBLongLong object
+            to a PBUInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBLong">
+            <summary>
+            The implicit conversion operator for converting an PBLongLong to
+            a PBLong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The explicit conversion operator for converting a PBLongLong object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBLongLong object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBLongLong object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Explicit(Sybase.PowerBuilder.PBLongLong)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBLongLong object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Implicit(System.Int64)~Sybase.PowerBuilder.PBLongLong">
+            <summary>
+            The implicit conversion operator for converting an Int64 to 
+            a PBLonglong
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLongLong.op_Implicit(Sybase.PowerBuilder.PBLongLong)~System.Int64">
+            <summary>
+            The implicit conversion operator for converting a PBLongLong object
+            to an int64.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.FormatDateTimeOption">
+            <summary>
+              This options reglate how the display format options are handled, if ForceNegative
+              or ForceNull are specified when function is called, if the format string has
+              these sections they take precendence over whatever value was passed in. Normal
+              behavior (None) is that the value will determine the display format to use.
+             </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.FormatDateTimeOption.Null">
+            using first display format section
+        </member>
+        <member name="T:Sybase.PowerBuilder.DataConversion.CommonUtil">
+            <summary>
+            class with utilities and constants used by all formatting
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORBLACK">
+            <summary>
+            RGB Value black (PB Color)
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORWHITE">
+            <summary>
+            RGB Value white
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORRED">
+            <summary>
+            RGB Value red
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORYELLOW">
+            <summary>
+            RGB Value yellow
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORGREEN">
+            <summary>
+            RGB Value green
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORCYAN">
+            <summary>
+            RGB Value cyan
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORBLUE">
+            <summary>
+            RGB Value blue
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.COLORMAGENTA">
+            <summary>
+            RGB Value magenta
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.mapFromString2Color(System.String)">
+            <summary>
+            this function maps the strings to the long ints, first time it is called a hash table is setup
+            </summary>
+            <param name="colorName">name of color without brackets or integer rgb value</param>
+            <returns>rgb color value</returns>
+        </member>
+        <member name="F:Sybase.PowerBuilder.DataConversion.CommonUtil.d_delimiters">
+            <summary>
+            for splitting up format string
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.ExtractColors(System.String@)">
+            <summary>
+            This function is used to extract the colors from a format string and return
+            them in an array, e.g. if format is xxx;[red]yyyy;[green]zzz then the array
+            rgbcolors[] = { black, red, green } will be returned so that each display
+            format section has the appropriate color.
+            </summary>
+            <param name="formatString">format string containing color strings e.g. "[RED]hh:mm"</param>
+            <returns>array of four colors corresponding to four display format sections</returns>
+            <remarks>the original format string wll be modified by removing all color references</remarks>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.CharOccurs(System.String,System.Char)">
+            <summary>
+            Count the number of a specific character in a string
+            </summary>
+            <param name="stringToSearch">string</param>
+            <param name="charToFind">the character 'X' to search for</param>
+            <returns>number of 'X' found</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.IsGeneralKeyword(System.String)">
+            <summary>
+            identify if format string is [General]
+            </summary>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns>true if keyword found</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.IsCurrencyKeyword(System.String)">
+            <summary>
+            identify if format string is [Currency]
+            </summary>
+            <param name="formatString">format string (Powerbuilder format)</param>
+            <returns>true if keyword found</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.IsTimeKeyword(System.String)">
+            <summary>
+            true if keyword [Time] in the formatString
+            </summary>
+            <param name="formatString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.IsAMPMLowerCase(System.String)">
+            <summary>
+            check string if user wants lower case AM/PM indication
+            </summary>
+            <param name="formatString">some format string</param>
+            <returns>true if formatString is considered OK</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.isValidKeyword(System.String)">
+            <summary>
+            A correct keyword here is either one of three general|currency|time, a color name or a rgb value
+            </summary>
+            <param name="keyword">the keyword from inside [..], no [] should be in the string tested</param>
+            <returns>true if the keyword is valid (as far as we know)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.DataConversion.CommonUtil.isValidFormat(System.String)">
+            <summary>
+            this function takes a format string from PB and returns true if it regards it as a valid
+            format string i.e. it recognizes the keyword. If there are specifiers that have no keyword
+            these are regarded as valid format specifiers - even if they may not be.
+            </summary>
+            <param name="formatString">this is the original format string</param>
+            <returns>true if format string is valid</returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.DataConversion.CommonUtil.Delimiters">
+            <summary>
+            Delimiters, this is used to split up the format string into substrings
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.DataConversion.CommonUtil.RegExpColor">
+            <summary>
+            return regular expression to extract color keywords, and can be used to remove the keywords from the string
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.DataConversion.CommonUtil.Brackets">
+            <summary>
+            return array of brackets to be trimmed from keyword
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBSystemAttribute">
+            <summary>
+            An attribute used for indicating if a class, a method, a field, a property,
+            or an event is PowerBuilder system defined.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBSystemCommonAttribute">
+            <summary>
+            Added by yyoung 2008.1.23
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBSuperClassAttribute">
+            <summary>
+            An attribute used for specifying the super class of a class in the PowerBuilder
+            system class hierarcy.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBAutoInstantiateAttribute">
+            <summary>
+            An attribute used for indicating if a class is auto-instantiated.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBExtendTypeAttribute">
+            <summary>
+            An attribute used for indicating if a class should be combined with another class while doing metadata reflection.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDefaultValueAttribute">
+            <summary>
+            An attribute used for specifying Default value of a property 
+            for IDE to use.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedUIntArray">
+            <summary>
+            Summary description for PBBoundedUIntArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedUIntArray">
+            <summary>
+            Summary description for PBUnboundedUIntArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedSByteArray">
+            <summary>
+            Summary description for PBBoundedSByteArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedSByteArray">
+            <summary>
+            Summary description for PBUnboundedSByteArray.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDataTypeHelper.GetPBTypeName(System.Type,System.Boolean,System.Boolean)">
+            <summary>
+            Get the PB type name without the braced container type name
+            </summary>
+            <param name="T"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.ConvertFunction">
+            <summary>
+            This delegate is for converting a value from a type to another type.
+            </summary>
+            <param name="v">The value to be converted</param>
+            <returns>The result</returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBConvert">
+            <summary>
+            The PBConvert class can convert
+            1. Any PB numerical value represented by a IPBValue-derived class 
+            	to/from another PB numerical value. 
+            2. A PB value (e.g. PBInt) to/from its .NET value (e.g int16). 
+            3. A PBAny to/from a PB numerical value. 
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._fromDotNetTypeConvertFunctions">
+            <summary>
+            Mapping Types of .NET data types to the converter functions for converting 
+            the .NET data types to PB data types.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._toDotNetTypeConvertFunctions">
+            <summary>
+            Mapping Types of .NET data types to the converter functions for converting 
+            the .NET data types from PB data types.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._pbTypeIndex">
+            <summary>
+            Mapping Types of PB data types to an index into the ConvertFunction table.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._dotnetTypeIndex">
+            <summary>
+            Mapping Types of PB data types to an index into the ConvertFunction table.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._dataTypeIndex">
+            <summary>
+            Mapping the PBDataType of PB data types into an index into the ConvertFunction table.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._fromPBAnyTable">
+            <summary>
+            The table mapping Types to ConvertFunctions for converting the value 
+            from PBAny to the type mapped to the function.
+            </summary>
+        </member>
+        <member name="F:Sybase.PowerBuilder.PBConvert._toPBAnyTable">
+            <summary>
+            The table mapping Types to ConvertFunctions for converting a PB value of the 
+            type mapped to the function to PBAny.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetConverter(System.Type,System.Type)">
+            <summary>
+            Get the delegate for converting values from a type to another type. When doing 
+            a batch conversion, you should get the ConvertFunction and use it to convert all
+            data instead of calling the Convert function for each datum.
+            </summary>
+            <param name="from">The original type</param>
+            <param name="to">The target type</param>
+            <returns>The ConvertFunction delegate</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.Convert(System.Object,System.Type)">
+            <summary>
+            Convert the given object to another type.
+            </summary>
+            <param name="v">The object to be converted</param>
+            <param name="to">The target type.</param>
+            <returns>The new object.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetActualType(System.Type)">
+            <summary>
+            Get the actual .NET type of a PB type. For example, the actual type
+            of PBInt is Int16.
+            </summary>
+            <param name="pbtype"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.ToPBType``1(System.Object)">
+            <summary>
+            Convert a .NET data type to PB data type. If the type of the given 
+            object is reference type, simply return the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.Conversible(System.Object)">
+            <summary>
+            Check if it is possible to convert the .NET value to a PB type.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.ToPBAny(System.Object)">
+            <summary>
+            Convert a PB data value, boxed as an object, to PBAny.
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.PBValue2DotNetValue(Sybase.PowerBuilder.PBAny,System.Boolean)">
+            <summary>
+            Return the underlying .NET value of a PB value.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.DotNetValue2PBValue(System.Object)">
+            <summary>
+            Convert a .NET value to PBAny.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetFromAnyConverter(System.Type)">
+            <summary>
+            Return the converter that can convert a PBAny to the given type.
+            </summary>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetToAnyConverter(System.Type)">
+            <summary>
+            Return a converter that can convert a value to PBAny.
+            </summary>
+            <param name="from"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetFromDotNetConverter(System.Type,System.Type)">
+            <summary>
+            Return the Converter that can convert a .NET type to a PB type.
+            For example, from Int16 to PBLong.
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetToDotNetConverter(System.Type,System.Type)">
+            <summary>
+            Return the converter that can convert a PB type to a .NET type.
+            For example, from PBLong to Int16.
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.ToPBChar(System.Object)">
+            <summary>
+            The ConvertFunction for converting a value to PBChar.
+            </summary>
+            <param name="v">v can be a char, a string, a PBChar or a PBString</param>
+            <returns>PBChar</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GetFirstChar(System.String)">
+            <summary>
+            Get the first char of a string
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.ToPBString(System.Object)">
+            <summary>
+            The ConvertFunction for converting a value to PBString
+            </summary>
+            <param name="v">The value to be converted, which could be
+            a char, a string, a PBChar or a PBString
+            </param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBConvert.GenericConverter">
+            <summary>
+            The GenericConverter class is for converting a Structure to/from a PBAny array, 
+            or casting a object to another type by calling the appropriate 
+            conversion operator.
+            
+            Caution: This class uses reflection, so the performance will be slow.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GenericConverter.Convert(System.Object)">
+            <summary>
+            If there is a conversion operator found, call it. Otherwise 
+            simply return the given value.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBConvert.GenericConverter.GetConvertMethod(System.Type,System.Type,System.Type)">
+            <summary>
+            Get the appropriate conversion operator if any.
+            </summary>
+            <param name="targetType"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBConvert.DualConverter">
+            <summary>
+            The DualConverter class allows you to have a ConvertFunction
+            that actaully have another two ConvertFunctions to do real job.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            Representing the PB Decimal data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.#ctor(System.Byte[])">
+            <summary>
+            construct a PBDecimal from a byte stream
+            </summary>
+            <param name="bytes">byte array</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.ToPBDecimal(System.Byte[])">
+            <summary>
+            Convert array of bytes to a PBDecimal
+            </summary>
+            <param name="bytes">array of bytes</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.ToBytes">
+            <summary>
+            Return array of bytes from PBTime
+            </summary>
+            <returns>byte array representing PBTime (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.GetBytes(Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            Return array of bytes from PBDecimal
+            </summary>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_UnaryNegation(Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Addition(Sybase.PowerBuilder.PBDecimal,Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Increment(Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Subtraction(Sybase.PowerBuilder.PBDecimal,Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Decrement(Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Multiply(Sybase.PowerBuilder.PBDecimal,Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Division(Sybase.PowerBuilder.PBDecimal,Sybase.PowerBuilder.PBDecimal)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Explicit(Sybase.PowerBuilder.PBDecimal)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBDecimal object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Explicit(Sybase.PowerBuilder.PBDecimal)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBDecimal object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Implicit(System.Decimal)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDecimal.op_Implicit(Sybase.PowerBuilder.PBDecimal)~System.Decimal">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDecimalTraits">
+            <summary>
+            PBDecimalTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUInt">
+            <summary>
+            Representing the PB UInt data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_UnaryNegation(Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Addition(Sybase.PowerBuilder.PBUInt,Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Increment(Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Subtraction(Sybase.PowerBuilder.PBUInt,Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Decrement(Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Multiply(Sybase.PowerBuilder.PBUInt,Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Division(Sybase.PowerBuilder.PBUInt,Sybase.PowerBuilder.PBUInt)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Explicit(Sybase.PowerBuilder.PBUInt)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The explicit conversion operator for converting a PBUInt object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Explicit(Sybase.PowerBuilder.PBUInt)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBUInt object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Explicit(Sybase.PowerBuilder.PBUInt)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBUInt object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Explicit(Sybase.PowerBuilder.PBUInt)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBUInt object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Implicit(System.UInt16)~Sybase.PowerBuilder.PBUInt">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBInt object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBUInt.op_Implicit(Sybase.PowerBuilder.PBUInt)~System.UInt16">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBLong">
+            <summary>
+            Representing the PB Long data type
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_UnaryNegation(Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded unary operator-.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Addition(Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded binary operator+.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Increment(Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded binary operator++.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Subtraction(Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded binary operator-.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Decrement(Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded binary operator--.
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Multiply(Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded binary operator*
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Division(Sybase.PowerBuilder.PBLong,Sybase.PowerBuilder.PBLong)">
+            <summary>
+            The overloaded binary operator/
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBInt">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBUInt">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBULong">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBULong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBDecimal">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBDecimal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBReal">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBReal object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBDouble">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBDouble object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Explicit(Sybase.PowerBuilder.PBLong)~Sybase.PowerBuilder.PBLongLong">
+            <summary>
+            The explicit conversion operator for converting a PBLong object
+            to a PBLongLong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Implicit(System.Int32)~Sybase.PowerBuilder.PBLong">
+            <summary>
+            The implicit conversion operator for converting an integer to
+            a PBLong object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBLong.op_Implicit(Sybase.PowerBuilder.PBLong)~System.Int32">
+            <summary>
+            The implicit conversion operator for converting a PBInt object
+            to an integer.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDate">
+            <summary>
+            Representing the PB Date data type.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.#ctor(System.Byte[])">
+            <summary>
+            construct a PBDate from a byte stream
+            </summary>
+            <param name="bytes">byte array</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.DaysAfter(System.DateTime)">
+             <summary>
+            	Returns the No.Of Days after the given Date.
+            </summary>
+            
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.ToPBDate(System.Byte[])">
+            <summary>
+            Convert array of bytes to a PBDate
+            </summary>
+            <param name="bytes">array of bytes</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.ToBytes">
+            <summary>
+            Return array of bytes from PBDate
+            </summary>
+            <returns>byte array representing PBDate (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.GetBytes(Sybase.PowerBuilder.PBDate)">
+            <summary>
+            Return array of bytes from PBDate
+            </summary>
+            <returns>byte array representing PBDate (DateTime)</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.op_Implicit(System.DateTime)~Sybase.PowerBuilder.PBDate">
+            <summary>
+            The implicit conversion operator for converting a DateTime to
+            a PBDate object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBDate.op_Implicit(Sybase.PowerBuilder.PBDate)~System.DateTime">
+            <summary>
+            The implicit conversion operator for converting a PBDate object
+            to a DateTime.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBDate.DayName">
+             <summary>
+            	Returns the DayName of the Date
+            </summary>
+            
+        </member>
+        <member name="P:Sybase.PowerBuilder.PBDate.DayNumber">
+             <summary>
+            	Returns the DayNumber of the Date.
+            </summary>
+            
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBDateTraits">
+            <summary>
+            PBDateTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedLongArray">
+            <summary>
+            Summary description for PBBoundedLongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedLongArray">
+            <summary>
+            Summary description for PBUnboundedLongArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.IPBSession">
+            <summary>
+            The IPBSession interface defines the commonly used functions and properties
+            of PB sessions.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateInstance(System.Type)">
+            <summary>
+            Create an instance of the given type.
+            </summary>
+            <param name="type">The type of the instance to be created</param>
+            <returns>The new instance</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateInstance(Sybase.PowerBuilder.PBPowerObject,System.Type,System.Object[])">
+            <summary>
+            Create an instance of the given type
+            </summary>
+            <param name="parent">The parent of the new instance</param>
+            <param name="type">The type of the instance</param>
+            <returns>The new instance</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateInstance(System.String,System.Type)">
+            <summary>
+            Create an instance.
+            </summary>
+            <param name="typeName">The type name of the instance</param>
+            <param name="baseType">The base type of the type of the new instance</param>
+            <returns>The new instance</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateInstance(Sybase.PowerBuilder.PBPowerObject,System.String,System.Type)">
+            <summary>
+            Create an instnace.
+            </summary>
+            <param name="parent">The parent of the new instance</param>
+            <param name="typeName">The name of the type of the instance</param>
+            <param name="baseType">The base type of the type of the instance</param>
+            <returns>The new instance</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateInstance(System.Type,System.String)">
+            <summary>
+            Create an instance.
+            </summary>
+            <param name="outerType">The outer type of the type of which the instance to be created.</param>
+            <param name="type">The name of the type</param>
+            <returns>The new instance</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateInstance(Sybase.PowerBuilder.PBPowerObject,System.Type,System.String)">
+            <summary>
+            Create an instance.
+            </summary>
+            <param name="parent">The parent of the instance</param>
+            <param name="outerType">The outer type of the type of which the instance to ber created.</param>
+            <param name="type">The name of the type.</param>
+            <returns>The new instance.</returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateProxyObject(System.String,System.IntPtr)">
+            <summary>
+            Create a proxy object for invoking an external component. This function
+            is for supporting PB marshal extensions.
+            </summary>
+            <param name="className">The class name of the proxy object.</param>
+            <param name="proxyObject">The pointer to the unmanaged proxy object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.InitializeObject(System.Object)">
+            <summary>
+            Initialize the given object by triggering the Create and Constructor events.
+            </summary>
+            <param name="obj">The object to be initialized</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.InitializeObject(Sybase.PowerBuilder.PBPowerObject,System.Object)">
+            <summary>
+            Initialize the given object by triggering the Create and Constrctor events,
+            and set the Parent property of the object.
+            </summary>
+            <param name="parent">The parent of the object.</param>
+            <param name="obj">The object to be initialized.</param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.CreateObject(System.Object)">
+            <summary>
+            Trigger the Create event.
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.ConstructObject(System.Object)">
+            <summary>
+            Trigger the Constructor event.
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.DestroyObject(System.Object)">
+            <summary>
+            Destroy the given object.
+            </summary>
+            <param name="o"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.GetNativeSession">
+            <summary>
+            Get the native session object of the PB session. The native session
+            is for supporting PBNI.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.StopTransaction(Sybase.PowerBuilder.PBTransaction)">
+            <summary>
+            Stop the transaction and release the unmanaged resource associated
+            with the transaction object.
+            </summary>
+            <param name="trans"></param>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.GetClassName(System.Object)">
+            <summary>
+            Get the class name of the given object.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.IPBSession.FindType(System.String)">
+            <summary>
+            Find the type in the PB session.
+            </summary>
+            <param name="typeName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Sybase.PowerBuilder.IPBSession.IsRunningOnWeb">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.IPBSession.LibraryList">
+            <summary>
+            For getting the library list of a PB session, which corresponds to 
+            an instance of a PB application.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.IPBSession.ApplicationType">
+            <summary>
+            Get the type of the application, either WinForm or WebForm.
+            </summary>
+        </member>
+        <member name="P:Sybase.PowerBuilder.IPBSession.CurrentApplication">
+            <summary>
+            Get the current application object
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.IPBApplication">
+            <summary>
+            Currently it has no member at all
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoolean">
+            <summary>
+            PBBool.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBBoolean.op_Explicit(Sybase.PowerBuilder.PBBoolean)~System.Int16">
+            <summary>
+            This is only used for external dll functions. 
+            When calling external dll functions, we need convert PBBoolean to c# short
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBBoolean.op_Explicit(System.Int16)~Sybase.PowerBuilder.PBBoolean">
+            <summary>
+            This is only used for external dll functions.
+            When return from external dll functions, we need convert c# short back to PBBoolean
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBooleanTraits">
+            <summary>
+            PBBooleanTraits
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBlob">
+            <summary>
+            Summary description for PBBlob.
+            </summary>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBBlob.op_Implicit(System.Byte[])~Sybase.PowerBuilder.PBBlob">
+            <summary>
+            The implicit conversion operator for converting a byte array to
+            a PBBlob object.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sybase.PowerBuilder.PBBlob.op_Implicit(Sybase.PowerBuilder.PBBlob)~System.Byte[]">
+            <summary>
+            The implicit conversion operator for converting a PBBlob object
+            to a byte array.
+            </summary>
+            <param name="v"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedStringArray">
+            <summary>
+            Summary description for PBBoundedStringArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedStringArray">
+            <summary>
+            Summary description for PBUnboundedStringArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedRealArray">
+            <summary>
+            Summary description for PBBoundedRealArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedRealArray">
+            <summary>
+            Summary description for PBUnboundedRealArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBBoundedByteArray">
+            <summary>
+            Summary description for PBBoundedByteArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.PBUnboundedByteArray">
+            <summary>
+            Summary description for PBUnboundedByteArray.
+            </summary>
+        </member>
+        <member name="T:Sybase.PowerBuilder.AddItemEventHandler">
+            <summary>
+            Summary description for IPBArray.
+            </summary>
+        </member>
+    </members>
+</doc>

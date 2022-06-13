@@ -1,0 +1,10 @@
+pfc_closequery_failsvalidation	Application	The information entered does not pass validation and must be corrected before changes can be saved.~r~n~r~nClose without saving changes?	Exclamation	YesNo	2	5	N	N
+pfc_closequery_savechanges	Application	Do you want to save changes?	Exclamation	YesNoCancel	1	0	N	N
+pfc_dsaccepttext	Application	Failed accepttext validation on datastore.  Column  %s  on row  %s.	Exclamation	Ok	1	20	N	Y
+pfc_dwdberror	Application	%s	StopSign	Ok	1	20	N	N
+pfc_dwlinkage_predelete	Application	Delete row(s)?	Exclamation	OkCancel	1	0	N	N
+pfc_dwlinkage_requiredmissing	Application	Required value missing for %s on row %s.  Please enter a value.	Information	Ok	1	5	N	N
+pfc_dwlinkage_rowchanging	Application	Updates are pending. ~r~nSave them now?	Exclamation	YesNoCancel	1	0	N	N
+pfc_requiredmissing	Application	Required value missing for %s on row %s.  Please enter a value.	Information	Ok	1	5	N	N
+pfc_requiredmissingondatastore	Application	Required value missing for %s on row %s.	StopSign	Ok	1	20	N	Y
+pfc_systemerror	System Error	%s	StopSign	Ok	1	20	N	N

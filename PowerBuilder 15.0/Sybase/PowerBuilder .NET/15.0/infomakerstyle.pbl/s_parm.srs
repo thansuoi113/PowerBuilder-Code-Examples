@@ -1,0 +1,6 @@
+
+global type s_parm from structure 
+string s_object 
+string s_argstring 
+end type
+

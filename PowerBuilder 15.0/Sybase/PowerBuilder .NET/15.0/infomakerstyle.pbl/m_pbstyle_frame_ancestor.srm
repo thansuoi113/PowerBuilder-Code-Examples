@@ -1,0 +1,651 @@
+$PBExportHeader$m_pbstyle_frame_ancestor.srm
+forward
+global type m_pbstyle_frame_ancestor from Menu
+end type
+type m_file from Menu within m_pbstyle_frame_ancestor
+end type
+type m_openform from Menu within m_file
+end type
+type m_openreport from Menu within m_file
+end type
+type m_openseparator from Menu within m_file
+end type
+type m_querygovernor from Menu within m_file
+end type
+type m_dash1 from Menu within m_file
+end type
+type m_exit from Menu within m_file
+end type
+type m_objects from Menu within m_pbstyle_frame_ancestor
+end type
+type m_window from Menu within m_pbstyle_frame_ancestor
+end type
+type m_toolbars from Menu within m_window
+end type
+type m_help from Menu within m_pbstyle_frame_ancestor
+end type
+type m_about from Menu within m_help
+end type
+end forward
+
+global type m_pbstyle_frame_ancestor from Menu
+m_file m_file
+m_objects m_objects
+m_window m_window
+m_help m_help
+end type
+global m_pbstyle_frame_ancestor m_pbstyle_frame_ancestor
+
+type variables
+boolean ib_Connected
+end variables
+
+forward prototypes
+public subroutine f_hideformsbutton ()
+public subroutine f_hidepipelinesbutton ()
+public function integer f_GetObjectsofType (string as_type, ref string as_names[], ref string as_objnames[], ref string as_comments[])
+public subroutine f_openpipeline (string as_name)
+public subroutine f_hidereportsbutton ()
+end prototypes
+
+public subroutine f_hideformsbutton ();//*-----------------------------------------------------------------*/
+//*    f_HideFormsButton function:   Hide Forms Menu Item
+//*-----------------------------------------------------------------*/
+m_file.m_openform.ToolbarItemVisible = False
+m_file.m_openform.Visible = False
+m_file.m_openseparator.Visible = ( m_file.m_openreport.Visible = False )
+//m_file.m_openseparator.Visible = ( m_file.m_openreport.Visible = False And m_file.m_openpipeline.Visible = False )
+end subroutine
+
+public subroutine f_hidepipelinesbutton ();//*-----------------------------------------------------------------*/
+//*    f_HidePipelinesButton function:   Hide Pipelines Menu Item
+//*-----------------------------------------------------------------*/
+//m_file.m_openpipeline.ToolbarItemVisible = False
+//m_file.m_openpipeline.Visible = False
+//m_file.m_openseparator.Visible = ( m_file.m_openform.Visible = False And m_file.m_openreport.Visible = False )
+end subroutine
+
+public function integer f_GetObjectsofType (string as_type, ref string as_names[], ref string as_objnames[], ref string as_comments[]);//*-----------------------------------------------------------------*/
+//*    f_GetObjectsofType function:   Determine the list of object names from the menu
+//*-----------------------------------------------------------------*/
+integer li_index, li_start, li_end, li_pos
+integer li_outindex
+string ls_tag, ls_objname, ls_comments
+
+li_outindex = 1
+li_start = LowerBound ( m_objects.Item )
+li_end = UpperBound ( m_objects.Item )
+For li_index = li_start to li_end
+	
+	// Add only if this is an object of the same type
+	If Left ( m_objects.Item[li_index].Tag, 1 ) = Lower ( as_type ) Then
+		ls_tag = Mid ( m_objects.Item[li_index].Tag, 3)
+		//  Tag contains object name and comments
+		ls_objname = ls_tag
+		li_pos = Pos (ls_tag, "~t")
+		If (li_pos > 0) Then
+			ls_objname = Left (ls_tag, li_pos - 1)
+			ls_comments = Mid (ls_tag, li_pos + 1)
+		End If
+		// Text is the menu item
+		// Text may have doubled up underscores, parse them out
+		as_names[li_outindex] = m_objects.Item[li_index].Text.Replace("__", "_")
+		// Object name is in the tag
+		as_objnames[li_outindex] = ls_objname
+		// Comments is the microhelp
+		as_comments[li_outindex] = ls_comments
+		li_outindex++
+	End If
+Next
+
+// Return 1 indicating at least one item was available
+If UpperBound ( as_names ) >= 1 Then
+	Return 1 
+Else
+	Return -1
+End If
+end function
+
+public subroutine f_openpipeline (string as_name);//*-----------------------------------------------------------------*/
+//*    f_OpenPipeline function:   Open PipeLine Window
+//*-----------------------------------------------------------------*/
+window lw_sheet, lw_local
+boolean lb_pipeexists = False
+
+// Check if the pipeline is already open
+lw_sheet = ParentWindow.GetFirstSheet ( )
+Do While IsValid ( lw_sheet ) And Not lb_pipeexists
+	If Lower ( lw_sheet.Tag ) = Lower ( as_name) Then
+		lw_sheet.Show ( )
+		lb_pipeexists = True
+	End If
+ 	lw_sheet = ParentWindow.GetNextSheet ( lw_sheet )
+Loop
+
+// Open the pipeline if it did not exist
+If Not lb_pipeexists Then
+	OpenSheetWithParm ( lw_local, as_name, "w_pbstyle_pipeline", ParentWindow, 3, Layered! )	
+Else
+	Messagebox ( "Open Pipeline", "Cannot open pipeline '" + as_name + "'.  The pipeline is already open.")
+End If
+end subroutine
+
+public subroutine f_hidereportsbutton ();//*-----------------------------------------------------------------*/
+//*    f_HideReportsButton function:   Hide Reports Menu Item
+//*-----------------------------------------------------------------*/
+m_file.m_openreport.ToolbarItemVisible = False
+m_file.m_openreport.Visible = False
+m_file.m_openseparator.Visible = ( m_file.m_openform.Visible = False )
+//m_file.m_openseparator.Visible = ( m_file.m_openform.Visible = False And m_file.m_openpipeline.Visible = False )
+m_file.m_querygovernor.Visible = False
+m_file.m_dash1.Visible = False
+end subroutine
+
+on m_pbstyle_frame_ancestor.create
+m_pbstyle_frame_ancestor=this
+call super::create
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_file = create m_file
+this.m_objects = create m_objects
+this.m_window = create m_window
+this.m_help = create m_help
+this.Item[UpperBound(this.Item)+1]=this.m_file
+this.Item[UpperBound(this.Item)+1]=this.m_objects
+this.Item[UpperBound(this.Item)+1]=this.m_window
+this.Item[UpperBound(this.Item)+1]=this.m_help
+end on
+
+on m_pbstyle_frame_ancestor.destroy
+call super::destroy
+destroy(this.m_file)
+destroy(this.m_objects)
+destroy(this.m_window)
+destroy(this.m_help)
+end on
+
+type m_file from Menu within m_pbstyle_frame_ancestor
+m_openform m_openform
+m_openreport m_openreport
+m_openseparator m_openseparator
+m_querygovernor m_querygovernor
+m_dash1 m_dash1
+m_exit m_exit
+end type
+
+on m_file.create
+call super::create
+this.Text="_File"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_openform = create m_openform
+this.m_openreport = create m_openreport
+this.m_openseparator = create m_openseparator
+this.m_querygovernor = create m_querygovernor
+this.m_dash1 = create m_dash1
+this.m_exit = create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_openform
+this.Item[UpperBound(this.Item)+1]=this.m_openreport
+this.Item[UpperBound(this.Item)+1]=this.m_openseparator
+this.Item[UpperBound(this.Item)+1]=this.m_querygovernor
+this.Item[UpperBound(this.Item)+1]=this.m_dash1
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_openform)
+destroy(this.m_openreport)
+destroy(this.m_openseparator)
+destroy(this.m_querygovernor)
+destroy(this.m_dash1)
+destroy(this.m_exit)
+end on
+
+type m_openform from Menu within m_file
+end type
+
+on m_openform.create
+call super::create
+this.Text="Open _Form...~tCtrl+F"
+this.Shortcut=326
+this.MicroHelp="Open and run a form."
+this.ToolbarItemName="Form!"
+this.ToolbarItemDownName="pam2.bmp"
+this.ToolbarItemText="Forms"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_openform.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open Form Window
+////*-----------------------------------------------------------------*/
+m_pbstyle_freeform lm_Menu
+window lw_form
+window lw_frame
+
+lw_frame = ParentWindow.ParentWindow ( )
+If ( IsValid ( lw_frame ) = False ) Then lw_frame = ParentWindow
+
+If Open ( w_pbstyle_open_form, lw_frame ) <> -1 and Message.StringParm <> "" Then
+	SetPointer( HourGlass! )
+	OpenSheet ( lw_form, Message.StringParm, lw_frame, 4, Layered! )
+End If
+end event
+
+type m_openreport from Menu within m_file
+end type
+
+on m_openreport.create
+call super::create
+this.Text="Open _Report...~tCtrl+R"
+this.Shortcut=338
+this.MicroHelp="Open and preview a report."
+this.ToolbarItemName="Report5!"
+this.ToolbarItemText="Reports"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_openreport.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open the Report Selection Window
+//*-----------------------------------------------------------------*/
+w_pbstyle_report	lw_report
+window lw_frame 
+	
+lw_frame = ParentWindow.ParentWindow ( )
+If Not IsValid ( lw_frame ) Then lw_frame = ParentWindow
+
+If Open ( w_pbstyle_open_report, lw_frame) <> -1 and Message.StringParm <> "" Then
+	SetPointer( HourGlass! )
+	OpenSheetWithParm ( lw_report, Message.StringParm, lw_frame, 4, Layered! )
+End If
+end event
+
+type m_openseparator from Menu within m_file
+end type
+
+on m_openseparator.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_openseparator.destroy
+call super::destroy
+end on
+
+type m_querygovernor from Menu within m_file
+end type
+
+on m_querygovernor.create
+call super::create
+this.Text="_Query Governor..."
+this.MicroHelp="Set the query governor."
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_querygovernor.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open the Query Governor Window
+//*-----------------------------------------------------------------*/
+Open ( w_pbstyle_query_governor )
+end event
+
+type m_dash1 from Menu within m_file
+end type
+
+on m_dash1.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash1.destroy
+call super::destroy
+end on
+
+type m_exit from Menu within m_file
+end type
+
+on m_exit.create
+call super::create
+this.Text="E_xit~tAlt+F4"
+this.Shortcut=627
+this.MicroHelp="Exit program"
+this.ToolbarItemName="exit!"
+this.ToolbarItemText="Exit"
+this.ToolbarItemOrder=90
+this.MenuImage="Exit!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Close the Application
+//*-----------------------------------------------------------------*/
+window lw_frame
+
+lw_frame = ParentWindow.ParentWindow ( )
+If Not IsValid ( lw_frame ) Then lw_frame = ParentWindow
+Close ( lw_frame )
+end event
+
+type m_objects from Menu within m_pbstyle_frame_ancestor
+end type
+
+on m_objects.create
+call super::create
+this.Text="_Objects"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_objects.destroy
+call super::destroy
+end on
+
+type m_window from Menu within m_pbstyle_frame_ancestor
+m_toolbars m_toolbars
+end type
+
+on m_window.create
+call super::create
+this.Text="_Window"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_toolbars = create m_toolbars
+this.Item[UpperBound(this.Item)+1]=this.m_toolbars
+end on
+
+on m_window.destroy
+call super::destroy
+destroy(this.m_toolbars)
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Set State of Arrange Menu Items
+//*-----------------------------------------------------------------*/
+boolean lb_State
+window lw_ActiveSheet
+
+lw_ActiveSheet = ParentWindow.GetActiveSheet ( )
+lb_State = IsValid ( lw_ActiveSheet )
+end event
+
+type m_toolbars from Menu within m_window
+end type
+
+on m_toolbars.create
+call super::create
+this.Text="_Toolbars..."
+this.MicroHelp="Configure toolbars."
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_toolbars.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open the Toolbar Window
+//*-----------------------------------------------------------------*/
+OpenWithParm ( w_pbstyle_set_toolbars, ParentWindow, ParentWindow )
+end event
+
+type m_help from Menu within m_pbstyle_frame_ancestor
+m_about m_about
+end type
+
+on m_help.create
+call super::create
+this.Text="_Help"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_about = create m_about
+this.Item[UpperBound(this.Item)+1]=this.m_about
+end on
+
+on m_help.destroy
+call super::destroy
+destroy(this.m_about)
+end on
+
+type m_about from Menu within m_help
+end type
+
+on m_about.create
+call super::create
+this.Text="About..."
+this.MicroHelp="Display copyright notice"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_about.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open the About Window
+//*-----------------------------------------------------------------*/
+window lw_frame
+
+lw_frame = ParentWindow.ParentWindow ( )
+If Not IsValid ( lw_frame ) Then lw_Frame = ParentWindow
+Open ( w_pbstyle_about, lw_frame )
+end event

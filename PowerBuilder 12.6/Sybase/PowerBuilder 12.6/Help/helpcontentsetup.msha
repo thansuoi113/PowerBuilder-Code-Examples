@@ -1,0 +1,19 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Manifest created 7/8/2014 5:17:29 PM by www.helpware.net help tools.</title>
+</head>
+<body class="vendor-book">
+  <div class="details">
+    <span class="vendor">SAP SE</span>
+    <span class="locale">en-us</span>
+    <span class="product">PowerBuilder_NET</span>
+    <span class="name">PowerBuilder .NET Help</span>
+  </div>
+  <div class="package-list">
+    <div class="package">
+      <span class="name">pbman126</span>
+      <a class="current-link" href="pbman126.cab">pbman126.cab</a>
+    </div>
+  </div>
+</body>
+</html>

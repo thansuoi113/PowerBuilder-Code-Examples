@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>choose case</Title>
+			<Shortcut>choose</Shortcut>
+			<Description>Code snippet for choose case</Description>
+			<Author>Sybase, Inc.</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>expression</ID>
+					<ToolTip>Expression to evaluate</ToolTip>
+					<Default>c</Default>
+				</Literal>
+        <Literal>
+          <ID>item</ID>
+          <ToolTip>Case item</ToolTip>
+          <Default>1</Default>
+        </Literal>
+      </Declarations>
+			<Code Language="PowerScript">
+        <![CDATA[choose case $expression$
+case $item$
+$selected$ $end$
+end choose]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

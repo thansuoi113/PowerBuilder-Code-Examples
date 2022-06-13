@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Installation Instructions for Internet Tools Examples</TITLE>
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.0Gold (Win95; I) [Netscape]">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<P><A NAME="steps"></A><IMG SRC="pb1.jpg" HEIGHT=60 WIDTH=435> </P>
+
+<H2>Installation Instructions for Examples</H2>
+
+<P>Please refer to the following information for instructions on how to
+install and configure the PowerBuilder Internet Tools examples. 
+<HR><B>Installation Steps</B>: </P>
+
+<OL>
+<LI><A HREF="#files">Installing Sample Files</A> </LI>
+
+<LI><A HREF="#server_prep">Preparing the Server Application for Networking</A>
+</LI>
+
+<LI><A HREF="#db_prep">Preparing the Server Application for Database Access</A>
+</LI>
+
+<LI><A HREF="#server_plug">Preparing your Web Server for PB Plug-ins</A>
+</LI>
+
+<LI><A HREF="#try_examples">Running the Examples. (Steps 1-4 must be completed
+first)</A> </LI>
+</OL>
+
+<P>
+<HR><A NAME="files"></A></P>
+
+<H3>Installing Sample Files</H3>
+
+<P>Before running any of these examples, you must copy the following files
+from the IT\Examples directory into a document directory on your HTTP (Web)
+server: <BR>
+(i.e. If you have installed WebSite, this directory defaults to C:\Website\htdocs)
+</P>
+
+<UL>
+<LI>sample.htm </LI>
+
+<LI>webpb.htm </LI>
+
+<LI>winplug.htm </LI>
+
+<LI>dwplug.htm </LI>
+
+<LI>winplug.pbd </LI>
+
+<LI>dwplug.psr </LI>
+
+<LI>pb1.jpg </LI>
+</UL>
+
+<P>[<A HREF="#steps">Installation Steps</A>] 
+<HR><A NAME="server_prep"></A></P>
+
+<H3>Preparing the Server Application For Networking</H3>
+
+<P><B>Setting up the application's TCP/IP port</B> </P>
+
+<P>To allow the PowerBuilder Web Examples Application server to run as
+a TCP/IP application, you must assign it a TCP/IP port. To do this, you
+must add the PowerBuilder application name to your network SERVICES file.
+The file is called SERVICES (with no extension) and usually resides in
+your Win95 directory. Windows NT users will find the SERVICES file in \WINNT\SYSTEM32\DRIVERS\ETC.
+The reference you need to include should appear as follows: </P>
+
+<PRE>        pb_net_examples 10098/tcp
+</PRE>
+
+<P>In our example line for your SERVICES file, found in <A HREF="servicpb.txt">servicpb.txt</A>,
+we specify TCP port 10098. If that port is listed in your SERVICES file
+as being occupied by another application, you must change the port to another
+number that is not already in use. </P>
+
+<P><B>Setting up the Application's CGI Interface</B> </P>
+
+<P>To have the ability to execute these examples, the PowerBuilder Web
+Server Application must be running, and the PowerBuilder Common Gateway
+Interface (CGI) executable must be installed in a script/executable directory
+on your Web (HTTP) server. </P>
+
+<P>If you have installed WebSite, we will be placing the PowerBuilder CGI
+executable in the Web server's /cgi-shl/ directory. If this is not your
+configuration, then you must manually place the PowerBuilder CGI executable,
+<TT>PBCGI60.EXE</TT> in a Web server script/executable directory. Once
+you have installed the CGI executable in that directory, you must update
+the links in the file <A HREF="webpb.htm">webpb.htm</A> to reflect this
+new directory as well as update the instance variable is_CGIURL in user
+object u_webpbexample that is part of the webpbsrv.pbl. We recommend rebuilding
+the .exe and .pbd's if you make this change by using the project object
+included in the .pbl. </P>
+
+<P>For example, if I installed the file <TT>PBCGI60.EXE</TT> into an executable
+directory on my Web server called <TT>scripts/</TT>, then I could do a
+search and replace on <TT>cgi-shl/</TT> and replace it with <TT>scripts/</TT>.
+</P>
+
+<P>Once that change has been made, you should be able to load the sample
+files from your Web server and follow the links to the samples. </P>
+
+<P>[<A HREF="#steps">Installation Steps</A>] 
+<HR><A NAME="db_prep"></A></P>
+
+<H3>Preparing the Server Application for Database Access</H3>
+
+<P>Some of these examples rely on SQL Anywhere 5.x, the Powersoft Demo
+DB V6 and the Web.PB Class Library being installed in your system. The
+ODBC datasource profiles that will be used for these connections are &quot;Powersoft
+Demo DB V6&quot; and &quot;Powersoft WebPB&quot;. Please ensure that these
+ODBC profiles still exist before running the server application. </P>
+
+<P>NOTE: Turning off AutoStop Database in the required ODBC profiles will
+ensure that the database remains running throughout your viewing of the
+sample applications. </P>
+
+<H3>Preparing the Server Application for Execution</H3>
+
+<P>In order to run the server application, add a program shortcut to one
+of the folders on your workspace. The shortcut should identify the server
+application as the target, for example: &quot;C:\Program Files\powersoft\pb6\it\examples\webpbsrv.exe&quot;.
+&nbsp;&nbsp;The starting directory should be the same as the one where
+the program file is located, for example: &quot;C:\Program Files\powersoft\pb6\it\examples&quot;</P>
+
+<P>In order for the server application to locate the PowerBuilder 6.0 virtual
+machine DLLs, you must also add an entry to the Registry to identify the
+application path. Use the Regedit program in&nbsp;Windows to add a new
+key under <B>Hkey_Local_Machine\Software\Microsoft\Windows\CurrentVersion\App
+Paths</B>. The key should be named <B>Webpbsrv.Exe</B> and its value should
+identify the location of the PowerBuilder VM, for example: <B>C:\Program
+Files\Powersoft\shared</B>.</P>
+
+<P>[<A HREF="#steps">Installation Steps</A>] 
+<HR><A NAME="server_plug"></A></P>
+
+<H3>Preparing your Web Server for PB Plug-ins</H3>
+
+<P>Before you can view the PB Plug-in examples, you must configure the
+web server by registering the appropriate content types (MIME types) with
+your Web server. <BR>
+To Add the Plugins to WebSite's Content types (MIME types): <BR>
+</P>
+
+<OL>
+<LI>Run the <B>WebSite Server Admin</B> program accessible via the <B>Start
+Menu</B> or the the <B>WebSite Program Group</B><BR>
+</LI>
+
+<LI>Click on the Mapping tab. </LI>
+
+<LI>Click on the Content Types radio button. </LI>
+
+<LI>Type <B>.pbd</B> in the Field Extension (Class) entry field. </LI>
+
+<LI>Type <B>application/vnd.powerbuilder6</B> in the MIME Content Type
+entry field. </LI>
+
+<LI>Click the Add button. </LI>
+
+<LI>Type <B>.psr</B> in the Field Extension (Class) entry field. </LI>
+
+<LI>Type <B>application/datawindow</B> in the MIME Content Type entry field.
+</LI>
+
+<LI>Click the Add button. </LI>
+
+<LI>Click the Ok button. </LI>
+
+<LI>Click Yes in the Immediate Reset message box. </LI>
+</OL>
+
+<P>[<A HREF="#steps">Installation Steps</A>] 
+<HR><A NAME="try_examples"></A></P>
+
+<H3>Running the Examples</H3>
+
+<P>After all of the previous Installation Steps have been sucessfully completed!
+</P>
+
+<OL>
+<LI>Run the Distributed PowerBuilder server application <B>Webpbsrv.exe</B>
+from the IT\Examples directory.<BR>
+</LI>
+
+<LI>Start the WebSite server from the Start Menu in the WebSite 1.1 program
+group by clicking on WebSite Server. You can tell the WebSite server is
+running when the WebSite icon appears in the notification area of the taskbar.<BR>
+</LI>
+
+<LI>Open your favorite browser and open the following URL: <BR>
+</LI>
+
+<PRE><B>         http://localhost/sample.htm</B></PRE>
+</OL>
+
+<P>If you find that from a Web browser you are unable to run these samples,
+please review the installation steps on this page to ensure that all steps
+have been completed successfully. </P>
+
+<P>[<A HREF="#steps">Installation Steps</A>] 
+<HR></P>
+
+</BODY>
+</HTML>

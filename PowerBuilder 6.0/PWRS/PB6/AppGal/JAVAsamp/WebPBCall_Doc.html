@@ -1,0 +1,602 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.03 [en] (Win95; U) [Netscape]">
+   <TITLE>WebPBCall</TITLE>
+</HEAD>
+<BODY LINK="#0000FF" VLINK="#800080" BACKGROUND="widebar.gif">
+&nbsp;
+<CENTER><TABLE BORDER=0 WIDTH="641" HEIGHT="68" >
+<TR>
+<TH ALIGN=CENTER VALIGN=CENTER WIDTH="50" HEIGHT="42">Powerbuilder</TH>
+
+<TH ALIGN=CENTER VALIGN=CENTER WIDTH="44" HEIGHT="42"></TH>
+
+<TH ALIGN=CENTER VALIGN=CENTER WIDTH="50" HEIGHT="42">PowerJ</TH>
+</TR>
+
+<TR>
+<TH ALIGN=CENTER VALIGN=CENTER WIDTH="50" HEIGHT="18"><IMG SRC="pblogo.gif" BORDER=0 id="IMG1" HEIGHT=92 WIDTH=109></TH>
+
+<TD ALIGN=CENTER WIDTH="44" HEIGHT="18"><B><FONT COLOR="#000000"><FONT SIZE=+2>WebPBCall</FONT></FONT></B></TD>
+
+<TD ALIGN=CENTER VALIGN=CENTER WIDTH="-121" HEIGHT="18"><IMG SRC="pjlg.gif" HEIGHT=92 WIDTH=109></TD>
+</TR>
+</TABLE></CENTER>
+&nbsp;
+<CENTER><TABLE BORDER CELLPADDING=2 WIDTH="79%" >
+<TR>
+<TD><FONT SIZE=-1><A HREF="#pieces">The Pieces</A></FONT></TD>
+
+<TD><FONT SIZE=-1><A HREF="#Notes">Notes</A></FONT></TD>
+
+<TD><FONT SIZE=-1><A HREF="#WebPBSample">WebPBSample</A></FONT></TD>
+
+<TD>
+<DIV ALIGN=right><FONT SIZE=-1><A HREF="#Troubleshooter">Troubleshooter</A></FONT></DIV>
+</TD>
+
+<TD><FONT SIZE=-1><A HREF="#Downloads">Downloads</A></FONT></TD>
+
+<TD>
+<CENTER><FONT SIZE=-1><A HREF="#WEB.PB">WEB.PB Links</A></FONT>&nbsp;</CENTER>
+</TD>
+</TR>
+</TABLE></CENTER>
+&nbsp;
+<HR width="100%">
+<UL>
+<UL>
+<UL>
+<BLOCKQUOTE><FONT SIZE=-1>WebPBCall is a 100% Java set of PowerJ classes
+and Powerbuilder non-visual-object (NVO) that enables Distributed Powerbuilder
+(DPB) objects to be accessed as part of a Java</FONT></BLOCKQUOTE>
+</UL>
+</UL>
+</UL>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>WebPBCall, along with the Powerbuilder WEB.PB
+option, brings the familiarity and power of Powerbuilder database access
+and PowerScript programming to Java applet/applications for the Internet
+or Intranet. Acting as a client-interface to WEB.PB, WebPBCall allows DPB
+user-object functions, with or without parameters, to be called to produce
+a result set, or update tables from Java applets/applications.</FONT>
+
+<P><FONT SIZE=-1>This ability allows developers to use existing Powerbuilder
+DataWindow objects as a datasource to any Java applet/application without
+using JDBC client software/drivers or any other middleware. The only software
+required is WEB.PB installed on the web server.</FONT>
+
+<P><FONT SIZE=-1>In the simplest terms, WebPBCall creates a URL to invoke
+a Powerbuilder server object, which in turn creates a result-set of data
+from a DataWindow or datastore, along with some column metadata information.
+On the Java side, the WebPBCall Java classes parse the result-set . At
+this point the data is accessible via JDBC ResultSet Interface, JDBC ResultSetMetaData
+Interface, and other low-level data access methods.</FONT>
+
+<P><FONT SIZE=-1>The Powerbuilder server object and WebPBCall use the WEB.PB
+CGI program as a conduit to invoke methods and move data.</FONT>
+<BR>&nbsp;</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+<A NAME="pieces"></A><B><FONT SIZE=+1>The Pieces</FONT></B>
+<BR>
+<HR>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H2>
+<FONT SIZE=+0><FONT COLOR="#3333FF">WebPBCall</FONT> PowerJ Java classes:</FONT></H2>
+
+<BLOCKQUOTE><FONT SIZE=-1><B><FONT COLOR="#3333FF">WebPBCall</FONT></B>
+- responsible for establishing a connection to WEB.PB, retrieving data
+and creating the WebPBResultSet object.</FONT>
+
+<P><FONT SIZE=-1>&nbsp;<B><FONT COLOR="#3333FF">WebPBResultSet</FONT></B>
+- responsible for implementing the ResultSet interface and converting the
+string only result-set to Java objects and primitive data types.</FONT>
+
+<P><FONT SIZE=-1>&nbsp;<B><FONT COLOR="#3333FF">WebPBResultSetMetadata</FONT></B>
+- responsible for returning JDBC and SQL metadata information for columns
+in the result set.</FONT></BLOCKQUOTE>
+
+<H3>
+<FONT SIZE=+0>Powerbuilder object:</FONT></H3>
+
+<BLOCKQUOTE><FONT SIZE=-1><B><FONT COLOR="#3333FF">n_cst_java_metadata</FONT></B>
+- Powerbuilder NVO for creating ResultSet Metadata. This NVO builds a string
+that contains both the result-set and metadata data. A developer creates
+an instance of this object and then calls any of the following methods:</FONT>
+
+<P><FONT SIZE=-1>public function string <FONT COLOR="#3333FF"><B>of_getmetadata</B>
+<B>(datastore as_ds, string as_result)</B></FONT> - This method will return
+a result set that is sent to WebPBCall for parsing.</FONT></BLOCKQUOTE>
+
+<BLOCKQUOTE><FONT SIZE=-1>Datastore - Datastore object used to produce
+a result-set</FONT>
+<BR><FONT SIZE=-1>String - the data produced from the Datastore</FONT>
+
+<P><FONT SIZE=-1>Input parameters specify the Datastore object and the
+string data result from the Datastore is used to produce the final result
+set; it parses the Datastore to extract column metadata and then combines
+this with the the string data result.</FONT>
+
+<P><FONT SIZE=-1>public function string <FONT COLOR="#3333FF"><B>of_executesql</B>
+<B>(string as_sql, ref transaction as_trans)</B> </FONT>- This method will
+execute a SQL statement and return the result set for the statement.</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<H1>
+<A NAME="Notes"></A><FONT SIZE=+1>Notes</FONT>&nbsp;
+<HR></H1>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H2>
+<FONT SIZE=+0>Distributed Powerbuilder</FONT></H2>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+<FONT SIZE=+0>User NVO objects:</FONT></H3>
+<FONT SIZE=-1>DPB functions should return data as a tab-delimited string.
+This string can be easily produced using a Datastore and a DataWindow object.
+After the Datastore retrieves the data, and after any data manipulation,
+the Describe PowerScript function is used to produce the tab-delimited
+string, example:</FONT></BLOCKQUOTE>
+
+<CENTER>&nbsp;<I><FONT COLOR="#3333FF"><FONT SIZE=-1>datastore.desrcibe("datawindow.data")</FONT></FONT></I></CENTER>
+
+<BLOCKQUOTE><FONT SIZE=-1>&nbsp;DPB functions can be used to produce result
+sets, or they can be used to update a database table.</FONT>
+
+<P><FONT SIZE=-1>To retrieve data, PDB object can use a Datastore, dynamic
+SQL or anything else that produces a result set. The result set must be
+a string that separates each column with a <FONT COLOR="#3333FF">"\t"</FONT>
+character, and each row with a <FONT COLOR="#3333FF">"\r\n."</FONT></FONT>
+
+<P><I><FONT SIZE=-1>Note: If data is produced outside the scope of a Datastore/DataWindow
+object, the Java JDBC ResuletSetMetaData will not be supported.</FONT></I></BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+<FONT SIZE=+0>n_cst_java_metadata:</FONT></H3>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>To create the final result set to pass back to
+the WebPBCall Java classes, the function of_getmetadata() in <B><FONT COLOR="#3333FF">n_cst_java_metadata</FONT></B>
+is called. This function takes the dataobject and the actual data as arguments.
+This object pareses the passed in dataobject in order to create the metadata
+information.</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+<FONT SIZE=+0>Example:</FONT></H3>
+<TT><FONT SIZE=-1>n_cst_java_metadata</FONT></TT> <TT><FONT SIZE=-1>invo_mdata</FONT></TT>
+<BR><TT><FONT SIZE=-1>transaction itr_trans</FONT></TT>
+<BR><TT><FONT SIZE=-1>datastore lds_order</FONT></TT>
+<BR><TT><FONT SIZE=-1>string ls_result=""</FONT></TT></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<DIR>
+<DIR>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><TT><FONT COLOR="#3366FF"><FONT SIZE=-1>// create datastore
+and set DataWindow object</FONT></FONT></TT>
+<BR><TT><FONT SIZE=-1>lds_order = create datastore</FONT></TT>
+<BR><TT><FONT SIZE=-1>lds_order.dataobject = "d_sale_orders"</FONT></TT>
+<BR><TT><FONT COLOR="#3366FF"><FONT SIZE=-1>// attach datastore to transaction
+object</FONT></FONT></TT>
+<BR><TT><FONT SIZE=-1>lds_order.settransobject(itr_trans)</FONT></TT>
+<BR><TT><FONT COLOR="#3366FF"><FONT SIZE=-1>// retrieve data and extract
+tab-delimited format</FONT></FONT></TT>
+<BR><TT><FONT SIZE=-1>if (lds_order.retrieve() >0) then</FONT></TT>
+<BR><TT><FONT SIZE=-1>&nbsp;&nbsp;&nbsp; ls_result = lds_order.Describe("datawindow.data")</FONT></TT>
+<BR><TT><FONT SIZE=-1>end if</FONT></TT>
+<BR><TT><FONT COLOR="#3366FF"><FONT SIZE=-1>// call function to create
+final result set for WebPBCall</FONT></FONT></TT>
+<BR><TT><FONT SIZE=-1>ls_result = invo_mdata.of_getmetadata(lds_order,
+ls_result)</FONT></TT>
+<BR><TT><FONT COLOR="#3366FF"><FONT SIZE=-1>// clean up</FONT></FONT></TT>
+<BR><TT><FONT SIZE=-1>destroy lds_order</FONT></TT>
+<BR><TT><FONT COLOR="#3366FF"><FONT SIZE=-1>// return final resultset to
+WebPBCall</FONT></FONT></TT>
+<BR><TT><FONT SIZE=-1>return ls_result</FONT></TT>
+<BR>&nbsp;</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</DIR>
+</DIR>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+<FONT SIZE=+0>WebPBCall:</FONT></H3>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>Current restrictions inherent in Web.PB restrict
+result sets to type string and blob. WebPBCall only supports string type.
+To overcome this imitation, WebPBCall provides getItemXXX function that
+covert string type to the specified datatype.</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>WebPBCall uses the Java IO, Net and Util packages
+to connect and communicate with WEB.PB. This communication allows a DPB
+object to use existing DataWindows, and execute dynamic SQL statements,
+to return a result set, or update tables.</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>Multiple arguments passed to DPB function should
+be separated by a ' character.</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<HR align="left"></BLOCKQUOTE>
+
+<CENTER>&nbsp;<IMG SRC="image1.gif" HSPACE=5 VSPACE=5 BORDER=0 HEIGHT=383 WIDTH=651 ALIGN=CENTER></CENTER>
+
+<BLOCKQUOTE>
+<HR align="center">
+<CENTER><I><FONT SIZE=-1>WebPBCall Dataflow</FONT></I></CENTER>
+</BLOCKQUOTE>
+
+<DIR>
+<DIR>
+<DIR>The Java applet/application uses WebPBCall as follows:</DIR>
+</DIR>
+</DIR>
+
+<OL>
+<OL>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<OL>
+<LI>
+<FONT SIZE=-1>Construct the WebPBCall class object</FONT></LI>
+
+<LI>
+<FONT SIZE=-1>Set parameters, using object methods, to specify the pieces
+that make up the URL needed to invoke CGI call to WEB.PB</FONT></LI>
+
+<LI>
+<FONT SIZE=-1>Call the retrieve() method to retrieve data from DPB. The
+data is stored in WebPBCall.</FONT></LI>
+
+<LI>
+<FONT SIZE=-1>The applet/application can now call any of the WebPBCall
+methods to get the data, attach a query object to get the data, create
+a ResultSet object and use ResultSet interface methods to get the data,
+or get the ResultSetMetaData object and get data column information.</FONT></LI>
+</OL>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</OL>
+</OL>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+<A NAME="WebPBSample"></A><B>WebPBSample</B>
+<BR>
+<HR width="100%">
+<UL>
+<UL>
+<UL>
+<UL>&nbsp;<A HREF="http://pbtest.powersoft.com/WebPBCall/webpbcalldemo.html">Run
+sample from Powersoft server</A></UL>
+</UL>
+</UL>
+</UL>
+
+<UL>
+<UL>
+<UL>
+<UL>
+<HR width="100%">
+<BR><FONT SIZE=+0><B>Note</B>:</FONT><FONT SIZE=-1> All related files can
+be found in the same dircetory as this file.</FONT>
+<H3>
+<FONT SIZE=+0>Set up WebPBSample locally</FONT></H3>
+<FONT SIZE=-1>The sample consists of the following files:</FONT></UL>
+</UL>
+</UL>
+</UL>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>&nbsp;
+<CENTER><TABLE BORDER=2 CELLSPACING=5 CELLPADDING=5 WIDTH="519" >
+<TR>
+<TD WIDTH="197"><FONT SIZE=-1><B>webpbcalldemo.html</B>&nbsp;</FONT></TD>
+
+<TD WIDTH="297"><FONT SIZE=-1>HTML file containing Applet</FONT></TD>
+</TR>
+
+<TR>
+<TD WIDTH="197"><B><FONT SIZE=-1>WebPBSampleZip.zip</FONT></B></TD>
+
+<TD WIDTH="297"><FONT SIZE=-1>un-zipped class files</FONT></TD>
+</TR>
+
+<TR>
+<TD WIDTH="197"><B><FONT SIZE=-1>Nidemodb2.db</FONT></B></TD>
+
+<TD WIDTH="297"><FONT SIZE=-1>SQL Anywhere database&nbsp;</FONT></TD>
+</TR>
+
+<TR>
+<TD WIDTH="197"><B><FONT SIZE=-1>niexample.exe</FONT></B></TD>
+
+<TD WIDTH="297"><FONT SIZE=-1>Powerbuilder server application</FONT></TD>
+</TR>
+
+<TR>
+<TD WIDTH="197"><FONT SIZE=-1><B>webpb_resultset.pbd</B>&nbsp;</FONT></TD>
+
+<TD WIDTH="297"><FONT SIZE=-1>Powerbuilder DLL</FONT></TD>
+</TR>
+
+<TR>
+<TD WIDTH="197"><B><FONT SIZE=-1>niexdpbs.pbd</FONT></B></TD>
+
+<TD WIDTH="297"><FONT SIZE=-1>Powerbuilder DLL</FONT></TD>
+</TR>
+</TABLE></CENTER>
+&nbsp;<A HREF="http://pbtest.powersoft.com/webpbcall/WebPBSampleFiles.zip">Download
+Files</A>
+<H3>
+&nbsp;<FONT SIZE=+0>Setting up the sample</FONT></H3>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<DIR>
+<DIR>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>In order for the sample to work correctly, the
+above files and the following steps are required:</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+<FONT SIZE=+0>Setup:</FONT></H3>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<DIR>
+<DIR>
+<BLOCKQUOTE>
+<H4>
+<FONT SIZE=-1>ODBC:</FONT></H4>
+
+<DIR>
+<BLOCKQUOTE><FONT SIZE=-1>Create an ODBC data source "nidemodb2" to point
+to the nidemodb2.db database.</FONT></BLOCKQUOTE>
+</DIR>
+
+<H4>
+<FONT SIZE=-1>WEB.PB:</FONT></H4>
+
+<DIR>
+<BLOCKQUOTE><FONT SIZE=-1>See Internet Developer Toolkit (IDT) for list
+of files and system configuration. The only changes required for the sample
+is in the pbweb.ini file. Add the following:</FONT>
+<DIR>
+<DIR><TT>[niexdpbs]</TT>
+<BR><TT>application="niexdpbs"</TT>
+<BR><TT>// change to reflect the server IP address.</TT>
+<BR><TT>location="251.251.251.0"</TT>
+<BR><TT>serverobject=n_cst_java</TT>
+<BR><TT>driver="winsock"</TT>
+<BR><TT>options="MaxRetry=200"</TT>
+<BR><TT></TT>&nbsp;</DIR>
+</DIR>
+<FONT SIZE=-1>The "services" files should contain the entry:</FONT>
+<BR><FONT SIZE=-1>(server application name port/protocol):</FONT>
+<DIR>
+<DIR><TT><FONT SIZE=-1>niexdpbs 10100/tcp</FONT></TT></DIR>
+</DIR>
+</BLOCKQUOTE>
+</DIR>
+</BLOCKQUOTE>
+</DIR>
+</DIR>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H4>
+<FONT SIZE=-1>Webserver:</FONT></H4>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<DIR>
+<DIR>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>Set Web server mapping to point to the directory
+containing index.html and WebPBSampleZip.zip</FONT>
+
+<P><FONT SIZE=-1>This applet uses a web site to access the WebPB CGI program
+and image files. You can use the web server shipped with Powerbuilder IDT,
+or you can use any web server. Please refer to IDT for configuration options.
+This sample uses the web server that ships with IDT. The main difference
+between the various web servers is the CGI program you will invoke. For
+example, for <I>O'Reilly &amp; Associates WebSite Server, </I>invoke<I>
+</I>PBCGI050.EXE. For <I>Microsoft Information Server, </I>invoke PBISA050.DLL.</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</DIR>
+</DIR>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+<FONT SIZE=+0>Execution:</FONT></H3>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<DIR>
+<OL>
+<BLOCKQUOTE><FONT SIZE=-1>Run Niexample.exe and click Start Server - (if
+you get an error, try the following Troubleshooter section)</FONT>
+
+<P><FONT SIZE=-1>Run browser and enter URL set above</FONT>
+
+<P><FONT SIZE=-1>Click "Retrieve Employees" button</FONT>
+<BR>&nbsp;</BLOCKQUOTE>
+</OL>
+</DIR>
+</DIR>
+</DIR>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<H3>
+
+<HR WIDTH="100%"><B><I><FONT SIZE=+0>Example using O'Reilly &amp; Associates
+WebSite Server:</FONT></I></B></H3>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<BLOCKQUOTE><FONT SIZE=-1>Create directory: C:\website\htdocs\webpbdemo</FONT>
+
+<P><FONT SIZE=-1>Open the Properties for WebSite (right-mouse on Website
+Icon on Toolbars)</FONT>
+
+<P><FONT SIZE=-1>Select Mapping tab. Add "/WebPBDemo" in Document URL Path,
+and C:\website\htdocs\webpbdemo to Directory (full or document-relative),
+and click Add.</FONT>
+
+<P><FONT SIZE=-1>Copy webpbcalldemo.html and WebPBSampleZip.zip to C:\website\htdocs\webpbdemo</FONT>
+
+<P><FONT SIZE=-1>Run browser and enter the URL: http://localhost/webpbdemo/webpbcalldemo.html</FONT></BLOCKQUOTE>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<H1>
+<A NAME="Troubleshooter"></A><FONT SIZE=+0>Troubleshooter</FONT>&nbsp;
+<HR width="100%"></H1>
+
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<BLOCKQUOTE><FONT SIZE=-1>Make sure there is an entry in registry file
+for niexample.exe. The entry should contain a path to the Powerbuilder
+run time files, and the directory of niexample.exe.</FONT>
+
+<P><FONT SIZE=-1>Make sure niexample.exe, webpb_resultset.pbd and niexdpbs.pbd
+are in the same directory.</FONT>
+
+<P><FONT SIZE=-1>Make sure there is an " Nidemodb2" ODBC entry that points
+to the nidemodb2.db.</FONT>
+
+<P><FONT SIZE=-1>The "services" files should contain the entry:</FONT>
+<BR><FONT SIZE=-1>(server application name port/protocol):</FONT>
+<BR><TT><FONT SIZE=-1>niexdpbs 10100/tcp</FONT></TT></BLOCKQUOTE>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<H1>
+<A NAME="Downloads"></A><FONT SIZE=+1>Downloads</FONT>&nbsp;
+<HR width="100%"></H1>
+
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<BLOCKQUOTE><FONT SIZE=-1><A HREF="http://pbtest.powersoft.com/webpbcall/PowerJ%20Projects/WebPBSampleSource.zip">WebPBSampleSource.zip</A>
+- PowerJ project files for this sample.</FONT>
+<BR><FONT SIZE=-1><A HREF="http://pbtest.powersoft.com/webpbcall/PowerJ%20Projects/IMSalesPowerJSample.zip">IMSalesPowerJSample.zip
+</A>- PowerJ sample. This is a more sophisticated sample of using WebPBCall
+and Distributed Powerbuilder.</FONT>
+<BR><FONT SIZE=-1><A HREF="http://pbtest.powersoft.com/webpbcall/Powerbuilder%20PBLs/WebPBCallPBLs.zip">WebPBCallPBLs.zip</A>
+- Powerbuilder PBLs for DPB Server.</FONT></BLOCKQUOTE>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<H1>
+<A NAME="WEB.PB"></A><FONT COLOR="#000000"><FONT SIZE=+1>WEB.PB Links</FONT></FONT>&nbsp;
+<HR width="100%"></H1>
+
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT SIZE=-1>&nbsp;<A HREF="http://www.pbtest.powersoft.com/internet/webdemo.htm">Powersoft
+Webdemo Information</A>&nbsp; - What is Web.pb?</FONT>
+<BR><FONT SIZE=-1>&nbsp;<A HREF="http://www.powersoft.com/products/devtools/pb50/webpbgallery.html">Powersoft
+Web.PB Gallery</A> Web.PB™ Gallery</FONT></BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+</BLOCKQUOTE>
+&nbsp;
+<CENTER><TABLE COLS=2 WIDTH="65%" >
+<TR>
+<TD><A HREF="http://www.powersoft.com/"><IMG SRC="powerside.GIF" HEIGHT=23 WIDTH=96></A></TD>
+
+<TD ALIGN=RIGHT><A HREF="http://www.sybase.com/"><IMG SRC="sybaseside.gif" HEIGHT=23 WIDTH=71></A></TD>
+</TR>
+</TABLE></CENTER>
+&nbsp;
+</BODY>
+</HTML>

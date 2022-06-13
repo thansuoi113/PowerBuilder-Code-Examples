@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configurations>
+  <schema version="1" />
+  <configuration type="install" lcid="" dialog_caption="Sybase PowerBuilder .NET Runtime" dialog_message="In order to install the application, you must install these components:" dialog_bitmap="#APPPATH\banner.bmp" install_caption="Install" cancel_caption="Close" status_installed=" (Installed)" status_notinstalled="" failed_exec_command_continue="Failed to install %s. Continue with other components?" installation_completed="SampleApp installed successfully !" installing_component_wait="Installing %s . Wait, this operation could take some time ..." reboot_required="To continue the installation you must restart your computer. Restart now?" advanced_caption="Advanced" dialog_selector_cancel="Cancel" dialog_selector_caption="Components List" dialog_selector_message="Select the components to install." dialog_selector_ok="OK" dialog_otherinfo_caption="" dialog_otherinfo_link="" complete_command="" auto_close_if_installed="True">
+    <components>
+      <component os_filter_greater="" os_filter_smaller="" os_filter_lcid="" type="msi" installcompletemessage="" mustreboot="False" description="Sybase PowerBuilder .NET Runtime" note="Sybase PowerBuilder .NET Runtime" package="#TEMPPATH\1-PBRuntime\PBRuntime.msi" cmdparameters="">
+        <downloaddialog dialog_caption="Sybase PowerBuilder .NET Runtime - Download Components" dialog_message="Press 'Start' to download the required components for installing Sybase PowerBuilder .NET Runtime" dialog_message_downloading="Download in progress. Wait..." autostartdownload="True" buttonstart_caption="Start" buttoncancel_caption="Cancel">
+          <downloads>
+            <download componentname="Sybase PowerBuilder .NET Runtime" sourceurl="http://localhost/SampleApp/SupportFiles/1-PBRuntime/PBRuntime.msi" destinationpath="#TEMPPATH\1-PBRuntime" destinationfilename="" />
+          </downloads>
+        </downloaddialog>
+        <installedcheck type="check_registry_value" path="SOFTWARE\Sybase\PowerBuilder\Sybase PowerBuilder .NET Runtime" fieldname="Version" fieldvalue="12.0.0.7055" fieldtype="REG_SZ" comparison="match" />
+      </component>
+    </components>
+  </configuration>
+</configurations>

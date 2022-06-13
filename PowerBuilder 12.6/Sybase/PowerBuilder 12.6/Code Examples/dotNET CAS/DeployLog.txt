@@ -1,0 +1,113 @@
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>csc
+Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.1433
+for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727
+Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.
+
+fatal error CS2008: No inputs specified
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if errorlevel 9009 exit 3 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>"C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\pb2cs" @"projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Parsing c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Parsing c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Parsing c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Type-checking (pass 1) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Type-checking methods(pass 2) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Type-checking methods(pass 2) c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+Emitting c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Emitting c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Emitting c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+Emitting c:\dotnet cas\dotnet cas\dotnet_cas.pbl (dotnet_cas)
+Emitting c:\dotnet cas\dotnet cas\dotnet_cas.pbl (uo_registry)
+Emitting c:\dotnet cas\dotnet cas\dotnet_cas.pbl (w_main)
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if ERRORLEVEL 1 exit 1 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if ERRORLEVEL 6 exit 6 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if ERRORLEVEL 7 exit 7 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if ERRORLEVEL 8 exit 8 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>call build.bat  c- "C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build\csc_output_file_name.txt"  
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>setlocal
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if "c-" == "" goto usage  
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if "C:\Program Files\Sybase\PowerBuilder 11.5\DotNET" == "" goto sethome 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>md debug 
+A subdirectory or file debug already exists.
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if "c-" == "c-" goto notcopy 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\App.Win.exe.manifest" debug\ 
+C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\App.Win.exe.manifest
+1 File(s) copied
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>del debug\dotnet_cas.exe.manifest 
+Could Not Find C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build\debug\dotnet_cas.exe.manifest
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>ren debug\App.Win.exe.manifest dotnet_cas.exe.manifest 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\ModifyManifest.vbs"  
+C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\ModifyManifest.vbs
+1 File(s) copied
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>ModifyManifest debug\dotnet_cas.exe.manifest asinvoker false 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>del ModifyManifest.vbs 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>reg import "C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\PBExceptionTrace.reg" 
+
+The operation completed successfully
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if "C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build\csc_output_file_name.txt" == "" (csc /t:winexe /debug    /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\dotnet_cas.exe" @mb.rsp )  else (csc /t:winexe /debug    /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\dotnet_cas.exe" @mb.rsp  1>"C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>rem " bin\mt.exe" -nologo -manifest debug\dotnet_cas.exe.manifest -outputresource:debug\dotnet_cas.exe;#1 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>rem @if errorlevel 1 (goto embedmanifesterror) else echo Embedding Manifest Succeeded. 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>del debug\dotnet_cas.exe.manifest 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>goto end 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>endlocal
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if ERRORLEVEL 1 exit 2 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if exist createole.bat call createole.bat 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if ERRORLEVEL 1 exit 4 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if exist createole.bat xcopy ole\*.* debug\ /D /Y 
+
+C:\dotNET CAS\dotNET CAS\dotnet_cas_winform.pbt_build>if exist createole.bat dir ole\*.*  /B  1>"C:\dotNET CAS\dotNET CAS\p_dotnet_cas_winform_oledllname.txt" 

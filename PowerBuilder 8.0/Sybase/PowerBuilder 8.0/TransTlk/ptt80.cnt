@@ -1,0 +1,85 @@
+:Base ptt80.hlp>main
+:Title Translation Toolkit Help
+1 Welcome to Translation Toolkit for PowerBuilder
+2 Welcome to the Translation Toolkit for PowerBuilder=title
+1 Chapter 1:  Getting Started
+2 About the Translation Toolkit=about_the_translation_toolkit
+2 Moving to Translation Toolkit Version 7=moving_56
+2 How the Translation Toolkit works=how_works
+2 What's in the Translation Toolkit=whats_in_the_toolkit
+2 Customizing the tools in the Toolkit=custom_tools
+2 Languages you can translate to=supported_languages
+2 Translating to and from non-roman languages=roman_lang
+2 About the translation database=the_translation_database
+2 What you need to deploy to the translator=giving_tool
+2 Exchanging phrase data and translations=moving_phrase_data
+2 Translating an InfoMaker application=ww_imapp
+1 Chapter 2:  Quick Reference
+2 Developer's quick reference=dev_qr
+2 Translator's quick reference=trans_qr
+2 Tips for the developer=Tips_for_using_the_Translation_Toolkit
+2 Tips for the translator=Tips_for_the_translator
+2 Glossary=glossary_qr
+1 Chapter 3:  Phrase Extractor Tool
+2 About the Phrase Extractor Tool
+3 About the Phrase Extractor tool=about_the_phrase_extractor_tool
+3 Your working environment=setting_up_your_working_environment
+2 Working with Projects
+3 About working with projects=working_with_translation_projects
+3 Creating a new project=creating_a_new_translation_project
+3 Adding a new language=adding_a_new_language
+3 Deleting a project=Deleting_a_language_project
+3 Deleting all languages=Deleting_all_languages
+3 Editing a project=editing_a_project
+3 Changing a project name=Changing_a_project_name
+3 Creating a report of projects=printing_a_report_of_your_translation_projects
+2 Selecting Objects for Translation
+3 Opening a project=opening_a_project
+3 Selecting the objects for translation=selecting_the_objects_for_translation
+3 Creating a report of the project's objects=printing_a_report_of_your_project_s_objects
+2 Extracting Phrases
+3 About extracting phrases from the application=extracting_phrases_from_the_application
+3 Modifying the rules for extracting phrases=modifying_the_rules_for_extracting_phrases
+3 Extracting phrases from the selected objects=extracting_phrases_from_selected_objects
+3 About the Phrase Extraction window=About_the_phrase_extraction_window
+3 What you do in the Phrase Extraction window=What_you_do_in_the_phrase_extraction_window
+3 About obsolete phrases=About_obsolete_phrases
+3 Saving the extracted phrases=Saving_the_extracted_phrases_for_translation
+2 Marking Phrases
+3 About the Phrase Extraction window=about_the_phrase_extraction_window
+3 Marking phrases=Marking_phrases_that_will_not_be_translated
+3 Excluding function arguments from the phrase list=excluding_string_parameters_for_a_function_from_the_phrase_list
+3 Finding and reviewing phrases=finding_and_reviewing_phrases
+3 Providing comments for the translator=Providing_comments_for_the_translator
+3 Providing a screen image for the translator=providing_a_screen_picture_for_the_translator
+3 Creating a report of phrase markings=printing_a_report_of_your_phrase_markings
+3 Copying phrase markings from one language to another=copying_phrase_markings
+3 Saving phrase data in a file=saving_to_file
+3 Giving the phrase data to the translator=getting_phrase_data_to
+1 Chapter 4:  Translator Tool
+2 About the Translator tool=about_the_translator_tool
+2 Getting the phrase data from the developer=getting_phrase_data_from_dev
+2 Translating phrases=translating_the_phrases
+2 Inserting translations=Inserting_translations
+2 Translating phrases that represent database values=translating_column_values
+2 Working with a phrase that should not be translated=not_translate
+2 Using suggested translations=suggested_translations
+2 Searching the dictionary=searching_the_dictionary
+2 Creating a dictionary=creating_a_dictionary
+2 Returning the translations to the developer=returning_phrase_data_to
+2 Synchronizing data=synchdb
+1 Chapter 5:  Project Translator Tool
+2 About the Project Translator tool=about_the_project_translator_tool
+2 Getting the translations from the translator=getting_translations_from
+2 Translating the project=using_the_project_translator_tool
+1 Chapter 6:  Database Administration Tool
+2 About the Database Administration tool=about_the_database_administration_tool
+2 Importing a Microsoft glossary or other external glossary=Importing_a_Microsoft_glossary
+2 Importing a PFC dictionary=Importing_an_external_dictionary
+2 Migrating a Translation Assistant dictionary=migrating_a_ta_dictionary
+2 Defining a new language=defining_a_new_language
+2 Deleting unused phrases and images=identifying_unused_phrases_and_images
+1 Chapter 7: Text Analyzer Tool
+2 About the Text Analyzer tool=about_the_text_analyzer_tool
+2 Specifying text analysis preferences=specifying_text_analysis_preferences
+2 Analyzing the text=analyzing_the_text

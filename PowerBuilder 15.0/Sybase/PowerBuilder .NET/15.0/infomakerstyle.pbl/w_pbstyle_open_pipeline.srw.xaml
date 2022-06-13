@@ -1,0 +1,12 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"  x:Class="w_pbstyle_open_pipeline" PBTitle="Select Pipeline">
+	<Canvas>
+			<pbwpf:StaticText Name="st_1" Text="_Pipelines:">
+			</pbwpf:StaticText>
+			<pbwpf:CommandButton Name="cb_ok">
+			</pbwpf:CommandButton>
+			<pbwpf:CommandButton Name="cb_cancel">
+			</pbwpf:CommandButton>
+			<pbwpf:ListView Name="lv_object_list" Accelerator="112">
+			</pbwpf:ListView>
+	</Canvas>
+</pbwpf:Window>
