@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="650,280" sizebox="4,4,4,4" caption="0,0,0,55" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <VerticalLayout enabled="true" width="648" height="231">
+            <Text name="TextAccountInfo" text="{p}{f 0}name:{n}{y 25}product:{/f}{/p}" float="true" pos="30,79,0,0" enabled="true" width="520" height="51" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            <Label name="LabTitle" text="Deactivation Before Uninstall" float="true" pos="8,4,0,0" enabled="true" width="224" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Button name="BtnClose" float="true" pos="619,11,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Text text="You are uninstalling PowerBuilder. Do you want to deactivate the offline license before the uninstall?" float="true" pos="30,35,0,0" enabled="true" width="521" height="33" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+            <Label name="LabYes" float="true" pos="30,146,0,0" enabled="true" width="14" height="14" bkimage="xuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Option name="OptYes" text="Yes (I would like to deactivate the license on this computer and reactivate it on another machine.)" float="true" pos="30,143,0,0" enabled="true" width="589" height="20" textpadding="20,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="left"/>
+            <Label name="LabNo" float="true" pos="30,179,0,0" enabled="true" width="14" height="14" bkimage="weixuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Option name="OptNo" text="No (I want to continue using the license for the reinstalled PowerBuilder on this computer.)" float="true" pos="30,176,0,0" enabled="true" width="549" height="17" textpadding="20,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="left"/>
+        </VerticalLayout>
+        <VerticalLayout enabled="true" width="648" height="48" bkcolor="#FFF0F0F0">
+            <Button name="BtnOk" text="Continue" float="true" pos="514,10,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

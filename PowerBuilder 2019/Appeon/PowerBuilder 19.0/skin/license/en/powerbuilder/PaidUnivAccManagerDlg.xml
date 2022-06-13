@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="803,540" sizebox="4,4,4,4" caption="0,0,0,100" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <Font name="Tahoma" size="16" bold="false" italic="false" />
+    <Font name="Tahoma" size="22" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="803" height="55">
+            <HorizontalLayout enabled="true" width="748" height="55" />
+            <HorizontalLayout enabled="true" width="53" height="55">
+                <Button name="BtnCloseOne" float="true" pos="31,12,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="34">
+            <HorizontalLayout enabled="true" width="400" height="34">
+                <Label text="User Account" float="true" pos="30,0,0,0" enabled="true" width="280" height="34" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="303" height="34">
+                <Control float="true" pos="0,0,0,0" enabled="true" width="234" height="34" bkimage="logo.png" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="381">
+            <HorizontalLayout enabled="true" width="400" height="381">
+                <Label name="LabUserName" text="username" float="true" pos="30,20,0,0" enabled="true" width="193" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+                <Label name="LabUserAccount" text="useraccount" float="true" pos="30,56,0,0" enabled="true" width="255" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+                <Text text="{a https://www.appeon.com/user/center/index?menu=profile}{f 0}{c #001472D0}Manage user profile{/c}{/f}{/a}" float="true" pos="28,89,0,0" enabled="true" width="112" height="18" textpadding="2,0,2,0" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+                <Button name="BtnLogout" text="Sign out" float="true" pos="30,121,0,0" enabled="true" width="59" height="21" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" align="left"/>
+				<Option name="OptAutoSignIn" float="true" pos="30,147,0,0" enabled="true" width="16" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="uncheck.png" selectedimage="check.png" />
+				<Label text="Auto login at startup" float="true" pos="51,147,0,0" enabled="true" width="117" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+				<Option name="OptAutoSignOut" float="true" pos="30,168,0,0" enabled="true" width="16" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" foreimage="uncheck.png" selectedimage="check.png" />
+				<Label text="Sign out on exit" float="true" pos="51,168,0,0" enabled="true" width="115" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Text text="{p}{f 0}After you renew your subscription or change your license data on the Appeon Website, please refresh your machine’s current license to ensure proper usage of PowerBuilder.{/f}{/p}" float="true" pos="30,237,0,0" enabled="true" width="339" height="51" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+                <Text name="LinkCheckForUpdate" text="{a}{f 0}{c #001472D0}Refresh license{/c}{/f}{/a}" float="true" pos="30,300,0,0" enabled="true" width="99" height="17" textpadding="2,0,2,0" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+                <Label text="Refresh License" float="true" pos="31,192,0,0" enabled="true" width="291" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="400" height="381">
+                <Text name="TextLicenseInfo" text="Product version: " float="true" pos="2,13,0,0" enabled="true" width="346" height="128" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+                <Text text="{p}{f 0}During your subscription term, you are entitled to upgrade to the {a https://www.appeon.com/update}{c #001472D0}latest version available{/c}{/a} for FREE.{/f}{/p}" float="true" pos="2,163,0,0" width="346" height="31" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="wrap" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="69" bkcolor="#FFF0F0F0">
+            <HorizontalLayout enabled="true" width="683" height="70">
+                <Button name="BtnOne" float="true" pos="30,19,0,0" enabled="true" width="30" height="30" bkimage="f.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="BtnTwo" float="true" pos="66,19,0,0" enabled="true" width="30" height="30" bkimage="t.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="BtnThree" float="true" pos="102,19,0,0" enabled="true" width="30" height="30" bkimage="in.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="BtnFour" float="true" pos="139,19,0,0" enabled="true" width="30" height="30" bkimage="ytb.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+            <Button name="BtnCloseTwo" text="Close" float="true" pos="683,20,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

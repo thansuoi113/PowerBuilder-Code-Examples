@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="790,649" sizebox="4,4,4,4" caption="0,0,0,100" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="790" height="33">
+            <HorizontalLayout enabled="true" width="754" height="33" />
+            <HorizontalLayout enabled="true" width="34" height="33">
+                <Button name="BtnClose" float="true" pos="12,12,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="788" height="31">
+            <Text name="TextOne" text="Your current license will expire in xxx days. We highly recommend you extend your license before expiration. Before you proceed to renew your license please make sure your license administrator has renewed your subscription for an additional term." float="true" pos="30,0,0,0" enabled="true" width="741" height="31" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+        </HorizontalLayout>
+        <VerticalLayout enabled="true" width="788" height="96">
+            <Text name="TextAccountInfo" text="User name: xxxx" float="true" pos="30,16,0,0" enabled="true" width="739" height="39" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            <Label name="LabRenewOffline" float="true" pos="33,71,0,0" enabled="true" width="14" height="14" bkimage="xuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptRenewOffline" text="Renewal without Internet connection" float="true" pos="29,67,0,0" enabled="true" width="236" height="22" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+            <Label name="LabRenewOnline" float="true" pos="384,71,0,0" enabled="true" width="14" height="14" bkimage="weixuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptRenewOnline" text="Renewal with Internet connection" float="true" pos="380,67,0,0" enabled="true" width="217" height="22" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+            <Text name="TextErrorInfo" float="true" pos="30,1,0,0" enabled="true" width="741" height="15" textpadding="2,0,2,0" textcolor="#00FF0000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+        </VerticalLayout>
+        <TabLayout name="TabRenew" enabled="true" width="788" height="488">
+            <OfflineRenewWithoutInternetView />
+            <OfflineRenewWithInternetView />
+        </TabLayout>
+    </VerticalLayout>
+</Window>

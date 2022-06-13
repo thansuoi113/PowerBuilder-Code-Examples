@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="250,90" bktrans="true">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <Font name="Tahoma" size="16" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" width="250" height="80" bkimage="shadow.png" >
+        <Text name="TextUserName" float="true" pos="14,5,0,0" enabled="true" width="128" height="23" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="wrap" />
+        <Text name="TextUserAccount" float="true" pos="14,34,0,0" enabled="true" width="213" height="16" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+        <VerticalLayout float="true" pos="1,55,0,0" enabled="true" width="244" height="1" bkimage="horizontal_line.bmp" bordercolor="#00C8C8C8" inset="0,1,0,1" />
+        <Text name="LinkAccountManager" text="{a}{c #001472D0}{f 0}Account management{/f}{/c}{/a}" float="true" pos="14,66,0,0" enabled="true" width="133" height="19" textpadding="2,0,2,0" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+    </VerticalLayout>
+</Window>

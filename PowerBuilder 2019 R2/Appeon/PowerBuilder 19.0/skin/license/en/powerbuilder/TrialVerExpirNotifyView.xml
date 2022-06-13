@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="803,485" sizebox="4,4,4,4" caption="0,0,0,100" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <Font name="Tahoma" size="22" bold="false" italic="false" />
+    <Font name="Tahoma" size="60" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <VerticalLayout enabled="true" width="803" height="415">
+            <HorizontalLayout enabled="true" width="803" height="36">
+                <HorizontalLayout enabled="true" width="767" height="36" />
+                <HorizontalLayout enabled="true" width="36" height="36">
+                    <Button name="Close" float="true" pos="12,11,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+            </HorizontalLayout>
+            <VerticalLayout enabled="true" width="803" height="56">
+                <HorizontalLayout enabled="true" width="537" height="56" />
+                <Control float="true" pos="541,31,0,0" enabled="true" width="193" height="23" bkimage="powerbuilder.png" />
+            </VerticalLayout>
+            <HorizontalLayout enabled="true" width="803" height="40">
+                <Label text="Trial" float="true" pos="70,0,0,0" enabled="true" width="131" height="38" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="803" height="44">
+                <Label name="LabOne" text="You can try this product for 30 days." float="true" pos="70,15,0,0" enabled="true" width="360" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="803" height="36" />
+            <HorizontalLayout enabled="true" width="803" height="120">
+                <HorizontalLayout enabled="true" width="70" height="120" />
+                <HorizontalLayout enabled="true" width="150" height="120" bkimage="days.PNG">
+                    <Label name="LabDays" text="0" float="true" pos="0,31,0,0" enabled="true" width="149" height="88" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+                </HorizontalLayout>
+                <HorizontalLayout enabled="true" width="36" height="120" />
+                <Text name="TextOne" text="{p}{f 0}A “trial&apos; suffix is added to all window titles during the trial period.{n}The suffix will be removed from applications compiled after purchase.{/f}{/p}" float="true" pos="256,0,0,0" enabled="true" width="454" height="46" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout enabled="true" width="804" height="69" bkcolor="#FFF0F0F0">
+            <HorizontalLayout enabled="true" width="452" height="70" />
+            <Button name="BuyNow" text="Buy Now" float="true" pos="500,20,0,0" enabled="true" width="123" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="buynow_hot.png" hotimage="buynow.png" pushedimage="buynow_pushed.png" focusedimage="buynow.png" disabledimage="buynow_hot.png" />
+            <Button name="StartTrial" text="Continue Trial" float="true" pos="644,20,0,0" enabled="true" width="123" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempurl.org" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempurl.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempurl.org">
+      <s:element name="of_update">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="fname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="of_updateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="of_updateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="of_insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="fname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="of_insertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="of_insertResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="of_delete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="of_deleteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="of_deleteResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="of_retrieve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="scustomers" type="tns:ArrayOfSCustomer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSCustomer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SCustomer" type="tns:SCustomer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SCustomer">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="fname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="lname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="of_retrieveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="of_retrieveResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="scustomers" type="tns:ArrayOfSCustomer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="of_updateSoapIn">
+    <wsdl:part name="parameters" element="tns:of_update" />
+  </wsdl:message>
+  <wsdl:message name="of_updateSoapOut">
+    <wsdl:part name="parameters" element="tns:of_updateResponse" />
+  </wsdl:message>
+  <wsdl:message name="of_insertSoapIn">
+    <wsdl:part name="parameters" element="tns:of_insert" />
+  </wsdl:message>
+  <wsdl:message name="of_insertSoapOut">
+    <wsdl:part name="parameters" element="tns:of_insertResponse" />
+  </wsdl:message>
+  <wsdl:message name="of_deleteSoapIn">
+    <wsdl:part name="parameters" element="tns:of_delete" />
+  </wsdl:message>
+  <wsdl:message name="of_deleteSoapOut">
+    <wsdl:part name="parameters" element="tns:of_deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="of_retrieveSoapIn">
+    <wsdl:part name="parameters" element="tns:of_retrieve" />
+  </wsdl:message>
+  <wsdl:message name="of_retrieveSoapOut">
+    <wsdl:part name="parameters" element="tns:of_retrieveResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService_aceSoap">
+    <wsdl:operation name="of_update">
+      <wsdl:input message="tns:of_updateSoapIn" />
+      <wsdl:output message="tns:of_updateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="of_insert">
+      <wsdl:input message="tns:of_insertSoapIn" />
+      <wsdl:output message="tns:of_insertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="of_delete">
+      <wsdl:input message="tns:of_deleteSoapIn" />
+      <wsdl:output message="tns:of_deleteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="of_retrieve">
+      <wsdl:input message="tns:of_retrieveSoapIn" />
+      <wsdl:output message="tns:of_retrieveSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService_aceSoap" type="tns:WebService_aceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="of_update">
+      <soap:operation soapAction="http://tempurl.org/of_update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="of_insert">
+      <soap:operation soapAction="http://tempurl.org/of_insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="of_delete">
+      <soap:operation soapAction="http://tempurl.org/of_delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="of_retrieve">
+      <soap:operation soapAction="http://tempurl.org/of_retrieve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService_aceSoap12" type="tns:WebService_aceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="of_update">
+      <soap12:operation soapAction="http://tempurl.org/of_update" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="of_insert">
+      <soap12:operation soapAction="http://tempurl.org/of_insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="of_delete">
+      <soap12:operation soapAction="http://tempurl.org/of_delete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="of_retrieve">
+      <soap12:operation soapAction="http://tempurl.org/of_retrieve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService_ace">
+    <wsdl:port name="WebService_aceSoap" binding="tns:WebService_aceSoap">
+      <soap:address location="http://localhost/webservice_ace/webservice_ace.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService_aceSoap12" binding="tns:WebService_aceSoap12">
+      <soap12:address location="http://localhost/webservice_ace/webservice_ace.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

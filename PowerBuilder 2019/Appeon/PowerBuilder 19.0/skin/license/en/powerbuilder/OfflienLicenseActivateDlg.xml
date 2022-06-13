@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="790,648" sizebox="4,4,4,4" caption="0,0,0,50" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="790" height="32">
+            <HorizontalLayout enabled="true" width="754" height="33" />
+            <HorizontalLayout enabled="true" width="34" height="31">
+                <Button name="Close" float="true" pos="12,12,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="788" height="50">
+            <Text text="You are activating PowerBuilder with an offline (standalone) license.  Before proceeding, please confirm the license administrator has assigned a valid PowerBuilder subscription to your username." float="true" pos="30,0,0,0" enabled="true" width="720" height="34" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+            <Text name="TextErrorInfo" float="true" pos="30,34,0,0" enabled="true" width="719" height="15" textpadding="2,0,2,0" textcolor="#FFFF0000" font="0" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="788" height="77">
+            <Label name="LabTipUserName" text="Email Address" float="true" pos="33,1,0,0" enabled="true" width="319" height="30" bordercolor="#00008080" textpadding="2,0,2,0" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Edit name="EditUserName" float="true" pos="33,1,0,0" enabled="true" width="319" height="30" bkcolor="#00000000" bordercolor="#00008080" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label float="true" pos="399,1,0,0" enabled="true" width="319" height="30" bordercolor="#00008080" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Label name="LabTipPassword" text="Password" float="true" pos="400,3,0,0" enabled="true" width="289" height="25" bordercolor="#00FFFFFF" textpadding="2,0,10,0" textcolor="#00C0C0C0" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Edit name="EditPassword" float="true" pos="400,3,0,0" enabled="true" width="289" height="25" bkcolor="#00000000" bordercolor="#00FFFFFF" textpadding="2,0,10,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" password="true" />
+            <Button name="BtnSee" float="true" pos="694,5,0,0" enabled="true" width="20" height="20" bkimage="bukejian.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label name="LabActOffline" float="true" pos="32,49,0,0" enabled="true" width="14" height="14" bkimage="xuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptActOffline" text="Activation without Internet connection" float="true" pos="30,44,0,0" enabled="true" width="244" height="23" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+            <Label name="LabActOnline" float="true" pos="401,49,0,0" enabled="true" width="14" height="14" bkimage="weixuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptActOnline" text="Activation with Internet connection" float="true" pos="399,44,0,0" enabled="true" width="226" height="23" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+        </HorizontalLayout>
+        <TabLayout name="TabActivate" enabled="true" width="788" height="488">
+            <OfflineActivateDlg />
+            <OnlineActivateDlg />
+        </TabLayout>
+    </VerticalLayout>
+</Window>

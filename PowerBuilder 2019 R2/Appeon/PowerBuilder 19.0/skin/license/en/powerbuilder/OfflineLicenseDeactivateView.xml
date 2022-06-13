@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="790,550" sizebox="4,4,4,4" caption="0,0,0,100" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="790" height="34">
+            <HorizontalLayout enabled="true" width="754" height="33" />
+            <HorizontalLayout enabled="true" width="34" height="33">
+                <Button name="BtnClose" float="true" pos="12,12,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="788" height="42">
+            <Text text="You must deactivate your current license to transfer your PowerBuilder subscription to a different machine or user." float="true" pos="30,12,0,0" enabled="true" width="720" height="29" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+        </HorizontalLayout>
+        <VerticalLayout enabled="true" width="788" height="79">
+            <Text name="TextAccountInfo" text="User name: xxxx" float="true" pos="30,5,0,0" enabled="true" width="719" height="44" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            <Label name="LabDeactOffline" float="true" pos="33,56,0,0" enabled="true" width="14" height="14" bkimage="xuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptDeactOffline" text="Deactivation without Internet connection" float="true" pos="30,51,0,0" enabled="true" width="259" height="22" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+            <Label name="LabDeactOnline" float="true" pos="379,55,0,0" enabled="true" width="14" height="14" bkimage="weixuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptDeactOnline" text="Deactivation with Internet connection" float="true" pos="377,51,0,0" enabled="true" width="247" height="21" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+        </VerticalLayout>
+        <TabLayout name="TabDeactivate" enabled="true" width="788" height="394">
+            <OfflineDeactivateWithoutInternetView />
+            <OfflineDeactivateWithInternetView />
+        </TabLayout>
+    </VerticalLayout>
+</Window>

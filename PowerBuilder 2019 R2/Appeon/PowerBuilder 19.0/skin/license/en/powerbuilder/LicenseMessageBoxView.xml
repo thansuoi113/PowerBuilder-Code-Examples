@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="480,250" sizebox="4,4,4,4" caption="0,0,0,55" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <VerticalLayout width="478" height="201">
+            <Label name="LabIcon" float="true" pos="28,40,0,0" width="32" height="32" bkimage="success.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label name="LabTitle" text="MessageBoxTitle" float="true" pos="8,6,0,0" width="225" height="23" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+            <Button name="BtnClose" float="true" pos="452,9,0,0" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Text name="TextMessageContent" float="true" pos="79,49,0,0" width="338" height="147" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+        </VerticalLayout>
+        <VerticalLayout width="478" height="48" bkcolor="#FFF0F0F0">
+            <Button name="BtnOk" text="OK" float="true" pos="366,11,0,0" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="451,256" sizebox="4,4,4,4" caption="0,0,0,46" mininfo="451,256" maxinfo="451,256">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00366A92" inset="1,0,1,0">
+        <VerticalLayout  name="InfoVL" enabled="true" width="447" height="205">
+			<Label text="Reminder for Renewal" float="true" pos="10,6,0,0" enabled="true" width="129" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+			
+			<Button name="BtnClose" float="true" pos="428,9,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+			
+            <Label float="true" pos="16,46,0,0" enabled="true" width="32" height="32" bkimage="Questionmark.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+			
+            <Text name="TextExpireDays" text="Your license will expire in 0 days." float="true" pos="56,46,0,0" enabled="true" width="375" height="20" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+			
+            <Text text="{p}{f 0}Please remind your license administrator to renew your license before expiration.{/f}{/p}" float="true" pos="56,66,0,0" enabled="true" width="375" height="34" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+			
+            <Label text="Remind me" float="true" pos="56,116,0,0" enabled="true" width="63" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+       
+            <Combo name="ComRemindDays" float="true" pos="130,116,0,0" enabled="true" width="200" height="22" textpadding="3,0,0,0" itemtextpadding="15,0,0,0" bkimage="Combo_normal.PNG" hotimage="Combo_hover.PNG" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" dropboxsize="0,200" bordercolor="#FF999999" />
+            
+			<Text name="OfflineNote" text="Note: After you renew your subscription, please update the license info using Offline License Renew." float="true" pos="56,156,0,0" enabled="true" width="375" height="30" textpadding="2,0,2,0" textcolor="#FF666666" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+        </VerticalLayout>
+        <VerticalLayout enabled="true" width="449" height="50" bkcolor="#FFF0F0F0">
+            <Button name="BtnOk" text="OK" float="true" pos="345,10,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

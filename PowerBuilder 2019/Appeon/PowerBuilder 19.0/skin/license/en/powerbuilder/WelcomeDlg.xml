@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="803,542" sizebox="4,4,4,4" caption="0,0,0,100" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <Font name="Tahoma" size="22" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="801" height="42">
+            <HorizontalLayout enabled="true" width="748" height="42" />
+            <HorizontalLayout enabled="true" width="55" height="41">
+                <Button name="BtnClose" float="true" pos="22,12,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="34">
+            <HorizontalLayout enabled="true" width="443" height="34">
+                <Text text="Log in to PowerBuilder" float="true" pos="30,0,0,0" enabled="true" width="336" height="34" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="wrap" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="303" height="34">
+                <Control float="true" pos="0,0,0,0" enabled="true" width="234" height="34" bkimage="logo.png" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="9" />
+        <HorizontalLayout enabled="true" width="801" height="106">
+            <Button name="BtnLogin" text="Log In" float="true" pos="33,11,0,0" enabled="true" width="90" height="30" bkcolor="#FF1472D0" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+            <Text text="{p}{f 0}You need a valid subscription (either paid or free trial) to login and use the product. During your subscription term, you are entitled to upgrade to the {a https://www.appeon.com/update}{c #001472D0}latest version available{/c}{/a} for FREE.{/f}{/p}" float="true" pos="30,52,0,0" width="361" height="51" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            <Text text="{p}{f 0}PowerBuilder empowers you to build faster, better, business apps for Windows, iOS, and Android.{/f}{/p}" float="true" pos="444,10,0,0" enabled="true" width="323" height="43" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="82">
+            <Text text="{a https://www.appeon.com/freetrial?product=pb}{f 0}{c #001472D0}Apply for a free trial{/c}{/f}{/a}" float="true" pos="30,33,0,0" enabled="true" width="134" height="17" textpadding="2,0,2,0" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            <Text text="{a https://www.appeon.com/pricing/appeon-powerbuilder-pricing.html}{f 0}{c #001472D0}Buy now!{/c}{/f}{/a}" float="true" pos="30,8,0,0" enabled="true" width="61" height="19" textpadding="2,0,2,0" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="78" />
+        <HorizontalLayout enabled="true" width="801" height="48">
+            <Text text="{p}{f 0}If you have an offline license, after you activate your license manually, you can work in PowerBuilder without logging in.{/f}{/p}" float="true" pos="30,7,0,0" enabled="true" width="366" height="36" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="801" height="76">
+            <Button name="BtnActivateOfflineLicense" text="Activate offline license manually" float="true" pos="31,5,0,0" enabled="true" width="180" height="20" textpadding="2,0,2,0" textcolor="#001472D0" disabledtextcolor="#FFA7A6AA" font="0" align="left" />
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="803" height="66" bkcolor="#FFF0F0F0">
+            <HorizontalLayout enabled="true" width="653" height="66">
+                <Button name="BtnOne" float="true" pos="30,19,0,0" enabled="true" width="30" height="30" bkimage="f.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="BtnTwo" float="true" pos="66,19,0,0" enabled="true" width="30" height="30" bkimage="t.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="BtnThree" float="true" pos="102,19,0,0" enabled="true" width="30" height="30" bkimage="in.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="BtnFour" float="true" pos="139,19,0,0" enabled="true" width="30" height="30" bkimage="ytb.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="148" height="66">
+                <Button name="BtnExit" text="Exit" float="true" pos="30,19,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="790,649" sizebox="4,4,4,4" caption="0,0,0,100" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="790" height="34">
+            <HorizontalLayout enabled="true" width="754" height="33" />
+            <HorizontalLayout enabled="true" width="34" height="33">
+                <Button name="BtnClose" float="true" pos="12,12,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="788" height="48">
+            <Text text="If your license administrator has upgraded your subscription to a higher edition with increased functionality, please upgrade your license as outlined below. Your upgrade will take effect on this machine as soon as you successfully complete the process." float="true" pos="30,0,0,0" enabled="true" width="723" height="33" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="wrap" />
+            <Text name="TextErrorInfo" float="true" pos="30,33,0,0" enabled="true" width="723" height="15" textpadding="2,0,2,0" textcolor="#00FF0000" disabledtextcolor="#FFA7A6AA" align="wrap" />
+        </HorizontalLayout>
+        <VerticalLayout enabled="true" width="788" height="83">
+            <Text name="TextAccountInfo" text="User name: xxxx" float="true" pos="30,0,0,0" enabled="true" width="722" height="39" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+            <Label name="LabUpgradeOffline" float="true" pos="33,55,0,0" enabled="true" width="14" height="14" bkimage="xuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptUpgradeOffline" text="Upgrade without Internet connection" float="true" pos="30,52,0,0" enabled="true" width="243" height="19" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+            <Label name="LabUpgradeOnline" float="true" pos="396,55,0,0" enabled="true" width="14" height="14" bkimage="weixuanzhong.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Option name="OptUpgradeOnline" text="Upgrade with Internet connection" float="true" pos="393,52,0,0" enabled="true" width="224" height="19" textpadding="16,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+        </VerticalLayout>
+        <TabLayout name="TabUpgrade" enabled="true" width="788" height="483">
+            <OfflineUpgradeDlg />
+            <OnlineUpgradeDlg />
+        </TabLayout>
+    </VerticalLayout>
+</Window>

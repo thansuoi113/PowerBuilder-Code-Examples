@@ -1,0 +1,11 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "AppeonACFDemo\\appeon_acf_demo.pbt";
+ 1 "SalesApplicationDemo\\sales_application_demo.pbt";
+ 2 "AppeonCodeExamples\\appeon_code_examples.pbt";
+ 3 "SalesMobileDemo\\SalesMobile\\sales_mobile.pbt";
+@end;
+DefaultTarget "SalesMobileDemo\\SalesMobile\\sales_mobile.pbt";
+DefaultRemoteTarget "SalesMobileDemo\\SalesMobile\\sales_mobile.pbt";

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="390,380" sizebox="4,4,4,4" caption="0,0,0,55" mininfo="803,478" maxinfo="803,478">
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout bordersize="1" enabled="true" width="480" height="213" bkcolor="#FFFFFFFF" bordercolor="#00808080" inset="1,0,1,0">
+        <HorizontalLayout enabled="true" width="388" height="379">
+            <VerticalLayout enabled="true" width="388" height="28">
+                <Button name="BtnClose" float="true" pos="358,11,0,0" enabled="true" width="12" height="12" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            </VerticalLayout>
+            <VerticalLayout float="true" pos="1,28,0,0" enabled="true" width="387" height="39">
+                <Label float="true" pos="35,6,0,0" enabled="true" width="234" height="34" bkimage="logo.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </VerticalLayout>
+            <Text name="TextOffLicInfo" float="true" pos="36,91,0,0" enabled="true" width="329" height="180" textpadding="2,0,2,0" align="wrap" showhtml="true"/>
+            <Text text="{p}{f 0}During your subscription term, you are entitled to upgrade to the {a https://www.appeon.com/update}{c #001472D0}latest version available{/c}{/a} for FREE.{/f}{/p}" float="true" pos="36,277,0,0" width="329" height="31" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="wrap" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

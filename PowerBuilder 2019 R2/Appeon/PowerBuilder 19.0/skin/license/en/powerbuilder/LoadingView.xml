@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="350,210" sizebox="4,4,4,4" >
+    <Font name="Tahoma" size="12" bold="false" italic="false" />
+    <VerticalLayout enabled="true" width="350" height="210" bkcolor="#FFFFFFFF" >
+        <ButtonGif NormalGifFile="loading.gif" align="center" enabled="false" float="false" height="210" />
+    </VerticalLayout>
+</Window>

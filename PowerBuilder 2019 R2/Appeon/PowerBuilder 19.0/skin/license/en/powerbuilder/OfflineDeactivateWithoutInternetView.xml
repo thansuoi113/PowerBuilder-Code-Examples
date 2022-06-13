@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="790,394">
+    <Font name="Tahoma" size="12" bold="true" italic="false" />
+    <HorizontalLayout enabled="true" width="790" height="512" bkcolor="#FFFFFFFF">
+        <HorizontalLayout enabled="true" width="789" height="255">
+            <Text text="{p}{f 0}{b}Follow the steps below to deactivate your license.{n}{y 30}• In this window{/b}{n}1. Select a directory where you want to save the deactivation request. The directory will be created if it{n}    does not already exist.{n}2. Click the Deactivate / Copy Deactivation Request button, and confirm the deactivation.{n}{y 30}{b}IMPORTANT: You will no longer be able to use PowerBuilder when you click the button (from step 2).  However, to release your offline license from this machine you must submit the deactivation request to the license server.{n}{y 30}• On a computer with Internet access{/b}{n}3. Prepare the deactivation request (from step 2) in clipboard.{n}4. Open the URL:{n}{a https://www.appeon.com/license/get/activation-code?type=deactivation}{c #001472D0}https://www.appeon.com/license/get/activation-code?type=deactivation{/c}{/a}{n}5. Follow the instructions on the webpage to release the offline license from the license server.{/f}{/p}" float="true" pos="30,21,0,0" enabled="true" width="649" height="230" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" showhtml="true" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout float="true" pos="1,255,0,0" enabled="true" width="788" height="73">
+            <Edit name="EditSavePath" float="true" pos="280,16,0,0" enabled="true" width="302" height="31" bkcolor="#FFFFFFFF" bordercolor="#00008080" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" readonly="true" />
+            <Button name="BtnBrowse" text="Browse" float="true" pos="597,16,0,0" enabled="true" width="84" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+            <Label text="Save deactivation request to directory:" float="true" pos="30,16,0,0" enabled="true" width="245" height="31" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" />
+        </HorizontalLayout>
+        <HorizontalLayout float="true" pos="1,328,0,0" enabled="true" width="788" height="65" bkcolor="#FFF0F0F0">
+            <Button name="BtnOfflineDeactivate" text="Deactivate / Copy Deactivation Request" float="true" pos="360,19,0,0" enabled="true" width="259" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="dnormal.png" hotimage="dhot.png" pushedimage="dpushed.png" focusedimage="dfocused.png" disabledimage="dnormal.png" />
+            <Button name="BtnOfflineCancel" text="Close" float="true" pos="646,20,0,0" enabled="true" width="90" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" normalimage="anormal.png" hotimage="ahot.png" pushedimage="apushed.png" focusedimage="afocused.png" disabledimage="anormal.png" />
+        </HorizontalLayout>
+    </HorizontalLayout>
+</Window>
