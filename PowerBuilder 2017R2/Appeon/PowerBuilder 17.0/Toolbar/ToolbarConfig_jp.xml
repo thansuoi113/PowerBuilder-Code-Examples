@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APB>
+	<version name="8.0" lan="jp" supportpb="8.0;9.0;10.0;10.5;11.0;11.5;12.0;12.5;12.6" registerallsupport="1">
+		<command>
+			<item id="2592" index="0">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 13"/>
+				<PicPath value="config guide.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="PowerServer Toolkit Configuration Wizard">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="設定ウィザード">
+					<la name="en" value=""/>
+					<la name="jp" value="設定ウィザード"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2680" index="1">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 01"/>
+				<PicPath value="Config.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="PowerServer Toolkit Configuration">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="設定">
+					<la name="en" value=""/>
+					<la name="jp" value="設定"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2588" index="2">
+				<Cmd value="&quot;$|DEV|$EonUFATool60.exe&quot;"/>
+				<PicPath value="Analyze.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Unsupported Features Analysis">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="解析">
+					<la name="en" value=""/>
+					<la name="jp" value="解析"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2570" index="3">
+				<Cmd value="&quot;$|DEV|$EonCIS60.exe&quot;"/>
+				<PicPath value="Code Insight.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Code Insight">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="コードインサイト">
+					<la name="en" value=""/>
+					<la name="jp" value="コードインサイト"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2768" index="4">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 04"/>
+				<PicPath value="Deploy.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Application Deployment Wizard">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="配布">
+					<la name="en" value=""/>
+					<la name="jp" value="配布"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2566" index="5">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 07"/>
+				<PicPath value="Run.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Run Application">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="実行">
+					<la name="en" value=""/>
+					<la name="jp" value="実行"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="-1" index="6"/>
+			<item id="2456" index="7">
+				<Cmd value="&quot;$|DEV|$EonDbgUI60.exe&quot;"/>
+				<PicPath value="debugger.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Debugger">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="Appeon Debugger">
+					<la name="en" value=""/>
+					<la name="jp" value="Appeon Debugger"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2756" index="8">
+				<Cmd value="&quot;$|DEV|$Eoninfomng60.exe&quot;"/>
+				<PicPath value="Information.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Information Manager">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="情報">
+					<la name="en" value=""/>
+					<la name="jp" value="情報"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="-1" index="9"/>
+			<item id="2424" index="10">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 06"/>
+				<PicPath value="Package.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Application Package Wizard">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="パッケージ">
+					<la name="en" value=""/>
+					<la name="jp" value="パッケージ"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2426" index="11">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 05"/>
+				<PicPath value="Undeploy.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Application Undeployment Wizard">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="アンデプロイ">
+					<la name="en" value=""/>
+					<la name="jp" value="アンデプロイ"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2530" index="12">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 08"/>
+				<PicPath value="AEM.bmp"/>
+				<IsAdmin value="1"/>
+				<Micro value="Appeon Enterprise Manager">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="AEM">
+					<la name="en" value=""/>
+					<la name="jp" value="AEM"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="-1" index="15"/>
+			<item id="2610" index="17">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 15"/>
+				<PicPath value="Help.bmp"/>
+				<IsAdmin value="0"/>
+				<Micro value="Appeon Help">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="ヘルプ">
+					<la name="en" value=""/>
+					<la name="jp" value="ヘルプ"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+			<item id="2574" index="18">
+				<Cmd value="&quot;$|DEV|$EonAdt60.exe&quot; 12"/>
+				<PicPath value="About.bmp"/>
+				<IsAdmin value="0"/>
+				<Micro value="About Appeon">
+					<la name="en" value=""/>
+					<la name="jp" value=""/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Micro>
+				<RefCount value="1"/>
+				<RunMin value="0"/>
+				<Text value="について">
+					<la name="en" value=""/>
+					<la name="jp" value="について"/>
+					<la name="kr" value=""/>
+					<la name="zh_cn" value=""/>
+					<la name="zh_tw" value=""/>
+				</Text>
+			</item>
+		</command>
+	</version>
+</APB>

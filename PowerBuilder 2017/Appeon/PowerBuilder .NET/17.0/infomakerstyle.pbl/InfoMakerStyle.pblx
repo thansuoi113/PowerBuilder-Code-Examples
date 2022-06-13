@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>InfoMakerStyle</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{689f9ecb-dbac-4839-bb3c-2226e3a38cc3}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>InfoMakerStyle</AssemblyName>
+    <RootNamespace>InfoMakerStyle</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <InfoMakerStyleLibrary>TRUE</InfoMakerStyleLibrary>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.5.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="d_msg_log.srd">
+      <Comment>InfoMaker error datawindow for w_pbstyle_pipeline.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_freeform.srw">
+      <Comment>InfoMaker FreeForm Style window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_grid.srw">
+      <Comment>InfoMaker Grid Style window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_logon.srw">
+      <Comment>InfoMaker Logon window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_mst_det_12many.srw">
+      <Comment>InfoMaker Master/Detail One-To-Many Style menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_mst_det_many21.srw">
+      <Comment>InfoMaker Master/Detail Many-To-One Style window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_open_ancestor.srw">
+      <Comment>InfoMaker open ancestor window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_open_form.srw">
+      <Comment>InfoMaker open form window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_open_pipeline.srw">
+      <Comment>InfoMaker open pipeline window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_open_report.srw">
+      <Comment>InfoMaker open report window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_query_governor.srw">
+      <Comment>InfoMaker query governor window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_report.srw">
+      <Comment>InfoMaker report shell window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_dw_print_options.srw">
+      <Comment>InfoMaker report print options window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_frame_ancestor.srw">
+      <Comment>InfoMaker main frame ancestor window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_sheet_ancestor.srm">
+      <Comment>InfoMaker sheet ancestor menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="s_parm.srs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_about.srw">
+      <Comment>InfoLauncher about response window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="f_set_menu_branch.srf">
+      <Comment>InfoMaker function for pipeline code.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_frame_ancestor.srm">
+      <Comment>InfoMaker main frame ancestor menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_freeform.srm">
+      <Comment>InfoMaker FreeForm Style menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_grid.srm">
+      <Comment>InfoMaker Grid Style menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_mst_det_12many.srm">
+      <Comment>InfoMaker Master/Detail One-To-Many Style menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_mst_det_many21.srm">
+      <Comment>InfoMaker Master/Detail Many-To-One Style menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_pbstyle_report.srm">
+      <Comment>InfoMaker report shell menu.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_zoom.srw">
+      <Comment>InfoMaker zoom window.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_pbstyle_set_toolbars.srw">
+      <Comment>Toolbar preferences - for frame only.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_pbstyle_freeform.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_freeform.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_grid.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_grid.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_logon.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_logon.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_mst_det_12many.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_mst_det_12many.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_mst_det_many21.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_mst_det_many21.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_open_ancestor.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_open_ancestor.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_open_form.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_open_form.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_open_pipeline.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_open_pipeline.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_open_report.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_open_report.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_query_governor.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_query_governor.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_report.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_report.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_dw_print_options.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_dw_print_options.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_frame_ancestor.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_frame_ancestor.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_about.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_about.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_zoom.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_zoom.srw</DependentUpon>
+    </Page>
+    <Page Include="w_pbstyle_set_toolbars.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_pbstyle_set_toolbars.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="app.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <ItemType>ApplicationDefinition</ItemType>
+      <Comment>Special file needed by Cider</Comment>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\15.0\PowerBuilder.targets" />
+</Project>

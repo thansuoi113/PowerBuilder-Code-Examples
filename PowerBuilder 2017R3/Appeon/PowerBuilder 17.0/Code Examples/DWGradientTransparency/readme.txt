@@ -1,0 +1,1 @@
+This code example demonstrates the use of gradients and transparency settings in DataWindow objects. You can apply different gradient and transparency settings to the entire DataWindow object, as well as to separate DataWindow bands, columns, and controls in a DataWindow object. The code example also demonstrates the use of tooltips on a couple of columns of a tabular DataWindow.

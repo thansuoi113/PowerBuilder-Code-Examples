@@ -1,0 +1,5 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_pbstyle_report" ControlMenu="true" MaxBox="true" MenuName="m_pbstyle_report" MinBox="true" PBHeight="1000" PBIcon="Application5!" PBTitle="Report" PBWidth="1655" Resizable="true" TitleBar="true" X="672" Y="264" Uid="25" Height="250" Width="362" x:ClassModifier="internal">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_report" Border="false" Icon="Application5!" LiveScroll="true" PBHScrollBar="true" PBHeight="828" PBVScrollBar="true" PBWidth="1550" TabOrder="1"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:Window>

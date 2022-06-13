@@ -1,0 +1,6 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"  x:Class="w_pbstyle_freeform" BackColor="67108864" Background="#ffece9d8" Center="true" ControlMenu="true" MaxBox="true" MenuName="m_pbstyle_freeform" MinBox="true" PBHeight="1304" PBIcon="information!" PBTitle="Untitled" PBWidth="2565" Resizable="true" TitleBar="true" X="672" Y="264">
+	<Canvas>
+			<pbwpf:DataWindow Name="dw_freeform" Border="false" LiveScroll="true" PBHeight="1028" PBWidth="2423" TabOrder="1">
+			</pbwpf:DataWindow>
+	</Canvas>
+</pbwpf:Window>

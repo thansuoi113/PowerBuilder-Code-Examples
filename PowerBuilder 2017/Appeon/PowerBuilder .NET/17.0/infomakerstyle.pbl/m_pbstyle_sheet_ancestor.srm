@@ -1,0 +1,1547 @@
+$PBExportHeader$m_pbstyle_sheet_ancestor.srm
+forward
+global type m_pbstyle_sheet_ancestor from Menu
+end type
+type m_file from Menu within m_pbstyle_sheet_ancestor
+end type
+type m_close from Menu within m_file
+end type
+type m_dash1 from Menu within m_file
+end type
+type m_saverowsas from Menu within m_file
+end type
+type m_dash2 from Menu within m_file
+end type
+type m_print from Menu within m_file
+end type
+type m_printsetup from Menu within m_file
+end type
+type m_exitseparator from Menu within m_file
+end type
+type m_exit from Menu within m_file
+end type
+type m_edit from Menu within m_pbstyle_sheet_ancestor
+end type
+type m_undo from Menu within m_edit
+end type
+type m_dash3 from Menu within m_edit
+end type
+type m_cut from Menu within m_edit
+end type
+type m_copy from Menu within m_edit
+end type
+type m_paste from Menu within m_edit
+end type
+type m_clear from Menu within m_edit
+end type
+type m_data from Menu within m_pbstyle_sheet_ancestor
+end type
+type m_specifycriteria from Menu within m_data
+end type
+type m_applycriteria from Menu within m_data
+end type
+type m_retrieve from Menu within m_data
+end type
+type m_dash4 from Menu within m_data
+end type
+type m_getfirst from Menu within m_data
+end type
+type m_getprior from Menu within m_data
+end type
+type m_getnext from Menu within m_data
+end type
+type m_getlast from Menu within m_data
+end type
+type m_dash5 from Menu within m_data
+end type
+type m_delete from Menu within m_data
+end type
+type m_insert from Menu within m_data
+end type
+type m_update from Menu within m_data
+end type
+type m_dash6 from Menu within m_data
+end type
+type m_import from Menu within m_data
+end type
+type m_cancelchanges from Menu within m_data
+end type
+type m_window from Menu within m_pbstyle_sheet_ancestor
+end type
+type m_help from Menu within m_pbstyle_sheet_ancestor
+end type
+type m_about from Menu within m_help
+end type
+end forward
+
+global type m_pbstyle_sheet_ancestor from Menu
+m_file m_file
+m_edit m_edit
+m_data m_data
+m_window m_window
+m_help m_help
+end type
+global m_pbstyle_sheet_ancestor m_pbstyle_sheet_ancestor
+
+type variables
+datawindow idw_target
+end variables
+
+forward prototypes
+public subroutine setcriteriamode (boolean ab_gointocriteriamode)
+public subroutine setdwobject (DataWindow dwname)
+end prototypes
+
+public subroutine setcriteriamode (boolean ab_gointocriteriamode);//*-----------------------------------------------------------------*/
+//*    setcriteriamode function:   SetUp for Apply Criteria
+//*-----------------------------------------------------------------*/
+m_data.m_specifycriteria.Enabled	= Not ab_GoIntoCriteriaMode
+m_data.m_delete.Enabled				= Not ab_GoIntoCriteriaMode
+m_data.m_insert.Enabled				= Not ab_GoIntoCriteriaMode
+m_data.m_update.Enabled				= Not ab_GoIntoCriteriaMode
+m_data.m_cancelchanges.Enabled	= Not ab_GoIntoCriteriaMode
+m_data.m_applycriteria.Enabled		= ab_GoIntoCriteriaMode
+If m_data.m_getfirst.Visible	Then m_data.m_getfirst.Enabled	= Not ab_GoIntoCriteriaMode
+If m_data.m_getnext.Visible		Then m_data.m_getnext.Enabled		= Not ab_GoIntoCriteriaMode
+If m_data.m_getprior.Visible	Then m_data.m_getprior.Enabled	= Not ab_GoIntoCriteriaMode
+If m_data.m_getlast.Visible		Then m_data.m_getlast.Enabled		= Not ab_GoIntoCriteriaMode
+end subroutine
+
+public subroutine setdwobject (DataWindow dwname);//*-----------------------------------------------------------------*/
+//*    setdwobject function:   Establish the Target Datawindow
+//*-----------------------------------------------------------------*/
+idw_target = dwname
+end subroutine
+
+on m_pbstyle_sheet_ancestor.create
+m_pbstyle_sheet_ancestor=this
+call super::create
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_file = create m_file
+this.m_edit = create m_edit
+this.m_data = create m_data
+this.m_window = create m_window
+this.m_help = create m_help
+this.Item[UpperBound(this.Item)+1]=this.m_file
+this.Item[UpperBound(this.Item)+1]=this.m_edit
+this.Item[UpperBound(this.Item)+1]=this.m_data
+this.Item[UpperBound(this.Item)+1]=this.m_window
+this.Item[UpperBound(this.Item)+1]=this.m_help
+end on
+
+on m_pbstyle_sheet_ancestor.destroy
+call super::destroy
+destroy(this.m_file)
+destroy(this.m_edit)
+destroy(this.m_data)
+destroy(this.m_window)
+destroy(this.m_help)
+end on
+
+type m_file from Menu within m_pbstyle_sheet_ancestor
+m_close m_close
+m_dash1 m_dash1
+m_saverowsas m_saverowsas
+m_dash2 m_dash2
+m_print m_print
+m_printsetup m_printsetup
+m_exitseparator m_exitseparator
+m_exit m_exit
+end type
+
+on m_file.create
+call super::create
+this.Text="_File"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_close = create m_close
+this.m_dash1 = create m_dash1
+this.m_saverowsas = create m_saverowsas
+this.m_dash2 = create m_dash2
+this.m_print = create m_print
+this.m_printsetup = create m_printsetup
+this.m_exitseparator = create m_exitseparator
+this.m_exit = create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_close
+this.Item[UpperBound(this.Item)+1]=this.m_dash1
+this.Item[UpperBound(this.Item)+1]=this.m_saverowsas
+this.Item[UpperBound(this.Item)+1]=this.m_dash2
+this.Item[UpperBound(this.Item)+1]=this.m_print
+this.Item[UpperBound(this.Item)+1]=this.m_printsetup
+this.Item[UpperBound(this.Item)+1]=this.m_exitseparator
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_close)
+destroy(this.m_dash1)
+destroy(this.m_saverowsas)
+destroy(this.m_dash2)
+destroy(this.m_print)
+destroy(this.m_printsetup)
+destroy(this.m_exitseparator)
+destroy(this.m_exit)
+end on
+
+type m_close from Menu within m_file
+end type
+
+on m_close.create
+call super::create
+this.Text="_Close"
+this.MicroHelp="Close Form"
+this.ToolbarItemName="exit!"
+this.ToolbarItemText="Close,Close Form"
+this.ToolbarItemOrder=50
+this.ToolbarItemSpace=1
+this.MenuImage="Exit!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Close down the window
+//*-----------------------------------------------------------------*/
+Close ( ParentWindow )
+end event
+
+type m_dash1 from Menu within m_file
+end type
+
+on m_dash1.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash1.destroy
+call super::destroy
+end on
+
+type m_saverowsas from Menu within m_file
+end type
+
+on m_saverowsas.create
+call super::create
+this.Text="Save _Rows As..."
+this.MicroHelp="Save rows to external file"
+this.MenuImage="SaveAs!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_saverowsas.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to "SaveAs"  
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event SaveAs ()
+end event
+
+type m_dash2 from Menu within m_file
+end type
+
+on m_dash2.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash2.destroy
+call super::destroy
+end on
+
+type m_print from Menu within m_file
+end type
+
+on m_print.create
+call super::create
+this.Text="_Print"
+this.MicroHelp="Print report"
+this.MenuImage="Print!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to "Print"  
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event Print ()
+end event
+
+type m_printsetup from Menu within m_file
+end type
+
+on m_printsetup.create
+call super::create
+this.Text="Print Set_up..."
+this.MicroHelp="Set printer options"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_printsetup.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Invoke the Print Setup Dialog
+//*-----------------------------------------------------------------*/
+PrintSetup ( )
+end event
+
+type m_exitseparator from Menu within m_file
+end type
+
+on m_exitseparator.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_exitseparator.destroy
+call super::destroy
+end on
+
+type m_exit from Menu within m_file
+end type
+
+on m_exit.create
+call super::create
+this.Text="E_xit~tAlt+F4"
+this.Shortcut=627
+this.MicroHelp="Exit program"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Close the Application
+//*-----------------------------------------------------------------*/
+Close ( ParentWindow.ParentWindow ( ) )
+end event
+
+type m_edit from Menu within m_pbstyle_sheet_ancestor
+m_undo m_undo
+m_dash3 m_dash3
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_clear m_clear
+end type
+
+on m_edit.create
+call super::create
+this.Text="_Edit"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_undo = create m_undo
+this.m_dash3 = create m_dash3
+this.m_cut = create m_cut
+this.m_copy = create m_copy
+this.m_paste = create m_paste
+this.m_clear = create m_clear
+this.Item[UpperBound(this.Item)+1]=this.m_undo
+this.Item[UpperBound(this.Item)+1]=this.m_dash3
+this.Item[UpperBound(this.Item)+1]=this.m_cut
+this.Item[UpperBound(this.Item)+1]=this.m_copy
+this.Item[UpperBound(this.Item)+1]=this.m_paste
+this.Item[UpperBound(this.Item)+1]=this.m_clear
+end on
+
+on m_edit.destroy
+call super::destroy
+destroy(this.m_undo)
+destroy(this.m_dash3)
+destroy(this.m_cut)
+destroy(this.m_copy)
+destroy(this.m_paste)
+destroy(this.m_clear)
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Setup Menu Items
+//*-----------------------------------------------------------------*/
+integer li_SelectedLength 
+
+// Get length of selected text
+li_SelectedLength = idw_target.SelectedLength ( )
+
+// Set menu items states 
+m_undo.Enabled  = idw_target.CanUndo ( )
+m_cut.Enabled   = ( li_SelectedLength > 0 ) 
+m_copy.Enabled  = ( li_SelectedLength > 0 )
+m_paste.Enabled = ( ClipBoard ( ) <> "" )
+m_clear.Enabled = ( li_SelectedLength > 0 )
+end event
+
+type m_undo from Menu within m_edit
+end type
+
+on m_undo.create
+call super::create
+this.Text="_Undo~tCtrl+Z"
+this.Shortcut=346
+this.MicroHelp="Undo last edit change"
+this.MenuImage="Undo!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_undo.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Undo Operation
+//*-----------------------------------------------------------------*/
+idw_target.UnDo ( )
+end event
+
+type m_dash3 from Menu within m_edit
+end type
+
+on m_dash3.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash3.destroy
+call super::destroy
+end on
+
+type m_cut from Menu within m_edit
+end type
+
+on m_cut.create
+call super::create
+this.Text="Cu_t~tCtrl+X"
+this.Enabled=false
+this.Shortcut=344
+this.MicroHelp="Cut selected text to clipboard"
+this.MenuImage="Cut!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_cut.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Cut Operation
+//*-----------------------------------------------------------------*/
+idw_target.Cut ( )
+end event
+
+type m_copy from Menu within m_edit
+end type
+
+on m_copy.create
+call super::create
+this.Text="_Copy~tCtrl+C"
+this.Enabled=false
+this.Shortcut=323
+this.MicroHelp="Copy selected text to clipboard"
+this.MenuImage="Copy!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_copy.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Copy Operation
+//*-----------------------------------------------------------------*/
+idw_target.Copy ( )
+end event
+
+type m_paste from Menu within m_edit
+end type
+
+on m_paste.create
+call super::create
+this.Text="_Paste~tCtrl+V"
+this.Enabled=false
+this.Shortcut=342
+this.MicroHelp="Paste text from clipboard"
+this.MenuImage="Paste!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Paste Operation
+//*-----------------------------------------------------------------*/
+idw_target.Paste()
+end event
+
+type m_clear from Menu within m_edit
+end type
+
+on m_clear.create
+call super::create
+this.Text="Clear"
+this.MicroHelp="Clear selected text"
+this.MenuImage="Clear!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_clear.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Clear Operation
+//*-----------------------------------------------------------------*/
+idw_target.Clear ( )
+end event
+
+type m_data from Menu within m_pbstyle_sheet_ancestor
+m_specifycriteria m_specifycriteria
+m_applycriteria m_applycriteria
+m_retrieve m_retrieve
+m_dash4 m_dash4
+m_getfirst m_getfirst
+m_getprior m_getprior
+m_getnext m_getnext
+m_getlast m_getlast
+m_dash5 m_dash5
+m_delete m_delete
+m_insert m_insert
+m_update m_update
+m_dash6 m_dash6
+m_import m_import
+m_cancelchanges m_cancelchanges
+end type
+
+on m_data.create
+call super::create
+this.Text="_Rows"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_specifycriteria = create m_specifycriteria
+this.m_applycriteria = create m_applycriteria
+this.m_retrieve = create m_retrieve
+this.m_dash4 = create m_dash4
+this.m_getfirst = create m_getfirst
+this.m_getprior = create m_getprior
+this.m_getnext = create m_getnext
+this.m_getlast = create m_getlast
+this.m_dash5 = create m_dash5
+this.m_delete = create m_delete
+this.m_insert = create m_insert
+this.m_update = create m_update
+this.m_dash6 = create m_dash6
+this.m_import = create m_import
+this.m_cancelchanges = create m_cancelchanges
+this.Item[UpperBound(this.Item)+1]=this.m_specifycriteria
+this.Item[UpperBound(this.Item)+1]=this.m_applycriteria
+this.Item[UpperBound(this.Item)+1]=this.m_retrieve
+this.Item[UpperBound(this.Item)+1]=this.m_dash4
+this.Item[UpperBound(this.Item)+1]=this.m_getfirst
+this.Item[UpperBound(this.Item)+1]=this.m_getprior
+this.Item[UpperBound(this.Item)+1]=this.m_getnext
+this.Item[UpperBound(this.Item)+1]=this.m_getlast
+this.Item[UpperBound(this.Item)+1]=this.m_dash5
+this.Item[UpperBound(this.Item)+1]=this.m_delete
+this.Item[UpperBound(this.Item)+1]=this.m_insert
+this.Item[UpperBound(this.Item)+1]=this.m_update
+this.Item[UpperBound(this.Item)+1]=this.m_dash6
+this.Item[UpperBound(this.Item)+1]=this.m_import
+this.Item[UpperBound(this.Item)+1]=this.m_cancelchanges
+end on
+
+on m_data.destroy
+call super::destroy
+destroy(this.m_specifycriteria)
+destroy(this.m_applycriteria)
+destroy(this.m_retrieve)
+destroy(this.m_dash4)
+destroy(this.m_getfirst)
+destroy(this.m_getprior)
+destroy(this.m_getnext)
+destroy(this.m_getlast)
+destroy(this.m_dash5)
+destroy(this.m_delete)
+destroy(this.m_insert)
+destroy(this.m_update)
+destroy(this.m_dash6)
+destroy(this.m_import)
+destroy(this.m_cancelchanges)
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   SetUp Menu Items
+//*-----------------------------------------------------------------*/
+boolean lb_Updatable 
+
+// Determine if we're updatable
+lb_Updatable = ( idw_target.Describe ( "DataWindow.Readonly" ) = "no" )
+
+If lb_Updatable Then
+	// Set the flag
+	lb_Updatable = ( idw_target.Describe ( "DataWindow.QueryMode" ) = "no" )
+End if
+
+// Set menu items states 
+m_cancelchanges.Enabled	= lb_Updatable
+m_delete.Enabled			= lb_Updatable
+m_insert.Enabled			= lb_Updatable
+m_update.Enabled			= lb_Updatable
+end event
+
+type m_specifycriteria from Menu within m_data
+end type
+
+on m_specifycriteria.create
+call super::create
+this.Text="Specify _Criteria"
+this.MicroHelp="Specify selection criteria"
+this.ToolbarItemName="where!"
+this.ToolbarItemText="Criteria,Specify criteria"
+this.MenuImage="Where!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_specifycriteria.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to go into "SpecifyCriteria" mode
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event SpecifyCriteria ()
+end event
+
+type m_applycriteria from Menu within m_data
+end type
+
+on m_applycriteria.create
+call super::create
+this.Text="_Apply Criteria"
+this.Enabled=false
+this.MicroHelp="Retrieve all rows with new criteria"
+this.ToolbarItemName="custom033!"
+this.ToolbarItemText="Apply,Apply criteria"
+this.MenuImage="Custom033!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_applycriteria.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to "Apply Criteria" 
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event ApplyCriteria ()
+end event
+
+type m_retrieve from Menu within m_data
+end type
+
+on m_retrieve.create
+call super::create
+this.Text="_Retrieve"
+this.MicroHelp="Retrieve rows"
+this.ToolbarItemName="retrieve5!"
+this.ToolbarItemText="Retrieve,Retrieve rows"
+this.MenuImage="Retrieve5!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_retrieve.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to "Retrieve"  
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event Retrieve ()
+end event
+
+type m_dash4 from Menu within m_data
+end type
+
+on m_dash4.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash4.destroy
+call super::destroy
+end on
+
+type m_getfirst from Menu within m_data
+end type
+
+on m_getfirst.create
+call super::create
+this.Text="_First"
+this.MicroHelp="Get first row"
+this.ToolbarItemName="vcrfirst!"
+this.ToolbarItemText="First,Get first row"
+this.ToolbarItemSpace=1
+this.MenuImage="VCRFirst!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_getfirst.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to get the first row
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event GetFirstRow ()
+end event
+
+type m_getprior from Menu within m_data
+end type
+
+on m_getprior.create
+call super::create
+this.Text="_Prior"
+this.MicroHelp="Get prior row"
+this.ToolbarItemName="vcrprior!"
+this.ToolbarItemText="Prior,Get prior row"
+this.MenuImage="VCRPrior!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_getprior.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to get the prior row
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event GetPriorRow ()
+end event
+
+type m_getnext from Menu within m_data
+end type
+
+on m_getnext.create
+call super::create
+this.Text="_Next"
+this.MicroHelp="Get next row"
+this.ToolbarItemName="vcrnext!"
+this.ToolbarItemText="Next,Get next row"
+this.MenuImage="VCRNext!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_getnext.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to get the next row
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event GetNextRow ()
+end event
+
+type m_getlast from Menu within m_data
+end type
+
+on m_getlast.create
+call super::create
+this.Text="_Last"
+this.MicroHelp="Get last row"
+this.ToolbarItemName="vcrlast!"
+this.ToolbarItemText="Last,Get last row"
+this.MenuImage="VCRLast!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_getlast.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to get the last row
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event GetLastRow ()
+end event
+
+type m_dash5 from Menu within m_data
+end type
+
+on m_dash5.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash5.destroy
+call super::destroy
+end on
+
+type m_delete from Menu within m_data
+end type
+
+on m_delete.create
+call super::create
+this.Text="_Delete~tCtrl+D"
+this.Shortcut=324
+this.MicroHelp="Delete the current row"
+this.ToolbarItemName="clear!"
+this.ToolbarItemText="Delete,Delete the current row"
+this.ToolbarItemSpace=1
+this.MenuImage="Clear!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_delete.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to delete the row
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event DeleteRow ()
+end event
+
+type m_insert from Menu within m_data
+end type
+
+on m_insert.create
+call super::create
+this.Text="_Insert~tCtrl+I"
+this.Shortcut=329
+this.MicroHelp="Insert a new row"
+this.ToolbarItemName="insert5!"
+this.ToolbarItemText="Insert,Insert a new row"
+this.MenuImage="Insert5!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_insert.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to insert a row
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event InsertRow ()
+end event
+
+type m_update from Menu within m_data
+end type
+
+on m_update.create
+call super::create
+this.Text="_Update~tCtrl+U"
+this.Shortcut=341
+this.MicroHelp="Update the database immediately"
+this.ToolbarItemName="update5!"
+this.ToolbarItemText="Update,Update the database immediately"
+this.MenuImage="Update5!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_update.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to update
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event UpdateRow ()
+end event
+
+type m_dash6 from Menu within m_data
+end type
+
+on m_dash6.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash6.destroy
+call super::destroy
+end on
+
+type m_import from Menu within m_data
+end type
+
+on m_import.create
+call super::create
+this.Text="I_mport..."
+this.MicroHelp="Import rows from external file"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_import.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to import rows
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event ImportFile ()
+end event
+
+type m_cancelchanges from Menu within m_data
+end type
+
+on m_cancelchanges.create
+call super::create
+this.Text="Cancel C_hanges"
+this.MicroHelp="Cancel all changes made since the last Update and retrieve data again"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_cancelchanges.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Tell window to Cancel changes   
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event CancelUpdates ()
+end event
+
+type m_window from Menu within m_pbstyle_sheet_ancestor
+end type
+
+on m_window.create
+call super::create
+this.Text="_Window"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_window.destroy
+call super::destroy
+end on
+
+type m_help from Menu within m_pbstyle_sheet_ancestor
+m_about m_about
+end type
+
+on m_help.create
+call super::create
+this.Text="_Help"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_about = create m_about
+this.Item[UpperBound(this.Item)+1]=this.m_about
+end on
+
+on m_help.destroy
+call super::destroy
+destroy(this.m_about)
+end on
+
+type m_about from Menu within m_help
+end type
+
+on m_about.create
+call super::create
+this.Text="About..."
+this.MicroHelp="Display copyright notice"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_about.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open the About Window
+//*-----------------------------------------------------------------*/
+window lw_frame
+
+lw_frame = ParentWindow.ParentWindow ( )
+If Not IsValid ( lw_frame ) Then lw_Frame = ParentWindow
+Open ( w_pbstyle_about, lw_frame )
+end event

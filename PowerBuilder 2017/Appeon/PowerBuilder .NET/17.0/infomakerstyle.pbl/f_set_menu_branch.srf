@@ -1,0 +1,38 @@
+
+global type f_set_menu_branch from function_object 
+end type
+
+
+forward prototypes
+global function integer f_set_menu_branch (menu am_branch_parent, string as_operation)
+end prototypes
+
+global function integer f_set_menu_branch (menu am_branch_parent, string as_operation);//*-----------------------------------------------------------------*/
+//*    f_set_menu_branch function:   Given the parent of menu branch(node), 
+//*		you can set the attributes of all menu itemson the branch to the operation passed.
+//*-----------------------------------------------------------------*/
+int li_index, li_total
+string ls_operation
+
+ls_operation = Lower ( Trim ( as_operation ) )
+
+li_total = Upperbound ( am_branch_parent.Item )
+For li_index = 1 to li_total
+	Choose Case ls_operation
+		Case "check"
+		 am_branch_parent.item[li_index].Checked = True
+		Case "uncheck"
+		 am_branch_parent.item[li_index].Checked = False
+		Case "enable"
+		 am_branch_parent.item[li_index].Enabled = True
+		Case "disable"
+		 am_branch_parent.item[li_index].Enabled = False
+		Case "visible"
+		 am_branch_parent.item[li_index].Visible = True
+		Case "invisible"
+		 am_branch_parent.item[li_index].Visible = False
+	End Choose
+Next
+
+Return li_total
+end function

@@ -1,0 +1,6 @@
+<pbwpf:Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" x:Class="w_pbstyle_mst_det_many21" ControlMenu="true" MaxBox="true" MenuName="m_pbstyle_mst_det_many21" MinBox="true" PBHeight="1384" PBIcon="information!" PBTitle="Untitled" PBWidth="2866" Resizable="true" TitleBar="true" X="672" Y="264" Uid="9" Height="346" Width="627">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_detail_many21" Border="false" LiveScroll="true" PBHeight="1028" PBWidth="2423" TabOrder="20"></pbwpf:DataWindow>
+        <pbwpf:DataWindow Name="dw_master_many21" LiveScroll="true" PBHScrollBar="true" PBHeight="600" PBVScrollBar="true" PBWidth="2656" TabOrder="10" X="78" Y="56"></pbwpf:DataWindow>
+    </Canvas>
+</pbwpf:Window>

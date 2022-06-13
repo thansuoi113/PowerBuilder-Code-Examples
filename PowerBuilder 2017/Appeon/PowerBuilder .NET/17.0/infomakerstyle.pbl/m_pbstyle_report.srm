@@ -1,0 +1,1156 @@
+$PBExportHeader$m_pbstyle_report.srm
+forward
+global type m_pbstyle_report from Menu
+end type
+type m_file from Menu within m_pbstyle_report
+end type
+type m_close from Menu within m_file
+end type
+type m_dash1 from Menu within m_file
+end type
+type m_saverowsas from Menu within m_file
+end type
+type m_dash2 from Menu within m_file
+end type
+type m_print from Menu within m_file
+end type
+type m_printpreview from Menu within m_file
+end type
+type m_printpreviewrulers from Menu within m_file
+end type
+type m_print1 from Menu within m_file
+end type
+type m_printersetup from Menu within m_file
+end type
+type m_dash3 from Menu within m_file
+end type
+type m_exit from Menu within m_file
+end type
+type m_display from Menu within m_pbstyle_report
+end type
+type m_firstpage from Menu within m_display
+end type
+type m_nextpage from Menu within m_display
+end type
+type m_priorpage from Menu within m_display
+end type
+type m_lastpage from Menu within m_display
+end type
+type m_zoom from Menu within m_display
+end type
+type m_rows from Menu within m_pbstyle_report
+end type
+type m_filter from Menu within m_rows
+end type
+type m_retrieve from Menu within m_rows
+end type
+type m_sort from Menu within m_rows
+end type
+type m_window from Menu within m_pbstyle_report
+end type
+type m_help from Menu within m_pbstyle_report
+end type
+type m_about from Menu within m_help
+end type
+end forward
+
+global type m_pbstyle_report from Menu
+m_file m_file
+m_display m_display
+m_rows m_rows
+m_window m_window
+m_help m_help
+end type
+global m_pbstyle_report m_pbstyle_report
+
+type variables
+datawindow idw_report
+end variables
+
+forward prototypes
+public subroutine f_setdatawindow (ref DataWindow dw_passed)
+public subroutine f_setretrieve (boolean ab_start)
+end prototypes
+
+public subroutine f_setdatawindow (ref DataWindow dw_passed);//*-----------------------------------------------------------------*/
+//*    f_SetDataWindow function: Establish the Target Datawindow
+//*-----------------------------------------------------------------*/
+idw_report = dw_passed
+end subroutine
+
+public subroutine f_setretrieve (boolean ab_start);//*-----------------------------------------------------------------*/
+//*    f_SetRetrieve function: Setup Menu Items
+//*-----------------------------------------------------------------*/
+If ab_start Then
+	m_rows.m_retrieve.Microhelp = "Cancel retrieval"
+	m_rows.m_retrieve.Text = "Cancel"
+	m_rows.m_retrieve.ToolbarItemName = "RetrieveCancel!"
+	m_rows.m_retrieve.ToolbarItemText = "Cancel"
+Else
+	m_rows.m_retrieve.Microhelp = "Retrieve Rows"
+	m_rows.m_retrieve.Text = "_Retrieve"
+	m_rows.m_retrieve.ToolbarItemName = "Retrieve!"
+	m_rows.m_retrieve.ToolbarItemText = "Retrieve"
+End If
+end subroutine
+
+on m_pbstyle_report.create
+m_pbstyle_report=this
+call super::create
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_file = create m_file
+this.m_display = create m_display
+this.m_rows = create m_rows
+this.m_window = create m_window
+this.m_help = create m_help
+this.Item[UpperBound(this.Item)+1]=this.m_file
+this.Item[UpperBound(this.Item)+1]=this.m_display
+this.Item[UpperBound(this.Item)+1]=this.m_rows
+this.Item[UpperBound(this.Item)+1]=this.m_window
+this.Item[UpperBound(this.Item)+1]=this.m_help
+end on
+
+on m_pbstyle_report.destroy
+call super::destroy
+destroy(this.m_file)
+destroy(this.m_display)
+destroy(this.m_rows)
+destroy(this.m_window)
+destroy(this.m_help)
+end on
+
+type m_file from Menu within m_pbstyle_report
+m_close m_close
+m_dash1 m_dash1
+m_saverowsas m_saverowsas
+m_dash2 m_dash2
+m_print m_print
+m_printpreview m_printpreview
+m_printpreviewrulers m_printpreviewrulers
+m_print1 m_print1
+m_printersetup m_printersetup
+m_dash3 m_dash3
+m_exit m_exit
+end type
+
+on m_file.create
+call super::create
+this.Text="_File"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_close = create m_close
+this.m_dash1 = create m_dash1
+this.m_saverowsas = create m_saverowsas
+this.m_dash2 = create m_dash2
+this.m_print = create m_print
+this.m_printpreview = create m_printpreview
+this.m_printpreviewrulers = create m_printpreviewrulers
+this.m_print1 = create m_print1
+this.m_printersetup = create m_printersetup
+this.m_dash3 = create m_dash3
+this.m_exit = create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_close
+this.Item[UpperBound(this.Item)+1]=this.m_dash1
+this.Item[UpperBound(this.Item)+1]=this.m_saverowsas
+this.Item[UpperBound(this.Item)+1]=this.m_dash2
+this.Item[UpperBound(this.Item)+1]=this.m_print
+this.Item[UpperBound(this.Item)+1]=this.m_printpreview
+this.Item[UpperBound(this.Item)+1]=this.m_printpreviewrulers
+this.Item[UpperBound(this.Item)+1]=this.m_print1
+this.Item[UpperBound(this.Item)+1]=this.m_printersetup
+this.Item[UpperBound(this.Item)+1]=this.m_dash3
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_close)
+destroy(this.m_dash1)
+destroy(this.m_saverowsas)
+destroy(this.m_dash2)
+destroy(this.m_print)
+destroy(this.m_printpreview)
+destroy(this.m_printpreviewrulers)
+destroy(this.m_print1)
+destroy(this.m_printersetup)
+destroy(this.m_dash3)
+destroy(this.m_exit)
+end on
+
+type m_close from Menu within m_file
+end type
+
+on m_close.create
+call super::create
+this.Text="_Close~tCtrl+F4"
+this.Shortcut=371
+this.MicroHelp="Close Report"
+this.ToolbarItemName="exit!"
+this.ToolbarItemText="Close,Close Report"
+this.ToolbarItemOrder=60
+this.ToolbarItemSpace=1
+this.MenuImage="Exit!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Close down the window
+//*-----------------------------------------------------------------*/
+Close ( ParentWindow )
+end event
+
+type m_dash1 from Menu within m_file
+end type
+
+on m_dash1.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash1.destroy
+call super::destroy
+end on
+
+type m_saverowsas from Menu within m_file
+end type
+
+on m_saverowsas.create
+call super::create
+this.Text="Save _Rows As..."
+this.MicroHelp="Save Rows to External File"
+this.MenuImage="SaveAs!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_saverowsas.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Save Report As
+//*-----------------------------------------------------------------*/
+idw_report.SaveAs ()
+end event
+
+type m_dash2 from Menu within m_file
+end type
+
+on m_dash2.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash2.destroy
+call super::destroy
+end on
+
+type m_print from Menu within m_file
+end type
+
+on m_print.create
+call super::create
+this.Text="_Print..."
+this.MicroHelp="Print"
+this.ToolbarItemName="print!"
+this.ToolbarItemText="Print"
+this.ToolbarItemOrder=50
+this.ToolbarItemSpace=1
+this.MenuImage="Print!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Print the Report
+//*-----------------------------------------------------------------*/
+ParentWindow.Dynamic Event printdlg ()
+end event
+
+type m_printpreview from Menu within m_file
+end type
+
+on m_printpreview.create
+call super::create
+this.Text="Print Pre_view"
+this.MenuImage=""
+this.ToolbarItemName="Preview!"
+this.ToolbarItemDownName="Report5!"
+this.ToolbarItemOrder=55
+this.MicroHelp="Toggle the report between print preview mode and normal mode"
+this.ToolbarAnimation=True
+this.ToolbarItemText="View report in print preview mode"
+end on
+
+on m_printpreview.destroy
+call super::destroy
+end on
+
+event Clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Print Preview the Report
+//*-----------------------------------------------------------------*/
+this.Checked = (Not this.Checked)
+this.ToolbarItemDown = this.Checked
+
+ParentWindow.Dynamic Event PrintPreview (this.Checked)
+
+m_file.m_printpreviewrulers.Enabled = this.Checked
+If (this.Checked) Then
+	m_file.m_printpreview.ToolbarItemText = "View report in normal mode"
+Else
+	m_file.m_printpreview.ToolbarItemText = "View report in print preview mode"
+End If
+	
+m_file.m_print1.Enabled = this.Checked
+end event
+
+type m_printpreviewrulers from Menu within m_file
+end type
+
+on m_printpreviewrulers.create
+call super::create
+this.Text="Print Preview Ru_lers"
+this.MicroHelp="Hide or show rulers in print preview"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.Enabled=False
+this.Visible=False
+end on
+
+on m_printpreviewrulers.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Print Preview Rulers
+//*-----------------------------------------------------------------*/
+string	 ls_command, ls_value
+
+ls_command = "DataWindow.Print.Preview.Rulers"
+ls_value = idw_report.Describe ( ls_command )
+If ls_value = "yes" Then ls_value = "no" Else ls_value = "yes"
+idw_report.Modify ( ls_command + "=" + ls_value )
+this.Checked = ( ls_value = "yes" )
+end event
+
+type m_print1 from Menu within m_file
+end type
+
+on m_print1.create
+call super::create
+this.Text="Print Preview _Zoom..."
+this.MicroHelp="Scale the print preview area"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.Enabled=False
+end on
+
+on m_print1.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Print Zoom
+//*-----------------------------------------------------------------*/
+string	 ls_command, ls_value
+
+ls_command = "Datawindow.Print.Preview.Zoom"
+ls_value = idw_report.Describe ( ls_command )
+OpenWithParm ( w_pbstyle_zoom, ls_value )
+If Message.Stringparm <> "" Then
+	idw_report.Modify ( ls_command + "=" + Message.Stringparm )
+End If
+end event
+
+type m_printersetup from Menu within m_file
+end type
+
+on m_printersetup.create
+call super::create
+this.Text="Printer Set_up..."
+this.MicroHelp="Set printer options"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_printersetup.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Invoke the Print Setup Dialog
+//*-----------------------------------------------------------------*/
+PrintSetup ( )
+end event
+
+type m_dash3 from Menu within m_file
+end type
+
+on m_dash3.create
+call super::create
+this.Text="-"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_dash3.destroy
+call super::destroy
+end on
+
+type m_exit from Menu within m_file
+end type
+
+on m_exit.create
+call super::create
+this.Text="E_xit~tAlt+F4"
+this.Shortcut=627
+this.MicroHelp="Exit program"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Close the Application
+//*-----------------------------------------------------------------*/
+Close ( ParentWindow.ParentWindow ( ) )
+end event
+
+type m_display from Menu within m_pbstyle_report
+m_firstpage m_firstpage
+m_nextpage m_nextpage
+m_priorpage m_priorpage
+m_lastpage m_lastpage
+m_zoom m_zoom
+end type
+
+on m_display.create
+call super::create
+this.Text="_Display"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_firstpage = create m_firstpage
+this.m_nextpage = create m_nextpage
+this.m_priorpage = create m_priorpage
+this.m_lastpage = create m_lastpage
+this.m_zoom = create m_zoom
+this.Item[UpperBound(this.Item)+1]=this.m_firstpage
+this.Item[UpperBound(this.Item)+1]=this.m_nextpage
+this.Item[UpperBound(this.Item)+1]=this.m_priorpage
+this.Item[UpperBound(this.Item)+1]=this.m_lastpage
+this.Item[UpperBound(this.Item)+1]=this.m_zoom
+end on
+
+on m_display.destroy
+call super::destroy
+destroy(this.m_firstpage)
+destroy(this.m_nextpage)
+destroy(this.m_priorpage)
+destroy(this.m_lastpage)
+destroy(this.m_zoom)
+end on
+
+type m_firstpage from Menu within m_display
+end type
+
+on m_firstpage.create
+call super::create
+this.Text="_First Page"
+this.MicroHelp="Scroll to First Page"
+this.ToolbarItemName="vcrfirst!"
+this.ToolbarItemText="First"
+this.ToolbarItemOrder=10
+this.ToolbarItemSpace=1
+this.MenuImage="VCRFirst!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_firstpage.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Scroll DataWindow to First Page
+//*-----------------------------------------------------------------*/
+idw_report.ScrollToRow ( 1 )
+end event
+
+type m_nextpage from Menu within m_display
+end type
+
+on m_nextpage.create
+call super::create
+this.Text="_Next Page"
+this.MicroHelp="Scroll to Next Page"
+this.ToolbarItemName="vcrnext!"
+this.ToolbarItemText="Next"
+this.ToolbarItemOrder=30
+this.MenuImage="VCRNext!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_nextpage.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Scroll DataWindow to Next Page
+//*-----------------------------------------------------------------*/
+idw_report.ScrollNextPage ( )
+end event
+
+type m_priorpage from Menu within m_display
+end type
+
+on m_priorpage.create
+call super::create
+this.Text="_Prior Page"
+this.MicroHelp="Scroll to Prior Page"
+this.ToolbarItemName="vcrprior!"
+this.ToolbarItemText="Prior"
+this.ToolbarItemOrder=20
+this.MenuImage="VCRPrior!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_priorpage.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Scroll DataWindow to Prior Page
+//*-----------------------------------------------------------------*/
+idw_report.ScrollPriorPage ( )
+end event
+
+type m_lastpage from Menu within m_display
+end type
+
+on m_lastpage.create
+call super::create
+this.Text="_Last Page"
+this.MicroHelp="Scroll to Last Page"
+this.ToolbarItemName="vcrlast!"
+this.ToolbarItemText="Last"
+this.ToolbarItemOrder=40
+this.MenuImage="VCRLast!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_lastpage.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Scroll DataWindow to Last Page
+//*-----------------------------------------------------------------*/
+idw_report.ScrollToRow ( 9999999 )
+end event
+
+type m_zoom from Menu within m_display
+end type
+
+on m_zoom.create
+call super::create
+this.Text="_Zoom..."
+this.MicroHelp="Scale the display area"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.Visible=False
+end on
+
+on m_zoom.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Zoom DataWindow
+//*-----------------------------------------------------------------*/
+string	 ls_command, ls_value
+
+ls_command = "Datawindow.Zoom"
+ls_value = idw_report.Describe ( ls_command )
+OpenWithParm ( w_pbstyle_zoom, ls_value )
+If Message.Stringparm <> "" Then
+	idw_report.Modify ( ls_command + "=" + Message.Stringparm )
+End If
+end event
+
+type m_rows from Menu within m_pbstyle_report
+m_filter m_filter
+m_retrieve m_retrieve
+m_sort m_sort
+end type
+
+on m_rows.create
+call super::create
+this.Text="_Rows"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_filter = create m_filter
+this.m_retrieve = create m_retrieve
+this.m_sort = create m_sort
+this.Item[UpperBound(this.Item)+1]=this.m_filter
+this.Item[UpperBound(this.Item)+1]=this.m_retrieve
+this.Item[UpperBound(this.Item)+1]=this.m_sort
+end on
+
+on m_rows.destroy
+call super::destroy
+destroy(this.m_filter)
+destroy(this.m_retrieve)
+destroy(this.m_sort)
+end on
+
+type m_filter from Menu within m_rows
+end type
+
+on m_filter.create
+call super::create
+this.Text="_Filter..."
+this.MicroHelp="Filter Rows"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_filter.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Filter DataWindow
+//*-----------------------------------------------------------------*/
+string ls_FilterString
+
+SetNull ( ls_FilterString )
+
+If idw_report.SetFilter ( ls_FilterString ) = 1 Then 
+	idw_report.SetRedraw ( False )
+	idw_report.Filter  ()
+
+	// added fix for groupcalc
+	// sort data after filter then groupcalc()
+	idw_report.Sort ( )
+	idw_report.GroupCalc ( )
+	idw_report.SetRedraw ( True ) 
+End If
+end event
+
+type m_retrieve from Menu within m_rows
+end type
+
+on m_retrieve.create
+call super::create
+this.Text="_Retrieve"
+this.MicroHelp="Retrieve Rows"
+this.ToolbarItemName="retrieve5!"
+this.ToolbarItemText="Retrieve"
+this.ToolbarItemOrder=1
+this.MenuImage="Retrieve5!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_retrieve.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Retrieve DataWindow
+//*-----------------------------------------------------------------*/
+//  Are we retrieving?
+If this.ToolbarItemname = "RetrieveCancel!" Then
+	// Yes, then trigger cancel
+	ParentWindow.Dynamic Event CancelRetrieve ()
+Else
+ 	// No, set go retrieve
+	idw_report.Retrieve ( )
+End If
+end event
+
+type m_sort from Menu within m_rows
+end type
+
+on m_sort.create
+call super::create
+this.Text="_Sort..."
+this.MicroHelp="Sort Rows"
+this.MenuImage="Sort!"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_sort.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Sort DataWindow
+//*-----------------------------------------------------------------*/
+string ls_SortString
+
+SetNull ( ls_SortString )
+
+If idw_report.SetSort ( ls_SortString ) = 1 Then
+	
+	idw_report.SetRedraw ( False )
+	
+	idw_report.Sort ( )
+	idw_report.GroupCalc ( )
+	// Added Setredraw in case # rows is large, groupcalc() could take awhile.
+	idw_report.SetRedraw ( True )
+End If
+end event
+
+type m_window from Menu within m_pbstyle_report
+end type
+
+on m_window.create
+call super::create
+this.Text="_Window"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_window.destroy
+call super::destroy
+end on
+
+type m_help from Menu within m_pbstyle_report
+m_about m_about
+end type
+
+on m_help.create
+call super::create
+this.Text="_Help"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+this.m_about = create m_about
+this.Item[UpperBound(this.Item)+1]=this.m_about
+end on
+
+on m_help.destroy
+call super::destroy
+destroy(this.m_about)
+end on
+
+type m_about from Menu within m_help
+end type
+
+on m_about.create
+call super::create
+this.Text="About..."
+this.MicroHelp="Display copyright notice"
+this.MenuStyle=contemporarymenu!
+this.MenuTextColor=134217735
+this.MenuBackColor=134217732
+this.MenuHighlightColor=134217741
+this.TextSize=8
+this.Weight=400
+this.FaceName="Tahoma"
+this.TitleBackColor=134217730
+this.BitmapBackColor=12632256
+this.MenuBitmaps=true
+this.TitleGradient=true
+this.ToolbarStyle=contemporarytoolbar!
+this.ToolbarTextColor=134217746
+this.ToolbarBackColor=67108864
+this.ToolbarHighlightColor=134217741
+this.ToolbarGradient=true
+this.BitmapGradient=true
+end on
+
+on m_about.destroy
+call super::destroy
+end on
+
+event clicked;//*-----------------------------------------------------------------*/
+//*    clicked event:   Open the About Window
+//*-----------------------------------------------------------------*/
+window lw_frame
+
+lw_frame = ParentWindow.ParentWindow ( )
+If Not IsValid ( lw_frame ) Then lw_Frame = ParentWindow
+Open ( w_pbstyle_about, lw_frame )
+end event
