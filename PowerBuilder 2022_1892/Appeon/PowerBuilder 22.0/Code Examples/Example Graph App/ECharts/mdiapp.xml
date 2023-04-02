@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Segoe UI; TextSize:8">
+  <RibbonItems>
+    <ApplicationButton Text="Graph App" Enabled="true" Tag="Myapp">
+      <ApplicationMenu>
+        <Master>
+          <Item Text="&amp;About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;View Readme" PictureName="png\readme.png" Checked="false" Enabled="true" Tag="Readme" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;QuickStart" PictureName="png\quickstart.png" Checked="false" Enabled="true" Tag="Welcome" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;SQL Converter" PictureName="png\converter.png" Checked="false" Enabled="true" Tag="SQLConverter" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;Exit" PictureName="SignOutBig!" Checked="false" Enabled="true" Tag="Exit" Type="0" Clicked="ue_mastermenuclicked"></Item>
+        </Master>
+      </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+      <Category Text="Home" Tag="Home" >
+        <Panel Text="Access" PictureName="TabsSmall!" Tag="Access" >
+          <LargeButton Text="History" PictureName="HistoryBig!" DefaultCommand="true" PowerTipText="Histroy" PowerTipDescription="Recent operations" Shortcut="Ctrl+Shift+H" Tag="History">
+            <Menu>
+              <Item Text="&amp;QuickStart" PictureName="png\quickstart.png" Tag="Welcome" Type="0" Clicked="ue_MenuHistoryClicked"  />
+            </Menu>
+          </LargeButton>
+          <Group >
+            <SmallButton Text="Close All" PictureName="CloseAllSmall!"   PowerTipText="Close all" PowerTipDescription="Close all windows" Shortcut="Ctrl+Shift+C" Tag="Close all" Clicked="ue_CloseAll" />
+          </Group>
+          <Group NewLine="true" >
+            <SmallButton Text="Close" PictureName="CloseSmall!" PowerTipText="Close" PowerTipDescription="Close current window" Tag="Close" Clicked="ue_Close"  />
+          </Group>
+          <LargeButton Text="Window" PictureName="SwitchWindowsBig!" DefaultCommand="false"  PowerTipText="Window" PowerTipDescription="SwitchWindows" Shortcut="Ctrl+Shift+W" Tag="Window" >
+            <Menu>
+              <Item Text="&amp;QuickStart" PictureName="png\quickstart.png" Checked="true" Tag="Welcome" Type="0" Clicked="ue_MenuWindowClicked"  />
+            </Menu>
+          </LargeButton>
+        </Panel>
+        <Panel Text="Echarts" PictureName="ChartBig!" Tag="Boards" Visible="true" >
+          <LargeButton Text="Line" PictureName="png\line.png"  PowerTipText="Basic Line" PowerTipDescription="Basic Line infomation" Tag="Line" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Candlestick" PictureName="png\candlestick.png"  PowerTipText="Candlestick" PowerTipDescription="Candlestick infomation" Tag="K-Line" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Area" PictureName="png\area.png"  PowerTipText="Area" PowerTipDescription="Area infomation" Tag="Area" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Bar" PictureName="png\bar.png"  PowerTipText="Bar" PowerTipDescription="Bar infomation" Tag="Bar" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Pie" PictureName="png\pie.png"  PowerTipText="Pie" PowerTipDescription="Pie infomation" Tag="Pie" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Scatter" PictureName="png\scatter.png"  PowerTipText="Scatter" PowerTipDescription="Scatter infomation" Tag="Scatter" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Radar" PictureName="png\radar.png"  PowerTipText="Radar" PowerTipDescription="Radar infomation" Tag="Radar" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Funnel" PictureName="png\funnel.png"  PowerTipText="Funnel" PowerTipDescription="Funnel infomation" Tag="Funnel" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Gauge" PictureName="png\gauge.png"  PowerTipText="Gauge" PowerTipDescription="Gauge infomation" Tag="Gauge" Clicked="ue_ButtonClicked"  />
+        </Panel>
+        <Panel Text="Dynamic Data Source" PictureName="PasteSQL1!" Tag="Print" Visible="true">
+          <LargeButton Text="DataWindow" PictureName="png\datawindow.png"  PowerTipText="From DataWindow" PowerTipDescription="From DataWindow infomation" Tag="DataWindow" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Table" PictureName="png\fromtable.png"  PowerTipText="From Table" PowerTipDescription="From Table infomation" Tag="Table" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="SQL Syntax" PictureName="png\sql.png"  PowerTipText="From SQL" PowerTipDescription="From SQL infomation" Tag="SQL" Clicked="ue_ButtonClicked"  />
+        </Panel>
+        <Panel Text="Select" Enabled="true" Tag="Select" Visible="true" PictureName="ReportsBig!">
+          <SmallButton Text="From DataObject" Enabled="true" Tag="Change DataObject" Visible="true" PictureName="ReportsBig!" DefaultCommand="true" Checked="false" PowerTipText="DataObject" PowerTipDescription="Change DataObject" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <SmallButton Text="From Table" Enabled="true" Tag="Change Table" Visible="true" PictureName="SelectTable1!" DefaultCommand="true" Checked="false" PowerTipText="Table" PowerTipDescription="Change Table Select" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <SmallButton Text="From Syntax" Enabled="true" Tag="Change Syntax" Visible="true" PictureName="UpdateTableBig!" DefaultCommand="true" Checked="false" PowerTipText="Syntax" PowerTipDescription="Change SQL Syntax" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+        </Panel>
+        <Panel Text="Settings" Enabled="true" Tag="Setting" Visible="true" PictureName="ListBig!">
+          <Group Tag="" Enabled="true" NewLine="false" Visible="true">
+            <ComboBox Text="Default title" Enabled="true" Tag="Title" Visible="true" PictureName="FontSizeBig!" Label="Title" AllowEdit="true" AutoScale="false" AutoHScroll="true" PowerTipText="Title" PowerTipDescription="Set Title" HScrollBar="true" VScrollBar="false" SelectedIndex="1" Sorted="true" BoxHeight="600" BoxWidth="600" Width="1150" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="">
+              <Item Text="" PictureName="" />
+            </ComboBox>
+          </Group>
+          <Group Tag="" Enabled="true" NewLine="true" Visible="true">
+            <ComboBox Text="Light" Enabled="true" Tag="Theme" Visible="true" PictureName="FillColorBig!" Label="Theme" AllowEdit="true" AutoScale="false" AutoHScroll="false" PowerTipText="Theme" PowerTipDescription="Theme:default,light,dark" HScrollBar="false" VScrollBar="false" SelectedIndex="2" Sorted="false" BoxHeight="600" BoxWidth="600" Width="1150" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="">
+              <Item Text="Default" PictureName="" />
+              <Item Text="Light" PictureName="" />
+              <Item Text="Dark" PictureName="" />
+            </ComboBox>
+          </Group>
+          <Group Tag="" Enabled="true" NewLine="true" Visible="true">
+            <ComboBox Text="Line" Enabled="true" Tag="Graph Type" Visible="true" PictureName="ChartBig!" Label="Graph Type" AllowEdit="true" AutoScale="false" AutoHScroll="false" PowerTipText="Graph Type" PowerTipDescription="Graph Type:Line,Area,Bar,Pie,Funnel" HScrollBar="false" VScrollBar="false" SelectedIndex="1" Sorted="false" BoxHeight="600" BoxWidth="600" Width="1150" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="">
+              <Item Text="Line" PictureName="png\line_setting.png" />
+              <Item Text="Area" PictureName="png\area_setting.png" />
+              <Item Text="Bar" PictureName="png\bar_setting.png" />
+              <Item Text="Pie" PictureName="png\pie_setting.png" />
+              <Item Text="Funnel" PictureName="png\funnel_setting.png" />
+            </ComboBox>
+          </Group>
+          <Group Tag="" Enabled="true" NewLine="true" Visible="false">
+            <CheckBox Text="ToolBox" Enabled="true" Tag="ToolBox" Visible="true" Checked="true" PowerTipText="" PowerTipDescription="" ThreeState="false" Clicked="ue_CheckboxClicked" Selected="" Shortcut="" />
+          </Group>
+        </Panel>
+        <Panel Text="View" Enabled="true" Tag="View" Visible="true" PictureName="PrintBig!">
+          <SmallButton Text="URL" Enabled="true" Tag="url" Visible="true" PictureName="OnlinePicturesBig!" DefaultCommand="true" Checked="false" PowerTipText="URL" PowerTipDescription="View URL" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <SmallButton Text="Source" Enabled="true" Tag="source" Visible="true" PictureName="OrdersBig!" DefaultCommand="true" Checked="false" PowerTipText="Source" PowerTipDescription="View Source" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <SmallButton Text="Option" Enabled="true" Tag="option" Visible="true" PictureName="png\viewoption.png" DefaultCommand="true" Checked="false" PowerTipText="Option" PowerTipDescription="View Option" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+        </Panel>
+      </Category>
+      <Category Text="Tools" Enabled="true" Tag="" Visible="true">
+        <Panel Text="Print" Enabled="true" Tag="Actions" Visible="true" PictureName="PrintBig!">
+          <LargeButton Text="Print" Enabled="true" Tag="Print" Visible="true" PictureName="PrintBig!" DefaultCommand="true" Checked="false" PowerTipText="Print" PowerTipDescription="Print" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <LargeButton Text="Setup" Enabled="true" Tag="Setup" Visible="true" PictureName="PrintSetupBig!" DefaultCommand="true" Checked="false" PowerTipText="Print Setup" PowerTipDescription="Print Setup" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+        </Panel>
+        <Panel Text="References" Enabled="true" Tag="WebSite" Visible="true" PictureName="HyperLinkBig!">
+          <LargeButton Text="Examples" Enabled="true" Tag="Examples" Visible="true" PictureName="DesignBig!" DefaultCommand="true" Checked="false" PowerTipText="Examples" PowerTipDescription="View ECharts Examples" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <LargeButton Text="Tutorial" Enabled="true" Tag="Tutorial" Visible="true" PictureName="TrainingBig!" DefaultCommand="true" Checked="false" PowerTipText="Tutorial" PowerTipDescription="View ECharts Tutorial" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+          <LargeButton Text="Introduction" Enabled="true" Tag="Website" Visible="true" PictureName="HyperLinkBig!" DefaultCommand="true" Checked="false" PowerTipText="Website" PowerTipDescription="View ECharts Website" Clicked="ue_ButtonClicked" Selected="" Shortcut=""/>
+        </Panel>
+      </Category>
+      <Category Text="other" Enabled="true" Tag="" Visible="false">
+        <Panel Text="Echarts" PictureName="ChartBig!" Tag="Boards" Visible="false" >
+          <LargeButton Text="Welcome" PictureName="LargeIconsBig!"  PowerTipText="Welcome" PowerTipDescription="Welcome" Tag="Welcome" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="ECharts" PictureName="LargeIconsBig!"  PowerTipText="ECharts" PowerTipDescription="ECharts" Tag="ECharts" Clicked="ue_ButtonClicked"  />
+        </Panel>
+      </Category>
+    </Categories>
+    <TabButtons>
+      <TabButton Text="Minimize" PictureName="ArrowUpSmall!"  PowerTipText="Minimize" PowerTipDescription="Minimize or maximize RibbonBar." Shortcut="Ctrl+Shift+M" Tag="TabMinimize" Clicked="ue_SetMini"/>
+      <TabButton Text="Close" PictureName="CloseSmall!" Tag="TabClose" Enabled="false" PowerTipText="Close" PowerTipDescription="Close Current Window." Clicked="ue_close"/>
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>

@@ -1,0 +1,214 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Appeon.DataStoreDemo.SqlAnyWhere</AssemblyName>
+    <RootNamespace>Appeon.DataStoreDemo.SqlAnyWhere</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="DataStoreDemo.pbw\**" />
+    <Content Remove="DataStoreDemo.pbw\**" />
+    <EmbeddedResource Remove="DataStoreDemo.pbw\**" />
+    <None Remove="DataStoreDemo.pbw\**" />
+    <None Update="salesdemo.pbw\salesdemo.pbt\person.pbl\d_dddw_email.tpl.d_dddw_email.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Address.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Address_Free.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Businessentityaddress.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Customer.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Address.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Addresstype.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Persontype.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Phonenumbertype.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Stateprovince.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Store.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Dddw_Territory.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Person.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Person\D_Person_List.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Dddw_Category.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Dddw_Product.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Dddw_Subcategory.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Dddw_Unit.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_History_Price.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Product.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Product_Detail.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="Datastoredemo\Datastoredemo\Product\D_Subcategory_List.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Datastoredemo\datastoredemo.pbwconfig">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_address.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_address_free.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_businessentity.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_businessentityaddress.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_customer.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_address.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_addresstype.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_persontype.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_phonenumbertype.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_stateprovince.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_store.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_dddw_territory.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_person.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_personphone.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Person\d_person_list.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_dddw_category.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_dddw_product.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_dddw_subcategory.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_dddw_unit.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_history_price.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_product.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_productphoto.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_productproductphoto.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_product_detail.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_subcategory.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Product\d_subcategory_list.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Report\d_categorysalesreport_d.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Report\d_productsalesreport.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Report\d_subcategorysalesreport.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Report\d_subcategorysalesreport_d.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_customer_address.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_customer_creditcard.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_customer_individual.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_order_production.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_salesperson.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_salesterritory.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_dddw_shipmethod.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_order_detail_list.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_order_header_free.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Datastoredemo\Datastoredemo\Salesorder\d_order_header_grid.srd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DWNet.Data" Version="4.0.1" />
+    <PackageReference Include="DWNet.Data.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="SnapObjects.Data" Version="4.0.1" />
+    <PackageReference Include="SnapObjects.Data.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="SnapObjects.Data.Odbc" Version="4.0.1" />
+  </ItemGroup>
+</Project>

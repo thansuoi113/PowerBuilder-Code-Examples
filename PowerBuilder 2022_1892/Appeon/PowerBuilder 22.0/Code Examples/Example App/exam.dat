@@ -1,0 +1,90 @@
+; examples.dat
+;
+; PowerBuilder Examples Build Process...
+;		      
+;
+;	- Creates migrated Examples under build\nt\examples directory
+;       - Creates converted Examples under build\unicode\examples directory
+;       - Creates migrated Examples under unix directory
+
+#if defined(PBOS_UNIX)
+
+;  PB Example Libraries for Unix
+#define EXLIST	"pbexamfe.pbl;pbexamd1.pbl;pbexamd2.pbl;pbexamfn.pbl;pbexammn.pbl;pbexamsa.pbl;pbexamor.pbl;pbexamsy.pbl;pbexamuo.pbl;pbexamw1.pbl;pbexamw2.pbl;pbexamw3.pbl"
+#define EXAPP   "pbexamfe.pbl"
+;  PB Benchmark Example Libraries for Unix
+#define BMLIST	"pbexbm.pbl"
+#define BMAPP   "pbexbm.pbl"
+#define BMEXEPC "exbm"
+#define BMICON  "bm.ico"
+
+#elif defined(PS_UNICODE)
+
+;  Define the library lists and applications
+;
+;  PB Example Libraries for Unicode
+#define EXLIST  "..\..\build\unicode\examples\pbexamfe.pbl;..\..\build\unicode\examples\pbexamd1.pbl;..\..\build\unicode\examples\pbexamd2.pbl;..\..\build\unicode\examples\pbexamfn.pbl;..\..\build\unicode\examples\pbexammn.pbl;..\..\build\unicode\examples\pbexamsa.pbl;..\..\build\unicode\examples\pbexamsy.pbl;..\..\build\unicode\examples\pbexamor.pbl;..\..\build\unicode\examples\pbexamuo.pbl;..\..\build\unicode\examples\pbexamw1.pbl;..\..\build\unicode\examples\pbexamw2.pbl;..\..\build\unicode\examples\pbexamw3.pbl"
+#define EXAPP   "..\..\build\unicode\examples\pbexamfe.pbl"
+;  PB Benchmark Example Libraries for Unicode
+#define BMLIST  "..\..\build\unicode\examples\pbexbm.pbl"
+#define BMAPP   "..\..\build\unicode\examples\pbexbm.pbl"
+#define BMEXEPC "..\..\build\unicode\examples\exbm_p.exe"
+#define BMEXEMC "..\..\build\unicode\examples\exbm_m.exe"
+#define BMICON  "..\..\build\unicode\examples\bm.ico"
+
+#elif defined(PS_JPN)
+; <begin> T.Asano 1999.07.20 ********************************
+;  PB Example Libraries for WIN32 (Japanese)
+#define EXLIST  "..\..\build\nt\jpn\examples\pbexamfe.pbl;..\..\build\nt\jpn\examples\pbexamd1.pbl;..\..\build\nt\jpn\examples\pbexamd2.pbl;..\..\build\nt\jpn\examples\pbexamfn.pbl;..\..\build\nt\jpn\examples\pbexammn.pbl;..\..\build\nt\jpn\examples\pbexamsa.pbl;..\..\build\nt\jpn\examples\pbexamuo.pbl;..\..\build\nt\jpn\examples\pbexamw1.pbl;..\..\build\nt\jpn\examples\pbexamw2.pbl;..\..\build\nt\jpn\examples\pbexamw3.pbl"
+#define EXAPP   "..\..\build\nt\jpn\examples\pbexamfe.pbl"
+;  PB Benchmark Example Libraries for WIN32
+#define BMLIST  "..\..\build\nt\jpn\examples\pbexbm.pbl"
+#define BMAPP   "..\..\build\nt\jpn\examples\pbexbm.pbl"
+#define BMEXEPC "..\..\build\nt\jpn\examples\exbm_p.exe"
+#define BMEXEMC "..\..\build\nt\jpn\examples\exbm_m.exe"
+#define BMICON  "..\..\build\nt\jpn\examples\bm.ico"
+; <end> T.Asano 1999.07.20 ********************************
+
+#else
+
+;  PB Example Libraries for WIN32
+#define EXLIST  "..\..\build\nt\examples\pbexamfe.pbl;..\..\build\nt\examples\pbexamd1.pbl;..\..\build\nt\examples\pbexamd2.pbl;..\..\build\nt\examples\pbexamfn.pbl;..\..\build\nt\examples\pbexammn.pbl;..\..\build\nt\examples\pbexamsa.pbl;..\..\build\nt\examples\pbexamsy.pbl;..\..\build\nt\examples\pbexamor.pbl;..\..\build\nt\examples\pbexamuo.pbl;..\..\build\nt\examples\pbexamw1.pbl;..\..\build\nt\examples\pbexamw2.pbl;..\..\build\nt\examples\pbexamw3.pbl"
+#define EXAPP   "..\..\build\nt\examples\pbexamfe.pbl"
+;  PB Benchmark Example Libraries for WIN32
+#define BMLIST  "..\..\build\nt\examples\pbexbm.pbl"
+#define BMAPP   "..\..\build\nt\examples\pbexbm.pbl"
+#define BMEXEPC "..\..\build\nt\examples\exbm_p.exe"
+#define BMEXEMC "..\..\build\nt\examples\exbm_m.exe"
+#define BMICON  "..\..\build\nt\examples\bm.ico"
+
+#endif
+
+;  Define the application libraries
+     
+;  Migrate the Examples
+start session
+set liblist EXLIST
+set application EXAPP examples 
+build application migrate
+build application full
+end session
+
+;  Migrate the Benchmark Application
+start session
+set liblist BMLIST
+set application BMAPP benchmark
+build application migrate
+build application full
+end session
+
+; Build benchmarck application
+start session
+set liblist BMLIST
+set application BMAPP benchmark
+build executable BMEXEPC BMICON "" "n"
+
+#if !defined(PBOS_UNIX) && !defined(PS_UNICODE)
+;build executable BMEXEMC BMICON "" "n" MACHINECODE
+#endif
+
+end session
