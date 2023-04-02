@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(function() {
+        // Place init code here instead of $(document).ready()
+  	drawChart();
+
+    });
+
+  function drawChart() {
+       // Define the chart to be drawn.
+     var data = new google.visualization.arrayToDataTable
+([
+ ['month', 'Mountain Bikes' ,  'Road Bikes', { role: 'annotation' } ] , 
+ ['January' , 878785.7788 , 1075983.7279 , ''], 
+ ['February' , 882143.1597 , 1118557.8479 , ''], 
+ ['March' , 1073177.2307 , 1823354.6218 , ''], 
+ ['April' , 954791.5811 , 1143603.7710 , ''], 
+ ['May' , 729915.4192 , 713226.0364 , ''], 
+ ['June' , 1122991.6133 , 939288.9161 , '']
+]);
+
+      // Set chart options
+     var options = {
+               title:'Total Sales of First Half Year',
+               width:828,
+               height:382,
+               curveType: 'function',
+               legend: { position: 'bottom' }
+               };
+
+
+     // Instantiate and draw the chart.
+     var chart = new google.visualization.LineChart(document.getElementById("container"));
+      chart.draw(data, options);
+
+ }
+</script>
+</head>
+<body>
+    <div id = "container">
+    </div>
+</body>

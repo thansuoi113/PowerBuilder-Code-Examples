@@ -1,0 +1,49 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(function() {
+        // Place init code here instead of $(document).ready()
+  	drawChart();
+
+    });
+
+  function drawChart() {
+       // Define the chart to be drawn.
+     var data = new google.visualization.arrayToDataTable
+([
+['Category', 'Sales Volume', 'Total Sales(USD)', 'Year', 'Rate'],
+['Bikes', 37748, 36254299.7700, '2013', 0.831],
+['Bikes', 28494, 28985517.8000, '2012', 0.865],
+['Components', 24710, 5617227.6000, '2013', 0.129],
+['Components', 15107, 3880759.2300, '2012', 0.116],
+['Clothing', 37180, 1067690.2400, '2013', 0.024],
+['Clothing', 19228, 555587.1100, '2012', 0.017],
+['Accessories', 32154, 675060.3300, '2013', 0.015],
+['Accessories', 5750, 102440.6100, '2012', 0.003]
+]);
+
+      // Set chart options
+     var options = {
+               title:'Sales Report (2013 VS. 2012)',
+               width:828,
+               height:382,
+               hAxis: {title: 'Sales Volume'},
+               vAxis: {title: 'Total Sales(USD)'},
+               bubble: {textStyle: {fontSize: 11}}
+               };
+
+
+     // Instantiate and draw the chart.
+     var chart = new google.visualization.BubbleChart(document.getElementById("container"));
+      chart.draw(data, options);
+
+ }
+</script>
+</head>
+<body>
+    <div id = "container">
+    </div>
+</body>

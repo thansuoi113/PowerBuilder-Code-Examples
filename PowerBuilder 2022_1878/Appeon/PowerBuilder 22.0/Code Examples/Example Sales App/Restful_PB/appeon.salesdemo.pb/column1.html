@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(function() {
+        // Place init code here instead of $(document).ready()
+  	drawChart();
+
+    });
+
+  function drawChart() {
+       // Define the chart to be drawn.
+     var data = new google.visualization.arrayToDataTable
+([
+
+]);
+
+      // Set chart options
+     var options = {
+               title:'Total Sales of First Half Year',
+               width:828,
+               height:382,
+               legend: { position: 'top', maxLines: 3 },
+               bar: { groupWidth: '75%' },
+               isStacked: true,
+               };
+
+
+     // Instantiate and draw the chart.
+     var chart = new google.visualization.ColumnChart(document.getElementById("container"));
+      chart.draw(data, options);
+
+ }
+</script>
+</head>
+<body>
+    <div id = "container">
+    </div>
+</body>
