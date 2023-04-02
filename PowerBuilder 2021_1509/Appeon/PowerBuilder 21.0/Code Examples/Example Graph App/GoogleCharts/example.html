@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Example</title>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/loader.js"></script>
+	<link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/core/tooltip.css"/>
+	<link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/util/util.css"/>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_default_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_graphics_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_ui_module.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_corechart_module.js"></script> 
+</head>
+<body>
+    <!--Div that will hold the pie chart-->
+    <div id="main" style="width:800px;height:500px;"></div>	
+    <script type="text/javascript">	
+		// Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Mushrooms', 3],
+          ['Onions', 1],
+          ['Olives', 1],
+          ['Zucchini', 1],		  
+          ['Pepperoni', 2]
+        ]);
+        // Set chart options
+        var options = {'title':'How Much Pizza I Ate Last Night',
+                       'width':400,
+                       'height':300};
+        // Instantiate and draw our chart, passing in some options.
+        var myChart = new google.visualization.PieChart(document.getElementById('main'));
+        myChart.draw(data, options);
+		//redraw graph when window resize is completed
+		function resizeEnd(){
+			options.width=window.innerWidth-20;
+			options.height=window.innerHeight-20;
+			myChart.draw(data,options);
+		}
+		window.addEventListener("resize",resizeEnd,false);
+    </script>
+</body>
+</html>

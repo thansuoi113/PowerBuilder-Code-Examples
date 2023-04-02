@@ -1,0 +1,7 @@
+Save Format v3.0(19990112)
+@begin Targets
+ 0 "Native_PB\\Appeon.SalesDemo\\salesdemo.pbt";
+ 1 "Restful_PB\\appeon.salesdemo.pb\\salesdemo_restful.pbt";
+@end;
+DefaultTarget "Native_PB\\Appeon.SalesDemo\\salesdemo.pbt";
+DefaultRemoteTarget "Native_PB\\Appeon.SalesDemo\\salesdemo.pbt";

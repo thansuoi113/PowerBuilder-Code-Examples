@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ECharts</title>
+    <meta charset="UTF-8"/>
+    <script src="./dist/echarts.js"></script>
+	<script src="./dist/echarts-gl.js"></script>
+</head>
+<body>
+    <div id="main" style="width:400px;height:300px;"></div>
+    <script type="text/javascript">
+	var canvase = document.getElementById('main')
+		function resizeCanvas(){
+			w=canvase.width=window.innerWidth-20;
+			h=canvase.height=window.innerHeight-20;
+			myChart.resize({width:w,height:h})
+		}
+	window.addEventListener("resize",resizeCanvas,false);
+    var myChart = echarts.init(document.getElementById('main'));
+    </script>
+ </body>
+ </html>

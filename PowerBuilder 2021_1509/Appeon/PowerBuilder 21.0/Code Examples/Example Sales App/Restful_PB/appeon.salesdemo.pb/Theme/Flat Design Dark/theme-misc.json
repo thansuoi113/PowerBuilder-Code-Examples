@@ -1,0 +1,37 @@
+{
+	"meta-info":
+	{
+		"version":"190"
+	},
+	"w_salesreport.uo_1.tab_1.tabpage_1.htb_1":
+	{
+		"normal-state":
+		{
+			"background-color":"#2E2E2E"
+		}
+	},
+	"w_salesreport.uo_1.st_graph":
+	{
+		"background-transparent":false,
+		"normal-state":
+		{
+			"background-color":"#2E2E2E"
+		},
+		"disabled-state":
+		{
+			"background-color":"#2E2E2E"
+		}
+	},
+	"w_product.uo_1.st_cate":
+	{
+		"background-transparent":false,
+		"normal-state":
+		{
+			"background-color":"#2E2E2E"
+		},
+		"disabled-state":
+		{
+			"background-color":"#2E2E2E"
+		}
+	}
+}

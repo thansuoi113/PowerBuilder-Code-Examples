@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:10" >
+  <RibbonItems>
+    <ApplicationButton Text="Sales CRM Demo" Enabled="true" Tag="MyApp">
+      <ApplicationMenu>
+        <Master>
+          <Item Text="Settings" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="Settings"  Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          <Item Text="Help" PictureName="HelpBig!" Checked="false" Enabled="true" Tag="Help" Type="0" Selected="ue_MenuHelpSelected">         	
+            <Item Text="Readme" PictureName=".\image\readme.png" Checked="false" Enabled="true" Tag="Readme" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+            <Item Text="About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          </Item>
+        <Item Type="1"></Item>		
+          <Item Text="Quit" PictureName=".\image\quit.png" Checked="false" Enabled="true" Tag="Quit" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+        </Master>
+      </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+      <Category Text="Home" Enabled="true" Tag="Home">
+        <Panel Text="Windows" PictureName="TabsSmall!" Enabled="true" Tag="Tabs">
+          <LargeButton Text="Lists" PictureName=".\image\list.png" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Windows" PowerTipDescription="Windows operations" Tag="Lists" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected">
+          </LargeButton>
+          <Group NewLine="true">
+            <SmallButton Text="Close All" PictureName="CloseAllSmall!" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Close All" PowerTipDescription="Close all tabs" Tag="Close All" Clicked="ue_smallbuttonclicked" Selected="ue_smallbuttonselected" />
+          </Group>
+          <Group NewLine="true">
+            <SmallButton Text="Close" PictureName="CloseSmall!" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Close" PowerTipDescription="Close Window" Tag="Close" Clicked="ue_smallbuttonclicked" Selected="ue_smallbuttonselected" />
+          </Group>
+        </Panel>
+        <Panel Text="Boards" PictureName="BoardSmall!" Enabled="true" Tag="Boards">
+          <LargeButton Text="Address" PictureName=".\image\Blue\address.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Address" PowerTipDescription="Address infomation" Tag="Address" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Customer" PictureName=".\image\Blue\customer.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Customer" PowerTipDescription="Customer infomation" Tag="Customer" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Product" PictureName=".\image\Blue\product.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Product" PowerTipDescription="Product infomation" Tag="Product" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Order" PictureName=".\image\Blue\order.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Order" PowerTipDescription="Order infomation" Tag="Order" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Statistics" PictureName=".\image\Blue\statistics.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Statistics" PowerTipDescription="Statistics infomation" Tag="Statistics" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+        </Panel>
+        <Panel Text="Action" PictureName="ActionsSmall!" Enabled="true" Tag="Action">
+          <Group NewLine="true">
+            <SmallButton Text="Add" PictureName="AddSmall!" Clicked="ue_smallbuttonclicked" Tag="Add" Enabled="false" PowerTipText="Add" PowerTipDescription="Add a new row." />
+            <SmallButton Text="Delete" PictureName="DeleteSmall!" Clicked="ue_smallbuttonclicked" Tag="Delete" Enabled="false" PowerTipText="Delete" PowerTipDescription="Delete the current row." />
+            <SmallButton Text="Edit" PictureName="ModifySmall!" Clicked="ue_smallbuttonclicked" Tag="Edit" Enabled="false" PowerTipText="Edit" PowerTipDescription="Edit the current data." />
+            <SmallButton Text="Save" PictureName="SaveSmall!" Clicked="ue_smallbuttonclicked" Tag="Save" Enabled="false" PowerTipText="Save" PowerTipDescription="Save the Data." />
+          </Group>
+          <Group NewLine="true">
+            <SmallButton Text="Export" PictureName="ExportSmall!" Clicked="ue_smallbuttonclicked" Tag="Export" Enabled="false" PowerTipText="Export" PowerTipDescription="Export the Data." />
+	    <SmallButton Text="Cancel" PictureName="RedoSmall!" Clicked="ue_smallbuttonclicked" Tag="Cancel" Enabled="false" PowerTipText="Cancel" PowerTipDescription="Cancel the data." />
+          </Group>
+        </Panel>
+        <Panel Text="View" PictureName="ActionsSmall!" Enabled="true" Tag="View">
+          <Group NewLine="true">
+            <SmallButton PictureName="NavFirstSmall!" Clicked="ue_smallbuttonclicked" Tag="First" Enabled="false" PowerTipText="First" PowerTipDescription="Rollback to the first row." />
+            <SmallButton PictureName="NavPrevSmall!" Clicked="ue_smallbuttonclicked" Tag="Prior" Enabled="false" PowerTipText="Prior" PowerTipDescription="Rollback to the prior row." />
+            <SmallButton PictureName="NavNextSmall!" Clicked="ue_smallbuttonclicked" Tag="Next" Enabled="false" PowerTipText="Next" PowerTipDescription="Rollback to the next row." />
+            <SmallButton PictureName="NavLastSmall!" Clicked="ue_smallbuttonclicked" Tag="Last" Enabled="false" PowerTipText="Last" PowerTipDescription="Rollback to the last row." />
+          </Group>
+          <Group NewLine="true">
+            <SmallButton PictureName="SortSmall!" Clicked="ue_smallbuttonclicked" Tag="Sort" Enabled="false" PowerTipText="Sort" PowerTipDescription="Sort the current data." />
+            <SmallButton PictureName="FilterSmall!" Clicked="ue_smallbuttonclicked" Tag="Filter" Enabled="false" PowerTipText="Filter" PowerTipDescription="Filter the current data." />
+          </Group>
+        </Panel>
+      </Category>    
+    </Categories>
+    <TabButtons>
+      <TabButton Text="Minimize" PictureName="ArrowUpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Minimize" PowerTipDescription="Minimize or maximize RibbonBar." Tag="Tab Minimize" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected" />
+      <TabButton Text="Screen Saver" PictureName=".\image\screensaver.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Screen Saver" PowerTipDescription="Screen Saver." Tag="Screen Saver" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected" />
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>Appeon.DataStoreDemo.PostgreSQL</RootNamespace>
+    <AssemblyName>Appeon.DataStoreDemo.PostgreSQL</AssemblyName>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="DataStoreDemo.pbw\**" />
+    <Content Remove="DataStoreDemo.pbw\**" />
+    <EmbeddedResource Remove="DataStoreDemo.pbw\**" />
+    <None Remove="DataStoreDemo.pbw\**" />
+    <None Update="salesdemo.pbw\salesdemo\person\d_dddw_email.tpl.d_dddw_email.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Version="2.0.0" Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DWNet.Data" Version="3.1.2" />
+    <PackageReference Include="DWNet.Data.AspNetCore" Version="3.1.2" />
+    <PackageReference Include="SnapObjects.Data" Version="3.1.2" />
+    <PackageReference Include="SnapObjects.Data.AspNetCore" Version="3.1.2" />
+    <PackageReference Include="SnapObjects.Data.PostgreSql" Version="3.1.2" />
+  </ItemGroup>
+</Project>
