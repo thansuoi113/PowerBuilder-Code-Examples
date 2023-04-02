@@ -1,0 +1,928 @@
+	24	' no.		' is not.		2	 Event Script	Created from PTT Dictionary File
+	24	"	Y/	N"		"	Y/	N"		39	Values	Created from PTT Dictionary File
+	24	""" no."		""" is not."		2	 Event Script	Created from PTT Dictionary File
+	24	""" non trovato."		""" not found."		7	 Function Script	Created from PTT Dictionary File
+	24	""" non trovato.~r~n ~r~n"		""" not found.~r~n ~r~n"		7	 Function Script	Created from PTT Dictionary File
+	24	(centimetri)		(centimeters)		8	 Event Script	Created from PTT Dictionary File
+	24	(pollici)		(inches)		8	 Event Script	Created from PTT Dictionary File
+	24	*nessuno*		*none*		8	 Event Script	Created from PTT Dictionary File
+	24	.  Immettere un valore.		.  Please enter a value.		2	 Function Script	Created from PTT Dictionary File
+	24	.  Immettere un valore.		.  Please enter a value.		7	 Function Script	Created from PTT Dictionary File
+	24	. Si è cercato di importare la seguente stringa ~r~n		. Attempted to import the following string ~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	. Rivolgersi all~'amministratore del sistema.		. Please contact your system administrator.		7	 Function Script	Created from PTT Dictionary File
+	24	.~r~nErrore oggetto/controllo =		.~r~nError Object/Control =		7	 Event Script	Created from PTT Dictionary File
+	24	.~r~nErrore testo =		.~r~nError text =		7	 Event Script	Created from PTT Dictionary File
+	24	.~r~nRiga di script =		.~r~nLine in Script =		7	 Event Script	Created from PTT Dictionary File
+	24	.~r~nScript =		.~r~nScript =		7	 Event Script	Created from PTT Dictionary File
+	24	.~r~nFinestra/Menu/Oggetto =		.~r~nWindow/Menu/Object =		7	 Event Script	Created from PTT Dictionary File
+	24	.of_EndTran() successfully executed of_Commit()(s).		.of_EndTran() successfully executed of_Commit()(s).		7	 Function Script	Created from PTT Dictionary File
+	24	.of_EndTran() successfully executed of_Rollback()(s).		.of_EndTran() successfully executed of_Rollback()(s).		7	 Function Script	Created from PTT Dictionary File
+	24	[Nessuno]		[None]		44	Variable	Created from PTT Dictionary File
+	24	~"È prevista una percentuale compresa tra 0 e 100.~"		~"Expecting percentage between 0 and 100.~"		39	ValidationMsg	Created from PTT Dictionary File
+	24	~r~n// Registra "		~r~n// Register "		7	 Event Script	Created from PTT Dictionary File
+	24	~r~n~r~nIl servizio non può essere attivato o disattivato mediante la finestra delle proprietà.		~r~n~r~nService cannot the enabled or disabled via the property window.		7	 Function Script	Created from PTT Dictionary File
+	24	~r~nChiudere questo debugger?		~r~nOK to close this debugger?		8	 Function Script	Created from PTT Dictionary File
+	24	25,4 x 35,6 cm 		10 x 14 in		8	 Event Script	Created from PTT Dictionary File
+	24	27,9 x 43,2 cm 		11 x 17 in		8	 Event Script	Created from PTT Dictionary File
+	24	6 3/4 Busta 9,2 x 16,5 cm 		6 3/4 Envelope 3 5/8 x 6 1/2 in		8	 Event Script	Created from PTT Dictionary File
+	24	Errore nel database.~r~n~r~n~r~n		A database error has occurred.~r~n~r~n~r~n		2	 Event Script	Created from PTT Dictionary File
+	24	Errore nel database.~r~n~r~n~r~n		A database error has occurred.~r~n~r~n~r~n		7	 Event Script	Created from PTT Dictionary File
+	24	A Database Transaction error has been encountered.~r~n~r~n		A Database Transaction error has been encountered.~r~n~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	A3 297 x 420 mm		A3 297 x 420 mm		8	 Event Script	Created from PTT Dictionary File
+	24	A4 210 x 297 mm		A4 210 x 297 mm		8	 Event Script	Created from PTT Dictionary File
+	24	A4 ridotto 210 x 297 mm		A4 Small 210 x 297 mm		8	 Event Script	Created from PTT Dictionary File
+	24	A5 148 x 210 mm		A5 148 x 210 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Interrompi		Abort		8	 Event Script	Created from PTT Dictionary File
+	24	Informazioni su...	I	About	A	4	Text	Created from PTT Dictionary File
+	24	Inform. su...		About		8	 Event Script	Created from PTT Dictionary File
+	24	Inform. su...		About		8	Title	Created from PTT Dictionary File
+	24	Attiva l'oggetto selezionato		Activates selected object		4	Microhelp	Created from PTT Dictionary File
+	24	Attiva l'oggetto		Activates the object		4	Microhelp	Created from PTT Dictionary File
+	24	Aggiungi	A	Add	A	4	Text	Created from PTT Dictionary File
+	24	Aggiungi	A	Add	A	13	Text	Created from PTT Dictionary File
+	24	Aggiungere un nuovo elemento alla vista elenco		Add a new item to the listview		4	Microhelp	Created from PTT Dictionary File
+	24	Aggiunge una nuova riga alla fine		Adds a new row to the end		4	Microhelp	Created from PTT Dictionary File
+	24	After the error, the following were executed:~r~n		After the error, the following were executed:~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	Tutto	u	All	A	29	Text	Created from PTT Dictionary File
+	24	Tutte le colonne	T	All Columns	A	29	Text	Created from PTT Dictionary File
+	24	Finestra Consenti ricerca	F	Allow Find dialog	F	12	Text	Created from PTT Dictionary File
+	24	Finestra Consenti sostituzione	C	Allow Replace dialog	R	12	Text	Created from PTT Dictionary File
+	24	Consenti annullamenti della cancellazione	C	Allow undeletes	u	12	Text	Created from PTT Dictionary File
+	24	Consente di aggiornare i collegamenti		Allows links to be updated		4	Microhelp	Created from PTT Dictionary File
+	24	esiste già.~r~n~r~nSostituire il file esistente?		already exists.~r~n~r~nReplace existing file?		31	 Event Script	Created from PTT Dictionary File
+	24	Ridisegna sempre il calendario	R	Always repaint calendar	r	12	Text	Created from PTT Dictionary File
+	24	tra i gruppi di finestre dati correlati.		among groups of related DataWindows.		7	 Function Script	Created from PTT Dictionary File
+	24	Errore nell'accesso all'impostazione della stampante		An error has occurred accessing printer setup		8	 Event Script	Created from PTT Dictionary File
+	24	Si è verificato un errore durante il salvataggio del servizio MRU		An Error occured when saving the MRU service		7	 Event Script	Created from PTT Dictionary File
+	24	Rilevato un errore nel seguente SQL:~r~n~r~n		An error was encountered with the following SQL:~r~n~r~n		0	 Event Script	Created from PTT Dictionary File
+	24	Rilevato un errore nel seguente SQL:~r~n~r~n		An error was encountered with the following SQL:~r~n~r~n		2	 Event Script	Created from PTT Dictionary File
+	24	e		and		8	 Event Script	Created from PTT Dictionary File
+	24	"And	And/Or	Or"		"And	And/Or	Or"		39	Values	Created from PTT Dictionary File
+	24	Aspetto		Appearance		7	 Function Script	Created from PTT Dictionary File
+	24	Applicazione		Application		34	Text	Created from PTT Dictionary File
+	24	Nome dell'applicazione...		Application name...		34	Text	Created from PTT Dictionary File
+	24	Impostazioni dell'applicazione		Application settings		18	Text	Created from PTT Dictionary File
+	24	Applica	A	Apply	A	13	Text	Created from PTT Dictionary File
+	24	Aprile		April		44	Variable	Created from PTT Dictionary File
+	24	Eliminare		Are you sure you want to delete		7	 Function Script	Created from PTT Dictionary File
+	24	Eliminare questi		Are you sure you want to delete these		7	 Function Script	Created from PTT Dictionary File
+	24	Argomenti:		Arguments:		34	Text	Created from PTT Dictionary File
+	24	Disponi per		Arrange by		4	Microhelp	Created from PTT Dictionary File
+	24	Disponi le icone	i	Arrange Icons	I	4	Text	Created from PTT Dictionary File
+	24	Dispone automaticamente le icone		Arranges the icons automatically		4	Microhelp	Created from PTT Dictionary File
+	24	Dispone i pulsanti della barra degli strumenti		Arranges toolbar buttons		4	Microhelp	Created from PTT Dictionary File
+	24	Asc		Asc		39	CheckBox.Text	Created from PTT Dictionary File
+	24	"Asc	A/Asc	D"		"Asc	A/Asc	D"		39	Values	Created from PTT Dictionary File
+	24	"Asc	A/Desc	D"		"Asc	A/Desc	D"		39	Values	Created from PTT Dictionary File
+	24	Ascendente		Ascending		12	Text	Created from PTT Dictionary File
+	24	Ascendente		Ascending		34	Text	Created from PTT Dictionary File
+	24	Ascendente		Ascending		39	CheckBox.Text	Created from PTT Dictionary File
+	24	"Ascendente	A/Ascendente	D"		"Ascending	A/Ascending	D"		39	Values	Created from PTT Dictionary File
+	24	Modifica stato assistenza		Assist Status change		12	Text	Created from PTT Dictionary File
+	24	attributo di		attribute of		7	 Function Script	Created from PTT Dictionary File
+	24	attributo di Column #		attribute of Column #		7	 Function Script	Created from PTT Dictionary File
+	24	attributi		attributes		8	 Function Script	Created from PTT Dictionary File
+	24	Agosto		August		44	Variable	Created from PTT Dictionary File
+	24	Autom.		Auto		8	 Event Script	Created from PTT Dictionary File
+	24	Disposizione automatica	a	Auto Arrange	A	4	Text	Created from PTT Dictionary File
+	24	B4 25 x 35,4 cm		B4 250 x 354		8	 Event Script	Created from PTT Dictionary File
+	24	B5 18,2 x 25,7 cm		B5 182 x 257 mm		8	 Event Script	Created from PTT Dictionary File
+	24	impostato sull'oggetto Manager dell'applicazione.~r~n~r~n		been Set on The application manager Object.~r~n~r~n		8	 Event Script	Created from PTT Dictionary File
+	24	impostato.  Uso of_SetRegistryUserKey sul Manager dell'applicazione		been Set.  Use of_SetRegistryUserKey on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	24	impostato.  Uso of_SetUserIniFile sul Manager dell'applicazione		been Set.  Use of_SetUserIniFile on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	24	bitmap		bitmap		44	Variable	Created from PTT Dictionary File
+	24	"bitmap(If (selected = 0, If (bmpname = '', 
+Case (level When 1 Then bmpname1
+When 2 Then bmpname2 When 3 Then bmpname3
+When 4 Then bmpname4 When 5 Then bmpname5
+When 6 Then bmpname6 When 7 Then bmpname7
+When 8 Then bmpname8 When 9 Then bmpname9
+When 10 Then bmpname10), bmpname), 
+If (selectedbmpname = '', 
+Case (level When 1 Then selectedbmpname1
+When 2 Then selectedbmpname2 When 3 Then selectedbmpname3
+When 4 Then selectedbmpname4 When 5 Then selectedbmpname5
+When 6 Then selectedbmpname6 When 7 Then selectedbmpname7
+When 8 Then selectedbmpname8 When 9 Then selectedbmpname9
+When 10 Then selectedbmpname10), selectedbmpname)))"		"bitmap(If (selected = 0, If (bmpname = '', 
+Case (level When 1 Then bmpname1
+When 2 Then bmpname2 When 3 Then bmpname3
+When 4 Then bmpname4 When 5 Then bmpname5
+When 6 Then bmpname6 When 7 Then bmpname7
+When 8 Then bmpname8 When 9 Then bmpname9
+When 10 Then bmpname10), bmpname), 
+If (selectedbmpname = '', 
+Case (level When 1 Then selectedbmpname1
+When 2 Then selectedbmpname2 When 3 Then selectedbmpname3
+When 4 Then selectedbmpname4 When 5 Then selectedbmpname5
+When 6 Then selectedbmpname6 When 7 Then selectedbmpname7
+When 8 Then selectedbmpname8 When 9 Then selectedbmpname9
+When 10 Then selectedbmpname10), selectedbmpname)))"		40	Expression	Created from PTT Dictionary File
+	24	Bitmap,*.bmp		Bitmap,*.bmp		31	 Function Script	Created from PTT Dictionary File
+	24	Grassetto		Bold		12	Text	Created from PTT Dictionary File
+	24	Parte inferiore	P	Bottom	B	29	Text	Created from PTT Dictionary File
+	24	Parte inferiore:	B	Bottom:	B	34	Text	Created from PTT Dictionary File
+	24	GiùSu		BottomUp		14	Item[]	Created from PTT Dictionary File
+	24	GiùSu SuGiù		BottomUp TopDown		14	Item[]	Created from PTT Dictionary File
+	24	Buffer	B	Buffer	B	18	Text	Created from PTT Dictionary File
+	24	Buffer		Buffer		18	Text	Created from PTT Dictionary File
+	24	Buffers		Buffers		7	Text	Created from PTT Dictionary File
+	24	Crea filtro con		Build filter with		18	Text	Created from PTT Dictionary File
+	24	Pulsante		Button		34	Text	Created from PTT Dictionary File
+	24	per		by		4	Text	Created from PTT Dictionary File
+	24	per		by		22	 Event Script	Created from PTT Dictionary File
+	24	Foglio formato C		C size sheet		8	 Event Script	Created from PTT Dictionary File
+	24	Calcolatrice		Calculator		7	 Function Script	Created from PTT Dictionary File
+	24	Calendario		Calendar		7	 Function Script	Created from PTT Dictionary File
+	24	Chiamata di_SetRegistryUserKey sul Manager dell'applicazione		Call of_SetRegistryUserKey on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	24	Chiamata di_SetUserIniFile sul Manager dell'applicazione		Call of_SetUserIniFile on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	24	Annulla	A	Cancel	C	13	Text	Created from PTT Dictionary File
+	24	Annulla		Cancel		8	 Event Script	Created from PTT Dictionary File
+	24	Annulla		Cancel		13	Text	Created from PTT Dictionary File
+	24	Annulla tutto	t	Cancel All	A	13	Text	Created from PTT Dictionary File
+	24	Sovrapponi	S	Cascade	C	4	Text	Created from PTT Dictionary File
+	24	Sovrapponi		Cascade		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Sovrappone le finestre in modo che tutti i titoli siano visibili		Cascade windows so that each title bar is visible		4	Microhelp	Created from PTT Dictionary File
+	24	Cassetto		Cassette		8	 Event Script	Created from PTT Dictionary File
+	24	Modifica le impostazioni della pagina		Changes page layout settings		4	Microhelp	Created from PTT Dictionary File
+	24	Cancella	C	Clear	l	4	Text	Created from PTT Dictionary File
+	24	Cancella	C	Clear	l	13	Text	Created from PTT Dictionary File
+	24	Cancella	C	Clear	C	13	Text	Created from PTT Dictionary File
+	24	Cancella	C	Clear	a	4	Text	Created from PTT Dictionary File
+	24	Cancella		Clear		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Chiudi	C	Close	C	4	Text	Created from PTT Dictionary File
+	24	Chiudi	h	Close	C	13	Text	Created from PTT Dictionary File
+	24	Chiudi		Close		4	Microhelp	Created from PTT Dictionary File
+	24	Chiudi		Close		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Chiudi		Close		13	Text	Created from PTT Dictionary File
+	24	Chiudi con clic	c	Close on click	c	12	Text	Created from PTT Dictionary File
+	24	Chiudi con doppio clic	d	Close on double click	d	12	Text	Created from PTT Dictionary File
+	24	Chiudere senza salvare le modifiche?		Close without saving changes?		8	 Event Script	Created from PTT Dictionary File
+	24	Fascicola	F	Collate	o	12	Text	Created from PTT Dictionary File
+	24	Colore		Color		34	Text	Created from PTT Dictionary File
+	24	colonna		column		7	 Function Script	Created from PTT Dictionary File
+	24	Colonna		Column		7	 Event Script	Created from PTT Dictionary File
+	24	Colonna		Column		18	Text	Created from PTT Dictionary File
+	24	Colonna		Column		34	Text	Created from PTT Dictionary File
+	24	Colonna:		Column :		34	Text	Created from PTT Dictionary File
+	24	Ordinamento intestazione colonna	O	Column header sorting	h	12	Text	Created from PTT Dictionary File
+	24	Informazioni sulla colonna		Column Information		34	Text	Created from PTT Dictionary File
+	24	Colonne		Columns		7	Text	Created from PTT Dictionary File
+	24	Colonne disponibili per l'ordinamento		Columns Available for Sorting		34	Text	Created from PTT Dictionary File
+	24	Colonne...	C	Columns...	o	4	Text	Created from PTT Dictionary File
+	24	Commenti:		Comments:		7	 Function Script	Created from PTT Dictionary File
+	24	Commenti:		Comments:		34	Text	Created from PTT Dictionary File
+	24	Conferma eliminazione		Confirm Delete		7	 Function Script	Created from PTT Dictionary File
+	24	Conferma eliminazione multipla		Confirm Multiple Delete		7	 Function Script	Created from PTT Dictionary File
+	24	Conferma eliminazione	e	Confirm on delete	d	12	Text	Created from PTT Dictionary File
+	24	Conferma cambiamento riga	c	Confirm on row change	c	12	Text	Created from PTT Dictionary File
+	24	Contiene comandi per l'attivazione di un oggetto		Contains commands for activating an object		4	Microhelp	Created from PTT Dictionary File
+	24	Contiene comandi per la disposizone delle voci		Contains commands for arranging items		4	Microhelp	Created from PTT Dictionary File
+	24	Contiene comandi per la visualizzazione personalizzata delle voci		Contains commands for customizing display of items		4	Microhelp	Created from PTT Dictionary File
+	24	Controllo		Control		34	Text	Created from PTT Dictionary File
+	24	Nome del controllo		Control Name		34	Text	Created from PTT Dictionary File
+	24	Copie		Copies		18	Text	Created from PTT Dictionary File
+	24	Il numero di copie deve essere maggiore di zero		Copies must be greater than zero		8	 Event Script	Created from PTT Dictionary File
+	24	Copia la selezione negli Appunti		Copies the selection to the Clipboard		4	Microhelp	Created from PTT Dictionary File
+	24	Copia	C	Copy	C	4	Text	Created from PTT Dictionary File
+	24	Copia		Copy		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Nota di copyright...		Copyright message...		34	Text	Created from PTT Dictionary File
+	24	Corrente:		Current:		34	Text	Created from PTT Dictionary File
+	24	Personalizzata		Custom		14	Item[]	Created from PTT Dictionary File
+	24	Aggiornamento personalizzato:	m	Custom update:	m	34	Text	Created from PTT Dictionary File
+	24	Personalizza le barre degli strumenti		Customize Toolbars		8	Title	Created from PTT Dictionary File
+	24	Personalizza le barre degli strumenti...	P	Customize Toolbars...	C	4	Text	Created from PTT Dictionary File
+	24	Taglia	T	Cut	u	4	Text	Created from PTT Dictionary File
+	24	Taglia	R	Cut	u	4	Text	Created from PTT Dictionary File
+	24	Taglia	T	Cut	t	4	Text	Created from PTT Dictionary File
+	24	Taglia		Cut		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Foglio formato D		D size sheet		8	 Event Script	Created from PTT Dictionary File
+	24	data("Conversione","Data/Ora","Modulo","Matematica","Altro","Statistica","Stringa")		data("Conversion","Date/Time","Form","Mathematic","Other","Statistic","String",)		2	Data	Created from PTT Dictionary File
+	24	data("Matematica","Abs","Abs( <number> ) ","Calculates the absolute value of a number.","Conversione","Asc","Asc( <string> )","Converts the first character of a string to its ASCII integer value.","Statistica","Avg","Avg( <column> for All )","Calculates the average of the values of the column.","Altro","Bitmap","Bitmap ( <bitmap filename> ) ","Displays the named bitmap.","Altro","Case","Case ( <column> When <condition a> Then <value b>  ... Else <value c> )","Determines a value based on a set of condtion tests.","Matematica","Ceiling","Ceiling( <number> ) ","Determines the smallest whole number that is greater than or equal to a specified limit.","Conversione","Char","Char( <integer> ) ","Converts an integer to a character.","Matematica","Cos","Cos( <angle> )","Calculates the cosine of an angle.","Statistica","Count","Count( <column> for All )","Calculates the total number of rows in the specified column.","Statistica","CrossTabAvg","CrossTabAvg( 1 )","Calculates the average of the values returned by an expression in the values list of the crosstab.","Statistica","CrossTabCount","CrossTabCount( 1 )","Counts the number of values returned by an expression in the values list of the crosstab.","Statistica","CrossTabMax","CrossTabMax( 1 )","Calculates the maximum value returned by an expression in the values list of the crosstab.","Statistica","CrossTabMin","CrossTabMin( 1 )","Calculates the minimum value returned by an expression in the values list of the crosstab.","Statistica","CrossTabSum","CrossTabSum( 1 )","Calculates the sum of the values returned by an expression in the values list of the crosstab.","Statistica","CumulativePercent","CumulativePercent( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column as a percentage of the total value of the column (a running percentage).","Statistica","CumulativeSum","CumulativeSum( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column (a running total).","Modulo","CurrentRow","CurrentRow ( ) ","Determines the row which is current","Data/Ora","Date","Date( <string> ) ","Converts a string whose value is a valid date to a value of data type date.","Data/Ora","DateTime","DateTime( <date {, time}> ) ","Combines a date and a time value into a datetime value.","Data/Ora","Day","Day( <date> )","Obtains the day of the month in a date value.","Data/Ora","DayName","DayName( <date> )","Determines the day of the week in a date value and returns the weekday's name.","Data/Ora","DayNumber","DayNumber( <date> )","Determines the day of the week of a date value and returns the number of the weekday. ","Data/Ora","DaysAfter","DaysAfter( <date1> , <date2> )","Determines the number of days one date occurs after another.","Modulo","Describe","Describe( <string> ) ","Reports the values of attributes of the form and objects within the form.","Matematica","Exp","Exp( x )","Raises e to the specified power.","Matematica","Fact","Fact( <number> ) ","Determines the factorial of a number.","Stringa","Fill","Fill( <string> , <number> )","Builds a string of the specified length by repeating the specified characters until the result string is long enough.","Statistica","First","First( <column> for All )","Determines the value in the first row in the specified column.","Modulo","GetRow","GetRow()","Reports the number of a row associated with a band in the form.","Modulo","GetText","GetText()","Obtains the text entered in a column.","Data/Ora","Hour","Hour( <time> )","Obtains the hour in a time value. The hour is based on a 24-hour clock.","Altro","If","If( <boolean expression> , <if true value> , <if false value> )","Evaluates a condition and returns a value based on that condition.","Matematica","Int","Int( <number> ) ","Determines the largest whole number less than or equal to a number.","Conversione","Integer","Integer( <string> ) ","Converts the value of a string to an integer.","Data/Ora","IsDate","IsDate( <string> ) ","Tests whether a string value is a valid date.","Altro","IsNull","IsNull( <expression> or <column> )","Reports whether the value of a column or expression is NULL.","Altro","IsNumber","IsNumber( <string> ) ","Reports whether the value of a string is a number.","Modulo","IsRowModified","IsRowModified()","Reports whether the row has been modified.","Modulo","IsRowNew","IsRowNew()","Reports whether the row has been newly inserted into the form.","Modulo","IsSelected","IsSelected()","Determines whether the row is selected.","Data/Ora","IsTime","IsTime( <timevalue> ) ","Reports whether the value of a string is a valid time value.","Statistica","Large","Large( <column> , <column> , <rank> for All )","Finds a large value at a specified ranking in a column (for example, third largest, fifth largest) and returns the value of another column or expression based on the result.","Statistica","Last","Last( <column> for All )","Determines the value in the last row in the specified column.","Stringa","Left","Left( <string> , <number> )","Obtains a specified number of characters from the beginning of a string.","Stringa","LeftTrim","LeftTrim( <string> ) ","Removes spaces from the beginning of a string.","Stringa","Len","Len( <string> ) ","Reports the length of a string.","Matematica","Log","Log( <number> ) ","Determines the natural logarithm of a number.","Matematica","LogTen","LogTen( <number> ) ","Determines the base 10 logarithm of a number.","Conversione","Long","Long( <string> ) ","Converts the value of a string to a long.","Modulo","LookUpDisplay","LookupDisplay( <column> )","Obtains the display value in the code table associated with the data value in the specified column.","Stringa","Lower","Lower( <string> ) ","Converts all the characters in a string to lowercase.","Stringa","Match","Match( <string> , <textpattern> )","Determines whether a string's value contains a particular pattern of characters.","Statistica","Max","Max( <column> for All )","Determines the maximum value in the specified column.","Statistica","Median","Median( <column> for All )","Calculates the median of the values of the column. The median is the middle value in the set of values, for which there is an equal number of values greater and smaller than it.","Stringa","Mid","Mid( <string> , <start>{ , <length>} )","Obtains a specified number of characters from a specified position in a string.","Statistica","Min","Min( <column> for All )","Determines the minimum value in the specified column.","Data/Ora","Minute","Minute( <time> )","Obtains the number of minutes in the minutes portion of a time value.","Statistica","Mod","Mod( <number> , <divisor> )","Obtains the remainder (modulus) of a division operation.","Statistica","Mode","Mode( <column> for All )","Calculates the mode of the values of the column. The mode is the most frequently occurring value.","Data/Ora","Month","Month( <date> )","Determines the month of a date value.","Data/Ora","Now","Now()","Obtains the current time.","Conversione","Number","Number( <string> ) ","Converts a string to a number.","Modulo","Page","Page()","Determines the number of the current page.","Modulo","PageAcross","PageAcross()","Determines the number of the current horizontal page.","Modulo","PageCount","PageCount()","Determines the total number of pages.","Modulo","PageCountAcross","PageCountAcross()","Determines the total number of horizontal pages when a form is wider than the preview window.","Statistica","Percent","Percent( <column> for All)","Determines the percentage that the current value is of the total of the values in the column.","Matematica","Pi","Pi( <number> ) ","Multiplies pi (3.14159265358979323...) by a specified number.","Stringa","Pos","Pos( <string1> , <string2> {, <start>} )","Finds one string within another string.","Altro","ProfileInt","ProfileInt( <filename> , <section> , <key> , <default> )","Obtains the integer value of a setting in the specified profile file.","Altro","ProfileString","ProfileString( <filename> , <section> , <key> , <default> )","Obtains the string value of a setting in the specified profile file.","Altro","Rand","Rand( <number> ) ","Obtains a random whole number between 1 and a specified upper limit.","Conversione","Real","Real( <string> ) ","Converts a string value to a real data type.","Data/Ora","RelativeDate","RelativeDate( <date> , <number> )","Obtains the date that occurs a specified number of days after or before another date.","Data/Ora","RelativeTime","RelativeTime( <time> , <number> )","Obtains a time that occurs a specified number of seconds after or before another time within a 24-hour period.","Stringa","Replace","Replace( <string1> , <start> , <length> , <string2> )","Replaces a portion of one string with another.","Altro","RGB","RGB ( <redvalue>, <greenvalue>, <bluevalue> ) ","Returns the color value for the Red/Green/Blue combination","Stringa","Right","Right( <string> , <number> )","Obtains a specified number of characters from the end of a string.","Stringa","RightTrim","RightTrim( <string> ) ","Removes spaces from the end of a string.","Matematica","Round","Round( <number> , <decimal places> )","Rounds a number to the specified number of decimal places.","Modulo","RowCount","RowCount()","Obtains the number of rows that are currently available in the form.","Modulo","RowHeight","RowHeight()","Reports the height of a row.","Data/Ora","Second","Second( <time> )","Obtains the number of seconds in the seconds portion of a time value.","Data/Ora","SecondsAfter","SecondsAfter( <time1> , <time2> )","Determines the number of seconds one time occurs after another.","Matematica","Sign","Sign( <number> ) ","Determines the sign of a number. Sign reports whether a number is negative, zero, or positive.","Matematica","Sin","Sin( <angle> )","Calculates the sine of an angle.","Statistica","Small","Small( <column> , <column> , <rank> for All )","Finds a small value at a specified ranking in a column (for example, third smallest, fifth smallest) and returns the value of another column or expression based on the result.","Stringa","Space","Space( <number> ) ","Builds a string of the specified length whose value consists of spaces.","Matematica","Sqrt","Sqrt( <number> ) ","Calculates the square root of a number.","Statistica","StDev","StDev( <column> for All )","Calculates an estimate of the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","Statistica","StDevP","StDevP( <column> for All )","Calculates the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","Stringa","String","String( <string> {, <format>} )","Formats data as a string according to a specified display format mask. You can convert and format date, datetime, numeric, and time data. You can also apply a display format to a string.","Statistica","Sum","Sum( <column> for All )","Calculates the sum of the values in the specified column.","Matematica","Tan","Tan( <angle> )","Calculates the tangent of an angle.","Data/Ora","Time","Time( <string> ) ","Converts a string to a time data type.","Data/Ora","Today","Today()","Obtains the system date.","Stringa","Trim","Trim( <string> ) ","Removes leading and trailing spaces from a string.","Matematica","Truncate","Truncate( <number> , <decimal places> )","Truncates a number to the specified number of decimal places.","Stringa","Upper","Upper( <string> ) ","Converts all the characters in a string to uppercase.","Statistica","Var","Var( <column> for All )","Calculates an estimate of the variance for the specified column.","Statistica","VarP","VarP( <column> for All )","Calculates the variance for the specified column.","Stringa","WordCap","WordCap( <string> ) ","Sets the first letter of each word in a string to a capital letter and all other letters to lowercase.","Data/Ora","Year","Year( <date> )","Determines the year of a date value.",)		data("Mathematic","Abs","Abs( <number> ) ","Calculates the absolute value of a number.","Conversion","Asc","Asc( <string> )","Converts the first character of a string to its ASCII integer value.","Statistic","Avg","Avg( <column> for All )","Calculates the average of the values of the column.","Other","Bitmap","Bitmap ( <bitmap filename> ) ","Displays the named bitmap.","Other","Case","Case ( <column> When <condition a> Then <value b>  ... Else <value c> )","Determines a value based on a set of condtion tests.","Mathematic","Ceiling","Ceiling( <number> ) ","Determines the smallest whole number that is greater than or equal to a specified limit.","Conversion","Char","Char( <integer> ) ","Converts an integer to a character.","Mathematic","Cos","Cos( <angle> )","Calculates the cosine of an angle.","Statistic","Count","Count( <column> for All )","Calculates the total number of rows in the specified column.","Statistic","CrossTabAvg","CrossTabAvg( 1 )","Calculates the average of the values returned by an expression in the values list of the crosstab.","Statistic","CrossTabCount","CrossTabCount( 1 )","Counts the number of values returned by an expression in the values list of the crosstab.","Statistic","CrossTabMax","CrossTabMax( 1 )","Calculates the maximum value returned by an expression in the values list of the crosstab.","Statistic","CrossTabMin","CrossTabMin( 1 )","Calculates the minimum value returned by an expression in the values list of the crosstab.","Statistic","CrossTabSum","CrossTabSum( 1 )","Calculates the sum of the values returned by an expression in the values list of the crosstab.","Statistic","CumulativePercent","CumulativePercent( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column as a percentage of the total value of the column (a running percentage).","Statistic","CumulativeSum","CumulativeSum( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column (a running total).","Form","CurrentRow","CurrentRow ( ) ","Determines the row which is current","Date/Time","Date","Date( <string> ) ","Converts a string whose value is a valid date to a value of data type date.","Date/Time","DateTime","DateTime( <date {, time}> ) ","Combines a date and a time value into a datetime value.","Date/Time","Day","Day( <date> )","Obtains the day of the month in a date value.","Date/Time","DayName","DayName( <date> )","Determines the day of the week in a date value and returns the weekday's name.","Date/Time","DayNumber","DayNumber( <date> )","Determines the day of the week of a date value and returns the number of the weekday. ","Date/Time","DaysAfter","DaysAfter( <date1> , <date2> )","Determines the number of days one date occurs after another.","Form","Describe","Describe( <string> ) ","Reports the values of attributes of the form and objects within the form.","Mathematic","Exp","Exp( x )","Raises e to the specified power.","Mathematic","Fact","Fact( <number> ) ","Determines the factorial of a number.","String","Fill","Fill( <string> , <number> )","Builds a string of the specified length by repeating the specified characters until the result string is long enough.","Statistic","First","First( <column> for All )","Determines the value in the first row in the specified column.","Form","GetRow","GetRow()","Reports the number of a row associated with a band in the form.","Form","GetText","GetText()","Obtains the text entered in a column.","Date/Time","Hour","Hour( <time> )","Obtains the hour in a time value. The hour is based on a 24-hour clock.","Other","If","If( <boolean expression> , <if true value> , <if false value> )","Evaluates a condition and returns a value based on that condition.","Mathematic","Int","Int( <number> ) ","Determines the largest whole number less than or equal to a number.","Conversion","Integer","Integer( <string> ) ","Converts the value of a string to an integer.","Date/Time","IsDate","IsDate( <string> ) ","Tests whether a string value is a valid date.","Other","IsNull","IsNull( <expression> or <column> )","Reports whether the value of a column or expression is NULL.","Other","IsNumber","IsNumber( <string> ) ","Reports whether the value of a string is a number.","Form","IsRowModified","IsRowModified()","Reports whether the row has been modified.","Form","IsRowNew","IsRowNew()","Reports whether the row has been newly inserted into the form.","Form","IsSelected","IsSelected()","Determines whether the row is selected.","Date/Time","IsTime","IsTime( <timevalue> ) ","Reports whether the value of a string is a valid time value.","Statistic","Large","Large( <column> , <column> , <rank> for All )","Finds a large value at a specified ranking in a column (for example, third largest, fifth largest) and returns the value of another column or expression based on the result.","Statistic","Last","Last( <column> for All )","Determines the value in the last row in the specified column.","String","Left","Left( <string> , <number> )","Obtains a specified number of characters from the beginning of a string.","String","LeftTrim","LeftTrim( <string> ) ","Removes spaces from the beginning of a string.","String","Len","Len( <string> ) ","Reports the length of a string.","Mathematic","Log","Log( <number> ) ","Determines the natural logarithm of a number.","Mathematic","LogTen","LogTen( <number> ) ","Determines the base 10 logarithm of a number.","Conversion","Long","Long( <string> ) ","Converts the value of a string to a long.","Form","LookUpDisplay","LookupDisplay( <column> )","Obtains the display value in the code table associated with the data value in the specified column.","String","Lower","Lower( <string> ) ","Converts all the characters in a string to lowercase.","String","Match","Match( <string> , <textpattern> )","Determines whether a string's value contains a particular pattern of characters.","Statistic","Max","Max( <column> for All )","Determines the maximum value in the specified column.","Statistic","Median","Median( <column> for All )","Calculates the median of the values of the column. The median is the middle value in the set of values, for which there is an equal number of values greater and smaller than it.","String","Mid","Mid( <string> , <start>{ , <length>} )","Obtains a specified number of characters from a specified position in a string.","Statistic","Min","Min( <column> for All )","Determines the minimum value in the specified column.","Date/Time","Minute","Minute( <time> )","Obtains the number of minutes in the minutes portion of a time value.","Statistic","Mod","Mod( <number> , <divisor> )","Obtains the remainder (modulus) of a division operation.","Statistic","Mode","Mode( <column> for All )","Calculates the mode of the values of the column. The mode is the most frequently occurring value.","Date/Time","Month","Month( <date> )","Determines the month of a date value.","Date/Time","Now","Now()","Obtains the current time.","Conversion","Number","Number( <string> ) ","Converts a string to a number.","Form","Page","Page()","Determines the number of the current page.","Form","PageAcross","PageAcross()","Determines the number of the current horizontal page.","Form","PageCount","PageCount()","Determines the total number of pages.","Form","PageCountAcross","PageCountAcross()","Determines the total number of horizontal pages when a form is wider than the preview window.","Statistic","Percent","Percent( <column> for All)","Determines the percentage that the current value is of the total of the values in the column.","Mathematic","Pi","Pi( <number> ) ","Multiplies pi (3.14159265358979323...) by a specified number.","String","Pos","Pos( <string1> , <string2> {, <start>} )","Finds one string within another string.","Other","ProfileInt","ProfileInt( <filename> , <section> , <key> , <default> )","Obtains the integer value of a setting in the specified profile file.","Other","ProfileString","ProfileString( <filename> , <section> , <key> , <default> )","Obtains the string value of a setting in the specified profile file.","Other","Rand","Rand( <number> ) ","Obtains a random whole number between 1 and a specified upper limit.","Conversion","Real","Real( <string> ) ","Converts a string value to a real data type.","Date/Time","RelativeDate","RelativeDate( <date> , <number> )","Obtains the date that occurs a specified number of days after or before another date.","Date/Time","RelativeTime","RelativeTime( <time> , <number> )","Obtains a time that occurs a specified number of seconds after or before another time within a 24-hour period.","String","Replace","Replace( <string1> , <start> , <length> , <string2> )","Replaces a portion of one string with another.","Other","RGB","RGB ( <redvalue>, <greenvalue>, <bluevalue> ) ","Returns the color value for the Red/Green/Blue combination","String","Right","Right( <string> , <number> )","Obtains a specified number of characters from the end of a string.","String","RightTrim","RightTrim( <string> ) ","Removes spaces from the end of a string.","Mathematic","Round","Round( <number> , <decimal places> )","Rounds a number to the specified number of decimal places.","Form","RowCount","RowCount()","Obtains the number of rows that are currently available in the form.","Form","RowHeight","RowHeight()","Reports the height of a row.","Date/Time","Second","Second( <time> )","Obtains the number of seconds in the seconds portion of a time value.","Date/Time","SecondsAfter","SecondsAfter( <time1> , <time2> )","Determines the number of seconds one time occurs after another.","Mathematic","Sign","Sign( <number> ) ","Determines the sign of a number. Sign reports whether a number is negative, zero, or positive.","Mathematic","Sin","Sin( <angle> )","Calculates the sine of an angle.","Statistic","Small","Small( <column> , <column> , <rank> for All )","Finds a small value at a specified ranking in a column (for example, third smallest, fifth smallest) and returns the value of another column or expression based on the result.","String","Space","Space( <number> ) ","Builds a string of the specified length whose value consists of spaces.","Mathematic","Sqrt","Sqrt( <number> ) ","Calculates the square root of a number.","Statistic","StDev","StDev( <column> for All )","Calculates an estimate of the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","Statistic","StDevP","StDevP( <column> for All )","Calculates the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","String","String","String( <string> {, <format>} )","Formats data as a string according to a specified display format mask. You can convert and format date, datetime, numeric, and time data. You can also apply a display format to a string.","Statistic","Sum","Sum( <column> for All )","Calculates the sum of the values in the specified column.","Mathematic","Tan","Tan( <angle> )","Calculates the tangent of an angle.","Date/Time","Time","Time( <string> ) ","Converts a string to a time data type.","Date/Time","Today","Today()","Obtains the system date.","String","Trim","Trim( <string> ) ","Removes leading and trailing spaces from a string.","Mathematic","Truncate","Truncate( <number> , <decimal places> )","Truncates a number to the specified number of decimal places.","String","Upper","Upper( <string> ) ","Converts all the characters in a string to uppercase.","Statistic","Var","Var( <column> for All )","Calculates an estimate of the variance for the specified column.","Statistic","VarP","VarP( <column> for All )","Calculates the variance for the specified column.","String","WordCap","WordCap( <string> ) ","Sets the first letter of each word in a string to a capital letter and all other letters to lowercase.","Date/Time","Year","Year( <date> )","Determines the year of a date value.",)		2	Data	Created from PTT Dictionary File
+	24	Codice di errore del database:		Database error code:		2	 Event Script	Created from PTT Dictionary File
+	24	Codice di errore del database:		Database error code:		7	 Event Script	Created from PTT Dictionary File
+	24	Messaggio di errore del database:		Database error message:		2	 Event Script	Created from PTT Dictionary File
+	24	Messaggio di errore del database:		Database error message:		7	 Event Script	Created from PTT Dictionary File
+	24	Messaggio di errore del database:~r~n		Database error message:~r~n		2	 Event Script	Created from PTT Dictionary File
+	24	Messaggio di errore del database:~r~n		Database error message:~r~n		7	 Event Script	Created from PTT Dictionary File
+	24	DataModified!		DataModified!		14	Item[]	Created from PTT Dictionary File
+	24	Base DataStore		DataStore Base		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio base DataStore		DataStore Base Service		7	 Function Script	Created from PTT Dictionary File
+	24	Base DataWindow		DataWindow Base		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio base DataWindow		DataWindow Base Service		7	 Function Script	Created from PTT Dictionary File
+	24	Proprietà DataWindow -		DataWindow Properties -		8	Title	Created from PTT Dictionary File
+	24	Proprietà di DataWindow...	P	DataWindow Properties...	W	4	Text	Created from PTT Dictionary File
+	24	Data/Ora		Date/Time		34	Text	Created from PTT Dictionary File
+	24	Dates		Dates		34	Text	Created from PTT Dictionary File
+	24	DBError -		DBError -		2	 Event Script	Created from PTT Dictionary File
+	24	DBError -		DBError -		7	 Event Script	Created from PTT Dictionary File
+	24	Registro di debug		Debugging Log		8	Title	Created from PTT Dictionary File
+	24	Dicembre		December		44	Variable	Created from PTT Dictionary File
+	24	Predefinito		Default		8	 Event Script	Created from PTT Dictionary File
+	24	Predefinito		Default		14	Item[]	Created from PTT Dictionary File
+	24	Finestra di dialogo predefinita		Default Dialog		14	Item[]	Created from PTT Dictionary File
+	24	Defaultbutton		Defaultbutton		34	Text	Created from PTT Dictionary File
+	24	Elimina	E	Delete	D	4	Text	Created from PTT Dictionary File
+	24	Elimina	E	Delete	D	13	Text	Created from PTT Dictionary File
+	24	Elimina		Delete		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Elimina		Delete		7	 Function Script	Created from PTT Dictionary File
+	24	Elimina		Delete		44	Variable	Created from PTT Dictionary File
+	24	Elimina righe?		Delete row(s)?		7	 Event Script	Created from PTT Dictionary File
+	24	Elimina righe		Delete Rows		14	Item[]	Created from PTT Dictionary File
+	24	Elimina stile:	D	Delete style:	D	34	Text	Created from PTT Dictionary File
+	24	Elimina elementi selezionati		Delete the selected item(s)		4	Microhelp	Created from PTT Dictionary File
+	24	Eliminato	m	Deleted	e	29	Text	Created from PTT Dictionary File
+	24	Eliminato	E	Deleted	D	29	Text	Created from PTT Dictionary File
+	24	Eliminato:		Deleted :		34	Text	Created from PTT Dictionary File
+	24	Elimina le righe selezionate		Deletes selected rows		4	Microhelp	Created from PTT Dictionary File
+	24	Elimina la voce		Deletes the item		4	Microhelp	Created from PTT Dictionary File
+	24	Descrizione		Description		34	Text	Created from PTT Dictionary File
+	24	Descrizione:		Description :		34	Text	Created from PTT Dictionary File
+	24	Testo descrizione		Description Text		23	Text	Created from PTT Dictionary File
+	24	Descrizione:		Description:		18	Text	Created from PTT Dictionary File
+	24	dettagli		detail		7	 Function Script	Created from PTT Dictionary File
+	24	Colonna dettagli		Detail column		34	Text	Created from PTT Dictionary File
+	24	Dettagli:		Detail(s):		34	Text	Created from PTT Dictionary File
+	24	Dettagli	D	Details	D	4	Text	Created from PTT Dictionary File
+	24	Dettagli		Details		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Disattiva	D	Disable	D	13	Text	Created from PTT Dictionary File
+	24	Ignora righe		Discard Rows		14	Item[]	Created from PTT Dictionary File
+	24	Visualizza il formato	V	Display Format	D	18	Text	Created from PTT Dictionary File
+	24	Visualizza gli argomenti della Guida		Displays help topics		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza le informazioni di ogni voce		Displays information about each item		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza le voci come icone grandi		Displays items by using large icons		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza le voci come icone piccole		Displays items by using small icons		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza le voci di un elenco		Displays items in a list		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza o modifica le proprietà di DataWindow		Displays or changes properties of the DataWindow		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza o modifica le proprietà della voce		Displays or changes properties of the item		4	Microhelp	Created from PTT Dictionary File
+	24	Visualizza le informazioni sul programma		Displays program information		4	Microhelp	Created from PTT Dictionary File
+	24	La divisione per zero non è valida		Division by zero is not valid		7	 Function Script	Created from PTT Dictionary File
+	24	Salvare le modifiche?		Do you want to save changes?		8	 Event Script	Created from PTT Dictionary File
+	24	Documento		Document		31	 Function Script	Created from PTT Dictionary File
+	24	In basso		Down		8	 Event Script	Created from PTT Dictionary File
+	24	In basso		Down		14	Item[]	Created from PTT Dictionary File
+	24	Trascina e rilascia finestra di dialogo		Drag and Drop Dialog		14	Item[]	Created from PTT Dictionary File
+	24	Abbandona ricerca		Drop Down Search		7	 Function Script	Created from PTT Dictionary File
+	24	Finestra di dialogo DropDownListBox		DropDownListBox Dialog		14	Item[]	Created from PTT Dictionary File
+	24	Oggetto base proprietà DW		DW Property Base Object		7	 Function Script	Created from PTT Dictionary File
+	24	Oggetto calcolatrice proprietà DW		DW Property Calculator Object		7	 Function Script	Created from PTT Dictionary File
+	24	Oggetto calendario proprietà DW		DW Property Calendar Object		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio di ricerca DropDown proprietà DW		DW Property DropDown Search Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio filtro proprietà DW		DW Property Filter Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio Trova/Sostituisci proprietà DW		DW Property Find/Replace Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio collegamento proprietà DW		DW Property Linkage Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio multitabella proprietà DW		DW Property Multitable Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio PrintPreview proprietà DW		DW Property PrintPreview Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio QueryMode proprietà DW		DW Property QueryMode Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio report proprietà DW		DW Property Report Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio ridimensionamento proprietà DW		DW Property Resize Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio RowManager proprietà DW		DW Property RowManager Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio RowSelection proprietà DW		DW Property RowSelection Service		7	 Function Script	Created from PTT Dictionary File
+	24	Servizio di ordinamento proprietà DW		DW Property Sort Service		7	 Function Script	Created from PTT Dictionary File
+	24	Tabella sintassi proprietà DW		DW Property Syntax Tab		7	 Function Script	Created from PTT Dictionary File
+	24	Foglio formato E		E size sheet		8	 Event Script	Created from PTT Dictionary File
+	24	Modifica	M	Edit	E	4	Text	Created from PTT Dictionary File
+	24	Modifica		Edit		44	Variable	Created from PTT Dictionary File
+	24	Attiva	A	Enable	E	13	Text	Created from PTT Dictionary File
+	24	Attivato		Enabled		34	Text	Created from PTT Dictionary File
+	24	Migliora gli inserimenti e le eliminazioni di righe e facilita il ripristino delle righe eliminate.		Enhances row inserts, deletes, and facilitates restoring of deleted rows.		7	 Function Script	Created from PTT Dictionary File
+	24	Immettere l'ID e la password dell'utente per collegarsi a		Enter a User ID and password to log onto		34	Text	Created from PTT Dictionary File
+	24	Busta		Envelope		8	 Event Script	Created from PTT Dictionary File
+	24	Busta 10,5 x 24,1 cm		Envelope #10 4 1/8 x 9 1/2		8	 Event Script	Created from PTT Dictionary File
+	24	Busta 11,4 x 26,4 cm 		Envelope #11 4 1/2 x 10 3/8		8	 Event Script	Created from PTT Dictionary File
+	24	Busta 10,2 x 27,9 cm		Envelope #12 4 x 11 1/276		8	 Event Script	Created from PTT Dictionary File
+	24	Busta #14 5 x 11 1/2		Envelope #14 5 x 11 1/2		8	 Event Script	Created from PTT Dictionary File
+	24	Busta  9,8 x 22,5 cm		Envelope #9 3 7/8 x 8 7/8		8	 Event Script	Created from PTT Dictionary File
+	24	Busta 11 x 23 cm		Envelope 110 x 230 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta B4 25 x 35,3 cm		Envelope B4 250 x 353 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta B5 17,6 x 25 cm		Envelope B5 176 x 250 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta B6 17,6 x 12,5 cm		Envelope B6 176 x 125 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta C3 32,4 x 45,8 cm		Envelope C3 324 x 458 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta C4 22,9 x 32,4 cm		Envelope C4 229 x 324 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta C5 16,2 x 22,9 cm		Envelope C5 162 x 229 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta C6 11,4 x 16,2 cm		Envelope C6 114 x 162 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta C65 114 x 229 mm		Envelope C65 114 x 229 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta DL 11 x 22 cm		Envelope DL 110 x 220 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Busta manuale		Envelope manual		8	 Event Script	Created from PTT Dictionary File
+	24	Busta 9,8 x 19 cm		Envelope Monarch 3.875 x 7.5 in		8	 Event Script	Created from PTT Dictionary File
+	24	"Uguale a	=/Maggiore di	>/Minore di	</> di o uguale a	>=/< di o uguale a	<=/Diverso da	<>"		"Equals	=/Greater Than	>/Less Than	</> Than or Equal	>=/< Than or Equal	<=/Doesn't Equal	<>"		39	Values	Created from PTT Dictionary File
+	24	Errore nella descrizione di		Error describing		7	 Function Script	Created from PTT Dictionary File
+	24	Errore nella descrizione di ColType attributo di		Error describing ColType attribute of		7	 Function Script	Created from PTT Dictionary File
+	24	Errore nella descrizione di ColType attributo di Column #		Error describing ColType attribute of Column #		7	 Function Script	Created from PTT Dictionary File
+	24	Errore nella descrizione di Name attributo di Column #		Error describing Name attribute of Column #		7	 Function Script	Created from PTT Dictionary File
+	24	Errore numero		Error Number		7	 Event Script	Created from PTT Dictionary File
+	24	Errore in importstring. Codice di errore =		Error on importstring. Error code =		7	 Function Script	Created from PTT Dictionary File
+	24	Errore!  Errore nel calcolo delle dimensioni		Error!  Error calculating size		7	 Function Script	Created from PTT Dictionary File
+	24	Errore!  File non trovato		Error!  File not found		7	 Function Script	Created from PTT Dictionary File
+	24	Errore!  Spostamento non valido di DataWindow		Error!  Invalid DataWindow Shift		7	 Function Script	Created from PTT Dictionary File
+	24	Errore!  Unità DW non valida		Error!  Invalid DW Unit		7	 Function Script	Created from PTT Dictionary File
+	24	Errore!  Espressione non valida		Error!  Invalid Expression		7	 Function Script	Created from PTT Dictionary File
+	24	L'evento ha ricevuto un codice di errore ShareData().   ShareData()		event has received a ShareData() fail code.   The ShareData()		8	 Event Script	Created from PTT Dictionary File
+	24	Executive 18,4 x 26,7 cm		Executive 7 1/4 x 10 1/2 in		8	 Event Script	Created from PTT Dictionary File
+	24	Esci	E	Exit	x	4	Text	Created from PTT Dictionary File
+	24	Esci		Exit		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Finestra di dialogo estesa		Extended Dialog		14	Item[]	Created from PTT Dictionary File
+	24	Selezione riga estesa		Extended Row Selection		14	Item[]	Created from PTT Dictionary File
+	24	Facilitano l~'aggiornamento di DataStores contenenti righe da più di		Facilitate the updating of DataStores that contain rows from more		7	 Function Script	Created from PTT Dictionary File
+	24	Facilitano l~'aggiornamento di DataWindows  contenenti righe da più di		Facilitate the updating of DataWindows that contain rows from more		7	 Function Script	Created from PTT Dictionary File
+	24	Facilita la creazione di report e la stampa di datawindow.		Facilitates datawindow reporting and printing.		7	 Function Script	Created from PTT Dictionary File
+	24	ConvalidaAcceptText non riuscito per memorizzazione dati.		Failed accepttext validation on datastore.		7	 Event Script	Created from PTT Dictionary File
+	24	ConvalidaAcceptText non riuscito per memorizzazione dati.		Failed AcceptText validation on datastore.		7	 Function Script	Created from PTT Dictionary File
+	24	ha generato un errore. Il comando		failed. The command		2	 Event Script	Created from PTT Dictionary File
+	24	Febbraio		February		44	Variable	Created from PTT Dictionary File
+	24	File	F	File	F	4	Text	Created from PTT Dictionary File
+	24	Il file esiste già		File Exists		31	 Event Script	Created from PTT Dictionary File
+	24	File...	F	File...	F	4	Text	Created from PTT Dictionary File
+	24	Filtro	F	Filter	F	13	Text	Created from PTT Dictionary File
+	24	Filtro		Filter		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Filtro		Filter		7	 Event Script	Created from PTT Dictionary File
+	24	Filtro		Filter		7	 Function Script	Created from PTT Dictionary File
+	24	Filtro		Filter		8	 Event Script	Created from PTT Dictionary File
+	24	Filtro		Filter		8	Title	Created from PTT Dictionary File
+	24	Espressione di filtro	f	Filter expression	F	18	Text	Created from PTT Dictionary File
+	24	Filtro non valido		Filter is not valid		13	 Event Script	Created from PTT Dictionary File
+	24	Filtro non valido. Modificare il filtro utilizzando		Filter is not valid.  Please modify the filter using the available		8	 Event Script	Created from PTT Dictionary File
+	24	Filtro valido		Filter is valid		13	 Event Script	Created from PTT Dictionary File
+	24	Filtro...	F	Filter...	t	4	Text	Created from PTT Dictionary File
+	24	Filtrato	l	Filtered	F	29	Text	Created from PTT Dictionary File
+	24	Filtrato:		Filtered :		34	Text	Created from PTT Dictionary File
+	24	Voci filtrate		Filters items		4	Microhelp	Created from PTT Dictionary File
+	24	Trova		Find		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Trova		Find		8	Title	Created from PTT Dictionary File
+	24	Trova e sostituisci		Find and Replace		7	 Function Script	Created from PTT Dictionary File
+	24	Trova successivo	T	Find Next	F	13	Text	Created from PTT Dictionary File
+	24	Elemento	n	Find what	n	34	Text	Created from PTT Dictionary File
+	24	Ubicazione	e	Find where	e	34	Text	Created from PTT Dictionary File
+	24	Trova...	T	Find...	F	4	Text	Created from PTT Dictionary File
+	24	Trova il testo specificato		Finds the specified text		4	Microhelp	Created from PTT Dictionary File
+	24	Primo	P	First	F	4	Text	Created from PTT Dictionary File
+	24	Primo		First		4	Microhelp	Created from PTT Dictionary File
+	24	Primo		First		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Mobile	M	Floating	F	29	Text	Created from PTT Dictionary File
+	24	Foglio 21,6 x 33 cm		Folio 8 1/2 x 13 in		8	 Event Script	Created from PTT Dictionary File
+	24	Per certe funzionalità, la		For certain functionality the		7	 Function Script	Created from PTT Dictionary File
+	24	Fr		Fr		34	Text	Created from PTT Dictionary File
+	24	Cornice della barra degli strumenti		Frame Toolbar		8	 Event Script	Created from PTT Dictionary File
+	24	da:	f	from:	f	34	Text	Created from PTT Dictionary File
+	24	funzione dopo la creazione di DataStore.		function after the DataStore creation.		7	 Function Script	Created from PTT Dictionary File
+	24	funzione non può essere eseguita.		functionality is unable to be processed.		8	 Event Script	Created from PTT Dictionary File
+	24	funzionalità.		functionality.		7	 Function Script	Created from PTT Dictionary File
+	24	Funzioni		Functions		7	Text	Created from PTT Dictionary File
+	24	funzioni, colonne, operatori e valori. Il pulsante Verifica potrebbe essere		functions, columns, operators, and values.  The Verify button may be		8	 Event Script	Created from PTT Dictionary File
+	24	Funzioni...	F	Functions...	F	4	Text	Created from PTT Dictionary File
+	24	GDI: N/A'~"		GDI: N/A'~"		8	 Function Script	Created from PTT Dictionary File
+	24	General		General		7	 Function Script	Created from PTT Dictionary File
+	24	Pieghevole 21,6 x 33 cm		German Legal Fanfold 8 1/2 x 13 in		8	 Event Script	Created from PTT Dictionary File
+	24	Pieghevole 21,6 x 30,5 cm+B1752		German Std Fanfold 8 1/2 x 12 in		8	 Event Script	Created from PTT Dictionary File
+	24	Nome del gruppo		Group Name		34	Text	Created from PTT Dictionary File
+	24	è stato richiesto, ma gli attributi del registro di configurazione/file INI dell'applicazione NECESSARI		has been requested but the REQUIRED Application registry/INI File attributes		7	 Event Script	Created from PTT Dictionary File
+	24	è stato richiesto, ma l'attributo di inifile richiesto non è stato		has been requested but The Required inifile attribute has not		8	 Event Script	Created from PTT Dictionary File
+	24	è stato richiesto, ma l'attributo di registro richiesto non è stato		has been requested but The Required registry attribute has not		8	 Event Script	Created from PTT Dictionary File
+	24	è stato richiesto, ma gli attributi del registro di configurazione/file INI dell'applicazione NECESSARI		has been requested but the REQUIRED User registry/INI File attributes		7	 Event Script	Created from PTT Dictionary File
+	24	è stato richiesto, ma la proprietà UserINIFile non è stata		has been requested but The UserINIFile property has not		8	 Event Script	Created from PTT Dictionary File
+	24	è stato richiesto, ma la proprietà UserRegistrykey non è stata		has been requested but The UserRegistrykey property has not		8	 Event Script	Created from PTT Dictionary File
+	24	ha finito di sostituire		has finished replacing		8	 Event Script	Created from PTT Dictionary File
+	24	ha finito la ricerca.		has finished searching.		8	 Event Script	Created from PTT Dictionary File
+	24	non sono stati impostati. Usare of_SetAppKey/of_SetAppIniFile sull'applicazione PFC		have not been set.  Use of_SetAppKey/of_SetAppIniFile on the PFC Application		7	 Event Script	Created from PTT Dictionary File
+	24	non sono stati impostati. Usare of_SetUserKey/of_SetUserIniFile sull'applicazione PFC		have not been set.  Use of_SetUserKey/of_SetUserIniFile on the PFC		7	 Event Script	Created from PTT Dictionary File
+	24	Suffisso intestazione	x	Header suffix	x	34	Text	Created from PTT Dictionary File
+	24	Guida	G	Help	H	4	Text	Created from PTT Dictionary File
+	24	Guida	G	Help	H	13	Text	Created from PTT Dictionary File
+	24	La Guida è stata richiesta, ma		Help has been requested but the		8	 Event Script	Created from PTT Dictionary File
+	24	Argomenti della Guida	A	Help Topics	H	4	Text	Created from PTT Dictionary File
+	24	Argomenti della Guida		Help Topics		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Evidenziare la colonna che consente l'entrata in QueryMode		Highlight column which allow entry in QueryMode		34	Text	Created from PTT Dictionary File
+	24	Evidenziare le colonne da escludere		Highlight columns to exclude		34	Text	Created from PTT Dictionary File
+	24	Evidenziare le colonne di cui ignorare il controllo su	s	Highlight columns to skip checking on	s	34	Text	Created from PTT Dictionary File
+	24	Evidenzare le colonne registrate		Highlight registered columns		34	Text	Created from PTT Dictionary File
+	24	Festivo		Holiday		18	Text	Created from PTT Dictionary File
+	24	Icona		Icon		34	Text	Created from PTT Dictionary File
+	24	if(match(action,'[GU]'),'Le risorse devono essere comprese tra 1 e 100','La memoria deve essere maggiore di 0 ')		if(match(action,'[GU]'),'Resources must be between 1 and 100','Memory must be more than 0 ')		39	ValidationMsg	Created from PTT Dictionary File
+	24	Ignora		Ignore		8	 Event Script	Created from PTT Dictionary File
+	24	nel campo, quando viene trovata una corrispondenza.		in the field, as a match is found.		7	 Function Script	Created from PTT Dictionary File
+	24	include le funzioni che facilitano il coordinamento delle tipiche funzioni di DataWindow		includes functions that help you coordinate typical DataWindow functions		7	 Function Script	Created from PTT Dictionary File
+	24	Indice		Index		34	Text	Created from PTT Dictionary File
+	24	informazioni sul file del registro di configurazione/INI.		information to the Registry/Ini File.		7	 Event Script	Created from PTT Dictionary File
+	24	Input >>	I	Input >>	I	13	Text	Created from PTT Dictionary File
+	24	Inserisci	I	Insert	I	4	Text	Created from PTT Dictionary File
+	24	Inserisci	I	Insert	I	13	Text	Created from PTT Dictionary File
+	24	Inserisci		Insert		7	 Function Script	Created from PTT Dictionary File
+	24	Inserisci		Insert		44	Variable	Created from PTT Dictionary File
+	24	Inserisci un file		Insert File		31	 Function Script	Created from PTT Dictionary File
+	24	Inserisci un'immagine		Insert Picture		31	 Function Script	Created from PTT Dictionary File
+	24	Inserisce una nuova riga		Inserts a new row		4	Microhelp	Created from PTT Dictionary File
+	24	Inserisce un'immagine da un file di grafica		Inserts a picture from a graphics file		4	Microhelp	Created from PTT Dictionary File
+	24	Inserisce un oggetto		Inserts an object		4	Microhelp	Created from PTT Dictionary File
+	24	Inserisce il contenuto degli Appunti nel punto di inserimento corrente		Inserts Clipboard contents at current insertion point		4	Microhelp	Created from PTT Dictionary File
+	24	Inserisce il contenuto degli Appunti come collegamento, oggetto, o altro formato		Inserts the clipboard contents as a link, object, or other format		4	Microhelp	Created from PTT Dictionary File
+	24	Inserisce il contenuto degli Appunti nel punto di inserimento		Inserts the Clipboard contents at the insertion point		4	Microhelp	Created from PTT Dictionary File
+	24	Inserisce il testo di un altro file		Inserts the text of another file		4	Microhelp	Created from PTT Dictionary File
+	24	Esamina tutte le istruzioni SQL prima dell'esecuzione	E	Inspect each SQL statement before it is executed	I	12	Text	Created from PTT Dictionary File
+	24	Esamina tutte le istruzioni SQL prima dell'esecuzione		Inspect each SQL statement before it is executed		12	Text	Created from PTT Dictionary File
+	24	campi interdipendenti all~'interno di una DataWindow.		interdependent fields within a DataWindow.		7	 Function Script	Created from PTT Dictionary File
+	24	Filtro non valido.		Invalid Filter.		8	 Event Script	Created from PTT Dictionary File
+	24	Inverti la selezione	S	Invert Selection	S	4	Text	Created from PTT Dictionary File
+	24	Inverti la selezione	I	Invert Selection	I	13	Text	Created from PTT Dictionary File
+	24	Elemento		Item		44	Variable	Created from PTT Dictionary File
+	24	voci.		items.		8	 Event Script	Created from PTT Dictionary File
+	24	IUD		IUD		44	Variable	Created from PTT Dictionary File
+	24	Gennaio		January		44	Variable	Created from PTT Dictionary File
+	24	Luglio		July		44	Variable	Created from PTT Dictionary File
+	24	Giugno		June		44	Variable	Created from PTT Dictionary File
+	24	Colonne chiave e modificate	a	Key and Modified cols	M	29	Text	Created from PTT Dictionary File
+	24	Colonne chiave e aggiornabili	a	Key and Updateable cols	p	29	Text	Created from PTT Dictionary File
+	24	Colonne chiave	h	Key columns	K	29	Text	Created from PTT Dictionary File
+	24	Modifica chiave		Key modification		18	Text	Created from PTT Dictionary File
+	24	Selezione tastiera	t	Keyboard selection	K	12	Text	Created from PTT Dictionary File
+	24	sapere qual è la finestra principale, chiamare of_SetParent(...)		know who its parent window call the of_SetParent(...)		7	 Function Script	Created from PTT Dictionary File
+	24	sapere qual è la finestra principale, chiamare of_SetParentWindow(...)		know who its parent window call the of_SetParentWindow(...)		7	 Function Script	Created from PTT Dictionary File
+	24	Orizzontale	O	Landscape	a	29	Text	Created from PTT Dictionary File
+	24	Pulsanti grandi	l	Large Buttons	L	12	Text	Created from PTT Dictionary File
+	24	Grande capacità		Large capacity		8	 Event Script	Created from PTT Dictionary File
+	24	Icone grandi	I	Large Icons	g	4	Text	Created from PTT Dictionary File
+	24	Icone grandi		Large Icons		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Largefmt		Largefmt		8	 Event Script	Created from PTT Dictionary File
+	24	Ultimo	U	Last	a	4	Text	Created from PTT Dictionary File
+	24	Ultimo		Last		4	Microhelp	Created from PTT Dictionary File
+	24	Ultimo		Last		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Strato	S	Layer	L	4	Text	Created from PTT Dictionary File
+	24	Strato		Layer		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Sovrappone le finestre in modo che ogni finestra copra quella sottostante		Layer windows so that each one completely covers the one below it		4	Microhelp	Created from PTT Dictionary File
+	24	Registro 43,2 x 27,9 cm		Ledger 17 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	24	A sinistra	s	Left	e	29	Text	Created from PTT Dictionary File
+	24	A sinistra:	L	Left:	L	34	Text	Created from PTT Dictionary File
+	24	Legale 21,6 x 35,6 cm		Legal 8 1/2 x 14 in		8	 Event Script	Created from PTT Dictionary File
+	24	Lettera 21,6 x 27,9 cm		Letter 8 1/2 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	24	Lettera ridotto 21,6 x 27,9 cm		LetterSmall 8 1/2 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	24	Collegamento		Linkage		7	 Function Script	Created from PTT Dictionary File
+	24	Elenco	E	List	L	4	Text	Created from PTT Dictionary File
+	24	Elenco		List		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Logico		Logical		34	Text	Created from PTT Dictionary File
+	24	Login		Login		8	 Event Script	Created from PTT Dictionary File
+	24	Logon		Logon		8	Title	Created from PTT Dictionary File
+	24	Inferiore		Lower		8	 Event Script	Created from PTT Dictionary File
+	24	Notifica della posta - 		Mail Notification -		44	Variable	Created from PTT Dictionary File
+	24	Oggetto manager per impostare l'attributo.		Manager object to set the attribute.		7	 Event Script	Created from PTT Dictionary File
+	24	Manager per impostare l'attributo.		Manager to set the attribute.		7	 Event Script	Created from PTT Dictionary File
+	24	Manuale		Manual		8	 Event Script	Created from PTT Dictionary File
+	24	Marzo		March		44	Variable	Created from PTT Dictionary File
+	24	Margini		Margins		18	Text	Created from PTT Dictionary File
+	24	Colonna Master		Master column		34	Text	Created from PTT Dictionary File
+	24	Finestra Master		Master Window		8	 Function Script	Created from PTT Dictionary File
+	24	Elaborazione Master/Detail, ma è utilizzabile per altri fini. Questo oggetto		Master/Detail processing but can be used for other purposes. This object		7	 Function Script	Created from PTT Dictionary File
+	24	Master:		Master:		34	Text	Created from PTT Dictionary File
+	24	Abbina MAIUSC/minusc	C	Match Case	C	12	Text	Created from PTT Dictionary File
+	24	Maggio		May		44	Variable	Created from PTT Dictionary File
+	24	Mem: N/A'~"		Mem: N/A'~"		8	 Function Script	Created from PTT Dictionary File
+	24	Messaggio		Message		7	 Function Script	Created from PTT Dictionary File
+	24	Messaggio		Message		34	Text	Created from PTT Dictionary File
+	24	Argomenti messaggio:		Message Arguments:		7	 Function Script	Created from PTT Dictionary File
+	24	Messaggio:		Message:		7	 Function Script	Created from PTT Dictionary File
+	24	Messaggio:		Message:		34	Text	Created from PTT Dictionary File
+	24	Metodo		Method		34	Text	Created from PTT Dictionary File
+	24	Medio		Middle		8	 Event Script	Created from PTT Dictionary File
+	24	Riduci a icona tutte le finestre	R	Minimize All Windows	M	4	Text	Created from PTT Dictionary File
+	24	Riduce a icona tutte le finestre		Minimizes all windows		4	Microhelp	Created from PTT Dictionary File
+	24	Il valore minimo per il margine inferiore è		Minimum bottom margin is		16	 Event Script	Created from PTT Dictionary File
+	24	Il valore minimo per il margine sinistro è		Minimum left margin is		16	 Event Script	Created from PTT Dictionary File
+	24	Il valore minimo per il margine destro è		Minimum right margin is		16	 Event Script	Created from PTT Dictionary File
+	24	Il valore minimo per il margine superiore è		Minimum top margin is		16	 Event Script	Created from PTT Dictionary File
+	24	Lu		Mo		34	Text	Created from PTT Dictionary File
+	24	Modificato:		Modified :		34	Text	Created from PTT Dictionary File
+	24	Modifica:		Modified :		34	Text	Created from PTT Dictionary File
+	24	Modifica:		Modified:		34	Text	Created from PTT Dictionary File
+	24	Sposta la selezione negli Appunti		Moves the selection to the Clipboard		4	Microhelp	Created from PTT Dictionary File
+	24	Oggetto MRU per impostare l'attributo.		MRU object to set the attribute.		7	 Event Script	Created from PTT Dictionary File
+	24	MS Sans Serif		MS Sans Serif		7	 Event Script	Created from PTT Dictionary File
+	24	Msgid		Msgid		34	Text	Created from PTT Dictionary File
+	24	Selezione di più righe		Multiple Row Selection		14	Item[]	Created from PTT Dictionary File
+	24	Selezione Multirow o selezione Extendedrow		Multirow selection, or Extendedrow selection.		7	 Function Script	Created from PTT Dictionary File
+	24	Tabella multipla		Multitable		7	 Function Script	Created from PTT Dictionary File
+	24	deve essere corretto prima di poter salvare le modifiche.~r~n~r~n		must be corrected before changes can be saved.~r~n~r~n		8	 Event Script	Created from PTT Dictionary File
+	24	N/A		N/A		7	 Event Script	Created from PTT Dictionary File
+	24	N/A		N/A		34	Text	Created from PTT Dictionary File
+	24	Nome		Name		34	Text	Created from PTT Dictionary File
+	24	Nome:		Name :		34	Text	Created from PTT Dictionary File
+	24	Nome:		Name:		34	Text	Created from PTT Dictionary File
+	24	deve essere 'sì' o 'no'. '		needs to be either 'yes' or 'no'. '		2	 Event Script	Created from PTT Dictionary File
+	24	deve essere un valore numerico. "		needs to be numeric. "		2	 Event Script	Created from PTT Dictionary File
+	24	Nuovo	N	New	N	4	Text	Created from PTT Dictionary File
+	24	Nuova		New		4	Microhelp	Created from PTT Dictionary File
+	24	Nuova		New		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Nuovi criteri per il filtro		New Filter Criteria		18	Text	Created from PTT Dictionary File
+	24	New!		New!		14	Item[]	Created from PTT Dictionary File
+	24	NewModified!		NewModified!		14	Item[]	Created from PTT Dictionary File
+	24	Successivo	S	Next	N	4	Text	Created from PTT Dictionary File
+	24	seguente		Next		4	Microhelp	Created from PTT Dictionary File
+	24	Successivo		Next		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Ora successiva		Next Time		34	Text	Created from PTT Dictionary File
+	24	No	N	No	N	8	 Event Script	Created from PTT Dictionary File
+	24	vuoto		none		12	Text	Created from PTT Dictionary File
+	24	vuoto		none		13	Text	Created from PTT Dictionary File
+	24	vuoto		none		18	Text	Created from PTT Dictionary File
+	24	vuoto		none		27	Text	Created from PTT Dictionary File
+	24	vuoto		none		29	Text	Created from PTT Dictionary File
+	24	vuoto		none		34	Text	Created from PTT Dictionary File
+	24	vuoto		None		34	Text	Created from PTT Dictionary File
+	24	Nota 21,6 x 27,9 cm		Note 8 1/2 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	24	NotModified!		NotModified!		14	Item[]	Created from PTT Dictionary File
+	24	Novembre		November		44	Variable	Created from PTT Dictionary File
+	24	Numero di copie:	c	Number of copies:	c	34	Text	Created from PTT Dictionary File
+	24	numero:		Number:		34	Text	Created from PTT Dictionary File
+	24	Oggetto	O	Object	O	4	Text	Created from PTT Dictionary File
+	24	Oggetto		Object		4	Text	Created from PTT Dictionary File
+	24	Oggetto:		Object :		34	Text	Created from PTT Dictionary File
+	24	Nome oggetto		Object Name		34	Text	Created from PTT Dictionary File
+	24	Tipo di oggetto		Object Type		34	Text	Created from PTT Dictionary File
+	24	Oggetto...	O	Object...	O	4	Text	Created from PTT Dictionary File
+	24	Ottobre		October		44	Variable	Created from PTT Dictionary File
+	24	OK		OK		8	 Event Script	Created from PTT Dictionary File
+	24	OK		OK		13	Text	Created from PTT Dictionary File
+	24	nella riga		on row		2	 Function Script	Created from PTT Dictionary File
+	24	nella riga		on row		7	 Event Script	Created from PTT Dictionary File
+	24	nella riga		on row		7	 Function Script	Created from PTT Dictionary File
+	24	sul Manager dell'applicazione per impostare l'attributo.		on The Application Manager to Set The attribute.		8	 Event Script	Created from PTT Dictionary File
+	24	È stato incontrato uno di questi casi. Affinché Datastore		One of these cases has been encountered.  To let the Datastore		7	 Function Script	Created from PTT Dictionary File
+	24	Apri	A	Open	O	4	Text	Created from PTT Dictionary File
+	24	Apri		Open		4	Microhelp	Created from PTT Dictionary File
+	24	Apri		Open		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Apri		Open		8	Title	Created from PTT Dictionary File
+	24	Apri		Open		31	 Function Script	Created from PTT Dictionary File
+	24	Apri		Open		44	Variable	Created from PTT Dictionary File
+	24	Apri in pfc_w_debuglog		Open on pfc_w_debuglog		8	 Event Script	Created from PTT Dictionary File
+	24	L~'apertura sull'evento pfc_w_debuglog ha ricevuto un codice di errore ShareData().		Open on pfc_w_debuglog event has received a ShareData() fail code.		8	 Event Script	Created from PTT Dictionary File
+	24	Operatore		Operator		34	Text	Created from PTT Dictionary File
+	24	Operatori		Operators		7	Text	Created from PTT Dictionary File
+	24	Operatori...	O	Operators...	e	4	Text	Created from PTT Dictionary File
+	24	Opzioni		Options		7	 Function Script	Created from PTT Dictionary File
+	24	Orientamento		Orientation		18	Text	Created from PTT Dictionary File
+	24	Originale	g	Original	O	29	Text	Created from PTT Dictionary File
+	24	Criteri originali per il filtro		Original Filter Criteria		18	Text	Created from PTT Dictionary File
+	24	Altro		Other		18	Text	Created from PTT Dictionary File
+	24	'Pagina ' + page() + ' di ' + pageCount()		'Page ' + page() + ' of ' + pageCount()		40	Expression	Created from PTT Dictionary File
+	24	Imposta pagina		Page Setup		8	Title	Created from PTT Dictionary File
+	24	Imposta pagina		Page Setup		16	 Event Script	Created from PTT Dictionary File
+	24	Imposta pagina...	I	Page Setup...	u	4	Text	Created from PTT Dictionary File
+	24	Pagine	P	Pages	g	29	Text	Created from PTT Dictionary File
+	24	Carta		Paper		18	Text	Created from PTT Dictionary File
+	24	Password:		Password:		34	Text	Created from PTT Dictionary File
+	24	Incolla	I	Paste	P	4	Text	Created from PTT Dictionary File
+	24	Incolla		Paste		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Incolla speciale...	s	Paste Special...	S	4	Text	Created from PTT Dictionary File
+	24	Percentuale:		Percent:		34	Text	Created from PTT Dictionary File
+	24	"Percentuale	P/Scala	S"		"Percentage	P/Scale	S"		39	Values	Created from PTT Dictionary File
+	24	PFC DataStore richiede un riferimento al proprio oggetto principale.		PFC DataStore requires a reference to its parent object.		7	 Function Script	Created from PTT Dictionary File
+	24	PFC DataStore richiede un riferimento al proprio oggetto principale.		PFC DataStore requires a reference to its parent window.		7	 Function Script	Created from PTT Dictionary File
+	24	Debugger PFC DataWindow		PFC DataWindow Debugger		8	Title	Created from PTT Dictionary File
+	24	Immagine...	I	Picture...	P	4	Text	Created from PTT Dictionary File
+	24	Immettere un numero compreso tra		Please enter a number between		8	 Event Script	Created from PTT Dictionary File
+	24	Immettere una password per il logon.		Please enter a password to logon.		8	 Event Script	Created from PTT Dictionary File
+	24	Immettere un ID dell'utente per il logon.		Please enter a User ID to logon.		8	 Event Script	Created from PTT Dictionary File
+	24	Verticale	V	Portrait	o	29	Text	Created from PTT Dictionary File
+	24	Posizione		Position		18	Text	Created from PTT Dictionary File
+	24	Libreria di classi PowerBuilder		PowerBuilder Class Library		7	 Event Script	Created from PTT Dictionary File
+	24	Libreria di classi PowerBuilder		PowerBuilder Class Library		7	 Function Script	Created from PTT Dictionary File
+	24	Libreria di classi PowerBuilder		PowerBuilder Class Library		8	 Event Script	Created from PTT Dictionary File
+	24	Libreria di classi PowerBuilder Foundation		PowerBuilder Foundation Class Library		8	 Event Script	Created from PTT Dictionary File
+	24	Libreria di classi PowerBuilder Foundation		PowerBuilder Foundation Class Library		44	Variable	Created from PTT Dictionary File
+	24	Classi di PowerBuilder Foundation		PowerBuilder Foundation Classes		44	Variable	Created from PTT Dictionary File
+	24	Finestra di dialogo PowerScript		PowerScript Dialog		14	Item[]	Created from PTT Dictionary File
+	24	predefined		predefined		44	Variable	Created from PTT Dictionary File
+	24	Messaggio predefinito "		Predefined Message "		7	 Function Script	Created from PTT Dictionary File
+	24	Anteprima		Preview		18	Text	Created from PTT Dictionary File
+	24	Primario	P	Primary	P	29	Text	Created from PTT Dictionary File
+	24	Primario:		Primary :		34	Text	Created from PTT Dictionary File
+	24	Stampa	t	Print	P	13	Text	Created from PTT Dictionary File
+	24	Stampa	S	Print	P	13	Text	Created from PTT Dictionary File
+	24	Stampa	t	Print	P	13	Text	Created from PTT Dictionary File
+	24	Stampa	S	Print	P	13	Text	Created from PTT Dictionary File
+	24	Stampa		Print		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Stampa		Print		8	 Event Script	Created from PTT Dictionary File
+	24	Stampa		Print		8	Title	Created from PTT Dictionary File
+	24	Stampa		Print		34	Text	Created from PTT Dictionary File
+	24	Stampa immediata		Print Immediate		4	Text	Created from PTT Dictionary File
+	24	Anteprima di stampa	A	Print Preview	v	4	Text	Created from PTT Dictionary File
+	24	Anteprima di stampa		Print Preview		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Intervallo di stampa		Print range		18	Text	Created from PTT Dictionary File
+	24	Stampa su file	S	Print to file	l	12	Text	Created from PTT Dictionary File
+	24	Stampa su file		Print to File		2	 Event Script	Created from PTT Dictionary File
+	24	Stampa su file		Print to File		7	 Event Script	Created from PTT Dictionary File
+	24	Stampa...	S	Print...	P	4	Text	Created from PTT Dictionary File
+	24	File per stampante,*.prn,Tutti i file,*.*		Printer Files,*.prn,All Files,*.*		2	 Event Script	Created from PTT Dictionary File
+	24	File per stampante,*.prn,Tutti i file,*.*		Printer Files,*.prn,All Files,*.*		7	 Event Script	Created from PTT Dictionary File
+	24	Stampante...	n	Printer...	P	13	Text	Created from PTT Dictionary File
+	24	PrintPreview attivato	a	PrintPreview enabled	e	12	Text	Created from PTT Dictionary File
+	24	Stampa la voce		Prints the item		4	Microhelp	Created from PTT Dictionary File
+	24	Precedente	P	Prior	P	4	Text	Created from PTT Dictionary File
+	24	Precedente		Prior		4	Microhelp	Created from PTT Dictionary File
+	24	Precedente		Prior		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Prior to the error the following transactions were Committed:~r~n		Prior to the error the following transactions were Committed:~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	Prior to the error the following transactions were Rollback:~r~n		Prior to the error the following transactions were Rollback:~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	ha generato il seguente messaggio di errore:~r~n		produced the following error message:~r~n		2	 Event Script	Created from PTT Dictionary File
+	24	Barra di avanzamento		Progress Bar		7	 Function Script	Created from PTT Dictionary File
+	24	Proprietà	P	Properties	r	4	Text	Created from PTT Dictionary File
+	24	Proprietà		Properties		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Proprietà		Properties		34	Text	Created from PTT Dictionary File
+	24	Proprietà		Properties		35	 Event Script	Created from PTT Dictionary File
+	24	Proprietà	P	Property	P	13	Text	Created from PTT Dictionary File
+	24	Proprietà		Property		2	 Event Script	Created from PTT Dictionary File
+	24	Propriet...		Property		2	 Event Script	Created from PTT Dictionary File
+	24	Propriet...		Property		34	Text	Created from PTT Dictionary File
+	24	Proprietà		Property		34	Text	Created from PTT Dictionary File
+	24	Proprietà		Property		44	Variable	Created from PTT Dictionary File
+	24	Forniscono la funzionalità PrintPreview.		Provide PrintPreview functionality.		7	 Function Script	Created from PTT Dictionary File
+	24	Forniscono la funzionalità QueryMode.		Provide QueryMode functionality.		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce i campi della data Datawindows e EditMask con la funzionalità Calendario.		Provides Datawindows and EditMask date fields with Calendar functionality.		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce i campi numerici Datawindows e EditMask con una Calcolatrice		Provides Datawindows and EditMask numeric fields with a Calculator		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce le finestre di dialogo Filtro per facilitare il filtraggio delle righe.		Provides Filter dialogs to facilitate the filtering of rows.		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce le finestre di dialogo Trova/Sostituisci per facilitare l~'individuazione e/o		Provides Find and Find/Replace dialogs to facilitate the finding and/or		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce la funzionalità di ridimensionamento su qualsiasi oggetto in proporzione al proprio contenitore.		Provides resize functionality to any object in proportion to its container.		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce le finestre di dialogo Ordina per facilitare l~'ordinamento delle righe datawindow.		Provides Sort dialogs to facilitate the sorting of datawindow rows.		7	 Function Script	Created from PTT Dictionary File
+	24	Fornisce la datawindow alla possibilità di selezione Singlerow,		Provides the datawindow with either Singlerow selection,		7	 Function Script	Created from PTT Dictionary File
+	24	Quarto 21,5 x 27,5 cm		Quarto 215 x 275 mm		8	 Event Script	Created from PTT Dictionary File
+	24	Query (*.txt),*.txt		Query (*.txt),*.txt		7	 Function Script	Created from PTT Dictionary File
+	24	Query (*.txt),*.txt,Tutti i file (*.*),*.*		Query (*.txt),*.txt,All files (*.*),*.*		7	 Function Script	Created from PTT Dictionary File
+	24	QueryMode attivato	a	QueryMode enabled	e	12	Text	Created from PTT Dictionary File
+	24	Chiude l'applicazione		Quits the application		4	Microhelp	Created from PTT Dictionary File
+	24	Reg		Reg		34	Text	Created from PTT Dictionary File
+	24	Registra	R	Register	R	12	Text	Created from PTT Dictionary File
+	24	Registra		Register		34	Text	Created from PTT Dictionary File
+	24	Registrazione delle seguenti tabelle non riuscita:~r~n		Registration of the following table(s) failed:~r~n		7	 Event Script	Created from PTT Dictionary File
+	24	Versione		Release		7	 Function Script	Created from PTT Dictionary File
+	24	Rimuove la selezione		Removes the selection		4	Microhelp	Created from PTT Dictionary File
+	24	Rinomina	R	Rename	e	4	Text	Created from PTT Dictionary File
+	24	Rinomina l'elemento selezionato		Rename the selected item		4	Microhelp	Created from PTT Dictionary File
+	24	Sostituisci	R	Replace	R	13	Text	Created from PTT Dictionary File
+	24	Sostituisci		Replace		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Sostituisci		Replace		7	 Function Script	Created from PTT Dictionary File
+	24	Sostituisci		Replace		8	Title	Created from PTT Dictionary File
+	24	Sostituisci tutto	u	Replace All	A	13	Text	Created from PTT Dictionary File
+	24	Sostituisci il file esistente		Replace existing file		7	 Function Script	Created from PTT Dictionary File
+	24	Sostituisci con	p	Replace with	p	34	Text	Created from PTT Dictionary File
+	24	Sostituisci...	S	Replace...	R	4	Text	Created from PTT Dictionary File
+	24	Sostituisce il testo specificato con un testo diverso		Replaces specific text with different text		4	Microhelp	Created from PTT Dictionary File
+	24	sostituzione dei dati della colonna.		replacing of column data.		7	 Function Script	Created from PTT Dictionary File
+	24	Crea report		Reporting		7	 Function Script	Created from PTT Dictionary File
+	24	Colonna necessaria		Required Column		7	 Function Script	Created from PTT Dictionary File
+	24	Manca il valore DataStore necessario per		Required DataStore value missing for		7	 Function Script	Created from PTT Dictionary File
+	24	campi necessari, rendendo più semplice per l~'applicazione la gestione		required fields, making it easier for your application to handle		7	 Function Script	Created from PTT Dictionary File
+	24	Il nome richiesto per il file della Guida non è stato impostato.  Uso di_SetHelpFile		Required Help File Name has Not been Set.  Use of_SetHelpFile		8	 Event Script	Created from PTT Dictionary File
+	24	Manca il valore richiesto per		Required value missing for		2	 Function Script	Created from PTT Dictionary File
+	24	Manca il valore richiesto per		Required value missing for		7	 Function Script	Created from PTT Dictionary File
+	24	Ripristina i criteri di query tra gli switch QueryMode	R	Reset query criteria in-between QueryMode toggles	t	12	Text	Created from PTT Dictionary File
+	24	Ridimensiona		Resize		7	 Function Script	Created from PTT Dictionary File
+	24	Ripristina		Restore		8	Title	Created from PTT Dictionary File
+	24	Ripristina...	R	Restore...	s	4	Text	Created from PTT Dictionary File
+	24	Ripristina le righe eliminate		Restores rows that have been deleted		4	Microhelp	Created from PTT Dictionary File
+	24	Riprendi	R	Resume	R	13	Text	Created from PTT Dictionary File
+	24	Recupera		Retrieve		7	 Event Script	Created from PTT Dictionary File
+	24	Recupera stile		Retrieve style		18	Text	Created from PTT Dictionary File
+	24	Recupera quando QueryMode è disattivato	q	Retrieve when QueryMode is disabled	R	12	Text	Created from PTT Dictionary File
+	24	RetrieveEnd -		RetrieveEnd -		7	 Event Script	Created from PTT Dictionary File
+	24	Riprova		Retry		8	 Event Script	Created from PTT Dictionary File
+	24	Inverti la selezione degli elementi listview		Reverse the selection of listview items		4	Microhelp	Created from PTT Dictionary File
+	24	Annulla l'ultima operazione		Reverses last action		4	Microhelp	Created from PTT Dictionary File
+	24	Formato Rich Text (RTF),*.rtf,Formato testo,*.txt		Rich Text Format (RTF),*.rtf,Text Document,*.txt		31	 Event Script	Created from PTT Dictionary File
+	24	Formato Rich Text (RTF),*.rtf,Formato testo,*.txt,Tutti i file,*.*		Rich Text Format (RTF),*.rtf,Text Document,*.txt,All Files,*.*		31	 Function Script	Created from PTT Dictionary File
+	24	A destra	d	Right	R	29	Text	Created from PTT Dictionary File
+	24	A destra:	r	Right:	R	34	Text	Created from PTT Dictionary File
+	24	RMB su Datawindow		RMB on the Datawindow		39	Initial	Created from PTT Dictionary File
+	24	Radice:		Root:		34	Text	Created from PTT Dictionary File
+	24	Riga		Row		18	Text	Created from PTT Dictionary File
+	24	Riga:		Row :		34	Text	Created from PTT Dictionary File
+	24	Informazioni sulla riga		Row Information		34	Text	Created from PTT Dictionary File
+	24	Gestore righe		Row Manager		7	 Function Script	Created from PTT Dictionary File
+	24	Selezione righe		Row Selection		7	 Function Script	Created from PTT Dictionary File
+	24	RowCount:		RowCount:		34	Text	Created from PTT Dictionary File
+	24	righe		rows		44	Variable	Created from PTT Dictionary File
+	24	Righe richiamate =		Rows Retrieved =		2	 Event Script	Created from PTT Dictionary File
+	24	Righe richiamate =		Rows Retrieved =		7	 Event Script	Created from PTT Dictionary File
+	24	Righello	R	Ruler	R	4	Text	Created from PTT Dictionary File
+	24	Righello visibile	R	Ruler visible	R	12	Text	Created from PTT Dictionary File
+	24	Sa		Sa		34	Text	Created from PTT Dictionary File
+	24	Sabato		Saturday		18	Text	Created from PTT Dictionary File
+	24	Salva	S	Save	S	4	Text	Created from PTT Dictionary File
+	24	Salva	S	Save	S	13	Text	Created from PTT Dictionary File
+	24	Salva		Save		4	Microhelp	Created from PTT Dictionary File
+	24	Salva		Save		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Salva		Save		31	 Event Script	Created from PTT Dictionary File
+	24	Salva con nome		Save As		4	Microhelp	Created from PTT Dictionary File
+	24	Salva con nome		Save As		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Salva con nome		Save As		31	 Event Script	Created from PTT Dictionary File
+	24	Salva con nome...	S	Save As...	A	4	Text	Created from PTT Dictionary File
+	24	Salva le modifiche su		Save changes to		31	 Function Script	Created from PTT Dictionary File
+	24	Salva file PowerScript		Save PowerScript File		13	 Event Script	Created from PTT Dictionary File
+	24	Salva suono:	v	Save sound:	v	34	Text	Created from PTT Dictionary File
+	24	Salva il file SQLSpy		Save SQLSpy File		7	 Function Script	Created from PTT Dictionary File
+	24	Riduce il formato di visualizzazione dell'anteprima di stampa		Scales the display of the print preview		4	Microhelp	Created from PTT Dictionary File
+	24	Scala		Scroll		7	 Event Script	Created from PTT Dictionary File
+	24	Scorre automaticamente DropDownDataWindows e DropDownListBoxes, completando		Scrolls DropDownDataWindows and DropDownListBoxes automatically, filling		7	 Function Script	Created from PTT Dictionary File
+	24	Cerca	S	Search	S	34	Text	Created from PTT Dictionary File
+	24	Verifica di sicurezza		Security Scanner		7	 Function Script	Created from PTT Dictionary File
+	24	Seleziona tutto	S	Select All	l	4	Text	Created from PTT Dictionary File
+	24	Seleziona tutto	S	Select All	A	4	Text	Created from PTT Dictionary File
+	24	Seleziona tutto	S	Select All	A	13	Text	Created from PTT Dictionary File
+	24	Seleziona tutto		Select All		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Seleziona tutti gli elementi listview		Select all listview items		4	Microhelp	Created from PTT Dictionary File
+	24	Seleziona da un elenco di nomi di colonna disponibili		Select from a list of available column names		4	Microhelp	Created from PTT Dictionary File
+	24	Seleziona da un elenco di funzioni disponibili		Select from a list of available functions		4	Microhelp	Created from PTT Dictionary File
+	24	Seleziona da un elenco di operatori disponibili		Select from a list of available operators		4	Microhelp	Created from PTT Dictionary File
+	24	Seleziona da un elenco di valori disponibili		Select from a list of available values		4	Microhelp	Created from PTT Dictionary File
+	24	Selezione	z	Selection	S	29	Text	Created from PTT Dictionary File
+	24	Seleziona tutti gli elementi o le informazioni		Selects all items or information		4	Microhelp	Created from PTT Dictionary File
+	24	Settembre		September		44	Variable	Created from PTT Dictionary File
+	24	Listview basata su servizio		Service Based Listview		22	 Function Script	Created from PTT Dictionary File
+	24	Treeview basata su servizio		Service Based Treeview		36	 Function Script	Created from PTT Dictionary File
+	24	Servizio per il collegamento di azioni DataWindow. Di solito viene utilizzata per		Service for linking DataWindow actions. This is typically used for		7	 Function Script	Created from PTT Dictionary File
+	24	Servizi		Services		7	Text	Created from PTT Dictionary File
+	24	Imposta il valore iniziale quando non ce n'è uno disponibile	I	Set Initial value when none available	I	12	Text	Created from PTT Dictionary File
+	24	Gravità		Severity		34	Text	Created from PTT Dictionary File
+	24	Errore Sharedata durante la visualizzazione dei dati in formato 'Tutte le colonne'. Può essere stato causato da tipi di colonne non corrispondenti. In 4.0 le colonne numeriche sono di tipo 'number', in 5.0 possono essere di tipo 'long', 'ulong' o 'r		Sharedata failed while attempting to show data in 'All Columns' format. One possible reasons for the error is that there is a mismatch between column types. In 4.0 all numeric columns were of type 'number', in 5.0 they may be of type 'long', 'ulong' or 'real'. When the 'All' datawindow is created it uses 5.0 syntax, therefore there may be a mismatch. Make sure that your existing datawindow has benn rebuilt under 5.0		29	 Event Script	Created from PTT Dictionary File
+	24	Barra dei fogli		Sheet Toolbar		8	 Event Script	Created from PTT Dictionary File
+	24	Mostra la descrizione comandi	M	Show Tooltips	S	12	Text	Created from PTT Dictionary File
+	24	Mostra o nasconde il righello		Shows or hides the ruler		4	Microhelp	Created from PTT Dictionary File
+	24	Finestra di dialogo semplice		Simple Dialog		14	Item[]	Created from PTT Dictionary File
+	24	Selezione di riga semplice		Single Row Selection		14	Item[]	Created from PTT Dictionary File
+	24	Dimensioni:	z	Size:	z	34	Text	Created from PTT Dictionary File
+	24	Icone piccole	p	Small Icons	m	4	Text	Created from PTT Dictionary File
+	24	Icone piccole		Small Icons		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Smallfmt		Smallfmt		8	 Event Script	Created from PTT Dictionary File
+	24	Aggiornamento intelligente -		Smart Update -		7	 Function Script	Created from PTT Dictionary File
+	24	Ordina	O	Sort	S	13	Text	Created from PTT Dictionary File
+	24	Ordina		Sort		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Ordina		Sort		7	 Function Script	Created from PTT Dictionary File
+	24	Ordina		Sort		8	Title	Created from PTT Dictionary File
+	24	Ordina		Sort		34	Text	Created from PTT Dictionary File
+	24	Ordina le colonne		Sort Columns		34	Text	Created from PTT Dictionary File
+	24	Ordina le voci per		Sort items by		18	Text	Created from PTT Dictionary File
+	24	Ordina...	O	Sort...	S	4	Text	Created from PTT Dictionary File
+	24	Ordina le voci		Sorts items		4	Microhelp	Created from PTT Dictionary File
+	24	Ordina le voci per		Sorts items by		22	 Event Script	Created from PTT Dictionary File
+	24	Origine:	S	Source:	S	34	Text	Created from PTT Dictionary File
+	24	SplitBar		SplitBar		34	 Function Script	Created from PTT Dictionary File
+	24	File SQL (*.SQL), *.SQL		SQL Files (*.SQL), *.SQL		7	 Function Script	Created from PTT Dictionary File
+	24	Cronologia SQL:		SQL History:		18	Text	Created from PTT Dictionary File
+	24	Cronologia SQL:		SQL History:		34	Text	Created from PTT Dictionary File
+	24	SQL Spy		SQL Spy		34	Text	Created from PTT Dictionary File
+	24	SQLSpy		SQLSpy		8	Title	Created from PTT Dictionary File
+	24	SQLSpy - Esamina SQL corrente		SQLSpy - Inspect Current SQL		8	Title	Created from PTT Dictionary File
+	24	SQLSpy su SQLPreview		SQLSpy on SQLPreview		0	 Event Script	Created from PTT Dictionary File
+	24	SQLSpy su SQLPreview		SQLSpy on SQLPreview		2	 Event Script	Created from PTT Dictionary File
+	24	st_history		st_history		34	Text	Created from PTT Dictionary File
+	24	Opuscolo 13,3 x 21,6 cm		Statement 5 1/2 x 8 1/2 in		8	 Event Script	Created from PTT Dictionary File
+	24	Stato		Status		34	Text	Created from PTT Dictionary File
+	24	Stato:		Status :		34	Text	Created from PTT Dictionary File
+	24	Stato:		Status:		34	Text	Created from PTT Dictionary File
+	24	StatusFalgs		StatusFlags		7	Text	Created from PTT Dictionary File
+	24	Passo	P	Step	S	13	Text	Created from PTT Dictionary File
+	24	Stile	S	Style	S	34	Text	Created from PTT Dictionary File
+	24	Stile		Style		34	Text	Created from PTT Dictionary File
+	24	Stile:		Style:		34	Text	Created from PTT Dictionary File
+	24	Do		Su		34	Text	Created from PTT Dictionary File
+	24	Domenica		Sunday		18	Text	Created from PTT Dictionary File
+	24	Sincronizza chiave al momento della modifica	S	Syncronize key on change	S	12	Text	Created from PTT Dictionary File
+	24	Sintassi		Syntax		7	 Function Script	Created from PTT Dictionary File
+	24	Sintassi		Syntax		18	Text	Created from PTT Dictionary File
+	24	Errore di sistema		System Error		7	 Event Script	Created from PTT Dictionary File
+	24	Scheda		Tab		35	 Function Script	Created from PTT Dictionary File
+	24	controllo Scheda		Tab Control		35	 Function Script	Created from PTT Dictionary File
+	24	Tabella	T	Table	T	4	Text	Created from PTT Dictionary File
+	24	Tabella	T	Table	T	34	Text	Created from PTT Dictionary File
+	24	Tabella		Table		34	Text	Created from PTT Dictionary File
+	24	Tabloid 27,9 x 43,2 cm		Tabloid 17 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	24	testo		text		44	Variable	Created from PTT Dictionary File
+	24	Testo		Text		34	Text	Created from PTT Dictionary File
+	24	Testo		Text		44	Variable	Created from PTT Dictionary File
+	24	Gi		Th		34	Text	Created from PTT Dictionary File
+	24	di una tabella.		than one table.		7	 Function Script	Created from PTT Dictionary File
+	24	l'applicazione		the application		8	 Event Script	Created from PTT Dictionary File
+	24	La modifica della proprietà		The change to property		2	 Event Script	Created from PTT Dictionary File
+	24	DataWindow su cui era in corso il debug non è più presente.		The DataWindow that was being debugged is no longer present.		8	 Function Script	Created from PTT Dictionary File
+	24	Il file		The file		31	 Event Script	Created from PTT Dictionary File
+	24	The following details the problem.~r~n~r~n		The following details the problem.~r~n~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	È necessario impostare le seguenti colonne.		The following Services are accessible:		34	Text	Created from PTT Dictionary File
+	24	Il valore 'From' non può essere maggiore del valore 'To'.		The 'From' value cannot be greater than the 'To' value.		8	 Event Script	Created from PTT Dictionary File
+	24	Le informazioni immesse non hanno superato la verifica e		The information entered does not pass validation and		8	 Event Script	Created from PTT Dictionary File
+	24	È necessario impostare le seguenti colonne.		The Key column(s) need to be set.		7	 Event Script	Created from PTT Dictionary File
+	24	È necessario impostare l~'opzione chiave.		The Key option needs to be set.		7	 Event Script	Created from PTT Dictionary File
+	24	The LUW.of_EndTran() function was to execute Commits to all the transactions.~r~n		The LUW.of_EndTran() function was to execute Commits to all the transactions.~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	The LUW.of_EndTran() function was to execute Rollbacks to all the transactions.~r~n		The LUW.of_EndTran() function was to execute Rollbacks to all the transactions.~r~n		7	 Function Script	Created from PTT Dictionary File
+	24	La password è errata.		The password is incorrect.		8	 Event Script	Created from PTT Dictionary File
+	24	Il servizio PFC Application Preferences		The PFC Application Preferences service		7	 Event Script	Created from PTT Dictionary File
+	24	Il servizio PFC MRU		The PFC MRU service		7	 Event Script	Created from PTT Dictionary File
+	24	Il servizio PFC per le preferenze dell'utente		The PFC User Preferences service		8	 Event Script	Created from PTT Dictionary File
+	24	Il servizio PFC per le preferenze della finestra		The PFC Window Preferences service		8	 Event Script	Created from PTT Dictionary File
+	24	Impossibile trovare messaggi predefiniti.		The Predefined Messages not found.		7	 Function Script	Created from PTT Dictionary File
+	24	Il valore di Sostituisci con non è una data valida.		The Replace With value is not a valid date.		7	 Function Script	Created from PTT Dictionary File
+	24	Il valore di Sostituisci con non è un numero valido.		The Replace With value is not a valid number.		7	 Function Script	Created from PTT Dictionary File
+	24	Il valore di Sostituisci con non è un~'ora valida.		The Replace With value is not a valid time.		7	 Function Script	Created from PTT Dictionary File
+	24	Il servizio non ha opzioni da manipolare.		The service has no options to manipulate.		23	Text	Created from PTT Dictionary File
+	24	Impossibile elaborare la funzionalità ShareData().		The ShareData() functionality is unable to be processed.		8	 Event Script	Created from PTT Dictionary File
+	24	The transaction statement that started the error -		The transaction statement that started the error -		7	 Function Script	Created from PTT Dictionary File
+	24	È necessario impostare le colonne Update.		The Update column(s) need to be set.		7	 Event Script	Created from PTT Dictionary File
+	24	È necessario impostare l~'opzione Where.		The Where option needs to be set.		7	 Event Script	Created from PTT Dictionary File
+	24	Non ci sono		There are no		7	 Event Script	Created from PTT Dictionary File
+	24	questo riga		this row		44	Variable	Created from PTT Dictionary File
+	24	Questo servizio vale solo per le colonne DataWindow che utilizzano la proprietà nilisnull.		This service applies only to DataWindow columns that use the nilisnull property.		7	 Function Script	Created from PTT Dictionary File
+	24	Questo servizio attiva e disattiva l~'elaborazione predefinita DataWindow per		This service enables and disables default DataWindow processing for		7	 Function Script	Created from PTT Dictionary File
+	24	Questo valore non è compreso nell'intervallo della pagina.~r~n		This value is not in the page range.~r~n		8	 Event Script	Created from PTT Dictionary File
+	24	Soglia		Threshold		34	Text	Created from PTT Dictionary File
+	24	Affianca orizzontalmente	o	Tile Horizontal	H	4	Text	Created from PTT Dictionary File
+	24	Affianca orizzontalmente		Tile Horizontal		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Affianca verticalmente	v	Tile Vertical	V	4	Text	Created from PTT Dictionary File
+	24	Affianca verticalmente		Tile Vertical		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Affianca orizzontalmente le finestre in modo che non si sovrappongano		Tile windows horizontally so that none are overlapping		4	Microhelp	Created from PTT Dictionary File
+	24	Affianca verticalmente le finestre in modo che non si sovrappongano		Tile windows vertically so that none are overlapping		4	Microhelp	Created from PTT Dictionary File
+	24	TimeStamp:		TimeStamp:		7	 Function Script	Created from PTT Dictionary File
+	24	Titolo		Title		34	Text	Created from PTT Dictionary File
+	24	Titolo:		Title:		7	 Function Script	Created from PTT Dictionary File
+	24	Titolo:		Title:		34	Text	Created from PTT Dictionary File
+	24	da ripristinare.		to restore.		7	 Event Script	Created from PTT Dictionary File
+	24	imposta l'attributo.		to Set The attribute.		8	 Event Script	Created from PTT Dictionary File
+	24	imposta la proprietà.		to Set The property.		8	 Event Script	Created from PTT Dictionary File
+	24	su:	t	to:	t	34	Text	Created from PTT Dictionary File
+	24	Barre degli strumenti:	t	Toolbars:	T	34	Text	Created from PTT Dictionary File
+	24	Strumenti	S	Tools	T	4	Text	Created from PTT Dictionary File
+	24	Parte superiore	r	Top	o	29	Text	Created from PTT Dictionary File
+	24	Oggetto di menu di livello superiore		Top Level Menu Object		7	 Function Script	Created from PTT Dictionary File
+	24	Parte superiore:	t	Top:	T	34	Text	Created from PTT Dictionary File
+	24	AltoBasso		TopDown		14	Item[]	Created from PTT Dictionary File
+	24	AltoBasso BassoAlto		TopDown BottomUp		14	Item[]	Created from PTT Dictionary File
+	24	AltoBasso:		TOPDOWN:		7	 Function Script	Created from PTT Dictionary File
+	24	Trattore		Tractor		8	 Event Script	Created from PTT Dictionary File
+	24	Ma		Tu		34	Text	Created from PTT Dictionary File
+	24	Tipo:		Type :		34	Text	Created from PTT Dictionary File
+	24	Non assegnato		Unassigned		7	 Function Script	Created from PTT Dictionary File
+	24	Non assegnato		UnAssigned		35	 Event Script	Created from PTT Dictionary File
+	24	Annulla l'eliminazione	A	Undelete	U	13	Text	Created from PTT Dictionary File
+	24	Annulla l'eliminazione	A	UnDelete	U	13	Text	Created from PTT Dictionary File
+	24	Annulla	A	Undo	U	4	 Event Script	Created from PTT Dictionary File
+	24	Annulla	A	Undo	U	4	Text	Created from PTT Dictionary File
+	24	Annulla		Undo		4	 Event Script	Created from PTT Dictionary File
+	24	Annulla		Undo		4	Microhelp	Created from PTT Dictionary File
+	24	Annulla		Undo		4	ToolBarItemText	Created from PTT Dictionary File
+	24	Annulla la sovrapposizione	A	Undo Cascade	U	4	 Event Script	Created from PTT Dictionary File
+	24	Annulla la stratificazione	A	Undo Layer	U	4	 Event Script	Created from PTT Dictionary File
+	24	Annulla la riduzione a icona	A	Undo Minimize All	U	4	 Event Script	Created from PTT Dictionary File
+	24	Annulla l'affiancamento orizzontale	A	Undo Tile Horizontal	U	4	 Event Script	Created from PTT Dictionary File
+	24	Annulla l'affiancamento verticale	A	Undo Tile Vertical	U	4	 Event Script	Created from PTT Dictionary File
+	24	Annulla la sovrapposizione delle finestre		Undoes cascaded arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	24	Annulla l'affiancamento delle finestre		Undoes horizontal tile arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	24	Annulla la stratificazione delle finestre		Undoes layered arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	24	Annulla la riduzione a icona delle finestre		Undoes minimization of windows		4	 Event Script	Created from PTT Dictionary File
+	24	Annulla l'affiancamento verticale delle finestre		Undoes vertical tile arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	24	Colonne chiave uniche	q	Unique Key Column(s)	q	34	Text	Created from PTT Dictionary File
+	24	Sconosciuto		Unknown		14	Item[]	Created from PTT Dictionary File
+	24	Sconosciuto:		Unknown :		7	 Function Script	Created from PTT Dictionary File
+	24	Controllo sconosciuto		Unknown control		7	 Function Script	Created from PTT Dictionary File
+	24	In alto		Up		8	 Event Script	Created from PTT Dictionary File
+	24	In alto		Up		14	Item[]	Created from PTT Dictionary File
+	24	Aggiorna		Update		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna fase duplice - 1° fase BassoAlto (eliminazioni)		Update dual-pass - 1st pass BottomUp (deletes)		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna fase duplice - 1° fase AltoBasso (inserimenti/aggiornamenti)		Update dual-pass - 1st pass TopDown (inserts/updates)		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna fase duplice - 2° fase BassoAlto (eliminazioni)		Update dual-pass - 2nd pass BottomUp (deletes)		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna fase duplice - 2° fase AltoBasso (inserimenti/eliminazioni)		Update dual-pass - 2nd pass ToDown (inserts/updates)		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna i collegamenti	c	Update Links	k	4	Text	Created from PTT Dictionary File
+	24	Aggiorna al cambiamento della riga	r	Update on row change	r	12	Text	Created from PTT Dictionary File
+	24	Aggiorna fase singola BassoAlto (inserimenti/aggiornamenti/eliminazioni)		Update single-pass BottomUp (inserts/updates/deletes)		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna fase singola AltoBasso (inserimenti/aggiornamenti/eliminazioni)		Update single-pass TopDown (inserts/updates/deletes)		7	 Function Script	Created from PTT Dictionary File
+	24	Aggiorna stile:	U	Update style:	U	34	Text	Created from PTT Dictionary File
+	24	Colonne aggiornabili	C	Updateable Column(s)	C	34	Text	Created from PTT Dictionary File
+	24	Ci sono aggiornamenti in attesa. ~r~nSalvarli ora?		Updates are pending. ~r~nSave them now?		7	 Function Script	Created from PTT Dictionary File
+	24	Superiore		Upper		8	 Event Script	Created from PTT Dictionary File
+	24	Pieghevole 37,8 x 27,9 cm		US Std Fanfold 14 7/8 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	24	Usa Canc e quindi Ins	U	Use Del then Ins	D	29	Text	Created from PTT Dictionary File
+	24	Usa valori di visualizzazione per l'ordinamento	v	Use display values for sorting	d	12	Text	Created from PTT Dictionary File
+	24	Usa Aggiorna	g	Use Update	U	29	Text	Created from PTT Dictionary File
+	24	usato per stabilire se un filtro è valido.		used to determine if the filter is valid.		8	 Event Script	Created from PTT Dictionary File
+	24	ID dell'utente:		User ID:		34	Text	Created from PTT Dictionary File
+	24	Input dell'utente:		User Input:		34	Text	Created from PTT Dictionary File
+	24	"Utente	0/Gruppo	1"		"User	0/Group	1"		39	Values	Created from PTT Dictionary File
+	24	Utente:		User:		7	 Function Script	Created from PTT Dictionary File
+	24	Utente: N/A'~"		User: N/A'~"		8	 Function Script	Created from PTT Dictionary File
+	24	Userinput		Userinput		34	Text	Created from PTT Dictionary File
+	24	Base UserObject		UserObject Base		7	 Function Script	Created from PTT Dictionary File
+	24	Valore		Value		34	Text	Created from PTT Dictionary File
+	24	Valori		Values		7	Text	Created from PTT Dictionary File
+	24	Valori...	V	Values...	V	4	Text	Created from PTT Dictionary File
+	24	Verifica	V	Verify	V	13	Text	Created from PTT Dictionary File
+	24	Nota sulla versione...		version message...		34	Text	Created from PTT Dictionary File
+	24	nota sulla versione...		Version message...		34	Text	Created from PTT Dictionary File
+	24	Visualizza	V	View	V	4	Text	Created from PTT Dictionary File
+	24	Visaulizza le pagine come verranno stampate		View pages as they will be printed		4	Microhelp	Created from PTT Dictionary File
+	24	Visibili solo le colonne	V	Visible only columns	V	12	Text	Created from PTT Dictionary File
+	24	non è stato ricevuto.		was not received.		7	 Function Script	Created from PTT Dictionary File
+	24	Me		We		34	Text	Created from PTT Dictionary File
+	24	Livello di zoomClausola Where per Agg/Canc		Where clause for Upd/Del		18	Text	Created from PTT Dictionary File
+	24	Parola intera	i	Whole Word	W	12	Text	Created from PTT Dictionary File
+	24	Parola intera	P	Whole Word	W	12	Text	Created from PTT Dictionary File
+	24	Finestra	F	Window	W	4	Text	Created from PTT Dictionary File
+	24	Finestra		Window		34	Text	Created from PTT Dictionary File
+	24	x='1' y='4' height='57' width='307' format='[general]'		x='1' y='4' height='57' width='307' format='[general]'		29	 Event Script	Created from PTT Dictionary File
+	24	sì		yes		2	 Event Script	Created from PTT Dictionary File
+	24	Sì	S	Yes	Y	8	 Event Script	Created from PTT Dictionary File
+	24	Zoom		Zoom		8	Title	Created from PTT Dictionary File
+	24	Zoom:		Zoom :		34	Text	Created from PTT Dictionary File
+	24	Livello di zoom	Z	Zoom level	Z	34	Text	Created from PTT Dictionary File
+	24	Zoom su		Zoom To		18	Text	Created from PTT Dictionary File
+	24	Zoom...	Z	Zoom...	Z	4	Text	Created from PTT Dictionary File
