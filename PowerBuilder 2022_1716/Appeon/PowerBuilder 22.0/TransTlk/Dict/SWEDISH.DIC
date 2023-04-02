@@ -1,0 +1,933 @@
+	42	' är inte.		' is not.		2	 Event Script	Created from PTT Dictionary File
+	42	""" är inte."		""" is not."		2	 Event Script	Created from PTT Dictionary File
+	42	""" finns inte."		""" not found."		7	 Function Script	Created from PTT Dictionary File
+	42	kan inte hitta.~r~n ~r~n		""" not found.~r~n ~r~n"		7	 Function Script	Created from PTT Dictionary File
+	42	(centimeter)		(centimeters)		8	 Event Script	Created from PTT Dictionary File
+	42	(tum)		(inches)		8	 Event Script	Created from PTT Dictionary File
+	42	*ingen*		*none*		8	 Event Script	Created from PTT Dictionary File
+	42	. Ange ett värde.		.  Please enter a value.		2	 Function Script	Created from PTT Dictionary File
+	42	. Försökte importera följande sträng ~r~n		. Attempted to import the following string ~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	. Kontakta systemadministratören.		. Please contact your system administrator.		7	 Function Script	Created from PTT Dictionary File
+	42	.~r~nFel objekt/kontroll =		.~r~nError Object/Control =		7	 Event Script	Created from PTT Dictionary File
+	42	.~r~nFel text =		.~r~nError text =		7	 Event Script	Created from PTT Dictionary File
+	42	.~r~nRad i skript =		.~r~nLine in Script =		7	 Event Script	Created from PTT Dictionary File
+	42	.~r~nSkript =		.~r~nScript =		7	 Event Script	Created from PTT Dictionary File
+	42	.~r~nFönster/Meny/Objekt =		.~r~nWindow/Menu/Object =		7	 Event Script	Created from PTT Dictionary File
+	42	// Nyckelkolumn för "		// Key columns for "		7	 Event Script	Created from PTT Dictionary File
+	42	// Uppdatera kolumner för "		// Update columns for"		7	 Event Script	Created from PTT Dictionary File
+	42	[Ingen]		[None]		44	Variable	Created from PTT Dictionary File
+	42	~"Förväntar procentsats mellan 0 och 100.~"		~"Expecting percentage between 0 and 100.~"		39	ValidationMsg	Created from PTT Dictionary File
+	42	~r~n// Register "		~r~n// Register "		7	 Event Script	Created from PTT Dictionary File
+	42	~r~n~r~nTjänsten kan inte aktiveras eller avaktiveras i fönstret Egenskaper.		~r~n~r~nService cannot the enabled or disabled via the property window.		7	 Function Script	Created from PTT Dictionary File
+	42	~r~nOK att stänga denna felsökning?		~r~nOK to close this debugger?		8	 Function Script	Created from PTT Dictionary File
+	42	10 x 14 tum		10 x 14 in		8	 Event Script	Created from PTT Dictionary File
+	42	10 x 17 tum		11 x 17 in		8	 Event Script	Created from PTT Dictionary File
+	42	6 3/4 Kuvert 3 5/8 x 6 1/2 tum		6 3/4 Envelope 3 5/8 x 6 1/2 in		8	 Event Script	Created from PTT Dictionary File
+	42	Ett databasfel har inträffat.~r~n~r~n~r~n		A database error has occurred.~r~n~r~n~r~n		2	 Event Script	Created from PTT Dictionary File
+	42	Ett databasfel har inträffat.~r~n~r~n~r~n		A database error has occurred.~r~n~r~n~r~n		7	 Event Script	Created from PTT Dictionary File
+	42	Det har uppstått ett fel i databastransaktionen.~r~n~r~n		A Database Transaction error has been encountered.~r~n~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	A3 297 x 420 mm		A3 297 x 420 mm		8	 Event Script	Created from PTT Dictionary File
+	42	A4 210 x 297 mm		A4 210 x 297 mm		8	 Event Script	Created from PTT Dictionary File
+	42	A4 litet 210 x 297 mm		A4 Small 210 x 297 mm		8	 Event Script	Created from PTT Dictionary File
+	42	A5 148 x 210 mm		A5 148 x 210 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Avbryt		Abort		8	 Event Script	Created from PTT Dictionary File
+	42	Om	O	About	A	4	Text	Created from PTT Dictionary File
+	42	Om		About		8	 Event Script	Created from PTT Dictionary File
+	42	Om		About		8	Title	Created from PTT Dictionary File
+	42	Aktiverar det markerade objektet		Activates selected object		4	Microhelp	Created from PTT Dictionary File
+	42	Aktiverar objektet		Activates the object		4	Microhelp	Created from PTT Dictionary File
+	42	Lägg till	L	Add	A	4	Text	Created from PTT Dictionary File
+	42	Lägg till	L	Add	A	13	Text	Created from PTT Dictionary File
+	42	Lägg till en ny post till listview		Add a new item to the listview		4	Microhelp	Created from PTT Dictionary File
+	42	Lägger till en ny rad i slutet		Adds a new row to the end		4	Microhelp	Created from PTT Dictionary File
+	42	after		after		44	Variable	Created from PTT Dictionary File
+	42	Följande utfördes efter felet:~r~n		After the error, the following were executed:~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	Alla	A	All	A	29	Text	Created from PTT Dictionary File
+	42	Alla kolumner	A	All Columns	A	29	Text	Created from PTT Dictionary File
+	42	Dialogrutan Tillåt sökning	s	Allow Find dialog	F	12	Text	Created from PTT Dictionary File
+	42	Dialogrutan Tillåt ersättning	e	Allow Replace dialog	R	12	Text	Created from PTT Dictionary File
+	42	Tillåt återställningar	å	Allow undeletes	u	12	Text	Created from PTT Dictionary File
+	42	Gör att länkar uppdateras		Allows links to be updated		4	Microhelp	Created from PTT Dictionary File
+	42	finns redan. ~r~n~r~nVill du ersätta filen?		already exists.~r~n~r~nReplace existing file?		31	 Event Script	Created from PTT Dictionary File
+	42	Uppdatera alltid kalendern	U	Always repaint calendar	r	12	Text	Created from PTT Dictionary File
+	42	inom grupper av relaterade DataWindows.		among groups of related DataWindows.		7	 Function Script	Created from PTT Dictionary File
+	42	Ett fel har inträffat vid åtkomst av skrivarinställningarna		An error has occurred accessing printer setup		8	 Event Script	Created from PTT Dictionary File
+	42	Ett fel inträffade när du sparade MRU-tjänsten		An Error occured when saving the MRU service		7	 Event Script	Created from PTT Dictionary File
+	42	Ett fel har påträffats i följande SQL:~r~n~r~n		An error was encountered with the following SQL:~r~n~r~n		0	 Event Script	Created from PTT Dictionary File
+	42	Ett fel har påträffats i följande SQL:~r~n~r~n		An error was encountered with the following SQL:~r~n~r~n		2	 Event Script	Created from PTT Dictionary File
+	42	och		and		8	 Event Script	Created from PTT Dictionary File
+	42	Och Och/Eller Eller		"And	And/Or	Or"		39	Values	Created from PTT Dictionary File
+	42	Utseende		Appearance		7	 Function Script	Created from PTT Dictionary File
+	42	Tillämpning		Application		34	Text	Created from PTT Dictionary File
+	42	Tillämpningen Mail Notification		Application Mail Notification		7	 Function Script	Created from PTT Dictionary File
+	42	Tillämpningens namn...		Application name...		34	Text	Created from PTT Dictionary File
+	42	Inställningar för tillämpning		Application settings		18	Text	Created from PTT Dictionary File
+	42	Verkställ	k	Apply	A	13	Text	Created from PTT Dictionary File
+	42	Verkställ	V	Apply	A	13	Text	Created from PTT Dictionary File
+	42	April		April		44	Variable	Created from PTT Dictionary File
+	42	Är du säker på att du vill ta bort		Are you sure you want to delete		7	 Function Script	Created from PTT Dictionary File
+	42	Är du säker på att du vill ta bort dessa		Are you sure you want to delete these		7	 Function Script	Created from PTT Dictionary File
+	42	Argument:		Arguments:		34	Text	Created from PTT Dictionary File
+	42	Ordna enligt		Arrange by		4	Microhelp	Created from PTT Dictionary File
+	42	Ordna ikoner	i	Arrange Icons	I	4	Text	Created from PTT Dictionary File
+	42	Ordna ikonerna automatiskt		Arranges the icons automatically		4	Microhelp	Created from PTT Dictionary File
+	42	Ordna knapparna i verktygsfältet		Arranges toolbar buttons		4	Microhelp	Created from PTT Dictionary File
+	42	Stigande		Asc		39	CheckBox.Text	Created from PTT Dictionary File
+	42	Stigande S/Stigande F		"Asc	A/Asc	D"		39	Values	Created from PTT Dictionary File
+	42	Stigande S/Stigande F		"Asc	A/Desc	D"		39	Values	Created from PTT Dictionary File
+	42	Stigande		Ascending		12	Text	Created from PTT Dictionary File
+	42	Stigande		Ascending		34	Text	Created from PTT Dictionary File
+	42	Stigande		Ascending		39	CheckBox.Text	Created from PTT Dictionary File
+	42	Stigande S/Stigande F		"Ascending	A/Ascending	D"		39	Values	Created from PTT Dictionary File
+	42	Hjälp till med statusändring		Assist Status change		12	Text	Created from PTT Dictionary File
+	42	attribut för		attribute of		7	 Function Script	Created from PTT Dictionary File
+	42	attribut för kolumn nr		attribute of Column #		7	 Function Script	Created from PTT Dictionary File
+	42	Augusti		August		44	Variable	Created from PTT Dictionary File
+	42	Automatisk		Auto		8	 Event Script	Created from PTT Dictionary File
+	42	Ordna automatiskt	a	Auto Arrange	A	4	Text	Created from PTT Dictionary File
+	42	B4 250 x 354		B4 250 x 354		8	 Event Script	Created from PTT Dictionary File
+	42	B5 182 x 257 mm		B5 182 x 257 mm		8	 Event Script	Created from PTT Dictionary File
+	42	har ställts in i objektet Tillämpningshanterare.~r~n~r~n		been Set on The application manager Object.~r~n~r~n		8	 Event Script	Created from PTT Dictionary File
+	42	har ställts in. Använd of_SetRegistryUserKey i Tillämpningshanteraren		been Set.  Use of_SetRegistryUserKey on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	42	har ställts in. Använd of_SetUserIniFile i Tillämpningshanteraren		been Set.  Use of_SetUserIniFile on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	42	before		before		44	Variable	Created from PTT Dictionary File
+	42	"bitmap(If (selected = 0, If (bmpname = '', 
+Case (level When 1 Then bmpname1
+When 2 Then bmpname2 When 3 Then bmpname3
+When 4 Then bmpname4 When 5 Then bmpname5
+When 6 Then bmpname6 When 7 Then bmpname7
+When 8 Then bmpname8 When 9 Then bmpname9
+When 10 Then bmpname10), bmpname), 
+If (selectedbmpname = '', 
+Case (level When 1 Then selectedbmpname1
+When 2 Then selectedbmpname2 When 3 Then selectedbmpname3
+When 4 Then selectedbmpname4 When 5 Then selectedbmpname5
+When 6 Then selectedbmpname6 When 7 Then selectedbmpname7
+When 8 Then selectedbmpname8 When 9 Then selectedbmpname9
+When 10 Then selectedbmpname10), selectedbmpname)))"		"bitmap(If (selected = 0, If (bmpname = '', 
+Case (level When 1 Then bmpname1
+When 2 Then bmpname2 When 3 Then bmpname3
+When 4 Then bmpname4 When 5 Then bmpname5
+When 6 Then bmpname6 When 7 Then bmpname7
+When 8 Then bmpname8 When 9 Then bmpname9
+When 10 Then bmpname10), bmpname), 
+If (selectedbmpname = '', 
+Case (level When 1 Then selectedbmpname1
+When 2 Then selectedbmpname2 When 3 Then selectedbmpname3
+When 4 Then selectedbmpname4 When 5 Then selectedbmpname5
+When 6 Then selectedbmpname6 When 7 Then selectedbmpname7
+When 8 Then selectedbmpname8 When 9 Then selectedbmpname9
+When 10 Then selectedbmpname10), selectedbmpname)))"		40	Expression	Created from PTT Dictionary File
+	42	Bitmapp,*.bmp		Bitmap,*.bmp		31	 Function Script	Created from PTT Dictionary File
+	42	Fet		Bold		12	Text	Created from PTT Dictionary File
+	42	Underst	U	Bottom	B	29	Text	Created from PTT Dictionary File
+	42	Underst:	B	Bottom:	B	34	Text	Created from PTT Dictionary File
+	42	Buffert	B	Buffer	B	18	Text	Created from PTT Dictionary File
+	42	Buffert		Buffer		18	Text	Created from PTT Dictionary File
+	42	Buffertar		Buffers		7	Text	Created from PTT Dictionary File
+	42	Bygg filter med		Build filter with		18	Text	Created from PTT Dictionary File
+	42	Knapp		Button		34	Text	Created from PTT Dictionary File
+	42	efter		by		4	Text	Created from PTT Dictionary File
+	42	efter		by		22	 Event Script	Created from PTT Dictionary File
+	42	ark i formatet C		C size sheet		8	 Event Script	Created from PTT Dictionary File
+	42	Räknare		Calculator		7	 Function Script	Created from PTT Dictionary File
+	42	Kalender		Calendar		7	 Function Script	Created from PTT Dictionary File
+	42	Anropet of_SetRegistryUserKey i Tillämpningshanteraren		Call of_SetRegistryUserKey on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	42	Anropet of_SetUserIniFile i Tillämpningshanteraren		Call of_SetUserIniFile on The Application Manager		8	 Event Script	Created from PTT Dictionary File
+	42	Avbryt	A	Cancel	C	13	Text	Created from PTT Dictionary File
+	42	Avbryt		Cancel		8	 Event Script	Created from PTT Dictionary File
+	42	Avbryt		Cancel		13	Text	Created from PTT Dictionary File
+	42	Avbryt alla	A	Cancel All	A	13	Text	Created from PTT Dictionary File
+	42	Överlappande	Ö	Cascade	C	4	Text	Created from PTT Dictionary File
+	42	Överlappande		Cascade		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Överlappa fönster så att alla namnlister syns		Cascade windows so that each title bar is visible		4	Microhelp	Created from PTT Dictionary File
+	42	Kassett		Cassette		8	 Event Script	Created from PTT Dictionary File
+	42	Ändrar inställningarna för sidlayout		Changes page layout settings		4	Microhelp	Created from PTT Dictionary File
+	42	Radera	R	Clear	l	4	Text	Created from PTT Dictionary File
+	42	Radera	R	Clear	l	13	Text	Created from PTT Dictionary File
+	42	Radera	R	Clear	C	13	Text	Created from PTT Dictionary File
+	42	Radera	R	Clear	a	4	Text	Created from PTT Dictionary File
+	42	Radera		Clear		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Stäng	S	Close	C	4	Text	Created from PTT Dictionary File
+	42	Stäng	S	Close	C	13	Text	Created from PTT Dictionary File
+	42	Stäng		Close		4	Microhelp	Created from PTT Dictionary File
+	42	Stäng		Close		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Stäng		Close		13	Text	Created from PTT Dictionary File
+	42	Stäng genom att klicka	k	Close on click	c	12	Text	Created from PTT Dictionary File
+	42	Stäng genom att dubbelklicka	d	Close on double click	d	12	Text	Created from PTT Dictionary File
+	42	Vill du stäng utan att spara ändringarna?		Close without saving changes?		8	 Event Script	Created from PTT Dictionary File
+	42	Sortera	S	Collate	o	12	Text	Created from PTT Dictionary File
+	42	Färg		Color		34	Text	Created from PTT Dictionary File
+	42	column		column		7	 Function Script	Created from PTT Dictionary File
+	42	Kolumn		Column		7	 Event Script	Created from PTT Dictionary File
+	42	Kolumn		Column		18	Text	Created from PTT Dictionary File
+	42	Kolumn		Column		34	Text	Created from PTT Dictionary File
+	42	Kolumn:		Column :		34	Text	Created from PTT Dictionary File
+	42	Sorterar kolumnrubrik	k	Column header sorting	h	12	Text	Created from PTT Dictionary File
+	42	Kolumninformation		Column Information		34	Text	Created from PTT Dictionary File
+	42	Kolumner		Columns		7	Text	Created from PTT Dictionary File
+	42	Kolumner som är tillgängliga för sortering		Columns Available for Sorting		34	Text	Created from PTT Dictionary File
+	42	Kolumner...	K	Columns...	o	4	Text	Created from PTT Dictionary File
+	42	Kommentarer:		Comments:		7	 Function Script	Created from PTT Dictionary File
+	42	Kommentarer:		Comments:		34	Text	Created from PTT Dictionary File
+	42	Bekräfta borttagningen		Confirm Delete		7	 Function Script	Created from PTT Dictionary File
+	42	Bekräfta borttagningarna		Confirm Multiple Delete		7	 Function Script	Created from PTT Dictionary File
+	42	Bekräfta vid radering	r	Confirm on delete	d	12	Text	Created from PTT Dictionary File
+	42	Bekräfta vid radändring	r	Confirm on row change	c	12	Text	Created from PTT Dictionary File
+	42	Innehåller kommandon för aktivering av ett objekt		Contains commands for activating an object		4	Microhelp	Created from PTT Dictionary File
+	42	Innehåller kommandon för arrangemang av element		Contains commands for arranging items		4	Microhelp	Created from PTT Dictionary File
+	42	Innehåller kommandon för anpassning av objektvisning		Contains commands for customizing display of items		4	Microhelp	Created from PTT Dictionary File
+	42	Kontroll		Control		34	Text	Created from PTT Dictionary File
+	42	Kontrollnamn		Control Name		34	Text	Created from PTT Dictionary File
+	42	Kopior		Copies		18	Text	Created from PTT Dictionary File
+	42	Antalet kopior måste vara större än noll		Copies must be greater than zero		8	 Event Script	Created from PTT Dictionary File
+	42	Kopierar markeringen till Urklipp		Copies the selection to the Clipboard		4	Microhelp	Created from PTT Dictionary File
+	42	Kopiera	K	Copy	C	4	Text	Created from PTT Dictionary File
+	42	Kopiera		Copy		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Notis om copyright...		Copyright message...		34	Text	Created from PTT Dictionary File
+	42	Aktuell:		Current:		34	Text	Created from PTT Dictionary File
+	42	Anpassad		Custom		14	Item[]	Created from PTT Dictionary File
+	42	Anpassad uppdatering:	m	Custom update:	m	34	Text	Created from PTT Dictionary File
+	42	Anpassa verktygsfält		Customize Toolbars		8	Title	Created from PTT Dictionary File
+	42	Anpassa verktygsfält...	A	Customize Toolbars...	C	4	Text	Created from PTT Dictionary File
+	42	Klipp ut	u	Cut	u	4	Text	Created from PTT Dictionary File
+	42	Klipp ut	u	Cut	t	4	Text	Created from PTT Dictionary File
+	42	Klipp ut		Cut		4	ToolBarItemText	Created from PTT Dictionary File
+	42	ark i formatet D		D size sheet		8	 Event Script	Created from PTT Dictionary File
+	42	data("Konvertering","Datum/Tid","Form","Matematik","Annan","Statistik","Sträng",)		data("Conversion","Date/Time","Form","Mathematic","Other","Statistic","String",)		2	Data	Created from PTT Dictionary File
+	42	data("Matematik","Abs","Abs( <number> ) ","Calculates the absolute value of a number.","Konvertering","Asc","Asc( <string> )","Converts the first character of a string to its ASCII integer value.","Statistik","Avg","Avg( <column> for All )","Calculates the average of the values of the column.","Annan","Bitmap","Bitmap ( <bitmap filename> ) ","Displays the named bitmap.","Annan","Case","Case ( <column> When <condition a> Then <value b>  ... Else <value c> )","Determines a value based on a set of condtion tests.","Matematik","Ceiling","Ceiling( <number> ) ","Determines the smallest whole number that is greater than or equal to a specified limit.","Konvertering","Char","Char( <integer> ) ","Converts an integer to a character.","Matematik","Cos","Cos( <angle> )","Calculates the cosine of an angle.","Statistik","Count","Count( <column> for All )","Calculates the total number of rows in the specified column.","Statistik","CrossTabAvg","CrossTabAvg( 1 )","Calculates the average of the values returned by an expression in the values list of the crosstab.","Statistik","CrossTabCount","CrossTabCount( 1 )","Counts the number of values returned by an expression in the values list of the crosstab.","Statistik","CrossTabMax","CrossTabMax( 1 )","Calculates the maximum value returned by an expression in the values list of the crosstab.","Statistik","CrossTabMin","CrossTabMin( 1 )","Calculates the minimum value returned by an expression in the values list of the crosstab.","Statistik","CrossTabSum","CrossTabSum( 1 )","Calculates the sum of the values returned by an expression in the values list of the crosstab.","Statistik","CumulativePercent","CumulativePercent( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column as a percentage of the total value of the column (a running percentage).","Statistik","CumulativeSum","CumulativeSum( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column (a running total).","Form","CurrentRow","CurrentRow ( ) ","Determines the row which is current","Datum/Tid","Date","Date( <string> ) ","Converts a string whose value is a valid date to a value of data type date.","Datum/Tid","DateTime","DateTime( <date {, time}> ) ","Combines a date and a time value into a datetime value.","Datum/Tid","Day","Day( <date> )","Obtains the day of the month in a date value.","Datum/Tid","DayName","DayName( <date> )","Determines the day of the week in a date value and returns the weekday's name.","Datum/Tid","DayNumber","DayNumber( <date> )","Determines the day of the week of a date value and returns the number of the weekday. ","Datum/Tid","DaysAfter","DaysAfter( <date1> , <date2> )","Determines the number of days one date occurs after another.","Form","Describe","Describe( <string> ) ","Reports the values of attributes of the form and objects within the form.","Matematik","Exp","Exp( x )","Raises e to the specified power.","Matematik","Fact","Fact( <number> ) ","Determines the factorial of a number.","Sträng","Fill","Fill( <string> , <number> )","Builds a string of the specified length by repeating the specified characters until the result string is long enough.","Statistik","First","First( <column> for All )","Determines the value in the first row in the specified column.","Form","GetRow","GetRow()","Reports the number of a row associated with a band in the form.","Form","GetText","GetText()","Obtains the text entered in a column.","Datum/Tid","Hour","Hour( <time> )","Obtains the hour in a time value. The hour is based on a 24-hour clock.","Annan","If","If( <boolean expression> , <if true value> , <if false value> )","Evaluates a condition and returns a value based on that condition.","Matematik","Int","Int( <number> ) ","Determines the largest whole number less than or equal to a number.","Konvertering","Integer","Integer( <string> ) ","Converts the value of a string to an integer.","Datum/Tid","IsDate","IsDate( <string> ) ","Tests whether a string value is a valid date.","Annan","IsNull","IsNull( <expression> or <column> )","Reports whether the value of a column or expression is NULL.","Annan","IsNumber","IsNumber( <string> ) ","Reports whether the value of a string is a number.","Form","IsRowModified","IsRowModified()","Reports whether the row has been modified.","Form","IsRowNew","IsRowNew()","Reports whether the row has been newly inserted into the form.","Form","IsSelected","IsSelected()","Determines whether the row is selected.","Datum/Tid","IsTime","IsTime( <timevalue> ) ","Reports whether the value of a string is a valid time value.","Statistik","Large","Large( <column> , <column> , <rank> for All )","Finds a large value at a specified ranking in a column (for example, third largest, fifth largest) and returns the value of another column or expression based on the result.","Statistik","Last","Last( <column> for All )","Determines the value in the last row in the specified column.","Sträng","Left","Left( <string> , <number> )","Obtains a specified number of characters from the beginning of a string.","Sträng","LeftTrim","LeftTrim( <string> ) ","Removes spaces from the beginning of a string.","Sträng","Len","Len( <string> ) ","Reports the length of a string.","Matematik","Log","Log( <number> ) ","Determines the natural logarithm of a number.","Matematik","LogTen","LogTen( <number> ) ","Determines the base 10 logarithm of a number.","Konvertering","Long","Long( <string> ) ","Converts the value of a string to a long.","Form","LookUpDisplay","LookupDisplay( <column> )","Obtains the display value in the code table associated with the data value in the specified column.","Sträng","Lower","Lower( <string> ) ","Converts all the characters in a string to lowercase.","Sträng","Match","Match( <string> , <textpattern> )","Determines whether a string's value contains a particular pattern of characters.","Statistik","Max","Max( <column> for All )","Determines the maximum value in the specified column.","Statistik","Median","Median( <column> for All )","Calculates the median of the values of the column. The median is the middle value in the set of values, for which there is an equal number of values greater and smaller than it.","Sträng","Mid","Mid( <string> , <start>{ , <length>} )","Obtains a specified number of characters from a specified position in a string.","Statistik","Min","Min( <column> for All )","Determines the minimum value in the specified column.","Datum/Tid","Minute","Minute( <time> )","Obtains the number of minutes in the minutes portion of a time value.","Statistik","Mod","Mod( <number> , <divisor> )","Obtains the remainder (modulus) of a division operation.","Statistik","Mode","Mode( <column> for All )","Calculates the mode of the values of the column. The mode is the most frequently occurring value.","Datum/Tid","Month","Month( <date> )","Determines the month of a date value.","Datum/Tid","Now","Now()","Obtains the current time.","Konvertering","Number","Number( <string> ) ","Converts a string to a number.","Form","Page","Page()","Determines the number of the current page.","Form","PageAcross","PageAcross()","Determines the number of the current horizontal page.","Form","PageCount","PageCount()","Determines the total number of pages.","Form","PageCountAcross","PageCountAcross()","Determines the total number of horizontal pages when a form is wider than the preview window.","Statistik","Percent","Percent( <column> for All)","Determines the percentage that the current value is of the total of the values in the column.","Matematik","Pi","Pi( <number> ) ","Multiplies pi (3.14159265358979323...) by a specified number.","Sträng","Pos","Pos( <string1> , <string2> {, <start>} )","Finds one string within another string.","Annan","ProfileInt","ProfileInt( <filename> , <section> , <key> , <default> )","Obtains the integer value of a setting in the specified profile file.","Annan","ProfileString","ProfileString( <filename> , <section> , <key> , <default> )","Obtains the string value of a setting in the specified profile file.","Annan","Rand","Rand( <number> ) ","Obtains a random whole number between 1 and a specified upper limit.","Konvertering","Real","Real( <string> ) ","Converts a string value to a real data type.","Datum/Tid","RelativeDate","RelativeDate( <date> , <number> )","Obtains the date that occurs a specified number of days after or before another date.","Datum/Tid","RelativeTime","RelativeTime( <time> , <number> )","Obtains a time that occurs a specified number of seconds after or before another time within a 24-hour period.","Sträng","Replace","Replace( <string1> , <start> , <length> , <string2> )","Replaces a portion of one string with another.","Annan","RGB","RGB ( <redvalue>, <greenvalue>, <bluevalue> ) ","Returns the color value for the Red/Green/Blue combination","Sträng","Right","Right( <string> , <number> )","Obtains a specified number of characters from the end of a string.","Sträng","RightTrim","RightTrim( <string> ) ","Removes spaces from the end of a string.","Matematik","Round","Round( <number> , <decimal places> )","Rounds a number to the specified number of decimal places.","Form","RowCount","RowCount()","Obtains the number of rows that are currently available in the form.","Form","RowHeight","RowHeight()","Reports the height of a row.","Datum/Tid","Second","Second( <time> )","Obtains the number of seconds in the seconds portion of a time value.","Datum/Tid","SecondsAfter","SecondsAfter( <time1> , <time2> )","Determines the number of seconds one time occurs after another.","Matematik","Sign","Sign( <number> ) ","Determines the sign of a number. Sign reports whether a number is negative, zero, or positive.","Matematik","Sin","Sin( <angle> )","Calculates the sine of an angle.","Statistik","Small","Small( <column> , <column> , <rank> for All )","Finds a small value at a specified ranking in a column (for example, third smallest, fifth smallest) and returns the value of another column or expression based on the result.","Sträng","Space","Space( <number> ) ","Builds a string of the specified length whose value consists of spaces.","Matematik","Sqrt","Sqrt( <number> ) ","Calculates the square root of a number.","Statistik","StDev","StDev( <column> for All )","Calculates an estimate of the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","Statistik","StDevP","StDevP( <column> for All )","Calculates the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","Sträng","String","String( <string> {, <format>} )","Formats data as a string according to a specified display format mask. You can convert and format date, datetime, numeric, and time data. You can also apply a display format to a string.","Statistik","Sum","Sum( <column> for All )","Calculates the sum of the values in the specified column.","Matematik","Tan","Tan( <angle> )","Calculates the tangent of an angle.","Datum/Tid","Time","Time( <string> ) ","Converts a string to a time data type.","Datum/Tid","Today","Today()","Obtains the system date.","Sträng","Trim","Trim( <string> ) ","Removes leading and trailing spaces from a string.","Matematik","Truncate","Truncate( <number> , <decimal places> )","Truncates a number to the specified number of decimal places.","Sträng","Upper","Upper( <string> ) ","Converts all the characters in a string to uppercase.","Statistik","Var","Var( <column> for All )","Calculates an estimate of the variance for the specified column.","Statistik","VarP","VarP( <column> for All )","Calculates the variance for the specified column.","Sträng","WordCap","WordCap( <string> ) ","Sets the first letter of each word in a string to a capital letter and all other letters to lowercase.","Datum/Tid","Year","Year( <date> )","Determines the year of a date value.",)		data("Mathematic","Abs","Abs( <number> ) ","Calculates the absolute value of a number.","Conversion","Asc","Asc( <string> )","Converts the first character of a string to its ASCII integer value.","Statistic","Avg","Avg( <column> for All )","Calculates the average of the values of the column.","Other","Bitmap","Bitmap ( <bitmap filename> ) ","Displays the named bitmap.","Other","Case","Case ( <column> When <condition a> Then <value b>  ... Else <value c> )","Determines a value based on a set of condtion tests.","Mathematic","Ceiling","Ceiling( <number> ) ","Determines the smallest whole number that is greater than or equal to a specified limit.","Conversion","Char","Char( <integer> ) ","Converts an integer to a character.","Mathematic","Cos","Cos( <angle> )","Calculates the cosine of an angle.","Statistic","Count","Count( <column> for All )","Calculates the total number of rows in the specified column.","Statistic","CrossTabAvg","CrossTabAvg( 1 )","Calculates the average of the values returned by an expression in the values list of the crosstab.","Statistic","CrossTabCount","CrossTabCount( 1 )","Counts the number of values returned by an expression in the values list of the crosstab.","Statistic","CrossTabMax","CrossTabMax( 1 )","Calculates the maximum value returned by an expression in the values list of the crosstab.","Statistic","CrossTabMin","CrossTabMin( 1 )","Calculates the minimum value returned by an expression in the values list of the crosstab.","Statistic","CrossTabSum","CrossTabSum( 1 )","Calculates the sum of the values returned by an expression in the values list of the crosstab.","Statistic","CumulativePercent","CumulativePercent( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column as a percentage of the total value of the column (a running percentage).","Statistic","CumulativeSum","CumulativeSum( <column> for All )","Calculates the total value of the rows up to and including the current row in the specified column (a running total).","Form","CurrentRow","CurrentRow ( ) ","Determines the row which is current","Date/Time","Date","Date( <string> ) ","Converts a string whose value is a valid date to a value of data type date.","Date/Time","DateTime","DateTime( <date {, time}> ) ","Combines a date and a time value into a datetime value.","Date/Time","Day","Day( <date> )","Obtains the day of the month in a date value.","Date/Time","DayName","DayName( <date> )","Determines the day of the week in a date value and returns the weekday's name.","Date/Time","DayNumber","DayNumber( <date> )","Determines the day of the week of a date value and returns the number of the weekday. ","Date/Time","DaysAfter","DaysAfter( <date1> , <date2> )","Determines the number of days one date occurs after another.","Form","Describe","Describe( <string> ) ","Reports the values of attributes of the form and objects within the form.","Mathematic","Exp","Exp( x )","Raises e to the specified power.","Mathematic","Fact","Fact( <number> ) ","Determines the factorial of a number.","String","Fill","Fill( <string> , <number> )","Builds a string of the specified length by repeating the specified characters until the result string is long enough.","Statistic","First","First( <column> for All )","Determines the value in the first row in the specified column.","Form","GetRow","GetRow()","Reports the number of a row associated with a band in the form.","Form","GetText","GetText()","Obtains the text entered in a column.","Date/Time","Hour","Hour( <time> )","Obtains the hour in a time value. The hour is based on a 24-hour clock.","Other","If","If( <boolean expression> , <if true value> , <if false value> )","Evaluates a condition and returns a value based on that condition.","Mathematic","Int","Int( <number> ) ","Determines the largest whole number less than or equal to a number.","Conversion","Integer","Integer( <string> ) ","Converts the value of a string to an integer.","Date/Time","IsDate","IsDate( <string> ) ","Tests whether a string value is a valid date.","Other","IsNull","IsNull( <expression> or <column> )","Reports whether the value of a column or expression is NULL.","Other","IsNumber","IsNumber( <string> ) ","Reports whether the value of a string is a number.","Form","IsRowModified","IsRowModified()","Reports whether the row has been modified.","Form","IsRowNew","IsRowNew()","Reports whether the row has been newly inserted into the form.","Form","IsSelected","IsSelected()","Determines whether the row is selected.","Date/Time","IsTime","IsTime( <timevalue> ) ","Reports whether the value of a string is a valid time value.","Statistic","Large","Large( <column> , <column> , <rank> for All )","Finds a large value at a specified ranking in a column (for example, third largest, fifth largest) and returns the value of another column or expression based on the result.","Statistic","Last","Last( <column> for All )","Determines the value in the last row in the specified column.","String","Left","Left( <string> , <number> )","Obtains a specified number of characters from the beginning of a string.","String","LeftTrim","LeftTrim( <string> ) ","Removes spaces from the beginning of a string.","String","Len","Len( <string> ) ","Reports the length of a string.","Mathematic","Log","Log( <number> ) ","Determines the natural logarithm of a number.","Mathematic","LogTen","LogTen( <number> ) ","Determines the base 10 logarithm of a number.","Conversion","Long","Long( <string> ) ","Converts the value of a string to a long.","Form","LookUpDisplay","LookupDisplay( <column> )","Obtains the display value in the code table associated with the data value in the specified column.","String","Lower","Lower( <string> ) ","Converts all the characters in a string to lowercase.","String","Match","Match( <string> , <textpattern> )","Determines whether a string's value contains a particular pattern of characters.","Statistic","Max","Max( <column> for All )","Determines the maximum value in the specified column.","Statistic","Median","Median( <column> for All )","Calculates the median of the values of the column. The median is the middle value in the set of values, for which there is an equal number of values greater and smaller than it.","String","Mid","Mid( <string> , <start>{ , <length>} )","Obtains a specified number of characters from a specified position in a string.","Statistic","Min","Min( <column> for All )","Determines the minimum value in the specified column.","Date/Time","Minute","Minute( <time> )","Obtains the number of minutes in the minutes portion of a time value.","Statistic","Mod","Mod( <number> , <divisor> )","Obtains the remainder (modulus) of a division operation.","Statistic","Mode","Mode( <column> for All )","Calculates the mode of the values of the column. The mode is the most frequently occurring value.","Date/Time","Month","Month( <date> )","Determines the month of a date value.","Date/Time","Now","Now()","Obtains the current time.","Conversion","Number","Number( <string> ) ","Converts a string to a number.","Form","Page","Page()","Determines the number of the current page.","Form","PageAcross","PageAcross()","Determines the number of the current horizontal page.","Form","PageCount","PageCount()","Determines the total number of pages.","Form","PageCountAcross","PageCountAcross()","Determines the total number of horizontal pages when a form is wider than the preview window.","Statistic","Percent","Percent( <column> for All)","Determines the percentage that the current value is of the total of the values in the column.","Mathematic","Pi","Pi( <number> ) ","Multiplies pi (3.14159265358979323...) by a specified number.","String","Pos","Pos( <string1> , <string2> {, <start>} )","Finds one string within another string.","Other","ProfileInt","ProfileInt( <filename> , <section> , <key> , <default> )","Obtains the integer value of a setting in the specified profile file.","Other","ProfileString","ProfileString( <filename> , <section> , <key> , <default> )","Obtains the string value of a setting in the specified profile file.","Other","Rand","Rand( <number> ) ","Obtains a random whole number between 1 and a specified upper limit.","Conversion","Real","Real( <string> ) ","Converts a string value to a real data type.","Date/Time","RelativeDate","RelativeDate( <date> , <number> )","Obtains the date that occurs a specified number of days after or before another date.","Date/Time","RelativeTime","RelativeTime( <time> , <number> )","Obtains a time that occurs a specified number of seconds after or before another time within a 24-hour period.","String","Replace","Replace( <string1> , <start> , <length> , <string2> )","Replaces a portion of one string with another.","Other","RGB","RGB ( <redvalue>, <greenvalue>, <bluevalue> ) ","Returns the color value for the Red/Green/Blue combination","String","Right","Right( <string> , <number> )","Obtains a specified number of characters from the end of a string.","String","RightTrim","RightTrim( <string> ) ","Removes spaces from the end of a string.","Mathematic","Round","Round( <number> , <decimal places> )","Rounds a number to the specified number of decimal places.","Form","RowCount","RowCount()","Obtains the number of rows that are currently available in the form.","Form","RowHeight","RowHeight()","Reports the height of a row.","Date/Time","Second","Second( <time> )","Obtains the number of seconds in the seconds portion of a time value.","Date/Time","SecondsAfter","SecondsAfter( <time1> , <time2> )","Determines the number of seconds one time occurs after another.","Mathematic","Sign","Sign( <number> ) ","Determines the sign of a number. Sign reports whether a number is negative, zero, or positive.","Mathematic","Sin","Sin( <angle> )","Calculates the sine of an angle.","Statistic","Small","Small( <column> , <column> , <rank> for All )","Finds a small value at a specified ranking in a column (for example, third smallest, fifth smallest) and returns the value of another column or expression based on the result.","String","Space","Space( <number> ) ","Builds a string of the specified length whose value consists of spaces.","Mathematic","Sqrt","Sqrt( <number> ) ","Calculates the square root of a number.","Statistic","StDev","StDev( <column> for All )","Calculates an estimate of the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","Statistic","StDevP","StDevP( <column> for All )","Calculates the standard deviation for the specified column. Standard deviation is a measurement of how widely values vary from average.","String","String","String( <string> {, <format>} )","Formats data as a string according to a specified display format mask. You can convert and format date, datetime, numeric, and time data. You can also apply a display format to a string.","Statistic","Sum","Sum( <column> for All )","Calculates the sum of the values in the specified column.","Mathematic","Tan","Tan( <angle> )","Calculates the tangent of an angle.","Date/Time","Time","Time( <string> ) ","Converts a string to a time data type.","Date/Time","Today","Today()","Obtains the system date.","String","Trim","Trim( <string> ) ","Removes leading and trailing spaces from a string.","Mathematic","Truncate","Truncate( <number> , <decimal places> )","Truncates a number to the specified number of decimal places.","String","Upper","Upper( <string> ) ","Converts all the characters in a string to uppercase.","Statistic","Var","Var( <column> for All )","Calculates an estimate of the variance for the specified column.","Statistic","VarP","VarP( <column> for All )","Calculates the variance for the specified column.","String","WordCap","WordCap( <string> ) ","Sets the first letter of each word in a string to a capital letter and all other letters to lowercase.","Date/Time","Year","Year( <date> )","Determines the year of a date value.",)		2	Data	Created from PTT Dictionary File
+	42	Felkoden för databas:		Database error code:		2	 Event Script	Created from PTT Dictionary File
+	42	Felkoden för databas:		Database error code:		7	 Event Script	Created from PTT Dictionary File
+	42	Databasfelmeddelande:		Database error message:		2	 Event Script	Created from PTT Dictionary File
+	42	Databasfelmeddelande:		Database error message:		7	 Event Script	Created from PTT Dictionary File
+	42	Felmeddelande för databas:~r~n		Database error message:~r~n		2	 Event Script	Created from PTT Dictionary File
+	42	Felmeddelande för databas:~r~n		Database error message:~r~n		7	 Event Script	Created from PTT Dictionary File
+	42	DataStore bas		DataStore Base		7	 Function Script	Created from PTT Dictionary File
+	42	DataStore bastjänst		DataStore Base Service		7	 Function Script	Created from PTT Dictionary File
+	42	DataWindow bas		DataWindow Base		7	 Function Script	Created from PTT Dictionary File
+	42	DataWindow bastjänst		DataWindow Base Service		7	 Function Script	Created from PTT Dictionary File
+	42	Egenskaper för DataWindow -		DataWindow Properties -		8	Title	Created from PTT Dictionary File
+	42	Egenskaper för DataWindow...	W	DataWindow Properties...	W	4	Text	Created from PTT Dictionary File
+	42	Datum/Tid		Date/Time		34	Text	Created from PTT Dictionary File
+	42	Datum		Dates		34	Text	Created from PTT Dictionary File
+	42	Datum/Tid:		DateTime:		7	 Function Script	Created from PTT Dictionary File
+	42	Datum/Tid: ~t		DateTime: ~t		7	 Function Script	Created from PTT Dictionary File
+	42	Logg för felsökning		Debugging Log		8	Title	Created from PTT Dictionary File
+	42	December		December		44	Variable	Created from PTT Dictionary File
+	42	Standard		Default		8	 Event Script	Created from PTT Dictionary File
+	42	Standard		Default		14	Item[]	Created from PTT Dictionary File
+	42	Standarddialogruta		Default Dialog		14	Item[]	Created from PTT Dictionary File
+	42	Defaultbutton		Defaultbutton		34	Text	Created from PTT Dictionary File
+	42	Ta bort	T	Delete	D	4	Text	Created from PTT Dictionary File
+	42	Ta bort	T	Delete	D	13	Text	Created from PTT Dictionary File
+	42	Ta bort		Delete		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Radera rader?		Delete row(s)?		7	 Event Script	Created from PTT Dictionary File
+	42	Radera rader		Delete Rows		14	Item[]	Created from PTT Dictionary File
+	42	Radera stil:	D	Delete style:	D	34	Text	Created from PTT Dictionary File
+	42	Radera markerade poster		Delete the selected item(s)		4	Microhelp	Created from PTT Dictionary File
+	42	Borttagen	g	Deleted	e	29	Text	Created from PTT Dictionary File
+	42	Borttagen	B	Deleted	D	29	Text	Created from PTT Dictionary File
+	42	Borttagen:		Deleted :		34	Text	Created from PTT Dictionary File
+	42	Tar bort de markerade raderna		Deletes selected rows		4	Microhelp	Created from PTT Dictionary File
+	42	Tar bort elementet		Deletes the item		4	Microhelp	Created from PTT Dictionary File
+	42	Beskrivning		Description		34	Text	Created from PTT Dictionary File
+	42	Beskrivning:		Description :		34	Text	Created from PTT Dictionary File
+	42	Beskrivning av text		Description Text		23	Text	Created from PTT Dictionary File
+	42	Beskrivning:		Description:		18	Text	Created from PTT Dictionary File
+	42	information		detail		7	 Function Script	Created from PTT Dictionary File
+	42	Detaljkolumn		Detail column		34	Text	Created from PTT Dictionary File
+	42	Information:		Detail(s):		34	Text	Created from PTT Dictionary File
+	42	Information	I	Details	D	4	Text	Created from PTT Dictionary File
+	42	Information		Details		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Avaktivera	v	Disable	D	13	Text	Created from PTT Dictionary File
+	42	Ta bort rader		Discard Rows		14	Item[]	Created from PTT Dictionary File
+	42	Visningsformat	V	Display Format	D	18	Text	Created from PTT Dictionary File
+	42	Visar hjälpavsnitt		Displays help topics		4	Microhelp	Created from PTT Dictionary File
+	42	Visar information om varje element		Displays information about each item		4	Microhelp	Created from PTT Dictionary File
+	42	Visar element med stora ikoner		Displays items by using large icons		4	Microhelp	Created from PTT Dictionary File
+	42	Visar element med små ikoner		Displays items by using small icons		4	Microhelp	Created from PTT Dictionary File
+	42	Visar element i en lista		Displays items in a list		4	Microhelp	Created from PTT Dictionary File
+	42	Visar eller ändrar egenskaperna för DataWindow		Displays or changes properties of the DataWindow		4	Microhelp	Created from PTT Dictionary File
+	42	Visar eller ändrar egenskaperna för elementet		Displays or changes properties of the item		4	Microhelp	Created from PTT Dictionary File
+	42	Visar programinformation		Displays program information		4	Microhelp	Created from PTT Dictionary File
+	42	Division		Division		7	 Function Script	Created from PTT Dictionary File
+	42	Division med noll inte giltig		Division by zero is not valid		7	 Function Script	Created from PTT Dictionary File
+	42	Vill du spara ändringarna?		Do you want to save changes?		8	 Event Script	Created from PTT Dictionary File
+	42	Dokument		Document		31	 Function Script	Created from PTT Dictionary File
+	42	Ner		Down		8	 Event Script	Created from PTT Dictionary File
+	42	Ner		Down		14	Item[]	Created from PTT Dictionary File
+	42	Dialogrutan Dra och Släpp		Drag and Drop Dialog		14	Item[]	Created from PTT Dictionary File
+	42	dragobject!		dragobject!		44	Variable	Created from PTT Dictionary File
+	42	Drop Down Search		Drop Down Search		7	 Function Script	Created from PTT Dictionary File
+	42	DropDownListBox Dialog		DropDownListBox Dialog		14	Item[]	Created from PTT Dictionary File
+	42	DW Egenskapen Basobjekt		DW Property Base Object		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Räknarobjekt		DW Property Calculator Object		7	 Function Script	Created from PTT Dictionary File
+	42	Egenskapen Kalenderobjekt		DW Property Calendar Object		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen DropDown söktjänst		DW Property DropDown Search Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Filterservice		DW Property Filter Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Sök/Ersätt service		DW Property Find/Replace Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Länkningservice		DW Property Linkage Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Service för flera tabeller		DW Property Multitable Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen PrintPreview-service		DW Property PrintPreview Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen QueryMode-service		DW Property QueryMode Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Rapportservice		DW Property Report Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Service för storleksändring		DW Property Resize Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen RowManager-service		DW Property RowManager Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen RowSelection-service		DW Property RowSelection Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskapen Sorteringsservice		DW Property Sort Service		7	 Function Script	Created from PTT Dictionary File
+	42	DW Egenskaper för Syntax		DW Property Syntax Tab		7	 Function Script	Created from PTT Dictionary File
+	42	ark i formatet E		E size sheet		8	 Event Script	Created from PTT Dictionary File
+	42	Redigera	e	Edit	E	4	Text	Created from PTT Dictionary File
+	42	Aktivera	A	Enable	E	13	Text	Created from PTT Dictionary File
+	42	Aktiverad		Enabled		34	Text	Created from PTT Dictionary File
+	42	Utökar antalet rader du kan infoga och ta bort, och underlättar återställning av borttagna rader.		Enhances row inserts, deletes, and facilitates restoring of deleted rows.		7	 Function Script	Created from PTT Dictionary File
+	42	Ange Användar-ID och lösenord för att logga in på		Enter a User ID and password to log onto		34	Text	Created from PTT Dictionary File
+	42	Kuvert		Envelope		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert nr 10 4 1/8 x 9 1/2		Envelope #10 4 1/8 x 9 1/2		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert nr 11 4 1/2 x 10 3/8		Envelope #11 4 1/2 x 10 3/8		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert nr 12 4 x 11 1/276		Envelope #12 4 x 11 1/276		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert nr 14 5 x 11 1/2		Envelope #14 5 x 11 1/2		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert nr 9 3 7/8 x 8 7/8		Envelope #9 3 7/8 x 8 7/8		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert 110 x 230 mm		Envelope 110 x 230 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert B4 250 x 353 mm		Envelope B4 250 x 353 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert B5 176 x 250 mm		Envelope B5 176 x 250 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert B6 176 x 125 mm		Envelope B6 176 x 125 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert C3 324 x 458 mm		Envelope C3 324 x 458 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert C4 229 x 324 mm		Envelope C4 229 x 324 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert C5 162 x 229 mm		Envelope C5 162 x 229 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert C6 114 x 162 mm		Envelope C6 114 x 162 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert C65 114 x 229 mm		Envelope C65 114 x 229 mm		8	 Event Script	Created from PTT Dictionary File
+	42	E65-kuvert 110 x 220 mm		Envelope DL 110 x 220 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Kuvert, manuellt		Envelope manual		8	 Event Script	Created from PTT Dictionary File
+	42	Monarch-kuvert 3,875 x 7,5 tum		Envelope Monarch 3.875 x 7.5 in		8	 Event Script	Created from PTT Dictionary File
+	42	Lika med =/Större än >/Mindre än </> än eller Lika med >=/< än eller Lika med <=/Ej lika med <>		"Equals	=/Greater Than	>/Less Than	</> Than or Equal	>=/< Than or Equal	<=/Doesn't Equal	<>"		39	Values	Created from PTT Dictionary File
+	42	Fel vid beskrivning av		Error describing		7	 Function Script	Created from PTT Dictionary File
+	42	Fel vid beskrivning av attributet ColType för		Error describing ColType attribute of		7	 Function Script	Created from PTT Dictionary File
+	42	Fel vid beskrivning av attributet ColType för Kolumn nr		Error describing ColType attribute of Column #		7	 Function Script	Created from PTT Dictionary File
+	42	Fel vid beskrivning av attributet Namn för Kolumn nr		Error describing Name attribute of Column #		7	 Function Script	Created from PTT Dictionary File
+	42	Fel nummer		Error Number		7	 Event Script	Created from PTT Dictionary File
+	42	Fel i ImportString. Felkod =		Error on importstring. Error code =		7	 Function Script	Created from PTT Dictionary File
+	42	Fel! Fel vid beräkning av storlek		Error!  Error calculating size		7	 Function Script	Created from PTT Dictionary File
+	42	Fel! Hittar inte filen		Error!  File not found		7	 Function Script	Created from PTT Dictionary File
+	42	Fel! Ogiltigt byte av DataWindow		Error!  Invalid DataWindow Shift		7	 Function Script	Created from PTT Dictionary File
+	42	Fel! Ogiltig DW-enhet		Error!  Invalid DW Unit		7	 Function Script	Created from PTT Dictionary File
+	42	Fel! Ogiltigt uttryck		Error!  Invalid Expression		7	 Function Script	Created from PTT Dictionary File
+	42	händelsen har tagit emomt en felkod för ShareData(). Felkoden ShareData() 		event has received a ShareData() fail code.   The ShareData()		8	 Event Script	Created from PTT Dictionary File
+	42	Executive 7 1/4 x 10 1/2 tum		Executive 7 1/4 x 10 1/2 in		8	 Event Script	Created from PTT Dictionary File
+	42	Avsluta	A	Exit	x	4	Text	Created from PTT Dictionary File
+	42	Avsluta		Exit		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Utökad dialogruta		Extended Dialog		14	Item[]	Created from PTT Dictionary File
+	42	t val av rader		Extended Row Selection		14	Item[]	Created from PTT Dictionary File
+	42	Underlätta uppdatering av DataStores som innehåller rader från mer		Facilitate the updating of DataStores that contain rows from more		7	 Function Script	Created from PTT Dictionary File
+	42	Underlätta uppdatering av DataStores som innehåller rader från mer		Facilitate the updating of DataWindows that contain rows from more		7	 Function Script	Created from PTT Dictionary File
+	42	Underlättar DataWindow-rapportering och utskrift.		Facilitates datawindow reporting and printing.		7	 Function Script	Created from PTT Dictionary File
+	42	Misslyckad bekräftelse av AcceptText i DataStore.		Failed accepttext validation on datastore.		7	 Event Script	Created from PTT Dictionary File
+	42	Misslyckad bekräftelse av AcceptText i DataStore.		Failed AcceptText validation on datastore.		7	 Function Script	Created from PTT Dictionary File
+	42	misslyckades. Kommandot		failed. The command		2	 Event Script	Created from PTT Dictionary File
+	42	Februari		February		44	Variable	Created from PTT Dictionary File
+	42	Arkiv	A	File	F	4	Text	Created from PTT Dictionary File
+	42	Filen finns		File Exists		31	 Event Script	Created from PTT Dictionary File
+	42	Fil...	F	File...	F	4	Text	Created from PTT Dictionary File
+	42	Filter	F	Filter	F	13	Text	Created from PTT Dictionary File
+	42	Filter		Filter		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Filter		Filter		7	 Event Script	Created from PTT Dictionary File
+	42	Filter		Filter		7	 Function Script	Created from PTT Dictionary File
+	42	Filter		Filter		8	 Event Script	Created from PTT Dictionary File
+	42	Filter		Filter		8	Title	Created from PTT Dictionary File
+	42	Filteruttryck	F	Filter expression	F	18	Text	Created from PTT Dictionary File
+	42	Filtret är inte giltigt		Filter is not valid		13	 Event Script	Created from PTT Dictionary File
+	42	Filtret är inte giltigt. Modifiera filtret med hjälp av de tillgängliga 		Filter is not valid.  Please modify the filter using the available		8	 Event Script	Created from PTT Dictionary File
+	42	Filtret är giltigt		Filter is valid		13	 Event Script	Created from PTT Dictionary File
+	42	Filtret är giltigt		filter is valid.		8	 Event Script	Created from PTT Dictionary File
+	42	Filter...	F	Filter...	t	4	Text	Created from PTT Dictionary File
+	42	Filtrerad	l	Filtered	F	29	Text	Created from PTT Dictionary File
+	42	Filtrerad:		Filtered :		34	Text	Created from PTT Dictionary File
+	42	Filtrerar element		Filters items		4	Microhelp	Created from PTT Dictionary File
+	42	Sök		Find		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Sök		Find		8	Title	Created from PTT Dictionary File
+	42	Sök och ersätt		Find and Replace		7	 Function Script	Created from PTT Dictionary File
+	42	Sök nästa	k	Find Next	F	13	Text	Created from PTT Dictionary File
+	42	Sök efter	n	Find what	n	34	Text	Created from PTT Dictionary File
+	42	Sök efter	e	Find where	e	34	Text	Created from PTT Dictionary File
+	42	Sök...	S	Find...	F	4	Text	Created from PTT Dictionary File
+	42	Söker efter den angivna texten		Finds the specified text		4	Microhelp	Created from PTT Dictionary File
+	42	Första		first		44	Variable	Created from PTT Dictionary File
+	42	Första	F	First	F	4	Text	Created from PTT Dictionary File
+	42	Första		First		4	Microhelp	Created from PTT Dictionary File
+	42	Första		First		4	ToolBarItemText	Created from PTT Dictionary File
+	42	FixedToBottom		FixedToBottom		44	Variable	Created from PTT Dictionary File
+	42	FixedToBottomScaleToRight	S	FixedToBottomScaleToRight	S	44	Variable	Created from PTT Dictionary File
+	42	FixedToRight		FixedToRight		44	Variable	Created from PTT Dictionary File
+	42	FixedToRightBottom	B	FixedToRightBottom	B	44	Variable	Created from PTT Dictionary File
+	42	FixedToRightScaleToBottom	S	FixedToRightScaleToBottom	S	44	Variable	Created from PTT Dictionary File
+	42	Flytande	F	Floating	F	29	Text	Created from PTT Dictionary File
+	42	Folio 8 1/2 x 13 tum		Folio 8 1/2 x 13 in		8	 Event Script	Created from PTT Dictionary File
+	42	För viss funktionalitet		For certain functionality the		7	 Function Script	Created from PTT Dictionary File
+	42	Fred.		Fr		34	Text	Created from PTT Dictionary File
+	42	Verktygsfältet Ram		Frame Toolbar		8	 Event Script	Created from PTT Dictionary File
+	42	från:	f	from:	f	34	Text	Created from PTT Dictionary File
+	42	efter skapandet av DataStore.		function after the DataStore creation.		7	 Function Script	Created from PTT Dictionary File
+	42	funktionen kunde inte bearbetas		functionality is unable to be processed.		8	 Event Script	Created from PTT Dictionary File
+	42	funktionalitet.		functionality.		7	 Function Script	Created from PTT Dictionary File
+	42	Funktioner		Functions		7	Text	Created from PTT Dictionary File
+	42	funktioner, kolumner, operatörer och värden.  Knappen Verifiera kan		functions, columns, operators, and values.  The Verify button may be		8	 Event Script	Created from PTT Dictionary File
+	42	funktioner, kolumner, operatorer och värden. Knappen Verifiera kan användas för att avgöra om 		functions, columns, operators, and values.  The Verify button may be used to determine if the		8	 Event Script	Created from PTT Dictionary File
+	42	Funktioner...	F	Functions...	F	4	Text	Created from PTT Dictionary File
+	42	GDI: N/A'~"		GDI: N/A'~"		8	 Function Script	Created from PTT Dictionary File
+	42	Allmän		General		7	 Function Script	Created from PTT Dictionary File
+	42	Tyskt Legal, vikt papper, 8 1/2 x 13 tum		German Legal Fanfold 8 1/2 x 13 in		8	 Event Script	Created from PTT Dictionary File
+	42	Tyskt standard, vikt papper 8 1/2 x 12 tum		German Std Fanfold 8 1/2 x 12 in		8	 Event Script	Created from PTT Dictionary File
+	42	Gruppnamn		Group Name		34	Text	Created from PTT Dictionary File
+	42	har begärts men OBLIGATORISKA tillämpningsregister/INI filattribut		has been requested but the REQUIRED Application registry/INI File attributes		7	 Event Script	Created from PTT Dictionary File
+	42	har begärts, men det nödvändiga ini-filattributet har inte		has been requested but The Required inifile attribute has not		8	 Event Script	Created from PTT Dictionary File
+	42	har begärts men det nödvändiga registerattributet har inte		has been requested but The Required registry attribute has not		8	 Event Script	Created from PTT Dictionary File
+	42	har begärts men OBLIGATORISKA tillämpningsregister/INI filattribut		has been requested but the REQUIRED User registry/INI File attributes		7	 Event Script	Created from PTT Dictionary File
+	42	har begärts men egenskapen UserINIFile har inte		has been requested but The UserINIFile property has not		8	 Event Script	Created from PTT Dictionary File
+	42	har begärts men egenskapen UserRegistrykey har inte		has been requested but The UserRegistrykey property has not		8	 Event Script	Created from PTT Dictionary File
+	42	har gjort klart ersättningen av		has finished replacing		8	 Event Script	Created from PTT Dictionary File
+	42	har gjort klart sökningen.		has finished searching.		8	 Event Script	Created from PTT Dictionary File
+	42	har inte ställts in.  Använd of_SetAppKey/of_SetAppIniFile i PFC-tillämpningen		have not been set.  Use of_SetAppKey/of_SetAppIniFile on the PFC Application		7	 Event Script	Created from PTT Dictionary File
+	42	har inte ställts in.  Använd of_SetUserKey/of_SetUserIniFile i PFC-tillämpningen		have not been set.  Use of_SetUserKey/of_SetUserIniFile on the PFC		7	 Event Script	Created from PTT Dictionary File
+	42	Rubriksuffix	x	Header suffix	x	34	Text	Created from PTT Dictionary File
+	42	Hjälp	H	Help	H	4	Text	Created from PTT Dictionary File
+	42	Hjälp	H	Help	H	13	Text	Created from PTT Dictionary File
+	42	Hjälp har begärts men		Help has been requested but the		8	 Event Script	Created from PTT Dictionary File
+	42	Hjälpavsnitt	H	Help Topics	H	4	Text	Created from PTT Dictionary File
+	42	Hjälpavsnitt		Help Topics		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Markera kolumn som tillåter att du skriver in i QueryMode		Highlight column which allow entry in QueryMode		34	Text	Created from PTT Dictionary File
+	42	Markera kolumner som du vill utesluta		Highlight columns to exclude		34	Text	Created from PTT Dictionary File
+	42	Markera kolumner som du vill låta bli att kontrollera	s	Highlight columns to skip checking on	s	34	Text	Created from PTT Dictionary File
+	42	Markera registerade kolumner		Highlight registered columns		34	Text	Created from PTT Dictionary File
+	42	Helgdag		Holiday		18	Text	Created from PTT Dictionary File
+	42	Ikoner		Icon		34	Text	Created from PTT Dictionary File
+	42	if(match(action,'[GU]'),'Resurserna måste vara mellan 1 och 100','Minnet måste vara mer än 0 ')		if(match(action,'[GU]'),'Resources must be between 1 and 100','Memory must be more than 0 ')		39	ValidationMsg	Created from PTT Dictionary File
+	42	Ignorera		Ignore		8	 Event Script	Created from PTT Dictionary File
+	42	i fältet när en matchning har hittats.		in the field, as a match is found.		7	 Function Script	Created from PTT Dictionary File
+	42	inkluderar funktioner som hjälper dig koordinera typiska funktioner i DataWindow		includes functions that help you coordinate typical DataWindow functions		7	 Function Script	Created from PTT Dictionary File
+	42	Index		Index		34	Text	Created from PTT Dictionary File
+	42	information för register/Inifilen.		information to the Registry/Ini File.		7	 Event Script	Created from PTT Dictionary File
+	42	Indata >>	I	Input >>	I	13	Text	Created from PTT Dictionary File
+	42	Infoga	I	Insert	I	4	Text	Created from PTT Dictionary File
+	42	Infoga	I	Insert	I	13	Text	Created from PTT Dictionary File
+	42	Infoga fil		Insert File		31	 Function Script	Created from PTT Dictionary File
+	42	Infoga bild		Insert Picture		31	 Function Script	Created from PTT Dictionary File
+	42	Infogar en ny rad		Inserts a new row		4	Microhelp	Created from PTT Dictionary File
+	42	Infogar en bild från en grafikfil		Inserts a picture from a graphics file		4	Microhelp	Created from PTT Dictionary File
+	42	Infogar ett objekt		Inserts an object		4	Microhelp	Created from PTT Dictionary File
+	42	Infogar innehållet i Urklipp vid insättningspunkten		Inserts Clipboard contents at current insertion point		4	Microhelp	Created from PTT Dictionary File
+	42	Infogar innehållet i Urklipp som en länk, ett objekt eller annat format		Inserts the clipboard contents as a link, object, or other format		4	Microhelp	Created from PTT Dictionary File
+	42	Infogar innehållet i Urklipp vid insättningspunkten		Inserts the Clipboard contents at the insertion point		4	Microhelp	Created from PTT Dictionary File
+	42	Infogar text från en annan fil		Inserts the text of another file		4	Microhelp	Created from PTT Dictionary File
+	42	Undersök alla SQL-satser innan de exekveras	U	Inspect each SQL statement before it is executed	I	12	Text	Created from PTT Dictionary File
+	42	Undersök alla SQL-satser innan de exekveras		Inspect each SQL statement before it is executed		12	Text	Created from PTT Dictionary File
+	42	fält som är beroende av varandra inom ett DataWindow.		interdependent fields within a DataWindow.		7	 Function Script	Created from PTT Dictionary File
+	42	Ogiltigt filter		Invalid Filter.		8	 Event Script	Created from PTT Dictionary File
+	42	Invertera markeringen	I	Invert Selection	S	4	Text	Created from PTT Dictionary File
+	42	Invertera markeringen	I	Invert Selection	I	13	Text	Created from PTT Dictionary File
+	42	element.		items.		8	 Event Script	Created from PTT Dictionary File
+	42	Januari		January		44	Variable	Created from PTT Dictionary File
+	42	Juli		July		44	Variable	Created from PTT Dictionary File
+	42	juni		June		44	Variable	Created from PTT Dictionary File
+	42	Nyckel- och modifierade kolumner	m	Key and Modified cols	M	29	Text	Created from PTT Dictionary File
+	42	Nyckelkolumner och kolumner som kan uppdateras	p	Key and Updateable cols	p	29	Text	Created from PTT Dictionary File
+	42	Nyckelkolumner	N	Key columns	K	29	Text	Created from PTT Dictionary File
+	42	Modifiering av nyckel		Key modification		18	Text	Created from PTT Dictionary File
+	42	Val av tangentbord	t	Keyboard selection	K	12	Text	Created from PTT Dictionary File
+	42	veta vilket som är dess huvudfönster ska du ringa upp funktionen of_SetParent(...)		know who its parent window call the of_SetParent(...)		7	 Function Script	Created from PTT Dictionary File
+	42	veta vilket som är dess huvudfönster ska du ringa upp funktionen of_SetParentWindow(...)		know who its parent window call the of_SetParentWindow(...)		7	 Function Script	Created from PTT Dictionary File
+	42	Liggande	L	Landscape	a	29	Text	Created from PTT Dictionary File
+	42	Stora knappar	S	Large Buttons	L	12	Text	Created from PTT Dictionary File
+	42	Stor kapacitet		Large capacity		8	 Event Script	Created from PTT Dictionary File
+	42	Stora ikoner	S	Large Icons	g	4	Text	Created from PTT Dictionary File
+	42	Stora ikoner		Large Icons		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Largefmt		Largefmt		8	 Event Script	Created from PTT Dictionary File
+	42	last		last		44	Variable	Created from PTT Dictionary File
+	42	Sista	a	Last	a	4	Text	Created from PTT Dictionary File
+	42	Sista		Last		4	Microhelp	Created from PTT Dictionary File
+	42	Sista		Last		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Skikt	S	Layer	L	4	Text	Created from PTT Dictionary File
+	42	Skikt		Layer		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Skikta varje fönster, så att det helt täcker det bakomliggande		Layer windows so that each one completely covers the one below it		4	Microhelp	Created from PTT Dictionary File
+	42	Ledger 17 x 11 tum		Ledger 17 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	42	Vänster	V	Left	e	29	Text	Created from PTT Dictionary File
+	42	Vänster	L	Left:	L	34	Text	Created from PTT Dictionary File
+	42	Legal 8 1/2 x 14 tum		Legal 8 1/2 x 14 in		8	 Event Script	Created from PTT Dictionary File
+	42	Letter 8 1/2 x 11 tum		Letter 8 1/2 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	42	LetterSmall 8 1/2 x 11 tum		LetterSmall 8 1/2 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	42	line!		line!		44	Variable	Created from PTT Dictionary File
+	42	Länkning		Linkage		7	 Function Script	Created from PTT Dictionary File
+	42	Lista	L	List	L	4	Text	Created from PTT Dictionary File
+	42	Lista		List		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Logisk		Logical		34	Text	Created from PTT Dictionary File
+	42	Inloggning		Logon		8	Title	Created from PTT Dictionary File
+	42	Nedre		Lower		8	 Event Script	Created from PTT Dictionary File
+	42	Meddelande om post		Mail Notification -		7	 Function Script	Created from PTT Dictionary File
+	42	Meddelande om post		Mail Notification -		44	Variable	Created from PTT Dictionary File
+	42	Hanteringsobjektet ställer in attributet.		Manager object to set the attribute.		7	 Event Script	Created from PTT Dictionary File
+	42	Hanteraren ställer in attributet.		Manager to set the attribute.		7	 Event Script	Created from PTT Dictionary File
+	42	Manuell		Manual		8	 Event Script	Created from PTT Dictionary File
+	42	Mars		March		44	Variable	Created from PTT Dictionary File
+	42	Marginaler		Margins		18	Text	Created from PTT Dictionary File
+	42	Huvudkolumn		Master column		34	Text	Created from PTT Dictionary File
+	42	Huvudfönster		Master Window		8	 Function Script	Created from PTT Dictionary File
+	42	Huvud/detaljbearbetning men kan också användas för andra ändamål. Detta objekt		Master/Detail processing but can be used for other purposes. This object		7	 Function Script	Created from PTT Dictionary File
+	42	Huvud:		Master:		34	Text	Created from PTT Dictionary File
+	42	Matcha gemener/VERSALER	g	Match Case	C	12	Text	Created from PTT Dictionary File
+	42	Maj		May		44	Variable	Created from PTT Dictionary File
+	42	mdiclient!		mdiclient!		44	Variable	Created from PTT Dictionary File
+	42	Mem: N/A'~"		Mem: N/A'~"		8	 Function Script	Created from PTT Dictionary File
+	42	Meddelande		Message		4	 Function Script	Created from PTT Dictionary File
+	42	Meddelande		Message		7	 Function Script	Created from PTT Dictionary File
+	42	Meddelande		Message		34	Text	Created from PTT Dictionary File
+	42	Meddelandeargument:		Message Arguments:		7	 Function Script	Created from PTT Dictionary File
+	42	Meddelande:		Message:		7	 Function Script	Created from PTT Dictionary File
+	42	Meddelande:		Message:		34	Text	Created from PTT Dictionary File
+	42	Meddelande: ~t		Message: ~t		7	 Function Script	Created from PTT Dictionary File
+	42	Metod		Method		34	Text	Created from PTT Dictionary File
+	42	Mitten		Middle		8	 Event Script	Created from PTT Dictionary File
+	42	Minimera alla fönster	M	Minimize All Windows	M	4	Text	Created from PTT Dictionary File
+	42	Minimera alla fönster		Minimizes all windows		4	Microhelp	Created from PTT Dictionary File
+	42	Minsta bottenmarginal är		Minimum bottom margin is		16	 Event Script	Created from PTT Dictionary File
+	42	Minsta vänstermarginal är		Minimum left margin is		16	 Event Script	Created from PTT Dictionary File
+	42	Minsta högermarginal är		Minimum right margin is		16	 Event Script	Created from PTT Dictionary File
+	42	Minsta toppmarginal är		Minimum top margin is		16	 Event Script	Created from PTT Dictionary File
+	42	Mån.		Mo		34	Text	Created from PTT Dictionary File
+	42	Modifierad:		Modified :		34	Text	Created from PTT Dictionary File
+	42	Modifierad:		Modified:		34	Text	Created from PTT Dictionary File
+	42	Modifiering misslyckades		Modify failed		7	 Function Script	Created from PTT Dictionary File
+	42	Flyttar markeringen till Urklipp		Moves the selection to the Clipboard		4	Microhelp	Created from PTT Dictionary File
+	42	MRU-objekt ska ställa in attributet.		MRU object to set the attribute.		7	 Event Script	Created from PTT Dictionary File
+	42	Msgid		Msgid		34	Text	Created from PTT Dictionary File
+	42	Val av flera rader		Multiple Row Selection		14	Item[]	Created from PTT Dictionary File
+	42	Val av Flera rader eller Utökad rad.		Multirow selection, or Extendedrow selection.		7	 Function Script	Created from PTT Dictionary File
+	42	Flera tabeller		Multitable		7	 Function Script	Created from PTT Dictionary File
+	42	måste rättas till innan du kan spara ändringarna.~r~n~r~n		must be corrected before changes can be saved.~r~n~r~n		8	 Event Script	Created from PTT Dictionary File
+	42	Namn		Name		34	Text	Created from PTT Dictionary File
+	42	Namn:		Name :		34	Text	Created from PTT Dictionary File
+	42	Namn:		Name:		34	Text	Created from PTT Dictionary File
+	42	måste vara 'ja' eller 'nej'. '		needs to be either 'yes' or 'no'. '		2	 Event Script	Created from PTT Dictionary File
+	42	måste vara numeriskt. "		needs to be numeric. "		2	 Event Script	Created from PTT Dictionary File
+	42	Nya	N	New	N	4	Text	Created from PTT Dictionary File
+	42	Ny		New		4	Microhelp	Created from PTT Dictionary File
+	42	Nytt		New		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Nytt filtervillkor		New Filter Criteria		18	Text	Created from PTT Dictionary File
+	42	Nästa	N	Next	N	4	Text	Created from PTT Dictionary File
+	42	Nästa		Next		4	Microhelp	Created from PTT Dictionary File
+	42	Nästa		Next		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Nästa gång		Next Time		34	Text	Created from PTT Dictionary File
+	42	Nej	N	No	N	8	 Event Script	Created from PTT Dictionary File
+	42	ingen		none		12	Text	Created from PTT Dictionary File
+	42	ingen		none		13	Text	Created from PTT Dictionary File
+	42	ingen		none		18	Text	Created from PTT Dictionary File
+	42	ingen		none		27	Text	Created from PTT Dictionary File
+	42	ingen		none		29	Text	Created from PTT Dictionary File
+	42	ingen		none		34	Text	Created from PTT Dictionary File
+	42	Ingen		None		34	Text	Created from PTT Dictionary File
+	42	Note 8 1/2 x 11 tum		Note 8 1/2 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	42	November		November		44	Variable	Created from PTT Dictionary File
+	42	Antal kopior:	c	Number of copies:	c	34	Text	Created from PTT Dictionary File
+	42	Number:		Number:		34	Text	Created from PTT Dictionary File
+	42	Objekt	O	Object	O	4	Text	Created from PTT Dictionary File
+	42	Objekt		Object		4	Text	Created from PTT Dictionary File
+	42	Objekt:		Object :		34	Text	Created from PTT Dictionary File
+	42	Objektnamn		Object Name		34	Text	Created from PTT Dictionary File
+	42	Objekttyp		Object Type		34	Text	Created from PTT Dictionary File
+	42	Objekt...	O	Object...	O	4	Text	Created from PTT Dictionary File
+	42	Oktober		October		44	Variable	Created from PTT Dictionary File
+	42	OK		OK		8	 Event Script	Created from PTT Dictionary File
+	42	OK		OK		13	Text	Created from PTT Dictionary File
+	42	på rad		on row		2	 Function Script	Created from PTT Dictionary File
+	42	på rad		on row		7	 Event Script	Created from PTT Dictionary File
+	42	i Tillämpningshanteraren för att ställa in attribut.		on The Application Manager to Set The attribute.		8	 Event Script	Created from PTT Dictionary File
+	42	Ett av dessa fall har upptäckts. Om du vill att Datastore		One of these cases has been encountered.  To let the Datastore		7	 Function Script	Created from PTT Dictionary File
+	42	Öppna	p	Open	O	4	Text	Created from PTT Dictionary File
+	42	Öppna		Open		4	Microhelp	Created from PTT Dictionary File
+	42	Öppna		Open		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Öppna		Open		8	Title	Created from PTT Dictionary File
+	42	Öppna		Open		31	 Function Script	Created from PTT Dictionary File
+	42	Öppna		Open		44	Variable	Created from PTT Dictionary File
+	42	Öppna för pfc_w_debuglog		Open on pfc_w_debuglog		8	 Event Script	Created from PTT Dictionary File
+	42	Händelsen Öppna på pfc_w_debuglog har tagit emot ett ShareData()-felmeddelande.		Open on pfc_w_debuglog event has received a ShareData() fail code.		8	 Event Script	Created from PTT Dictionary File
+	42	Operator		Operator		34	Text	Created from PTT Dictionary File
+	42	Operatorer		Operators		7	Text	Created from PTT Dictionary File
+	42	Operatorer	O	Operators...	e	4	Text	Created from PTT Dictionary File
+	42	Alternativ		Options		7	 Function Script	Created from PTT Dictionary File
+	42	Orientering		Orientation		18	Text	Created from PTT Dictionary File
+	42	Ursprunglig	U	Original	O	29	Text	Created from PTT Dictionary File
+	42	Ursprungligt filtervillkor		Original Filter Criteria		18	Text	Created from PTT Dictionary File
+	42	Annan		Other		18	Text	Created from PTT Dictionary File
+	42	oval!		oval!		44	Variable	Created from PTT Dictionary File
+	42	'Sida ' + page() + ' av ' + pageCount()		'Page ' + page() + ' of ' + pageCount()		40	Expression	Created from PTT Dictionary File
+	42	Utskriftsformat		Page Setup		8	Title	Created from PTT Dictionary File
+	42	Utskriftsformat		Page Setup		16	 Event Script	Created from PTT Dictionary File
+	42	Utskriftsformat...	U	Page Setup...	u	4	Text	Created from PTT Dictionary File
+	42	Sidor	d	Pages	g	29	Text	Created from PTT Dictionary File
+	42	Papper		Paper		18	Text	Created from PTT Dictionary File
+	42	Lösenord:		Password:		34	Text	Created from PTT Dictionary File
+	42	Klistra in	K	Paste	P	4	Text	Created from PTT Dictionary File
+	42	Klistra in		Paste		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Klistra in special...	s	Paste Special...	S	4	Text	Created from PTT Dictionary File
+	42	Procent		Percent:		34	Text	Created from PTT Dictionary File
+	42	"Procent	P/Skala	S"		"Percentage	P/Scale	S"		39	Values	Created from PTT Dictionary File
+	42	kräver PFC DataStore en referens till primärobjektet.		PFC DataStore requires a reference to its parent object.		7	 Function Script	Created from PTT Dictionary File
+	42	kräver PFC DataStore en referens till huvudfönstret.		PFC DataStore requires a reference to its parent window.		7	 Function Script	Created from PTT Dictionary File
+	42	PFC DataWindow Felsökning		PFC DataWindow Debugger		8	Title	Created from PTT Dictionary File
+	42	pfcmru1		pfcmru1		4	Text	Created from PTT Dictionary File
+	42	pfcmru2		pfcmru2		4	Text	Created from PTT Dictionary File
+	42	pfcmru3		pfcmru3		4	Text	Created from PTT Dictionary File
+	42	pfcmru4		pfcmru4		4	Text	Created from PTT Dictionary File
+	42	pfcmru5		pfcmru5		4	Text	Created from PTT Dictionary File
+	42	Bild...	B	Picture...	P	4	Text	Created from PTT Dictionary File
+	42	Ange ett tal mellan		Please enter a number between		8	 Event Script	Created from PTT Dictionary File
+	42	Ange ett lösenord för inloggning.		Please enter a password to logon.		8	 Event Script	Created from PTT Dictionary File
+	42	Ange ett användar-ID för inloggning.		Please enter a User ID to logon.		8	 Event Script	Created from PTT Dictionary File
+	42	Stående	S	Portrait	o	29	Text	Created from PTT Dictionary File
+	42	Position		Position		18	Text	Created from PTT Dictionary File
+	42	PowerBuilder Klassbibliotek		PowerBuilder Class Library		7	 Event Script	Created from PTT Dictionary File
+	42	PowerBuilder Klassbibliotek		PowerBuilder Class Library		7	 Function Script	Created from PTT Dictionary File
+	42	PowerBuilder Klassbibliotek		PowerBuilder Class Library		8	 Event Script	Created from PTT Dictionary File
+	42	PowerBuilder Foundation Klassbibliotek		PowerBuilder Foundation Class Library		8	 Event Script	Created from PTT Dictionary File
+	42	PowerBuilder Foundation Klassbibliotek		PowerBuilder Foundation Class Library		44	Variable	Created from PTT Dictionary File
+	42	PowerBuilder Grundläggande kurser		PowerBuilder Foundation Classes		44	Variable	Created from PTT Dictionary File
+	42	Dialogrutan PowerScript		PowerScript Dialog		14	Item[]	Created from PTT Dictionary File
+	42	Fördefinierat meddelande "		Predefined Message "		7	 Function Script	Created from PTT Dictionary File
+	42	Förhandsvisa		Preview		18	Text	Created from PTT Dictionary File
+	42	Primär	P	Primary	P	29	Text	Created from PTT Dictionary File
+	42	Primär:		Primary :		34	Text	Created from PTT Dictionary File
+	42	Skriv ut	k	Print	P	13	Text	Created from PTT Dictionary File
+	42	Skriv ut	S	Print	P	13	Text	Created from PTT Dictionary File
+	42	Skriv ut	k	Print	P	13	Text	Created from PTT Dictionary File
+	42	Skriv ut	S	Print	P	13	Text	Created from PTT Dictionary File
+	42	Skriv ut		Print		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Skriv ut		Print		8	 Event Script	Created from PTT Dictionary File
+	42	Skriv ut		Print		8	Title	Created from PTT Dictionary File
+	42	Skriv ut		Print		34	Text	Created from PTT Dictionary File
+	42	Skriv ut omedelbart		Print Immediate		4	Text	Created from PTT Dictionary File
+	42	Förhandsgranska	F	Print Preview	v	4	Text	Created from PTT Dictionary File
+	42	Förhandsgranska		Print Preview		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Skriv ut		Print range		18	Text	Created from PTT Dictionary File
+	42	Skriv till fil	l	Print to file	l	12	Text	Created from PTT Dictionary File
+	42	Skriv till fil		Print to File		2	 Event Script	Created from PTT Dictionary File
+	42	Skriv till fil		Print to File		7	 Event Script	Created from PTT Dictionary File
+	42	Skriv ut...	S	Print...	P	4	Text	Created from PTT Dictionary File
+	42	Skrivarfiler,*.prn,Alla filer,*.*		Printer Files,*.prn,All Files,*.*		2	 Event Script	Created from PTT Dictionary File
+	42	Skrivarfiler,*.prn,Alla filer,*.*		Printer Files,*.prn,All Files,*.*		7	 Event Script	Created from PTT Dictionary File
+	42	Skrivare...	k	Printer...	P	13	Text	Created from PTT Dictionary File
+	42	PrintPreview		PrintPreview		7	 Function Script	Created from PTT Dictionary File
+	42	PrintPreview aktiverad	a	PrintPreview enabled	e	12	Text	Created from PTT Dictionary File
+	42	Skriver ut elementet		Prints the item		4	Microhelp	Created from PTT Dictionary File
+	42	Föregående	F	Prior	P	4	Text	Created from PTT Dictionary File
+	42	Föregående		Prior		4	Microhelp	Created from PTT Dictionary File
+	42	Föregående		Prior		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Innan felet uppstod var följande transaktioner Committed:~r~n		Prior to the error the following transactions were Committed:~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	Innan felet uppstod var följande transaktioner Rollback:~r~n		Prior to the error the following transactions were Rollback:~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	gav följande felmeddelande:~r~n		produced the following error message:~r~n		2	 Event Script	Created from PTT Dictionary File
+	42	Framstegsstapel		Progress Bar		7	 Function Script	Created from PTT Dictionary File
+	42	Egenskaper	E	Properties	r	4	Text	Created from PTT Dictionary File
+	42	Egenskaper		Properties		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Egenskaper		Properties		34	Text	Created from PTT Dictionary File
+	42	Egenskaper		Properties		35	 Event Script	Created from PTT Dictionary File
+	42	Egenskap	E	Property	P	13	Text	Created from PTT Dictionary File
+	42	Egenskap		Property		2	 Event Script	Created from PTT Dictionary File
+	42	Egenskap		Property		34	Text	Created from PTT Dictionary File
+	42	Erbjud funktionen PrintPreview.		Provide PrintPreview functionality.		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjud funktionen QueryMode.		Provide QueryMode functionality.		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder datumfälten Datawindows och EditMask med kalenderfunktion.		Provides Datawindows and EditMask date fields with Calendar functionality.		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder numeriska fält i Datawindows och EditMask med en räknare		Provides Datawindows and EditMask numeric fields with a Calculator		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder filterdialogrutor för att underlätta filtrering av rader.		Provides Filter dialogs to facilitate the filtering of rows.		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder dialogrutorna Sök och Sök/Ersätt för att underlätta att du hittar och		Provides Find and Find/Replace dialogs to facilitate the finding and/or		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder funktionen Ändra storlek på ett objekt i proportion till dess behållare.		Provides resize functionality to any object in proportion to its container.		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder dialogrutan Sortera för att underlätta sorteringen av datawindow-rader.		Provides Sort dialogs to facilitate the sorting of datawindow rows.		7	 Function Script	Created from PTT Dictionary File
+	42	Erbjuder DataWindow med antingen val av En rad		Provides the datawindow with either Singlerow selection,		7	 Function Script	Created from PTT Dictionary File
+	42	Quarto 215 x 275 mm		Quarto 215 x 275 mm		8	 Event Script	Created from PTT Dictionary File
+	42	Query (*.txt),*.txt		Query (*.txt),*.txt		7	 Function Script	Created from PTT Dictionary File
+	42	Query (*.txt),*.txt,Alla filer (*.*),*.*		Query (*.txt),*.txt,All files (*.*),*.*		7	 Function Script	Created from PTT Dictionary File
+	42	QueryMode		QueryMode		7	 Function Script	Created from PTT Dictionary File
+	42	QueryMode aktiverat	a	QueryMode enabled	e	12	Text	Created from PTT Dictionary File
+	42	Avslutar tillämpningen		Quits the application		4	Microhelp	Created from PTT Dictionary File
+	42	rectangle!		rectangle!		44	Variable	Created from PTT Dictionary File
+	42	Reg		Reg		34	Text	Created from PTT Dictionary File
+	42	Register	R	Register	R	12	Text	Created from PTT Dictionary File
+	42	Register		Register		34	Text	Created from PTT Dictionary File
+	42	Utgåva		Release		7	 Function Script	Created from PTT Dictionary File
+	42	Tar bort markeringen		Removes the selection		4	Microhelp	Created from PTT Dictionary File
+	42	Byta namn	B	Rename	e	4	Text	Created from PTT Dictionary File
+	42	Byt namn på den markerade posten		Rename the selected item		4	Microhelp	Created from PTT Dictionary File
+	42	Ersätt	r	Replace	R	13	Text	Created from PTT Dictionary File
+	42	Ersätt		Replace		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Ersätt		Replace		7	 Function Script	Created from PTT Dictionary File
+	42	Ersätt		Replace		8	Title	Created from PTT Dictionary File
+	42	Ersätt alla	a	Replace All	A	13	Text	Created from PTT Dictionary File
+	42	Ersätt befintlig fil		Replace existing file		7	 Function Script	Created from PTT Dictionary File
+	42	Ersätt befintlig fil		Replace existing file		13	 Event Script	Created from PTT Dictionary File
+	42	Ersätt med	p	Replace with	p	34	Text	Created from PTT Dictionary File
+	42	Ersätt...	r	Replace...	R	4	Text	Created from PTT Dictionary File
+	42	Ersätter den markerade texten med annan text		Replaces specific text with different text		4	Microhelp	Created from PTT Dictionary File
+	42	ersättning av kolumndata.		replacing of column data.		7	 Function Script	Created from PTT Dictionary File
+	42	Rapporterar		Reporting		7	 Function Script	Created from PTT Dictionary File
+	42	Obligatorisk kolumn		Required Column		7	 Function Script	Created from PTT Dictionary File
+	42	Obligatoriskt DataStore-värde fattas för		Required DataStore value missing for		7	 Function Script	Created from PTT Dictionary File
+	42	obligatoriska fält som gör det lättare för tillämpningen att hantera		required fields, making it easier for your application to handle		7	 Function Script	Created from PTT Dictionary File
+	42	Det nödvändiga namnet på hjälpfilen har inte ställts in. Använd of_SetHelpFile		Required Help File Name has Not been Set.  Use of_SetHelpFile		8	 Event Script	Created from PTT Dictionary File
+	42	Nödvändigt värde saknas för		Required value missing for		2	 Function Script	Created from PTT Dictionary File
+	42	Nödvändigt värde saknas för		Required value missing for		7	 Function Script	Created from PTT Dictionary File
+	42	Återställ frågevillkoren vid av- och påkoppling av QueryMode	f	Reset query criteria in-between QueryMode toggles	t	12	Text	Created from PTT Dictionary File
+	42	Ändra storlek		Resize		7	 Function Script	Created from PTT Dictionary File
+	42	Återställ		Restore		8	Title	Created from PTT Dictionary File
+	42	Återställ...	s	Restore...	s	4	Text	Created from PTT Dictionary File
+	42	Återställer rader som har tagits bort		Restores rows that have been deleted		4	Microhelp	Created from PTT Dictionary File
+	42	Fortsätt	F	Resume	R	13	Text	Created from PTT Dictionary File
+	42	Hämta		Retrieve		7	 Event Script	Created from PTT Dictionary File
+	42	Hämta stil		Retrieve style		18	Text	Created from PTT Dictionary File
+	42	Hämta när QueryMode har avaktiverats	H	Retrieve when QueryMode is disabled	R	12	Text	Created from PTT Dictionary File
+	42	RetrieveEnd -		RetrieveEnd -		2	 Event Script	Created from PTT Dictionary File
+	42	RetrieveEnd -		RetrieveEnd -		7	 Event Script	Created from PTT Dictionary File
+	42	Försök igen		Retry		8	 Event Script	Created from PTT Dictionary File
+	42	Ger omvänd ordning på valet av listview-poster		Reverse the selection of listview items		4	Microhelp	Created from PTT Dictionary File
+	42	Ångrar senaste åtgärd		Reverses last action		4	Microhelp	Created from PTT Dictionary File
+	42	Rich Text Format (RTF),*.rtf,Textdokument,*.txt		Rich Text Format (RTF),*.rtf,Text Document,*.txt		31	 Event Script	Created from PTT Dictionary File
+	42	Rich Text Format (RTF),*.rtf,Textdokument,*.txt,Alla filer,*.*		Rich Text Format (RTF),*.rtf,Text Document,*.txt,All Files,*.*		31	 Function Script	Created from PTT Dictionary File
+	42	Höger	g	Right	R	29	Text	Created from PTT Dictionary File
+	42	Höger:	r	Right:	R	34	Text	Created from PTT Dictionary File
+	42	Höger musknapp i DataWindow		RMB on the Datawindow		39	Initial	Created from PTT Dictionary File
+	42	Rot:		Root:		34	Text	Created from PTT Dictionary File
+	42	roundrectangle!		roundrectangle!		44	Variable	Created from PTT Dictionary File
+	42	Rad		Row		18	Text	Created from PTT Dictionary File
+	42	Rad:		Row :		34	Text	Created from PTT Dictionary File
+	42	Radinformation		Row Information		34	Text	Created from PTT Dictionary File
+	42	Radhanterare		Row Manager		7	 Function Script	Created from PTT Dictionary File
+	42	Val av rad		Row Selection		7	 Function Script	Created from PTT Dictionary File
+	42	RowCount:		RowCount:		34	Text	Created from PTT Dictionary File
+	42	rader		rows		44	Variable	Created from PTT Dictionary File
+	42	Hämtade rader =		Rows Retrieved =		2	 Event Script	Created from PTT Dictionary File
+	42	Hämtade rader =		Rows Retrieved =		7	 Event Script	Created from PTT Dictionary File
+	42	Linjal	L	Ruler	R	4	Text	Created from PTT Dictionary File
+	42	Linjalen syns	L	Ruler visible	R	12	Text	Created from PTT Dictionary File
+	42	Lörd.		Sa		34	Text	Created from PTT Dictionary File
+	42	Lördag		Saturday		18	Text	Created from PTT Dictionary File
+	42	Spara	S	Save	S	4	Text	Created from PTT Dictionary File
+	42	Spara	p	Save	S	13	Text	Created from PTT Dictionary File
+	42	Spara	S	Save	S	13	Text	Created from PTT Dictionary File
+	42	Spara	p	Save	S	13	Text	Created from PTT Dictionary File
+	42	Spara		Save		4	Microhelp	Created from PTT Dictionary File
+	42	Spara		Save		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Spara		Save		31	 Event Script	Created from PTT Dictionary File
+	42	Spara		Save		31	 Function Script	Created from PTT Dictionary File
+	42	Spara som		Save As		4	Microhelp	Created from PTT Dictionary File
+	42	Spara som		Save As		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Spara som		Save As		31	 Event Script	Created from PTT Dictionary File
+	42	Spara som...	s	Save As...	A	4	Text	Created from PTT Dictionary File
+	42	Spara ändringarna i		Save changes to		31	 Function Script	Created from PTT Dictionary File
+	42	Spara PowerScript-filen		Save PowerScript File		13	 Event Script	Created from PTT Dictionary File
+	42	Spara ljud:	v	Save sound:	v	34	Text	Created from PTT Dictionary File
+	42	Spara SQLSpy-fil		Save SQLSpy File		7	 Function Script	Created from PTT Dictionary File
+	42	Skala		Scale		44	Variable	Created from PTT Dictionary File
+	42	Skalar visningen av förhandsgranskningen		Scales the display of the print preview		4	Microhelp	Created from PTT Dictionary File
+	42	ScaleToBottom		ScaleToBottom		44	Variable	Created from PTT Dictionary File
+	42	ScaleToRight		ScaleToRight		44	Variable	Created from PTT Dictionary File
+	42	ScaleToRightBottom	B	ScaleToRightBottom	B	44	Variable	Created from PTT Dictionary File
+	42	Rulla		Scroll		7	 Event Script	Created from PTT Dictionary File
+	42	Rullar automatiskt DropDownDataWindows och DropDownListBoxes och fyller		Scrolls DropDownDataWindows and DropDownListBoxes automatically, filling		7	 Function Script	Created from PTT Dictionary File
+	42	Sök	S	Search	S	34	Text	Created from PTT Dictionary File
+	42	Säkerhetsavläsning		Security Scanner		7	 Function Script	Created from PTT Dictionary File
+	42	Markera allt	a	Select All	l	4	Text	Created from PTT Dictionary File
+	42	Markera allt	a	Select All	A	4	Text	Created from PTT Dictionary File
+	42	Markera allt	a	Select All	A	13	Text	Created from PTT Dictionary File
+	42	Markera allt		Select All		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Välj alla listview-poster		Select all listview items		4	Microhelp	Created from PTT Dictionary File
+	42	Välj från en lista över tillgängliga kolumnnamn		Select from a list of available column names		4	Microhelp	Created from PTT Dictionary File
+	42	Välj från en lista över tillgängliga funktioner		Select from a list of available functions		4	Microhelp	Created from PTT Dictionary File
+	42	Välj från en lista över tillgängliga operatorer		Select from a list of available operators		4	Microhelp	Created from PTT Dictionary File
+	42	Välj från en lista över tillgängliga värden		Select from a list of available values		4	Microhelp	Created from PTT Dictionary File
+	42	Markering	M	Selection	S	29	Text	Created from PTT Dictionary File
+	42	Markerar alla element eller alla data		Selects all items or information		4	Microhelp	Created from PTT Dictionary File
+	42	September		September		44	Variable	Created from PTT Dictionary File
+	42	Servicebaserad listvy		Service Based Listview		22	 Function Script	Created from PTT Dictionary File
+	42	Servicebaserad trädvy		Service Based Treeview		36	 Function Script	Created from PTT Dictionary File
+	42	Tjänst för länkning av DataWindow-åtgärder. Detta används typiskt för		Service for linking DataWindow actions. This is typically used for		7	 Function Script	Created from PTT Dictionary File
+	42	Tjänster		Services		7	Text	Created from PTT Dictionary File
+	42	Ställ in ursprungligt värde när inget annat finns	u	Set Initial value when none available	I	12	Text	Created from PTT Dictionary File
+	42	Allvarlighet		Severity		34	Text	Created from PTT Dictionary File
+	42	Sharedata misslyckades vid försök att visa data i formatet 'Alla kolumner'. En felorsak kan vara att kolumntyperna inte stämmer. I 4.0 var alla numeriska kolumner av typen 'tal', i 5.0 kan de vara  av typen 'long', 'ulong' eller 'r		Sharedata failed while attempting to show data in 'All Columns' format. One possible reasons for the error is that there is a mismatch between column types. In 4.0 all numeric columns were of type 'number', in 5.0 they may be of type 'long', 'ulong' or 'real'. When the 'All' datawindow is created it uses 5.0 syntax, therefore there may be a mismatch. Make sure that your existing datawindow has benn rebuilt under 5.0		29	 Event Script	Created from PTT Dictionary File
+	42	Verktygsfältet Ark		Sheet Toolbar		8	 Event Script	Created from PTT Dictionary File
+	42	Verktygstips	p	Show Tooltips	S	12	Text	Created from PTT Dictionary File
+	42	Visar eller gömmer linjalen		Shows or hides the ruler		4	Microhelp	Created from PTT Dictionary File
+	42	Enkel dialogruta		Simple Dialog		14	Item[]	Created from PTT Dictionary File
+	42	Val av en rad		Single Row Selection		14	Item[]	Created from PTT Dictionary File
+	42	Storlek:	z	Size:	z	34	Text	Created from PTT Dictionary File
+	42	Små ikoner	m	Small Icons	m	4	Text	Created from PTT Dictionary File
+	42	Små ikoner		Small Icons		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Smallfmt		Smallfmt		8	 Event Script	Created from PTT Dictionary File
+	42	Smart Update -		Smart Update -		7	 Function Script	Created from PTT Dictionary File
+	42	Sortera	S	Sort	S	13	Text	Created from PTT Dictionary File
+	42	Sortera		Sort		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Sortera		Sort		7	 Function Script	Created from PTT Dictionary File
+	42	Sortera		Sort		8	Title	Created from PTT Dictionary File
+	42	Sortera		Sort		34	Text	Created from PTT Dictionary File
+	42	Sortera kolumner		Sort Columns		34	Text	Created from PTT Dictionary File
+	42	Sortera element efter		Sort items by		18	Text	Created from PTT Dictionary File
+	42	Sortera...	S	Sort...	S	4	Text	Created from PTT Dictionary File
+	42	Sortera element		Sorts items		4	Microhelp	Created from PTT Dictionary File
+	42	Sortera element efter		Sorts items by		22	 Event Script	Created from PTT Dictionary File
+	42	Källa	S	Source:	S	34	Text	Created from PTT Dictionary File
+	42	SQL-filer (*.SQL), *.SQL		SQL Files (*.SQL), *.SQL		7	 Function Script	Created from PTT Dictionary File
+	42	SQL-historik		SQL History:		18	Text	Created from PTT Dictionary File
+	42	SQL-historik		SQL History:		34	Text	Created from PTT Dictionary File
+	42	SQL Spy		SQL Spy		34	Text	Created from PTT Dictionary File
+	42	SQLSpy		SQLSpy		8	Title	Created from PTT Dictionary File
+	42	SQLSpy - Inspektera aktuell SQL		SQLSpy - Inspect Current SQL		8	Title	Created from PTT Dictionary File
+	42	SQLSpy på SQLPreview		SQLSpy on SQLPreview		0	 Event Script	Created from PTT Dictionary File
+	42	SQLSpy på SQLPreview		SQLSpy on SQLPreview		2	 Event Script	Created from PTT Dictionary File
+	42	st_history		st_history		34	Text	Created from PTT Dictionary File
+	42	Statement 5 1/2 x 8 1/2 tum		Statement 5 1/2 x 8 1/2 in		8	 Event Script	Created from PTT Dictionary File
+	42	Status		Status		34	Text	Created from PTT Dictionary File
+	42	Status:		Status :		34	Text	Created from PTT Dictionary File
+	42	Status:		Status:		34	Text	Created from PTT Dictionary File
+	42	Steg	S	Step	S	13	Text	Created from PTT Dictionary File
+	42	Stil	S	Style	S	34	Text	Created from PTT Dictionary File
+	42	Stil		Style		34	Text	Created from PTT Dictionary File
+	42	Stil:		Style:		34	Text	Created from PTT Dictionary File
+	42	Sön.		Su		34	Text	Created from PTT Dictionary File
+	42	Söndag		Sunday		18	Text	Created from PTT Dictionary File
+	42	Synkronisera nyckel vid ändring	S	Syncronize key on change	S	12	Text	Created from PTT Dictionary File
+	42	Syntax		Syntax		7	 Function Script	Created from PTT Dictionary File
+	42	Syntax		Syntax		18	Text	Created from PTT Dictionary File
+	42	Systemfel		System Error		7	 Event Script	Created from PTT Dictionary File
+	42	Tab		Tab		35	 Function Script	Created from PTT Dictionary File
+	42	Tabbinställning		Tab Control		35	 Function Script	Created from PTT Dictionary File
+	42	Tabell	T	Table	T	4	Text	Created from PTT Dictionary File
+	42	Tabell	T	Table	T	34	Text	Created from PTT Dictionary File
+	42	Tabell		Table		34	Text	Created from PTT Dictionary File
+	42	Tabloid 17 x 11 tum		Tabloid 17 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	42	Text		Text		34	Text	Created from PTT Dictionary File
+	42	Textfiler (*.TXT), *.TXT		Text Files (*.TXT), *.TXT		13	 Event Script	Created from PTT Dictionary File
+	42	Tors.		Th		34	Text	Created from PTT Dictionary File
+	42	än en tabell.		than one table.		7	 Function Script	Created from PTT Dictionary File
+	42	tillämpningen		the application		8	 Event Script	Created from PTT Dictionary File
+	42	Ändringen i egenskapen		The change to property		2	 Event Script	Created from PTT Dictionary File
+	42	Det DataWindow som felsöktes finns inte längre.		The DataWindow that was being debugged is no longer present.		8	 Function Script	Created from PTT Dictionary File
+	42	Filen		The file		31	 Event Script	Created from PTT Dictionary File
+	42	Detaljer om problemet nedan.~r~n~r~n		The following details the problem.~r~n~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	Följande tjänster finns tillgängliga:		The following Services are accessible:		34	Text	Created from PTT Dictionary File
+	42	Värdet 'Från' får inte vara större än värdet 'Till'.		The 'From' value cannot be greater than the 'To' value.		8	 Event Script	Created from PTT Dictionary File
+	42	Angivna data klarar inte valideringen och		The information entered does not pass validation and		8	 Event Script	Created from PTT Dictionary File
+	42	Key-kolumnerna måste ställas in.		The Key column(s) need to be set.		7	 Event Script	Created from PTT Dictionary File
+	42	Alternativet Key måste ställas in.		The Key option needs to be set.		7	 Event Script	Created from PTT Dictionary File
+	42	Funktionen LUW.of_EndTran() skulle köra Commits på alla transaktionerna.~r~n		The LUW.of_EndTran() function was to execute Commits to all the transactions.~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	Funktionen LUW.of_EndTran() skulle köra Rollbacks på alla transaktionerna.~r~n		The LUW.of_EndTran() function was to execute Rollbacks to all the transactions.~r~n		7	 Function Script	Created from PTT Dictionary File
+	42	Lösenordet är fel		The password is incorrect.		8	 Event Script	Created from PTT Dictionary File
+	42	Tjänsten PFC tillämpningsinställningar		The PFC Application Preferences service		7	 Event Script	Created from PTT Dictionary File
+	42	Tjänsten PFC MRU		The PFC MRU service		7	 Event Script	Created from PTT Dictionary File
+	42	Tjänsten PFC Användarinställningar		The PFC User Preferences service		8	 Event Script	Created from PTT Dictionary File
+	42	Tjänsten PFC Användarinställningar		The PFC Window Preferences service		8	 Event Script	Created from PTT Dictionary File
+	42	Kan inte hitta Fördefinierade meddelanden.		The Predefined Messages not found.		7	 Function Script	Created from PTT Dictionary File
+	42	Värdet för Ersätt med är inte ett giltigt datum.		The Replace With value is not a valid date.		7	 Function Script	Created from PTT Dictionary File
+	42	Värdet för Ersätt med är inte ett giltigt tal.		The Replace With value is not a valid number.		7	 Function Script	Created from PTT Dictionary File
+	42	Värdet för Ersätt är inte ett giltigt klockslag.		The Replace With value is not a valid time.		7	 Function Script	Created from PTT Dictionary File
+	42	Tjänsten har inget alternativ att manipulera.		The service has no options to manipulate.		23	Text	Created from PTT Dictionary File
+	42	Funktionen ShareData() kan inte behandlas.		The ShareData() functionality is unable to be processed.		8	 Event Script	Created from PTT Dictionary File
+	42	Transaktionssatsen som startade felet -		The transaction statement that started the error -		7	 Function Script	Created from PTT Dictionary File
+	42	Du måste ställa in kolumnen Uppdatera.		The Update column(s) need to be set.		7	 Event Script	Created from PTT Dictionary File
+	42	Du måste ställa in alternativet Where.		The Where option needs to be set.		7	 Event Script	Created from PTT Dictionary File
+	42	Det finns inga		There are no		7	 Event Script	Created from PTT Dictionary File
+	42	denna rader		this row		44	Variable	Created from PTT Dictionary File
+	42	Denna tjänst gäller endast DataWindow-kolumner som använder egenskapen nilisnull.		This service applies only to DataWindow columns that use the nilisnull property.		7	 Function Script	Created from PTT Dictionary File
+	42	Denna tjänst aktiverar och avaktiverar standard DataWindow-bearbetning för		This service enables and disables default DataWindow processing for		7	 Function Script	Created from PTT Dictionary File
+	42	Detta värde ligger inte inom sidomfånget.~r~n		This value is not in the page range.~r~n		8	 Event Script	Created from PTT Dictionary File
+	42	Tröskel		Threshold		34	Text	Created from PTT Dictionary File
+	42	Dela vågrätt	v	Tile Horizontal	H	4	Text	Created from PTT Dictionary File
+	42	Dela vågrätt		Tile Horizontal		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Dela lodrätt	l	Tile Vertical	V	4	Text	Created from PTT Dictionary File
+	42	Dela lodrätt		Tile Vertical		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Dela fönster vågrätt, så att de inte överlappar		Tile windows horizontally so that none are overlapping		4	Microhelp	Created from PTT Dictionary File
+	42	Dela fönster lodrätt, så att de inte överlappar		Tile windows vertically so that none are overlapping		4	Microhelp	Created from PTT Dictionary File
+	42	Tidsstämpel:		TimeStamp:		7	 Function Script	Created from PTT Dictionary File
+	42	Rubrik		Title		34	Text	Created from PTT Dictionary File
+	42	Rubrik:		Title:		7	 Function Script	Created from PTT Dictionary File
+	42	Rubrik:		Title:		34	Text	Created from PTT Dictionary File
+	42	Rubrik:~t		Title: ~t		7	 Function Script	Created from PTT Dictionary File
+	42	att återställa		to restore.		7	 Event Script	Created from PTT Dictionary File
+	42	för att ställa in attributet.		to Set The attribute.		8	 Event Script	Created from PTT Dictionary File
+	42	för att ställa in egenskapen.		to Set The property.		8	 Event Script	Created from PTT Dictionary File
+	42	till:	t	to:	t	34	Text	Created from PTT Dictionary File
+	42	Verktygsfält:	t	Toolbars:	T	34	Text	Created from PTT Dictionary File
+	42	Verktyg	t	Tools	T	4	Text	Created from PTT Dictionary File
+	42	Över	r	Top	o	29	Text	Created from PTT Dictionary File
+	42	Menyobjekt på översta nivån		Top Level Menu Object		7	 Function Script	Created from PTT Dictionary File
+	42	Över:	T	Top:	T	34	Text	Created from PTT Dictionary File
+	42	Traktor		Tractor		8	 Event Script	Created from PTT Dictionary File
+	42	Tis.		Tu		34	Text	Created from PTT Dictionary File
+	42	Typ:		Type :		34	Text	Created from PTT Dictionary File
+	42	Har inte blivit tilldelad		Unassigned		7	 Function Script	Created from PTT Dictionary File
+	42	Har inte blivit tilldelad		UnAssigned		35	 Event Script	Created from PTT Dictionary File
+	42	Ångra radering	n	Undelete	U	13	Text	Created from PTT Dictionary File
+	42	Ångra radering	n	UnDelete	U	13	Text	Created from PTT Dictionary File
+	42	Ångra	n	Undo	U	4	 Event Script	Created from PTT Dictionary File
+	42	Ångra	n	Undo	U	4	Text	Created from PTT Dictionary File
+	42	Ångra		Undo		4	 Event Script	Created from PTT Dictionary File
+	42	Ångra		Undo		4	Microhelp	Created from PTT Dictionary File
+	42	Ångra		Undo		4	ToolBarItemText	Created from PTT Dictionary File
+	42	Ångra överlappning	v	Undo Cascade	U	4	 Event Script	Created from PTT Dictionary File
+	42	Ångra skikt	s	Undo Layer	U	4	 Event Script	Created from PTT Dictionary File
+	42	Ångra minimera alla	m	Undo Minimize All	U	4	 Event Script	Created from PTT Dictionary File
+	42	Ångra dela vågrätt	v	Undo Tile Horizontal	U	4	 Event Script	Created from PTT Dictionary File
+	42	Ångra dela lodrätt	l	Undo Tile Vertical	U	4	 Event Script	Created from PTT Dictionary File
+	42	Ångrar överlappande arrangemang av fönster		Undoes cascaded arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	42	Ångrar vågrätt arrangemang av fönster		Undoes horizontal tile arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	42	Ångrar skiktat arrangemang av fönster		Undoes layered arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	42	Ångrar minimering av fönster		Undoes minimization of windows		4	 Event Script	Created from PTT Dictionary File
+	42	Ångrar lodrätt arrangemang av fönster		Undoes vertical tile arrangement of windows		4	 Event Script	Created from PTT Dictionary File
+	42	Unik nyckelkolumn	q	Unique Key Column(s)	q	34	Text	Created from PTT Dictionary File
+	42	Okänd		Unknown		14	Item[]	Created from PTT Dictionary File
+	42	Okänd:		Unknown :		7	 Function Script	Created from PTT Dictionary File
+	42	Okänd kontroll		Unknown control		7	 Function Script	Created from PTT Dictionary File
+	42	Upp		Up		8	 Event Script	Created from PTT Dictionary File
+	42	Upp		Up		14	Item[]	Created from PTT Dictionary File
+	42	Uppdatera dubbelpass - 1:a passet Nedifrån-och-upp (tar bort)		Update dual-pass - 1st pass BottomUp (deletes)		7	 Function Script	Created from PTT Dictionary File
+	42	Uppdatera dubbelpass - 1:a passet Uppifrån-och-ned (infogar/uppdaterar)		Update dual-pass - 1st pass TopDown (inserts/updates)		7	 Function Script	Created from PTT Dictionary File
+	42	Uppdatera dubbelpass - 2:a passet Nedifrån-och-upp (tar bort)		Update dual-pass - 2nd pass BottomUp (deletes)		7	 Function Script	Created from PTT Dictionary File
+	42	Uppdatera dubbelpass - 2:a passet Uppifrån-och-ned (infogar/tar bort)		Update dual-pass - 2nd pass ToDown (inserts/updates)		7	 Function Script	Created from PTT Dictionary File
+	42	Uppdatera länkar	l	Update Links	k	4	Text	Created from PTT Dictionary File
+	42	Uppdatera när du ändrar rad	p	Update on row change	r	12	Text	Created from PTT Dictionary File
+	42	Uppdatera enkelpass Nedifrån-och-upp (infogar/uppdaterar/tar bort)		Update single-pass BottomUp (inserts/updates/deletes)		7	 Function Script	Created from PTT Dictionary File
+	42	Uppdatera enkelpass Uppifrån-och-ned (infogar/uppdaterar/tar bort)		Update single-pass TopDown (inserts/updates/deletes)		7	 Function Script	Created from PTT Dictionary File
+	42	Uppdatera stil:	U	Update style:	U	34	Text	Created from PTT Dictionary File
+	42	Kolumnen går att uppdatera	C	Updateable Column(s)	C	34	Text	Created from PTT Dictionary File
+	42	Uppdateringar väntar. ~r~nVill du spara dem nu?		Updates are pending. ~r~nSave them now?		7	 Function Script	Created from PTT Dictionary File
+	42	Övre		Upper		8	 Event Script	Created from PTT Dictionary File
+	42	US Std Vikt papper 14 7/8 x 11 tum		US Std Fanfold 14 7/8 x 11 in		8	 Event Script	Created from PTT Dictionary File
+	42	Använd Del och sedan Ins	D	Use Del then Ins	D	29	Text	Created from PTT Dictionary File
+	42	Använd skärmvärdena när du sorterar	A	Use display values for sorting	d	12	Text	Created from PTT Dictionary File
+	42	Använd Uppdatera	A	Use Update	U	29	Text	Created from PTT Dictionary File
+	42	användas för att bestämma om filtret är giltigt.		used to determine if the filter is valid.		8	 Event Script	Created from PTT Dictionary File
+	42	Användar-ID:		User ID:		34	Text	Created from PTT Dictionary File
+	42	Användardata:		User Input:		34	Text	Created from PTT Dictionary File
+	42	Användare 0/Grupp 1		"User	0/Group	1"		39	Values	Created from PTT Dictionary File
+	42	Användare:		User:		7	 Function Script	Created from PTT Dictionary File
+	42	Användare: ~t		User: ~t		7	 Function Script	Created from PTT Dictionary File
+	42	Användare: - '~"		User: N/A'~"		8	 Function Script	Created from PTT Dictionary File
+	42	Userinput		Userinput		34	Text	Created from PTT Dictionary File
+	42	UserObject-bas		UserObject Base		7	 Function Script	Created from PTT Dictionary File
+	42	Värde		Value		34	Text	Created from PTT Dictionary File
+	42	Värden		Values		7	Text	Created from PTT Dictionary File
+	42	Värden...	V	Values...	V	4	Text	Created from PTT Dictionary File
+	42	Verifiera	V	Verify	V	13	Text	Created from PTT Dictionary File
+	42	Versionsmeddelande		version message...		34	Text	Created from PTT Dictionary File
+	42	versionsmeddelande		Version message...		34	Text	Created from PTT Dictionary File
+	42	Visa	V	View	V	4	Text	Created from PTT Dictionary File
+	42	Visa sidorna så som de kommer att skrivas ut		View pages as they will be printed		4	Microhelp	Created from PTT Dictionary File
+	42	Endast synliga kolumner	E	Visible only columns	V	12	Text	Created from PTT Dictionary File
+	42	togs inte emot.		was not received.		4	 Function Script	Created from PTT Dictionary File
+	42	togs inte emot.		was not received.		7	 Function Script	Created from PTT Dictionary File
+	42	Ons		We		34	Text	Created from PTT Dictionary File
+	42	Where-klausul för Uppd/Ta bort		Where clause for Upd/Del		18	Text	Created from PTT Dictionary File
+	42	Hela ord	o	Whole Word	W	12	Text	Created from PTT Dictionary File
+	42	Hela ord	W	Whole Word	W	12	Text	Created from PTT Dictionary File
+	42	Fönster	F	Window	W	4	Text	Created from PTT Dictionary File
+	42	Fönster		Window		34	Text	Created from PTT Dictionary File
+	42	Ja	J	Yes	Y	8	 Event Script	Created from PTT Dictionary File
+	42	Zooma		Zoom		8	Title	Created from PTT Dictionary File
+	42	Zooma:		Zoom :		34	Text	Created from PTT Dictionary File
+	42	Zoom-nivå	Z	Zoom level	Z	34	Text	Created from PTT Dictionary File
+	42	Zooma till		Zoom To		18	Text	Created from PTT Dictionary File
+	42	Zooma...	Z	Zoom...	Z	4	Text	Created from PTT Dictionary File
